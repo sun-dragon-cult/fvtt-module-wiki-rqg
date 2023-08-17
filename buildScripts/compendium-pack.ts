@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import { ClassicLevel } from 'classic-level';
+import {ChainedBatch, ClassicLevel} from 'classic-level';
 import * as fs from "fs";
 import * as path from "path";
 import * as yaml from "js-yaml";
@@ -41,7 +41,7 @@ export class CompendiumPack {
   data: any[];
 
   constructor(packDir: string, parsedData: unknown[], isTemplate: boolean) {
-    const packName = isTemplate ? packDir + "-en" : packDir; // tODO ***
+    const packName = isTemplate ? packDir + "-en" : packDir;
 
     const metadata = packsMetadata.find(
       (pack) => path.basename(pack.path) === path.basename(packName),
@@ -68,6 +68,7 @@ export class CompendiumPack {
   }
 
   static loadYAML(dirPath: string): CompendiumPack {
+    console.log(chalk.green(`Building pack from ${chalk.bold(dirPath)}/*.yaml`));
     const filenames = fs.readdirSync(dirPath);
     const filePaths = filenames.map((filename) => path.resolve(dirPath, filename));
     const parsedData: unknown[] = filePaths.map((filePath) => {
@@ -91,34 +92,65 @@ export class CompendiumPack {
     return new CompendiumPack(dbFilename, parsedData.flat(), true);
   }
 
-  private finalize(docSource: CompendiumSource) {
-    docSource = this.addId(docSource,);
+  private finalize(docSource: CompendiumSource, batch: ChainedBatch<ClassicLevel, string, string>) {
+    const documentType2dbType = new Map([ // TODO not sure about the strings...
+      ["Actor", "!actors"],
+      ["Item", "!items"],
+      ["JournalEntry", "!journal"],
+      ["RollTable", "!tables"],
+      ["Macro", "!macros"]
+    ])
+
+    const dbType = documentType2dbType.get(this.documentType);
+    if (!dbType) {
+      throw new PackError(`Document type ${this.documentType} is unknown`);
+    }
+    docSource = this.addId(docSource, dbType + "!");
 
     // Add _id to Descendant Documents
-    if (docSource.items) {
-      docSource.items = docSource.items.map((item: any) => this.addId(item)); // Updates in place in docSource
+    if (docSource.items) { // child of Actor
+      docSource.items = docSource.items.map((item: any) => {
+        this.addId(item, `${dbType}.items!`, docSource._id);
+        batch.put(item._key, item);
+        return item._id;
+      });
     }
-    if (docSource.effects) {
-      docSource.effects = docSource.effects.map((effect: any) => this.addId(effect)); // Updates in place in docSource
+    if (docSource.effects) { // child of Item etc.
+      docSource.effects = docSource.effects.map((effect: any) => {
+        this.addId(effect, `${dbType}.effects!`, docSource._id);
+        batch.put(effect._key, effect);
+        return effect._id;
+      });
     }
-    if (docSource.pages) {
-      docSource.pages = docSource.pages.map((page: any) => this.addId(page)); // Updates in place in docSource
+    if (docSource.pages) { // child of RollTable
+      docSource.pages = docSource.pages.map((page: any) => {
+        this.addId(page, `${dbType}.pages!`, docSource._id);
+        batch.put(page._key, page);
+        return page._id;
+      }); // Updates in place in docSource
     }
-    if (docSource.results) { // TODO what is results???
-      docSource.results = docSource.results.map((result: any) => this.addId(result)); // Updates in place in docSource
+    if (docSource.results) { // child of RollTable
+      docSource.results = docSource.results.map((result: any) => {
+        this.addId(result, `${dbType}.results!`, docSource._id);
+        batch.put(result._key, result);
+        return result._id;
+      });
     }
-    return docSource;
+
+    batch.put(docSource._key, docSource); //add it to the DB transaction
   }
 
-  private addId(object: any): any {
-    if (!object._id) {
-      object._id = crypto
-        .createHash("md5")
-        .update(this.name + object.name + object.type + object.text) // Has to be unique - use data that should be unique when combined (like "cults | en - Orlanth - cult - undefined")
-        .digest("base64")
-        .replace(/[+=/]/g, "")
-        .substring(0, 16);
-    }
+  private addId(object: any, dbLocation: string, parentId?: string): any {
+    const currentObjectId: string = object._id ?? crypto
+      .createHash("md5")
+      .update(this.name + object.name + object.type + object.text) // Has to be unique - use data that should be unique when combined (like "cults | en - Orlanth - cult - undefined")
+      .digest("base64")
+      .replace(/[+=/]/g, "")
+      .substring(0, 16);
+    object._id = currentObjectId;
+    const parentObjectId = parentId ? `${parentId}.` : "";
+    const objectKey = dbLocation + parentObjectId + currentObjectId;
+    object._key = objectKey;
     return object;
   }
 
@@ -159,57 +191,33 @@ export class CompendiumPack {
   }
 
   async save(): Promise<number> {
-    console.log(chalk.green(`Building pack ${chalk.bold(this.name)} …`));
     //create DB and grab a transaction
     const dbPath = path.join(outDir, this.packDir);
     const db = new ClassicLevel(dbPath, {keyEncoding: 'utf8', valueEncoding: 'json'});
     const batch = db.batch();
-    const packPath = path.resolve(packTemplateDir, this.name);
-    // const entries = this.data
-
 
     //attempt to clear the DB files if they already exist.
     if (existsSync(dbPath)) {
       await promises.rm(dbPath, {recursive: true})
     }
-    for (const doc of this.data) {
-      // const filePath = path.resolve(packPath, doc.name)
-      // const file = await promises.readFile(filePath, 'utf-8'); //load the YAML
-      // const doc = yamlLoad(file, { filename: entry });
 
-      // if (!doc._id) doc._id = makeid(); //add ID if necessary
-      // let key = `!items!${doc._id}`;
-      // if (doc._key) { //generate a key if necessary
-      //   key = doc._key;
-      //   delete doc._key;
-      // }
-      this.finalize(doc); // TODO use key instead if id !!!
-      batch.put(doc._key ?? doc._id, doc); //add it to the DB transaction
+    for (const doc of this.data) {
+      this.finalize(doc, batch);
     }
 
     //commit and close the DB
     await batch.write();
     await _compactClassicLevel(db);
     await db.close();
-    console.log(chalk.green('Packed ' + chalk.bold(this.name) + '!'));
-
-
-
-
-    // fs.writeFileSync(
-    //   path.resolve(outDir, this.packDir),
-    //   this.data
-    //     .map((datum) => this.finalize(datum))
-    //     .join("\n")
-    //     .concat("\n"),
-    // );
-    // console.log(`Pack "${chalk.bold(this.name)}" with ${chalk.bold(this.data.length)} entries built successfully.`);
+    console.log(chalk.green(`Wrote ${chalk.bold(this.name)} with ${chalk.bold(this.data.length)} entries to db!`));
 
     return this.data.length;
   }
 
   private isDocumentSource(maybeDocSource: unknown): maybeDocSource is CompendiumSource {
-    if (!isObject(maybeDocSource)) return false;
+    if (!isObject(maybeDocSource)) {
+      return false;
+    }
     const checks = Object.entries({
       name: (data: { name?: unknown }) => typeof data.name === "string",
       flags: (data: unknown) => typeof data === "object" && data !== null && "flags" in data,
@@ -286,7 +294,7 @@ function replaceLinkedDocs(
   const rqidRegex = new RegExp(`^\\s*id:\\s+${escapeRegex(rqid)}$`, "m");
 
   for (const entry of packEntries) {
-    if (entry.match(rqidRegex)) {
+    if (rqidRegex.test(entry)) {
       // Add two spaces to every line to indent it properly
       let cleanEntry = entry.replace(/\r/, "").replace(/\n/gm, "\n  ");
 
@@ -313,15 +321,15 @@ function replaceLinkedDocs(
  * @private
  */
 async function _compactClassicLevel(db: ClassicLevel<string, string>) {
-  const forwardIterator = db.keys({ limit: 1, fillCache: false });
+  const forwardIterator = db.keys({limit: 1, fillCache: false});
   const firstKey = await forwardIterator.next();
   await forwardIterator.close();
 
-  const backwardIterator = db.keys({ limit: 1, reverse: true, fillCache: false });
+  const backwardIterator = db.keys({limit: 1, reverse: true, fillCache: false});
   const lastKey = await backwardIterator.next();
   await backwardIterator.close();
 
-  if ( firstKey && lastKey ) {
-    return db.compactRange(firstKey, lastKey, { keyEncoding: "utf8" });
+  if (firstKey && lastKey) {
+    return db.compactRange(firstKey, lastKey, {keyEncoding: "utf8"});
   }
 }

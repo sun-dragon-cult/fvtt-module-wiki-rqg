@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import { existsSync, promises } from 'fs';
+import {existsSync, promises} from 'fs';
 import * as path from "path";
 import * as fs from "fs";
 import {CompendiumPack, PackError, PackMetadata} from "./compendium-pack";
@@ -40,22 +40,19 @@ templatePacks.forEach((pack) => {
   });
 });
 
-// TODO handle async saves ***
-// const entityCounts = translatedPacks.map( (pack) => await pack.save());
 let total = 0;
 for (const pack of translatedPacks) {
   total += await pack.save();
 }
 
-// const total = entityCounts.reduce((runningTotal: number, entityCount: number) => runningTotal + entityCount, 0);
-
-if (translatedPacks.length > 0) {
-  const languageCount = targetLanguages.length;
-  console.log(chalk.green(
-    `Created ${chalk.bold(translatedPacks.length)} packs with ${chalk.bold(
-      total / languageCount
-    )} documents per language in ${chalk.bold(languageCount)} languages.`,
-  ));
-} else {
+if (translatedPacks.length === 0) {
   throw new PackError("No data available to build packs.");
 }
+
+const languageCount = targetLanguages.length;
+console.log(chalk.green(
+  `Created ${chalk.bold(translatedPacks.length)} packs with ${chalk.bold(
+    total / languageCount
+  )} documents per language in ${chalk.bold(languageCount)} languages.`,
+));
+
