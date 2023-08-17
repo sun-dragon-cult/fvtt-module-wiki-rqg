@@ -1,19 +1,13 @@
 import chalk from 'chalk';
 import {ChainedBatch, ClassicLevel} from 'classic-level';
 import * as fs from "fs";
+import {existsSync, promises} from "fs";
 import * as path from "path";
 import * as yaml from "js-yaml";
 import * as crypto from "crypto";
 
-import {
-  i18nDir,
-  outDir,
-  packsMetadata,
-  packTemplateDir,
-  translationsFileNames,
-} from "./buildPacks";
+import {i18nDir, outDir, packsMetadata, packTemplateDir, translationsFileNames,} from "./buildPacks";
 import {escapeRegex} from "./utils";
-import {existsSync, promises} from "fs";
 
 export interface PackMetadata {
   system: string;
@@ -93,7 +87,7 @@ export class CompendiumPack {
   }
 
   private finalize(docSource: CompendiumSource, batch: ChainedBatch<ClassicLevel, string, string>) {
-    const documentType2dbType = new Map([ // TODO not sure about the strings...
+    const documentType2dbType = new Map([
       ["Actor", "!actors"],
       ["Item", "!items"],
       ["JournalEntry", "!journal"],
@@ -149,8 +143,7 @@ export class CompendiumPack {
       .substring(0, 16);
     object._id = currentObjectId;
     const parentObjectId = parentId ? `${parentId}.` : "";
-    const objectKey = dbLocation + parentObjectId + currentObjectId;
-    object._key = objectKey;
+    object._key = dbLocation + parentObjectId + currentObjectId;
     return object;
   }
 
