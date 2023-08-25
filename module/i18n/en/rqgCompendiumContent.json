@@ -1,6 +1,53 @@
 {
   "prio": 0,
   "lang": "en",
+  "module": {
+    "id": "wiki-en-rqg",
+    "title": "Wiki content for the RQG system",
+    "description": "Content from the Chaosium wiki for RQG",
+    "folders": {
+      "topFolder": "Wiki RuneQuest Glorantha | en",
+      "cultsAndMagic": "Cults & Magic",
+      "equipment": "Equipment",
+      "bestiary": "Bestiary",
+      "skillsAndPassions": "Skills & Passions",
+      "runes": "Runes",
+      "occupationsAndPlaces": "Occupations & Places",
+      "hitLocations": "Hit Locations",
+      "macrosAndRolltables": "Macros & Rolltables"
+    },
+    "packs": {
+      "rqidMacros": "Rqid Macros",
+      "clanDescriptions": "Clan Descriptions",
+      "combatFumble": "Combat Fumble",
+      "cultDescriptions": "Cult Descriptions",
+      "cults": "Cults",
+      "cultureDescriptions": "Culture Descriptions",
+      "bestiary": "Bestiary",
+      "armor": "Armor",
+      "gear": "Gear",
+      "weapons": "Weapons",
+      "nameBases": "Name Bases",
+      "nameTables": "Name Tables",
+      "homelandDescriptions": "Homeland Descriptions",
+      "homelands": "Homelands",
+      "hitLocationBeetles": "Beetles",
+      "hitLocationBirdsFlying": "Birds, Flying",
+      "hitLocationBirdsRunning": "Birds, Running",
+      "hitLocationCentaurs": "Centaurs",
+      "hitLocationDragonsManticores": "Dragons/Manticores",
+      "hitLocationDragonsnailsOneHeaded": "Dragonsnails, One-Headed",
+      "hitLocationDragonsnailsTwoHeaded": "Dragonsnails, Two-Headed",
+      "hitLocationFourLeggedAnimals": "Four-Legged Animals",
+      "hitLocationFourLeggedAnimalsWinged": "Four-Legged Animals, Winged",
+      "hitLocationGorp": "Gorp",
+      "hitLocationHarpies": "Harpies",
+      "hitLocationHumanoids": "Humanoids",
+      "hitLocationHumanoidsWinged": "Humanoids, Winged",
+      "hitLocationMammothsMastodons": "Mammoths/Mastodons",
+      "hitLocationScorpionMen": "Scorpion Men"
+    }
+  },
   "cult": {
     "aldrya": {
       "name": "Aldrya",

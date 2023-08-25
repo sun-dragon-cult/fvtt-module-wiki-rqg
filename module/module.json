@@ -1,7 +1,7 @@
 {
-  "id": "wiki-en-rqg",
-  "title": "Wiki content for the RQG system",
-  "description": "Content from the Chaosium wiki for RQG",
+  "id": "${{rqgCompendiumContent.module.id}}$",
+  "title": "${{rqgCompendiumContent.module.title}}$",
+  "description": "${{rqgCompendiumContent.module.description}}$",
   "version": "1.0.0",
   "compatibility": {
     "minimum": 11,
@@ -36,225 +36,113 @@
   ],
   "packFolders": [
     {
-      "name": "Wiki RuneQuest Glorantha | en",
+      "name": "${{rqgCompendiumContent.module.folders.topFolder}}$",
       "sorting": "m",
       "color": "#176341",
       "folders": [
         {
-          "name": "Cults & Magic",
+          "name": "${{rqgCompendiumContent.module.folders.cultsAndMagic}}$",
           "sorting": "m",
           "color": "#269261",
           "packs": [
-            "spirit-magic-spells-en",
-            "rune-magic-spells-en",
-            "cults-en",
-            "spirit-magic-descriptions-en",
-            "rune-magic-descriptions-en",
-            "cult-descriptions-en"
+            "spirit-magic-spells",
+            "rune-magic-spells",
+            "cults",
+            "spirit-magic-descriptions",
+            "rune-magic-descriptions",
+            "cult-descriptions"
           ]
         },
         {
-          "name": "Equipment",
+          "name": "${{rqgCompendiumContent.module.folders.equipment}}$",
           "sorting": "a",
           "color": "#269261",
           "packs": [
-            "equipment-armor-en",
-            "equipment-gear-en",
-            "equipment-weapons-en"
+            "equipment-armor",
+            "equipment-gear",
+            "equipment-weapons"
           ]
         },
         {
-          "name": "Bestiary",
+          "name": "${{rqgCompendiumContent.module.folders.bestiary}}$",
           "sorting": "a",
           "color": "#269261",
           "packs": [
-            "bestiary-en",
-            "species-descriptions-en"
+            "bestiary",
+            "species-descriptions"
           ]
         },
         {
-          "name": "Skills & Passions",
+          "name": "${{rqgCompendiumContent.module.folders.skillsAndPassions}}$",
           "sorting": "m",
           "color": "#269261",
           "packs": [
-            "skills-en",
-            "skills-weapons-en",
-            "passions-en",
-            "passions-base-en",
-            "skill-descriptions-en"
+            "skills",
+            "skills-weapons",
+            "passions",
+            "passions-base",
+            "skill-descriptions"
           ]
         },
         {
-          "name": "Runes",
+          "name": "${{rqgCompendiumContent.module.folders.runes}}$",
           "sorting": "a",
           "color": "#269261",
           "packs": [
-            "pc-runes-en",
-            "runes-en",
-            "rune-descriptions-en"
+            "pc-runes",
+            "runes",
+            "rune-descriptions"
           ]
         },
         {
-          "name": "Occupations & Places",
+          "name": "${{rqgCompendiumContent.module.folders.occupationsAndPlaces}}$",
           "sorting": "a",
           "color": "#269261",
           "packs": [
-            "homelands-en",
-            "clan-descriptions-en",
-            "culture-descriptions-en",
-            "homeland-descriptions-en",
-            "region-descriptions-en",
-            "tribe-descriptions-en",
-            "name-bases-en",
-            "name-tables-en"
+            "homelands",
+            "clan-descriptions",
+            "culture-descriptions",
+            "homeland-descriptions",
+            "region-descriptions",
+            "tribe-descriptions",
+            "name-bases",
+            "name-tables"
           ]
         },
         {
-          "name": "Hit Locations",
+          "name": "${{rqgCompendiumContent.module.folders.hitLocations}}$",
           "sorting": "a",
           "color": "#269261",
           "packs": [
-            "hit-locations-beetles-en",
-            "hit-locations-birds-flying-en",
-            "hit-locations-birds-running-en",
-            "hit-locations-centaurs-en",
-            "hit-locations-dragons-manticores-en",
-            "hit-locations-dragonsnails-one-headed-en",
-            "hit-locations-dragonsnails-two-headed-en",
-            "hit-locations-four-legged-animals-en",
-            "hit-locations-four-legged-animals-winged-en",
-            "hit-locations-gorp-en",
-            "hit-locations-harpies-en",
-            "hit-locations-humanoids-en",
-            "hit-locations-humanoids-winged-en",
-            "hit-locations-mammoths-mastodons-en",
-            "hit-locations-scorpion-men-en",
-            "hit-locations-serpents-en",
-            "hit-locations-serpents-winged-en",
-            "hit-locations-spiders-giant-en",
-            "hit-locations-walktapi-en",
-            "hit-locations-wyverns-en"
+            "hit-locations-beetles",
+            "hit-locations-birds-flying",
+            "hit-locations-birds-running",
+            "hit-locations-centaurs",
+            "hit-locations-dragons-manticores",
+            "hit-locations-dragonsnails-one-headed",
+            "hit-locations-dragonsnails-two-headed",
+            "hit-locations-four-legged-animals",
+            "hit-locations-four-legged-animals-winged",
+            "hit-locations-gorp",
+            "hit-locations-harpies",
+            "hit-locations-humanoids",
+            "hit-locations-humanoids-winged",
+            "hit-locations-mammoths-mastodons",
+            "hit-locations-scorpion-men",
+            "hit-locations-serpents",
+            "hit-locations-serpents-winged",
+            "hit-locations-spiders-giant",
+            "hit-locations-walktapi",
+            "hit-locations-wyverns"
           ]
         },
         {
-          "name": "Macros & Rolltables",
+          "name": "${{rqgCompendiumContent.module.folders.macrosAndRolltables}}$",
           "sorting": "a",
           "color": "#269261",
           "packs": [
-            "rqid-macros-en",
-            "combat-fumble-en"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Wiki RuneQuest Glorantha | sv",
-      "sorting": "m",
-      "color": "#176341",
-      "folders": [
-        {
-          "name": "Cults & Magic",
-          "sorting": "m",
-          "color": "#269261",
-          "packs": [
-            "spirit-magic-spells-sv",
-            "rune-magic-spells-sv",
-            "cults-sv",
-            "spirit-magic-descriptions-sv",
-            "rune-magic-descriptions-sv",
-            "cult-descriptions-sv"
-          ]
-        },
-        {
-          "name": "Equipment",
-          "sorting": "a",
-          "color": "#269261",
-          "packs": [
-            "equipment-armor-sv",
-            "equipment-gear-sv",
-            "equipment-weapons-sv"
-          ]
-        },
-        {
-          "name": "Bestiary",
-          "sorting": "a",
-          "color": "#269261",
-          "packs": [
-            "bestiary-sv",
-            "species-descriptions-sv"
-          ]
-        },
-        {
-          "name": "Skills & Passions",
-          "sorting": "m",
-          "color": "#269261",
-          "packs": [
-            "skills-sv",
-            "skills-weapons-sv",
-            "passions-sv",
-            "passions-base-sv",
-            "skill-descriptions-sv"
-          ]
-        },
-        {
-          "name": "Runes",
-          "sorting": "a",
-          "color": "#269261",
-          "packs": [
-            "pc-runes-sv",
-            "runes-sv",
-            "rune-descriptions-sv"
-          ]
-        },
-        {
-          "name": "Occupations & Places",
-          "sorting": "a",
-          "color": "#269261",
-          "packs": [
-            "homelands-sv",
-            "clan-descriptions-sv",
-            "culture-descriptions-sv",
-            "homeland-descriptions-sv",
-            "region-descriptions-sv",
-            "tribe-descriptions-sv",
-            "name-bases-sv",
-            "name-tables-sv"
-          ]
-        },
-        {
-          "name": "Hit Locations",
-          "sorting": "a",
-          "color": "#269261",
-          "packs": [
-            "hit-locations-beetles-sv",
-            "hit-locations-birds-flying-sv",
-            "hit-locations-birds-running-sv",
-            "hit-locations-centaurs-sv",
-            "hit-locations-dragons-manticores-sv",
-            "hit-locations-dragonsnails-one-headed-sv",
-            "hit-locations-dragonsnails-two-headed-sv",
-            "hit-locations-four-legged-animals-sv",
-            "hit-locations-four-legged-animals-winged-sv",
-            "hit-locations-gorp-sv",
-            "hit-locations-harpies-sv",
-            "hit-locations-humanoids-sv",
-            "hit-locations-humanoids-winged-sv",
-            "hit-locations-mammoths-mastodons-sv",
-            "hit-locations-scorpion-men-sv",
-            "hit-locations-serpents-sv",
-            "hit-locations-serpents-winged-sv",
-            "hit-locations-spiders-giant-sv",
-            "hit-locations-walktapi-sv",
-            "hit-locations-wyverns-sv"
-          ]
-        },
-        {
-          "name": "Macros & Rolltables",
-          "sorting": "a",
-          "color": "#269261",
-          "packs": [
-            "rqid-macros-sv",
-            "combat-fumble-sv"
+            "rqid-macros",
+            "combat-fumble"
           ]
         }
       ]
@@ -262,694 +150,346 @@
   ],
   "packs": [
     {
-      "name": "rqid-macros-en",
-      "label": "Rqid Macros | en",
+      "name": "rqid-macros",
+      "label": "${{rqgCompendiumContent.module.packs.rqidMacros}}$",
       "system": "rqg",
-      "path": "packs/rqid-macros-en",
+      "path": "packs/rqid-macros",
       "type": "Macro"
     },
     {
-      "name": "clan-descriptions-en",
-      "label": "Clan Descriptions | en",
+      "name": "clan-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.clanDescriptions}}$",
       "system": "rqg",
-      "path": "packs/clan-descriptions-en",
+      "path": "packs/clan-descriptions",
       "type": "JournalEntry"
     },
     {
-      "name": "combat-fumble-en",
-      "label": "Combat Fumble | en",
+      "name": "combat-fumble",
+      "label": "${{rqgCompendiumContent.module.packs.combatFumble}}$",
       "system": "rqg",
-      "path": "packs/combat-fumble-en",
+      "path": "packs/combat-fumble",
       "type": "RollTable"
     },
     {
-      "name": "cult-descriptions-en",
-      "label": "Cult Descriptions | en",
+      "name": "cult-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.cultDescriptions}}$",
       "system": "rqg",
-      "path": "packs/cult-descriptions-en",
+      "path": "packs/cult-descriptions",
       "type": "JournalEntry"
     },
     {
-      "name": "cults-en",
-      "label": "Cults | en",
+      "name": "cults",
+      "label": "${{rqgCompendiumContent.module.packs.cults}}$",
       "system": "rqg",
-      "path": "packs/cults-en",
+      "path": "packs/cults",
       "type": "Item"
     },
     {
-      "name": "culture-descriptions-en",
-      "label": "Culture Descriptions | en",
+      "name": "culture-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.cultureDescriptions}}$",
       "system": "rqg",
-      "path": "packs/culture-descriptions-en",
+      "path": "packs/culture-descriptions",
       "type": "JournalEntry"
     },
     {
-      "name": "bestiary-en",
-      "label": "Bestiary | en",
+      "name": "bestiary",
+      "label": "${{rqgCompendiumContent.module.packs.bestiary}}$",
       "system": "rqg",
-      "path": "packs/bestiary-en",
+      "path": "packs/bestiary",
       "type": "Actor"
     },
     {
-      "name": "equipment-armor-en",
-      "label": "Armor | en",
+      "name": "equipment-armor",
+      "label": "${{rqgCompendiumContent.module.packs.armor}}$",
       "system": "rqg",
-      "path": "packs/equipment-armor-en",
+      "path": "packs/equipment-armor",
       "type": "Item"
     },
     {
-      "name": "equipment-gear-en",
-      "label": "Gear | en",
+      "name": "equipment-gear",
+      "label": "${{rqgCompendiumContent.module.packs.gear}}$",
       "system": "rqg",
-      "path": "packs/equipment-gear-en",
+      "path": "packs/equipment-gear",
       "type": "Item"
     },
     {
-      "name": "equipment-weapons-en",
-      "label": "Weapons | en",
+      "name": "equipment-weapons",
+      "label": "${{rqgCompendiumContent.module.packs.weapons}}$",
       "system": "rqg",
-      "path": "packs/equipment-weapons-en",
+      "path": "packs/equipment-weapons",
       "type": "Item"
     },
     {
-      "name": "name-bases-en",
-      "label": "Name Bases | en",
+      "name": "name-bases",
+      "label": "${{rqgCompendiumContent.module.packs.nameBases}}$",
       "system": "rqg",
-      "path": "packs/name-bases-en",
+      "path": "packs/name-bases",
       "type": "JournalEntry"
     },
     {
-      "name": "name-tables-en",
-      "label": "Name Tables | en",
+      "name": "name-tables",
+      "label": "${{rqgCompendiumContent.module.packs.nameTables}}$",
       "system": "rqg",
-      "path": "packs/name-tables-en",
+      "path": "packs/name-tables",
       "type": "RollTable"
     },
     {
-      "name": "homeland-descriptions-en",
-      "label": "Homeland Descriptions | en",
+      "name": "homeland-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.homelandDescriptions}}$",
       "system": "rqg",
-      "path": "packs/homeland-descriptions-en",
+      "path": "packs/homeland-descriptions",
       "type": "JournalEntry"
     },
     {
-      "name": "homelands-en",
-      "label": "Homelands | en",
+      "name": "homelands",
+      "label": "${{rqgCompendiumContent.module.packs.homelands}}$",
       "system": "rqg",
-      "path": "packs/homelands-en",
+      "path": "packs/homelands",
       "type": "Item"
     },
     {
-      "name": "hit-locations-beetles-en",
-      "label": "Beetles | en",
+      "name": "hit-locations-beetles",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationBeetles}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-beetles-en",
+      "path": "packs/hit-locations-beetles",
       "type": "Item"
     },
     {
-      "name": "hit-locations-birds-flying-en",
-      "label": "Birds, Flying | en",
+      "name": "hit-locations-birds-flying",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationBirdsFlying}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-birds-flying-en",
+      "path": "packs/hit-locations-birds-flying",
       "type": "Item"
     },
     {
-      "name": "hit-locations-birds-running-en",
-      "label": "Birds, Running | en",
+      "name": "hit-locations-birds-running",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationBirdsRunning}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-birds-running-en",
+      "path": "packs/hit-locations-birds-running",
       "type": "Item"
     },
     {
-      "name": "hit-locations-centaurs-en",
-      "label": "Centaurs | en",
+      "name": "hit-locations-centaurs",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationCentaurs}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-centaurs-en",
+      "path": "packs/hit-locations-centaurs",
       "type": "Item"
     },
     {
-      "name": "hit-locations-dragons-manticores-en",
-      "label": "Dragons/Manticores | en",
+      "name": "hit-locations-dragons-manticores",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationDragonsManticores}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-dragons-manticores-en",
+      "path": "packs/hit-locations-dragons-manticores",
       "type": "Item"
     },
     {
-      "name": "hit-locations-dragonsnails-one-headed-en",
-      "label": "Dragonsnails, One-Headed | en",
+      "name": "hit-locations-dragonsnails-one-headed",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationDragonsnailsOneHeaded}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-dragonsnails-one-headed-en",
+      "path": "packs/hit-locations-dragonsnails-one-headed",
       "type": "Item"
     },
     {
-      "name": "hit-locations-dragonsnails-two-headed-en",
-      "label": "Dragonsnails, Two-Headed | en",
+      "name": "hit-locations-dragonsnails-two-headed",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationDragonsnailsTwoHeaded}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-dragonsnails-two-headed-en",
+      "path": "packs/hit-locations-dragonsnails-two-headed",
       "type": "Item"
     },
     {
-      "name": "hit-locations-four-legged-animals-en",
-      "label": "Four-Legged Animals | en",
+      "name": "hit-locations-four-legged-animals",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationFourLeggedAnimals}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-four-legged-animals-en",
+      "path": "packs/hit-locations-four-legged-animals",
       "type": "Item"
     },
     {
-      "name": "hit-locations-four-legged-animals-winged-en",
-      "label": "Four-Legged Animals, Winged | en",
+      "name": "hit-locations-four-legged-animals-winged",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationFourLeggedAnimalsWinged}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-four-legged-animals-winged-en",
+      "path": "packs/hit-locations-four-legged-animals-winged",
       "type": "Item"
     },
     {
-      "name": "hit-locations-gorp-en",
-      "label": "Gorp | en",
+      "name": "hit-locations-gorp",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationGorp}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-gorp-en",
+      "path": "packs/hit-locations-gorp",
       "type": "Item"
     },
     {
-      "name": "hit-locations-harpies-en",
-      "label": "Harpies | en",
+      "name": "hit-locations-harpies",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationHarpies}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-harpies-en",
+      "path": "packs/hit-locations-harpies",
       "type": "Item"
     },
     {
-      "name": "hit-locations-humanoids-en",
-      "label": "Humanoids | en",
+      "name": "hit-locations-humanoids",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationHumanoids}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-humanoids-en",
+      "path": "packs/hit-locations-humanoids",
       "type": "Item"
     },
     {
-      "name": "hit-locations-humanoids-winged-en",
-      "label": "Humanoids, Winged | en",
+      "name": "hit-locations-humanoids-winged",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationHumanoidsWinged}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-humanoids-winged-en",
+      "path": "packs/hit-locations-humanoids-winged",
       "type": "Item"
     },
     {
-      "name": "hit-locations-mammoths-mastodons-en",
-      "label": "Mammoths/Mastodons | en",
+      "name": "hit-locations-mammoths-mastodons",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationMammothsMastodons}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-mammoths-mastodons-en",
+      "path": "packs/hit-locations-mammoths-mastodons",
       "type": "Item"
     },
     {
-      "name": "hit-locations-scorpion-men-en",
-      "label": "Scorpion Men | en",
+      "name": "hit-locations-scorpion-men",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationScorpionMen}}$",
       "system": "rqg",
-      "path": "packs/hit-locations-scorpion-men-en",
+      "path": "packs/hit-locations-scorpion-men",
       "type": "Item"
     },
     {
-      "name": "hit-locations-serpents-en",
+      "name": "hit-locations-serpents",
       "label": "Serpents | en",
       "system": "rqg",
-      "path": "packs/hit-locations-serpents-en",
+      "path": "packs/hit-locations-serpents",
       "type": "Item"
     },
     {
-      "name": "hit-locations-serpents-winged-en",
+      "name": "hit-locations-serpents-winged",
       "label": "Serpents, Winged | en",
       "system": "rqg",
-      "path": "packs/hit-locations-serpents-winged-en",
+      "path": "packs/hit-locations-serpents-winged",
       "type": "Item"
     },
     {
-      "name": "hit-locations-spiders-giant-en",
+      "name": "hit-locations-spiders-giant",
       "label": "Spiders, Giant | en",
       "system": "rqg",
-      "path": "packs/hit-locations-spiders-giant-en",
+      "path": "packs/hit-locations-spiders-giant",
       "type": "Item"
     },
     {
-      "name": "hit-locations-walktapi-en",
+      "name": "hit-locations-walktapi",
       "label": "Walktapi | en",
       "system": "rqg",
-      "path": "packs/hit-locations-walktapi-en",
+      "path": "packs/hit-locations-walktapi",
       "type": "Item"
     },
     {
-      "name": "hit-locations-wyverns-en",
+      "name": "hit-locations-wyverns",
       "label": "Wyverns | en",
       "system": "rqg",
-      "path": "packs/hit-locations-wyverns-en",
+      "path": "packs/hit-locations-wyverns",
       "type": "Item"
     },
     {
-      "name": "passions-en",
+      "name": "passions",
       "label": "Passions | en",
       "system": "rqg",
-      "path": "packs/passions-en",
+      "path": "packs/passions",
       "type": "Item"
     },
     {
-      "name": "passions-base-en",
+      "name": "passions-base",
       "label": "Passions, Base | en",
       "system": "rqg",
-      "path": "packs/passions-base-en",
+      "path": "packs/passions-base",
       "type": "Item"
     },
     {
-      "name": "pc-runes-en",
+      "name": "pc-runes",
       "label": "Runes (Player Character) | en",
       "system": "rqg",
-      "path": "packs/pc-runes-en",
+      "path": "packs/pc-runes",
       "type": "Item"
     },
     {
-      "name": "region-descriptions-en",
+      "name": "region-descriptions",
       "label": "Region Descriptions | en",
       "system": "rqg",
-      "path": "packs/region-descriptions-en",
+      "path": "packs/region-descriptions",
       "type": "JournalEntry"
     },
     {
-      "name": "rune-descriptions-en",
+      "name": "rune-descriptions",
       "label": "Rune Descriptions | en",
       "system": "rqg",
-      "path": "packs/rune-descriptions-en",
+      "path": "packs/rune-descriptions",
       "type": "JournalEntry"
     },
     {
-      "name": "runes-en",
+      "name": "runes",
       "label": "Runes (All) | en",
       "system": "rqg",
-      "path": "packs/runes-en",
+      "path": "packs/runes",
       "type": "Item"
     },
     {
-      "name": "rune-magic-spells-en",
+      "name": "rune-magic-spells",
       "label": "Rune Magic Spells | en",
       "system": "rqg",
-      "path": "packs/rune-magic-spells-en",
+      "path": "packs/rune-magic-spells",
       "type": "Item"
     },
     {
-      "name": "rune-magic-descriptions-en",
+      "name": "rune-magic-descriptions",
       "label": "Rune Magic Descriptions | en",
       "system": "rqg",
-      "path": "packs/rune-magic-descriptions-en",
+      "path": "packs/rune-magic-descriptions",
       "type": "JournalEntry"
     },
     {
-      "name": "skills-en",
+      "name": "skills",
       "label": "Skills | en",
       "system": "rqg",
-      "path": "packs/skills-en",
+      "path": "packs/skills",
       "type": "Item"
     },
     {
-      "name": "skill-descriptions-en",
+      "name": "skill-descriptions",
       "label": "Skill Descriptions | en",
       "system": "rqg",
-      "path": "packs/skill-descriptions-en",
+      "path": "packs/skill-descriptions",
       "type": "JournalEntry"
     },
     {
-      "name": "skills-weapons-en",
+      "name": "skills-weapons",
       "label": "Skills - Weapons | en",
       "system": "rqg",
-      "path": "packs/skills-weapons-en",
+      "path": "packs/skills-weapons",
       "type": "Item"
     },
     {
-      "name": "species-descriptions-en",
+      "name": "species-descriptions",
       "label": "Species Descriptions | en",
       "system": "rqg",
-      "path": "packs/species-descriptions-en",
+      "path": "packs/species-descriptions",
       "type": "JournalEntry"
     },
     {
-      "name": "spirit-magic-spells-en",
+      "name": "spirit-magic-spells",
       "label": "Spirit Magic Spells | en",
       "system": "rqg",
-      "path": "packs/spirit-magic-spells-en",
+      "path": "packs/spirit-magic-spells",
       "type": "Item"
     },
     {
-      "name": "spirit-magic-descriptions-en",
+      "name": "spirit-magic-descriptions",
       "label": "Spirit Magic Descriptions | en",
       "system": "rqg",
-      "path": "packs/spirit-magic-descriptions-en",
+      "path": "packs/spirit-magic-descriptions",
       "type": "JournalEntry"
     },
     {
-      "name": "tribe-descriptions-en",
+      "name": "tribe-descriptions",
       "label": "Tribe Descriptions | en",
       "system": "rqg",
-      "path": "packs/tribe-descriptions-en",
-      "type": "JournalEntry"
-    },
-
-
-
-
-
-    {
-      "name": "rqid-macros-sv",
-      "label": "Rqid Macros | sv",
-      "system": "rqg",
-      "path": "packs/rqid-macros-sv",
-      "type": "Macro"
-    },
-    {
-      "name": "clan-descriptions-sv",
-      "label": "Clan Descriptions | sv",
-      "system": "rqg",
-      "path": "packs/clan-descriptions-sv",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "combat-fumble-sv",
-      "label": "Combat Fumble | sv",
-      "system": "rqg",
-      "path": "packs/combat-fumble-sv",
-      "type": "RollTable"
-    },
-    {
-      "name": "cult-descriptions-sv",
-      "label": "Cult Descriptions | sv",
-      "system": "rqg",
-      "path": "packs/cult-descriptions-sv",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "cults-sv",
-      "label": "Cults | sv",
-      "system": "rqg",
-      "path": "packs/cults-sv",
-      "type": "Item"
-    },
-    {
-      "name": "culture-descriptions-sv",
-      "label": "Culture Descriptions | sv",
-      "system": "rqg",
-      "path": "packs/culture-descriptions-sv",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "bestiary-sv",
-      "label": "Bestiary | sv",
-      "system": "rqg",
-      "path": "packs/bestiary-sv",
-      "type": "Actor"
-    },
-    {
-      "name": "equipment-armor-sv",
-      "label": "Armor | sv",
-      "system": "rqg",
-      "path": "packs/equipment-armor-sv",
-      "type": "Item"
-    },
-    {
-      "name": "equipment-gear-sv",
-      "label": "Gear | sv",
-      "system": "rqg",
-      "path": "packs/equipment-gear-sv",
-      "type": "Item"
-    },
-    {
-      "name": "equipment-weapons-sv",
-      "label": "Weapons | sv",
-      "system": "rqg",
-      "path": "packs/equipment-weapons-sv",
-      "type": "Item"
-    },
-    {
-      "name": "name-bases-sv",
-      "label": "Name Bases | sv",
-      "system": "rqg",
-      "path": "packs/name-bases-sv",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "name-tables-sv",
-      "label": "Name Tables | sv",
-      "system": "rqg",
-      "path": "packs/name-tables-sv",
-      "type": "RollTable"
-    },
-    {
-      "name": "homeland-descriptions-sv",
-      "label": "Homeland Descriptions | sv",
-      "system": "rqg",
-      "path": "packs/homeland-descriptions-sv",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "homelands-sv",
-      "label": "Homelands | sv",
-      "system": "rqg",
-      "path": "packs/homelands-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-beetles-sv",
-      "label": "Beetles | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-beetles-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-birds-flying-sv",
-      "label": "Birds, Flying | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-birds-flying-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-birds-running-sv",
-      "label": "Birds, Running | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-birds-running-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-centaurs-sv",
-      "label": "Centaurs | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-centaurs-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-dragons-manticores-sv",
-      "label": "Dragons/Manticores | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-dragons-manticores-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-dragonsnails-one-headed-sv",
-      "label": "Dragonsnails, One-Headed | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-dragonsnails-one-headed-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-dragonsnails-two-headed-sv",
-      "label": "Dragonsnails, Two-Headed | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-dragonsnails-two-headed-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-four-legged-animals-sv",
-      "label": "Four-Legged Animals | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-four-legged-animals-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-four-legged-animals-winged-sv",
-      "label": "Four-Legged Animals, Winged | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-four-legged-animals-winged-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-gorp-sv",
-      "label": "Gorp | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-gorp-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-harpies-sv",
-      "label": "Harpies | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-harpies-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-humanoids-sv",
-      "label": "Humanoids | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-humanoids-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-humanoids-winged-sv",
-      "label": "Humanoids, Winged | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-humanoids-winged-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-mammoths-mastodons-sv",
-      "label": "Mammoths/Mastodons | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-mammoths-mastodons-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-scorpion-men-sv",
-      "label": "Scorpion Men | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-scorpion-men-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-serpents-sv",
-      "label": "Serpents | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-serpents-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-serpents-winged-sv",
-      "label": "Serpents, Winged | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-serpents-winged-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-spiders-giant-sv",
-      "label": "Spiders, Giant | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-spiders-giant-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-walktapi-sv",
-      "label": "Walktapi | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-walktapi-sv",
-      "type": "Item"
-    },
-    {
-      "name": "hit-locations-wyverns-sv",
-      "label": "Wyverns | sv",
-      "system": "rqg",
-      "path": "packs/hit-locations-wyverns-sv",
-      "type": "Item"
-    },
-    {
-      "name": "passions-sv",
-      "label": "Passions | sv",
-      "system": "rqg",
-      "path": "packs/passions-sv",
-      "type": "Item"
-    },
-    {
-      "name": "passions-base-sv",
-      "label": "Passions, Base | sv",
-      "system": "rqg",
-      "path": "packs/passions-base-sv",
-      "type": "Item"
-    },
-    {
-      "name": "pc-runes-sv",
-      "label": "Runes (Player Character) | sv",
-      "system": "rqg",
-      "path": "packs/pc-runes-sv",
-      "type": "Item"
-    },
-    {
-      "name": "region-descriptions-sv",
-      "label": "Region Descriptions | sv",
-      "system": "rqg",
-      "path": "packs/region-descriptions-sv",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "rune-descriptions-sv",
-      "label": "Rune Descriptions | sv",
-      "system": "rqg",
-      "path": "packs/rune-descriptions-sv",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "runes-sv",
-      "label": "Runes (All) | sv",
-      "system": "rqg",
-      "path": "packs/runes-sv",
-      "type": "Item"
-    },
-    {
-      "name": "rune-magic-spells-sv",
-      "label": "Rune Magic Spells | sv",
-      "system": "rqg",
-      "path": "packs/rune-magic-spells-sv",
-      "type": "Item"
-    },
-    {
-      "name": "rune-magic-descriptions-sv",
-      "label": "Rune Magic Descriptions | sv",
-      "system": "rqg",
-      "path": "packs/rune-magic-descriptions-sv",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "skills-sv",
-      "label": "Skills | sv",
-      "system": "rqg",
-      "path": "packs/skills-sv",
-      "type": "Item"
-    },
-    {
-      "name": "skill-descriptions-sv",
-      "label": "Skill Descriptions | sv",
-      "system": "rqg",
-      "path": "packs/skill-descriptions-sv",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "skills-weapons-sv",
-      "label": "Skills - Weapons | sv",
-      "system": "rqg",
-      "path": "packs/skills-weapons-sv",
-      "type": "Item"
-    },
-    {
-      "name": "species-descriptions-sv",
-      "label": "Species Descriptions | sv",
-      "system": "rqg",
-      "path": "packs/species-descriptions-sv",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "spirit-magic-spells-sv",
-      "label": "Spirit Magic Spells | sv",
-      "system": "rqg",
-      "path": "packs/spirit-magic-spells-sv",
-      "type": "Item"
-    },
-    {
-      "name": "spirit-magic-descriptions-sv",
-      "label": "Spirit Magic Descriptions | sv",
-      "system": "rqg",
-      "path": "packs/spirit-magic-descriptions-sv",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "tribe-descriptions-sv",
-      "label": "Tribe Descriptions | sv",
-      "system": "rqg",
-      "path": "packs/tribe-descriptions-sv",
+      "path": "packs/tribe-descriptions",
       "type": "JournalEntry"
     }
   ]

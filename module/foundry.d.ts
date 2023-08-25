@@ -1,16 +1,16 @@
-import {RqgItem} from "./items/rqgItem";
-import {RqgItemDataProperties, RqgItemDataSource} from "./data-model/item-data/itemTypes";
-import {RqgActor} from "./actors/rqgActor";
-import {RqgActorDataProperties, RqgActorDataSource} from "./data-model/actor-data/rqgActorData";
-import {RqgConfig, systemId} from "./system/config";
-import {RqgChatMessageFlags} from "./data-model/shared/rqgDocumentFlags";
+import { RqgItem } from "./items/rqgItem";
+import { RqgItemDataProperties, RqgItemDataSource } from "./data-model/item-data/itemTypes";
+import { RqgActor } from "./actors/rqgActor";
+import { RqgActorDataProperties, RqgActorDataSource } from "./data-model/actor-data/rqgActorData";
+import { RqgConfig, systemId } from "./system/config";
+import { RqgChatMessageFlags } from "./data-model/shared/rqgDocumentFlags";
 import {
   RqgActorFlags,
   RqgItemFlags,
   RqgJournalEntryFlags,
   RqgRollTableFlags,
 } from "./data-model/shared/rqgDocumentFlags";
-import {IconSettingsData} from "./applications/defaultItemIconSettings";
+import { IconSettingsData } from "./applications/defaultItemIconSettings";
 
 declare global {
   interface DocumentClassConfig {
