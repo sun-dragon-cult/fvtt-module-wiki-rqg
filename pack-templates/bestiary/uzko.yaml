@@ -1,4 +1,3 @@
----
 name: ${{rqgCompendiumContent.bestiary.uzko.name}}$
 type: character
 img: icons/svg/mystery-man.svg
@@ -30,9 +29,9 @@ system:
     species: ${{rqgCompendiumContent.bestiary.uzko.species}}$
     occupation: ""
     homeland: sartar
-    cultureJournalRqidLinks: []
-    tribeJournalRqidLinks: []
-    clanJournalRqidLinks: []
+    cultureJournalRqidLinks: [ ]
+    tribeJournalRqidLinks: [ ]
+    clanJournalRqidLinks: [ ]
     birthyear:
     age:
     gender: ""
@@ -59,7 +58,7 @@ system:
       swim:
         value: 2
         carryingFactor: 0.5
-      fly: {}
+      fly: { }
     heroPoints: 0
     isCreature: true
     health: healthy
@@ -116,44 +115,233 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
-  flags: {}
+  detectionModes: [ ]
+  flags: { }
   randomImg: false
 items:
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.right-leg	[ naturalAp: 1		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.left-leg	[ naturalAp: 1		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.abdomen	[ naturalAp: 1		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.chest	[ naturalAp: 1		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.right-arm	[ naturalAp: 1		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.left-arm	[ naturalAp: 1		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.head	[ naturalAp: 1		]}}|"
-- "|{{	runes/element.yaml	i.rune.darkness-element	[ chance:	60	]}}|"
-- "|{{	skills/agility-skills.yaml	i.skill.climb	[ gainedChance:	0	]}}|"
-- "|{{	skills/agility-skills.yaml	i.skill.dodge	[ gainedChance:	13	]}}|"
-- "|{{	skills/agility-skills.yaml	i.skill.jump	[ gainedChance:	7	]}}|"
-- "|{{	skills/communication-skills.yaml	i.skill.intimidate	[ gainedChance:	20	]}}|"
-- "|{{	skills/magic-skills.yaml	i.skill.spirit-combat	[ gainedChance:	20	]}}|"
-- "|{{	skills/perception-skills.yaml	i.skill.listen	[ gainedChance:	15	]}}|"
-- "|{{	skills/perception-skills.yaml	i.skill.darksense-scan	[ gainedChance:	20	]}}|"
-- "|{{	skills/perception-skills.yaml	i.skill.darksense-search	[ gainedChance:	10	]}}|"
-- "|{{	skills/stealth-skills.yaml	i.skill.hide	[ gainedChance:	30	]}}|"
-- "|{{	skills/stealth-skills.yaml	i.skill.move-quietly	[ gainedChance:	30	]}}|"
-- "|{{	skills-weapons/1h-mace.yaml	i.skill.1h-maces-heavy-mace	[ gainedChance:	35	]}}|"
-- "|{{	skills-weapons/2h-melee.yaml	i.skill.2h-hammers-maul	[ gainedChance:	30	]}}|"
-- "|{{	skills-weapons/missile.yaml	i.skill.slings-sling	[ gainedChance:	45	]}}|"
-- "|{{	skills-weapons/shields.yaml	i.skill.shields-large	[ gainedChance:	30	]}}|"
-- "|{{	equipment-armor/armor-cuirboilli.yaml	i.armor.greaves-cuirboilli	[ equippedStatus: 	equipped	]}}|"
-- "|{{	equipment-armor/armor-plate-bronze.yaml	i.armor.open-helm-bronze-plate	[ equippedStatus: 	equipped	]}}|"
-- "|{{	equipment-armor/armor-scale-light.yaml	i.armor.hauberk-light-scale	[ equippedStatus: 	equipped	]}}|"
-- "|{{	equipment-weapons/hammers-maces-clubs.yaml	i.weapon.maul	[ equippedStatus: 	equipped	]}}|"
-- "|{{	equipment-weapons/hammers-maces-clubs.yaml	i.weapon.heavy-mace	[ equippedStatus: 	equipped	]}}|"
-- "|{{	equipment-weapons/shield.yaml	i.weapon.large-wooden-shield	[ equippedStatus: 	equipped	]}}|"
-- "|{{	equipment-weapons/slings.yaml	i.weapon.sling	[ equippedStatus: 	equipped	]}}|"
-- "|{{	passions-base/passions-base.yaml	i.passion.hate-base	[ 	name: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.aldryami}}$), subject: ${{rqgCompendiumContent.passionSubject.aldryami}}$	]}}|"
-- "|{{	passions-base/passions-base.yaml	i.passion.hate-base	[ 	name: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.mostali}}$), subject: ${{rqgCompendiumContent.passionSubject.mostali}}$	]}}|"
-- "|{{	passions-base/passions-base.yaml	i.passion.loyalty-base	[ 	name: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.matriarch}}$), subject: ${{rqgCompendiumContent.passionSubject.matriarch}}$	]}}|"
-- "|{{	passions-base/passions-base.yaml	i.passion.love-base	[ 	name: ${{uiContent.RQG.Item.Passion.PassionEnum.Love}}$ (${{rqgCompendiumContent.passionSubject.family}}$), subject: ${{rqgCompendiumContent.passionSubject.family}}$	]}}|"
-effects: []
+  # hit location items
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.right-leg
+      overrides:
+        - path: system.naturalAp
+          value: 1
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.left-leg
+      overrides:
+        - path: system.naturalAp
+          value: 1
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.abdomen
+      overrides:
+        - path: system.naturalAp
+          value: 1
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.chest
+      overrides:
+        - path: system.naturalAp
+          value: 1
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.right-arm
+      overrides:
+        - path: system.naturalAp
+          value: 1
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.left-arm
+      overrides:
+        - path: system.naturalAp
+          value: 1
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.head
+      overrides:
+        - path: system.naturalAp
+          value: 1
+
+  # rune items
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.darkness-element
+      overrides:
+        - path: system.chance
+          value: 60
+
+  # skill items
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.climb
+      overrides:
+        - path: system.gainedChance
+          value: 0
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.dodge
+      overrides:
+        - path: system.gainedChance
+          value: 13
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.jump
+      overrides:
+        - path: system.gainedChance
+          value: 7
+
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.intimidate
+      overrides:
+        - path: system.gainedChance
+          value: 20
+
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.spirit-combat
+      overrides:
+        - path: system.gainedChance
+          value: 20
+
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.listen
+      overrides:
+        - path: system.gainedChance
+          value: 15
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.darksense-scan
+      overrides:
+        - path: system.gainedChance
+          value: 20
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.darksense-search
+      overrides:
+        - path: system.gainedChance
+          value: 10
+
+  - _importExternalDocument:
+      file: skills/stealth-skills.yaml
+      rqid: i.skill.hide
+      overrides:
+        - path: system.gainedChance
+          value: 30
+  - _importExternalDocument:
+      file: skills/stealth-skills.yaml
+      rqid: i.skill.move-quietly
+      overrides:
+        - path: system.gainedChance
+          value: 30
+
+  - _importExternalDocument:
+      file: skills-weapons/1h-mace.yaml
+      rqid: i.skill.1h-maces-heavy-mace
+      overrides:
+        - path: system.gainedChance
+          value: 35
+  - _importExternalDocument:
+      file: skills-weapons/2h-melee.yaml
+      rqid: i.skill.2h-hammers-maul
+      overrides:
+        - path: system.gainedChance
+          value: 30
+  - _importExternalDocument:
+      file: skills-weapons/missile.yaml
+      rqid: i.skill.slings-sling
+      overrides:
+        - path: system.gainedChance
+          value: 45
+  - _importExternalDocument:
+      file: skills-weapons/shields.yaml
+      rqid: i.skill.shields-large
+      overrides:
+        - path: system.gainedChance
+          value: 30
+
+  # armor items
+  - _importExternalDocument:
+      file: equipment-armor/armor-cuirboilli.yaml
+      rqid: i.armor.greaves-cuirboilli
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-armor/armor-plate-bronze.yaml
+      rqid: i.armor.open-helm-bronze-plate
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-armor/armor-scale-light.yaml
+      rqid: i.armor.hauberk-light-scale
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+
+  # weapon items
+  - _importExternalDocument:
+      file: equipment-weapons/hammers-maces-clubs.yaml
+      rqid: i.weapon.maul
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/hammers-maces-clubs.yaml
+      rqid: i.weapon.heavy-mace
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/shield.yaml
+      rqid: i.weapon.large-wooden-shield
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/slings.yaml
+      rqid: i.weapon.sling
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+
+  # passion items
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.hate-base
+      overrides:
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.aldryami}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.aldryami}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.hate-base
+      overrides:
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.mostali}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.mostali}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.loyalty-base
+      overrides:
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.matriarch}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.matriarch}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.love-base
+      overrides:
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Love}}$ (${{rqgCompendiumContent.passionSubject.family}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.family}}$
+effects: [ ]
 flags:
   rqg:
     documentRqidFlags:

@@ -18,7 +18,7 @@ pages:
         consider little better than a bandit.</p>
         <p>The clan tattoo is a stylized bear.</p>
     sort: 0
-    flags: {}
+    flags: { }
 flags:
   rqg:
     documentRqidFlags:

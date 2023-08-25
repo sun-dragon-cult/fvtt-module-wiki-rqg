@@ -29,9 +29,9 @@ system:
     species: ${{rqgCompendiumContent.bestiary.bison.species}}$
     occupation: ""
     homeland: ""
-    cultureJournalRqidLinks: []
-    tribeJournalRqidLinks: []
-    clanJournalRqidLinks: []
+    cultureJournalRqidLinks: [ ]
+    tribeJournalRqidLinks: [ ]
+    clanJournalRqidLinks: [ ]
     birthyear:
     age:
     gender: ""
@@ -58,7 +58,7 @@ system:
       swim:
         value: 2
         carryingFactor: 0.5
-      fly: {}
+      fly: { }
     heroPoints: 0
     isCreature: true
     health: healthy
@@ -115,22 +115,86 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
-  flags: {}
+  detectionModes: [ ]
+  flags: { }
   randomImg: false
 items:
-- "|{{	hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml	i.hit-location.right-hind-leg	[ naturalAp: 3	]}}|"
-- "|{{	hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml	i.hit-location.left-hind-leg	[ naturalAp: 3	]}}|"
-- "|{{	hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml	i.hit-location.hindquarter	[ naturalAp: 3	]}}|"
-- "|{{	hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml	i.hit-location.forequarter	[ naturalAp: 3	]}}|"
-- "|{{	hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml	i.hit-location.right-foreleg	[ naturalAp: 3	]}}|"
-- "|{{	hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml	i.hit-location.left-foreleg	[ naturalAp: 3	]}}|"
-- "|{{	hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml	i.hit-location.head	[ naturalAp: 3	]}}|"
-- "|{{	skills-weapons/natural.yaml	i.skill.head-butt	[ gainedChance:	25	]}}|"
-- "|{{	skills-weapons/natural.yaml	i.skill.trample	[ gainedChance:	25	]}}|"
-- "|{{	equipment-weapons/unarmed-attacks.yaml	i.weapon.head-butt	[ equippedStatus: 	equipped, damage: 2d10	]}}|"
-- "|{{	equipment-weapons/unarmed-attacks.yaml	i.weapon.trample	[ equippedStatus: 	equipped, damage: 6d6	]}}|"
-effects: []
+  # hit location items
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.right-hind-leg
+      overrides:
+        - path: system.naturalAp
+          value: 3
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.left-hind-leg
+      overrides:
+        - path: system.naturalAp
+          value: 3
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.hindquarter
+      overrides:
+        - path: system.naturalAp
+          value: 3
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.forequarter
+      overrides:
+        - path: system.naturalAp
+          value: 3
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.right-foreleg
+      overrides:
+        - path: system.naturalAp
+          value: 3
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.left-foreleg
+      overrides:
+        - path: system.naturalAp
+          value: 3
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.head
+      overrides:
+        - path: system.naturalAp
+          value: 3
+
+  # skill items
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.head-butt
+      overrides:
+        - path: system.gainedChance
+          value: 25
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.trample
+      overrides:
+        - path: system.gainedChance
+          value: 25
+
+  # weapon items
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.head-butt
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+        - path: system.usage.oneHand.damage
+          value: 2d10
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.trample
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+        - path: system.usage.oneHand.damage
+          value: 6d6
+effects: [ ]
 folder:
 sort: 0
 ownership:

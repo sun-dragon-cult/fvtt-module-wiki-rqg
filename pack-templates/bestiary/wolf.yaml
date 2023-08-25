@@ -1,4 +1,3 @@
----
 name: ${{rqgCompendiumContent.bestiary.wolf.name}}$
 type: character
 img: icons/svg/mystery-man.svg
@@ -30,9 +29,9 @@ system:
     species: ${{rqgCompendiumContent.bestiary.wolf.species}}$
     occupation: ""
     homeland: ""
-    cultureJournalRqidLinks: []
-    tribeJournalRqidLinks: []
-    clanJournalRqidLinks: []
+    cultureJournalRqidLinks: [ ]
+    tribeJournalRqidLinks: [ ]
+    clanJournalRqidLinks: [ ]
     birthyear:
     age:
     gender: ""
@@ -59,7 +58,7 @@ system:
       swim:
         value: 2
         carryingFactor: 0.5
-      fly: {}
+      fly: { }
     heroPoints: 0
     isCreature: true
     health: healthy
@@ -116,23 +115,92 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
-  flags: {}
+  detectionModes: [ ]
+  flags: { }
   randomImg: false
 items:
-- "|{{	hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml	i.hit-location.right-hind-leg	[ naturalAp: 2		]}}|"
-- "|{{	hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml	i.hit-location.left-hind-leg	[ naturalAp: 2		]}}|"
-- "|{{	hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml	i.hit-location.hindquarter	[ naturalAp: 2		]}}|"
-- "|{{	hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml	i.hit-location.forequarter	[ naturalAp: 2		]}}|"
-- "|{{	hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml	i.hit-location.right-foreleg	[ naturalAp: 2		]}}|"
-- "|{{	hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml	i.hit-location.left-foreleg	[ naturalAp: 2		]}}|"
-- "|{{	hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml	i.hit-location.head	[ naturalAp: 2		]}}|"
-- "|{{	skills/agility-skills.yaml	i.skill.dodge	[ gainedChance:	-4	]}}|"
-- "|{{	skills/perception-skills.yaml	i.skill.search	[ gainedChance:	35	]}}|"
-- "|{{	skills/perception-skills.yaml	i.skill.track	[ gainedChance:	75	]}}|"
-- "|{{	skills-weapons/natural.yaml	i.skill.bite	[ gainedChance:	5	]}}|"
-- "|{{	equipment-weapons/unarmed-attacks.yaml	i.weapon.bite	[ equippedStatus: 	equipped	, damage: 1d8 ]}}|"
-effects: []
+  # hit location items
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.right-hind-leg
+      overrides:
+        - path: system.naturalAp
+          value: 2
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.left-hind-leg
+      overrides:
+        - path: system.naturalAp
+          value: 2
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.hindquarter
+      overrides:
+        - path: system.naturalAp
+          value: 2
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.forequarter
+      overrides:
+        - path: system.naturalAp
+          value: 2
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.right-foreleg
+      overrides:
+        - path: system.naturalAp
+          value: 2
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.left-foreleg
+      overrides:
+        - path: system.naturalAp
+          value: 2
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.head
+      overrides:
+        - path: system.naturalAp
+          value: 2
+
+  # skill items
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.dodge
+      overrides:
+        - path: system.gainedChance
+          value: -4
+
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.search
+      overrides:
+        - path: system.gainedChance
+          value: 35
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.track
+      overrides:
+        - path: system.gainedChance
+          value: 75
+
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.bite
+      overrides:
+        - path: system.gainedChance
+          value: 5
+
+  # weapon items
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.bite
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+        - path: system.usage.oneHand.damage
+          value: 1d8
+effects: [ ]
 folder:
 sort: 0
 ownership:

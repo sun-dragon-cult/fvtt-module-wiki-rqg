@@ -15,8 +15,6 @@ system:
     rqid: je..air-element
     name: ${{rqgCompendiumContent.rune.air}}$
 effects: []
-_id: 'ni8pYKH0xOB1zm6z'
-_key: '!Item!ni8pYKH0xOB1zm6z'
 flags:
   rqg:
     documentRqidFlags:

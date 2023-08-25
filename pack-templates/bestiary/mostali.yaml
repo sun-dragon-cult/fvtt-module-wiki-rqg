@@ -1,4 +1,3 @@
----
 name: ${{rqgCompendiumContent.bestiary.mostali.name}}$
 type: character
 img: icons/svg/mystery-man.svg
@@ -30,9 +29,9 @@ system:
     species: ${{rqgCompendiumContent.bestiary.mostali.species}}$
     occupation: ""
     homeland: sartar
-    cultureJournalRqidLinks: []
-    tribeJournalRqidLinks: []
-    clanJournalRqidLinks: []
+    cultureJournalRqidLinks: [ ]
+    tribeJournalRqidLinks: [ ]
+    clanJournalRqidLinks: [ ]
     birthyear:
     age:
     gender: ""
@@ -59,7 +58,7 @@ system:
       swim:
         value: 2
         carryingFactor: 0.5
-      fly: {}
+      fly: { }
     heroPoints: 0
     isCreature: true
     health: healthy
@@ -116,41 +115,198 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
-  flags: {}
+  detectionModes: [ ]
+  flags: { }
   randomImg: false
 items:
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.right-leg	[		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.left-leg	[		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.abdomen	[		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.chest	[		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.right-arm	[		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.left-arm	[		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.head	[		]}}|"
-- "|{{	runes/element.yaml	i.rune.earth-element	[ chance:	80	]}}|"
-- "|{{	runes/power.yaml	i.rune.stasis-power	[ chance:	80	]}}|"
-- "|{{	skills/agility-skills.yaml	i.skill.dodge	[ gainedChance:	1	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.mineral-lore	[ gainedChance:	30	]}}|"
-- "|{{	skills/magic-skills.yaml	i.skill.spirit-combat	[ gainedChance:	55	]}}|"
-- "|{{	skills/manipulation-skills.yaml	i.skill.craft	[ gainedChance:	55, specialization: ${{rqgCompendiumContent.craftSpecialization.iron}}$	]}}|"
-- "|{{	skills/perception-skills.yaml	i.skill.earthsense-scan	[ gainedChance:	25	]}}|"
-- "|{{	skills/perception-skills.yaml	i.skill.earthsense-search	[ gainedChance:	25	]}}|"
-- "|{{	skills/specialized-language-skills.yaml	i.skill.read-write-mostali	[ gainedChance:	50	]}}|"
-- "|{{	skills/specialized-language-skills.yaml	i.skill.speak-language-mostali	[ gainedChance:	50	]}}|"
-- "|{{	skills-weapons/1h-axe.yaml	i.skill.1h-axes-battle-axe	[ gainedChance:	50	]}}|"
-- "|{{	skills-weapons/1h-hammer.yaml	i.skill.1h-hammers-war-hammer	[ gainedChance:	70	]}}|"
-- "|{{	skills-weapons/missile.yaml	i.skill.crossbows-repeating-crossbow	[ gainedChance:	50	]}}|"
-- "|{{	skills-weapons/shields.yaml	i.skill.shields-medium	[ gainedChance:	65	]}}|"
-- "|{{	equipment-armor/armor-iron-dwarf.yaml	i.armor.unenchanted-heavy-dwarf-chainmail-iron	[ equippedStatus: 	equipped	]}}|"
-- "|{{	equipment-armor/armor-iron-dwarf.yaml	i.armor.unenchanted-dwarf-helmet-iron	[ equippedStatus: 	equipped	]}}|"
-- "|{{	equipment-weapons/axes.yaml	i.weapon.battle-axe-iron	[ equippedStatus: 	equipped	]}}|"
-- "|{{	equipment-weapons/bows-crossbows.yaml	i.weapon.repeating-crossbow	[ equippedStatus: 	equipped	]}}|"
-- "|{{	equipment-weapons/hammers-maces-clubs.yaml	i.weapon.war-hammer-iron	[ equippedStatus: 	equipped	]}}|"
-- "|{{	equipment-weapons/shield.yaml	i.weapon.medium-wooden-shield	[ equippedStatus: 	equipped	]}}|"
-- "|{{	passions-base/passions-base.yaml	i.passion.devotion-base	[ 	name: ${{uiContent.RQG.Item.Passion.PassionEnum.Devotion}}$ (${{rqgCompendiumContent.passionSubject.casteDuties}}$), subject: ${{rqgCompendiumContent.passionSubject.casteDuties}}$	]}}|"
-- "|{{	passions-base/passions-base.yaml	i.passion.hate-base	[ 	name: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.aldryami}}$), subject: ${{rqgCompendiumContent.passionSubject.aldryami}}$	]}}|"
-- "|{{	passions-base/passions-base.yaml	i.passion.hate-base	[ 	name: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.uz}}$), subject: ${{rqgCompendiumContent.passionSubject.uz}}$	]}}|"
-effects: []
+  # hit location items
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.right-leg
+      overrides:
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.left-leg
+      overrides:
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.abdomen
+      overrides:
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.chest
+      overrides:
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.right-arm
+      overrides:
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.left-arm
+      overrides:
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.head
+      overrides:
+
+  # runes items
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.earth-element
+      overrides:
+        - path: system.chance
+          value: 80
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.stasis-power
+      overrides:
+        - path: system.chance
+          value: 80
+
+    # skill items
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.dodge
+      overrides:
+        - path: system.gainedChance
+          value: 1
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.mineral-lore
+      overrides:
+        - path: system.gainedChance
+          value: 30
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.spirit-combat
+      overrides:
+        - path: system.gainedChance
+          value: 55
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.craft
+      overrides:
+        - path: system.gainedChance
+          value: 55
+        - path: system.specialization
+          value: ${{rqgCompendiumContent.craftSpecialization.iron}}$
+        - path: flags.rqg.documentRqidFlags.id
+          value: i.skill.craft-iron # todo is this a good way to change rqids?
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.earthsense-scan
+      overrides:
+        - path: system.gainedChance
+          value: 25
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.earthsense-search
+      overrides:
+        - path: system.gainedChance
+          value: 25
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.read-write-mostali
+      overrides:
+        - path: system.gainedChance
+          value: 50
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.speak-language-mostali
+      overrides:
+        - path: system.gainedChance
+          value: 50
+  - _importExternalDocument:
+      file: skills-weapons/1h-axe.yaml
+      rqid: i.skill.1h-axes-battle-axe
+      overrides:
+        - path: system.gainedChance
+          value: 50
+  - _importExternalDocument:
+      file: skills-weapons/1h-hammer.yaml
+      rqid: i.skill.1h-hammers-war-hammer
+      overrides:
+        - path: system.gainedChance
+          value: 70
+  - _importExternalDocument:
+      file: skills-weapons/missile.yaml
+      rqid: i.skill.crossbows-repeating-crossbow
+      overrides:
+        - path: system.gainedChance
+          value: 50
+  - _importExternalDocument:
+      file: skills-weapons/shields.yaml
+      rqid: i.skill.shields-medium
+      overrides:
+        - path: system.gainedChance
+          value: 65
+
+  # Armor items
+  - _importExternalDocument:
+      file: equipment-armor/armor-iron-dwarf.yaml
+      rqid: i.armor.unenchanted-heavy-dwarf-chainmail-iron
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-armor/armor-iron-dwarf.yaml
+      rqid: i.armor.unenchanted-dwarf-helmet-iron
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+
+  # Weapon items
+  - _importExternalDocument:
+      file: equipment-weapons/axes.yaml
+      rqid: i.weapon.battle-axe-iron
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/bows-crossbows.yaml
+      rqid: i.weapon.repeating-crossbow
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/hammers-maces-clubs.yaml
+      rqid: i.weapon.war-hammer-iron
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/shield.yaml
+      rqid: i.weapon.medium-wooden-shield
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+
+  # Passion items
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.devotion-base
+      overrides:
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Devotion}}$ (${{rqgCompendiumContent.passionSubject.casteDuties}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.casteDuties}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.hate-base
+      overrides:
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.aldryami}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.aldryami}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.hate-base
+      overrides:
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.uz}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.uz}}$
+effects: [ ]
 flags:
   rqg:
     documentRqidFlags:

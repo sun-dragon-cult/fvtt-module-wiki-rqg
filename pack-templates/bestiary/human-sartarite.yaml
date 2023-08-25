@@ -110,117 +110,441 @@ token:
   flags: {}
   randomImg: false
 items:
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.right-leg	[ 		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.left-leg	[ 		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.abdomen	[ 		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.chest	[ 		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.right-arm	[ 		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.left-arm	[ 		]}}|"
-- "|{{	hit-locations-humanoids/hit-locations-humanoids.yaml	i.hit-location.head	[ 		]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.air-element	[ chance:	10	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.darkness-element	[ chance:	0	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.earth-element	[ chance:	0	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.fire-sky-element	[ chance:	0	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.moon-element	[ chance:	0	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.water-element	[ chance:	0	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.beast-form	[ chance:	50	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.man-form	[ chance:	50	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.death-power	[ chance:	50	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.disorder-power	[ chance:	50	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.fertility-power	[ chance:	50	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.harmony-power	[ chance:	50	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.truth-power	[ chance:	50	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.illusion-power	[ chance:	50	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.movement-power	[ chance:	50	]}}|"
-- "|{{	pc-runes/pc-runes.yaml	i.rune.stasis-power	[ chance:	50	]}}|"
-- "|{{	skills/agility-skills.yaml	i.skill.boat	[ gainedChance:	0	]}}|"
-- "|{{	skills/agility-skills.yaml	i.skill.climb	[ gainedChance:	0	]}}|"
-- "|{{	skills/agility-skills.yaml	i.skill.dodge	[ gainedChance:	0	]}}|"
-- "|{{	skills/agility-skills.yaml	i.skill.drive-chariot	[ gainedChance:	0	]}}|"
-- "|{{	skills/agility-skills.yaml	i.skill.jump	[ gainedChance:	0	]}}|"
-- "|{{	skills/agility-skills.yaml	i.skill.ride	[ baseChance: 15	]}}|"
-- "|{{	skills/agility-skills.yaml	i.skill.swim	[ gainedChance:	0	]}}|"
-- "|{{	skills/communication-skills.yaml	i.skill.act	[ gainedChance:	0	]}}|"
-- "|{{	skills/communication-skills.yaml	i.skill.art	[ gainedChance:	0	]}}|"
-- "|{{	skills/communication-skills.yaml	i.skill.bargain	[ gainedChance:	0	]}}|"
-- "|{{	skills/communication-skills.yaml	i.skill.charm	[ gainedChance:	0	]}}|"
-- "|{{	skills/communication-skills.yaml	i.skill.dance	[ baseChance: 15	]}}|"
-- "|{{	skills/communication-skills.yaml	i.skill.disguise	[ gainedChance:	0	]}}|"
-- "|{{	skills/communication-skills.yaml	i.skill.fast-talk	[ gainedChance:	0	]}}|"
-- "|{{	skills/communication-skills.yaml	i.skill.intimidate	[ gainedChance:	0	]}}|"
-- "|{{	skills/communication-skills.yaml	i.skill.intrigue	[ gainedChance:	0	]}}|"
-- "|{{	skills/communication-skills.yaml	i.skill.orate	[ gainedChance:	0	]}}|"
-- "|{{	skills/communication-skills.yaml	i.skill.sing	[ baseChance: 20	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.alchemy	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.animal-lore	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.bureaucracy	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.battle	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.celestial-lore	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.cult-lore	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.customs	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.elder-race-lore	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.evaluate	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.farm	[ baseChance: 30	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.first-aid	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.game	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.herd	[ baseChance: 15	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.homeland-lore	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.library-use	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.lore	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.manage-household	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.mineral-lore	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.peaceful-cut	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.plant-lore	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.read-write	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.survival	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.shiphandling	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.treat-disease	[ gainedChance:	0	]}}|"
-- "|{{	skills/knowledge-skills.yaml	i.skill.treat-poison	[ gainedChance:	0	]}}|"
-- "|{{	skills/magic-skills.yaml	i.skill.meditate	[ gainedChance:	0	]}}|"
-- "|{{	skills/magic-skills.yaml	i.skill.prepare-corpse	[ gainedChance:	0	]}}|"
-- "|{{	skills/magic-skills.yaml	i.skill.sense-assassin	[ gainedChance:	0	]}}|"
-- "|{{	skills/magic-skills.yaml	i.skill.sense-chaos	[ gainedChance:	0	]}}|"
-- "|{{	skills/magic-skills.yaml	i.skill.spirit-combat	[ gainedChance:	0	]}}|"
-- "|{{	skills/magic-skills.yaml	i.skill.spirit-dance	[ gainedChance:	0	]}}|"
-- "|{{	skills/magic-skills.yaml	i.skill.spirit-lore	[ gainedChance:	0	]}}|"
-- "|{{	skills/magic-skills.yaml	i.skill.spirit-travel	[ gainedChance:	0	]}}|"
-- "|{{	skills/magic-skills.yaml	i.skill.understand-herd-beast	[ gainedChance:	0	]}}|"
-- "|{{	skills/magic-skills.yaml	i.skill.worship	[ gainedChance:	0	]}}|"
-- "|{{	skills/manipulation-skills.yaml	i.skill.conceal	[ gainedChance:	0	]}}|"
-- "|{{	skills/manipulation-skills.yaml	i.skill.craft	[ gainedChance:	0	]}}|"
-- "|{{	skills/manipulation-skills.yaml	i.skill.devise	[ gainedChance:	0	]}}|"
-- "|{{	skills/manipulation-skills.yaml	i.skill.play-instrument	[ gainedChance:	0	]}}|"
-- "|{{	skills/manipulation-skills.yaml	i.skill.sleight	[ gainedChance:	0	]}}|"
-- "|{{	skills/specialized-insight-skills.yaml	i.skill.insight-human	[ gainedChance:	0, baseChance: 20	]}}|"
-- "|{{	skills/perception-skills.yaml	i.skill.listen	[ gainedChance:	0	]}}|"
-- "|{{	skills/perception-skills.yaml	i.skill.scan	[ gainedChance:	0	]}}|"
-- "|{{	skills/perception-skills.yaml	i.skill.search	[ gainedChance:	0	]}}|"
-- "|{{	skills/perception-skills.yaml	i.skill.track	[ gainedChance:	0	]}}|"
-- "|{{	skills/specialized-customs-skills.yaml	i.skill.customs-heortling	[ baseChance: 25	]}}|"
-- "|{{	skills/specialized-homeland-skills.yaml	i.skill.homeland-lore-sartar	[ baseChance: 30	]}}|"
-- "|{{	skills/specialized-language-skills.yaml	i.skill.read-write-heortling	[ gainedChance:	0	]}}|"
-- "|{{	skills/specialized-language-skills.yaml	i.skill.speak-language-heortling	[ baseChance: 50	]}}|"
-- "|{{	skills/specialized-language-skills.yaml	i.skill.speak-language-tradetalk	[ baseChance: 10	]}}|"
-- "|{{	skills/stealth-skills.yaml	i.skill.hide	[ gainedChance:	0	]}}|"
-- "|{{	skills/stealth-skills.yaml	i.skill.move-quietly	[ gainedChance:	0	]}}|"
-- "|{{	skills-weapons/1h-axe.yaml	i.skill.1h-axes-battle-axe	[ baseChance: 25	]}}|"
-- "|{{	skills-weapons/1h-dagger.yaml	i.skill.1h-daggers-dagger	[ baseChance: 25	]}}|"
-- "|{{	skills-weapons/1h-spear.yaml	i.skill.1h-spears-shortspear	[ baseChance: 15	]}}|"
-- "|{{	skills-weapons/1h-sword.yaml	i.skill.1h-swords-broadsword	[ baseChance: 25	]}}|"
-- "|{{	skills-weapons/missile.yaml	i.skill.bows-composite-bow	[ baseChance: 15	]}}|"
-- "|{{	skills-weapons/missile.yaml	i.skill.javelins-javelin	[ baseChance: 20	]}}|"
-- "|{{	skills-weapons/missile.yaml	i.skill.slings-sling	[ baseChance: 15	]}}|"
-- "|{{	skills-weapons/natural.yaml	i.skill.fists-fist	[ gainedChance:	0	]}}|"
-- "|{{	skills-weapons/natural.yaml	i.skill.grapple	[ gainedChance:	0	]}}|"
-- "|{{	skills-weapons/natural.yaml	i.skill.kick	[ gainedChance:	0	]}}|"
-- "|{{	skills-weapons/shields.yaml	i.skill.shields-large	[ baseChance: 25	]}}|"
-- "|{{	skills-weapons/shields.yaml	i.skill.shields-medium	[ baseChance: 30	]}}|"
-- "|{{	equipment-weapons/unarmed-attacks.yaml	i.weapon.fist	[ equippedStatus: 	equipped	]}}|"
-- "|{{	equipment-weapons/unarmed-attacks.yaml	i.weapon.grapple	[ equippedStatus: 	equipped	]}}|"
-- "|{{	equipment-weapons/unarmed-attacks.yaml	i.weapon.kick	[ equippedStatus: 	equipped	]}}|"
-- "|{{	passions-base/passions-base.yaml	i.passion.loyalty-base	[ 	name: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.clan}}$), subject: ${{rqgCompendiumContent.passionSubject.clan}}$	]}}|"
-- "|{{	passions-base/passions-base.yaml	i.passion.loyalty-base	[ 	name: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.tribe}}$), subject: ${{rqgCompendiumContent.passionSubject.tribe}}$	]}}|"
-- "|{{	passions-base/passions-base.yaml	i.passion.love-base	[ 	name: ${{uiContent.RQG.Item.Passion.PassionEnum.Love}}$ (${{rqgCompendiumContent.passionSubject.family}}$), subject: ${{rqgCompendiumContent.passionSubject.family}}$	]}}|"
+  # hit location items
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.right-leg
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.left-leg
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.abdomen
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.chest
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.right-arm
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.left-arm
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.head
+
+  # rune items
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.air-element
+      overrides:
+        - path: system.chance
+          value: 10
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.darkness-element
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.earth-element
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.fire-sky-element
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.moon-element
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.water-element
+
+  - _importExternalDocument:
+      file: runes/form.yaml
+      rqid: i.rune.man-form
+  - _importExternalDocument:
+      file: runes/form.yaml
+      rqid: i.rune.beast-form
+
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.death-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.disorder-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.fertility-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.harmony-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.truth-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.illusion-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.movement-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.stasis-power
+
+  # skill items
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.boat
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.climb
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.dodge
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.drive-chariot
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.jump
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.ride
+      overrides:
+        - path: system.gainedChance
+          value: 15
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.swim
+
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.act
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.art
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.bargain
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.charm
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.dance
+      overrides:
+        - path: system.gainedChance
+          value: 15
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.disguise
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.fast-talk
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.intimidate
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.intrigue
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.orate
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.sing
+      overrides:
+        - path: system.gainedChance
+          value: 20
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.speak-language-heortling
+      overrides:
+        - path: system.baseChance
+          value: 50
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.speak-language-tradetalk
+      overrides:
+        - path: system.baseChance # TODO should it be gainedChance?
+          value: 10
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.alchemy # TODO this and some others should not be a default skill?
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.animal-lore
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.bureaucracy
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.battle
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.celestial-lore
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.cult-lore
+  - _importExternalDocument:
+      file: skills/specialized-customs-skills.yaml
+      rqid: i.skill.customs-heortling
+      overrides:
+        - path: system.gainedChance # TODO should it be baseChance?
+          value: 25
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.elder-race-lore
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.evaluate
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.farm
+      overrides:
+        - path: system.gainedChance # TODO should it be baseChance?
+          value: 30
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.first-aid
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.game
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.herd
+      overrides:
+        - path: system.gainedChance # TODO should it be baseChance?
+          value: 15
+  - _importExternalDocument:
+      file: skills/specialized-homeland-skills.yaml
+      rqid: i.skill.homeland-lore-sartar
+      overrides:
+        - path: system.gainedChance # TODO should it be baseChance?
+          value: 30
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.library-use
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.lore
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.manage-household
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.mineral-lore
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.peaceful-cut
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.plant-lore
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.read-write-heortling
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.survival
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.shiphandling
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.treat-disease
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.treat-poison
+
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.meditate
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.prepare-corpse
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.sense-assassin # TODO should not be part of a base human
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.sense-chaos # TODO should not be part of a base human
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.spirit-combat
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.spirit-dance
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.spirit-lore
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.spirit-travel
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.understand-herd-beast
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.worship
+
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.conceal
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.craft
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.devise
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.play-instrument
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.sleight
+
+  - _importExternalDocument:
+      file: skills/specialized-insight-skills.yaml
+      rqid: i.skill.insight-human
+      overrides:
+        - path: system.gainedChance # TODO should it be baseChance?
+          value: 20
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.listen
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.scan
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.search
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.track
+
+  - _importExternalDocument:
+      file: skills/stealth-skills.yaml
+      rqid: i.skill.hide
+  - _importExternalDocument:
+      file: skills/stealth-skills.yaml
+      rqid: i.skill.move-quietly
+
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.fists-fist
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.grapple
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.kick
+
+  - _importExternalDocument:
+      file: skills-weapons/1h-axe.yaml
+      rqid: i.skill.1h-axes-battle-axe
+      overrides:
+        - path: system.gainedChance # TODO should it be baseChance?
+          value: 25
+  - _importExternalDocument:
+      file: skills-weapons/1h-dagger.yaml
+      rqid: i.skill.1h-daggers-dagger
+      overrides:
+        - path: system.gainedChance # TODO should it be baseChance?
+          value: 25
+  - _importExternalDocument:
+      file: skills-weapons/1h-spear.yaml
+      rqid: i.skill.1h-spears-shortspear
+      overrides:
+        - path: system.gainedChance # TODO should it be baseChance?
+          value: 15
+  - _importExternalDocument:
+      file: skills-weapons/1h-sword.yaml
+      rqid: i.skill.1h-swords-broadsword
+      overrides:
+        - path: system.gainedChance # TODO should it be baseChance?
+          value: 25
+  - _importExternalDocument:
+      file: skills-weapons/missile.yaml
+      rqid: i.skill.bows-composite-bow
+      overrides:
+        - path: system.gainedChance # TODO should it be baseChance?
+          value: 15
+  - _importExternalDocument:
+      file: skills-weapons/missile.yaml
+      rqid: i.skill.javelins-javelin
+      overrides:
+        - path: system.gainedChance # TODO should it be baseChance?
+          value: 20
+  - _importExternalDocument:
+      file: skills-weapons/missile.yaml
+      rqid: i.skill.slings-sling
+      overrides:
+        - path: system.gainedChance # TODO should it be baseChance?
+          value: 15
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.fists-fist
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.grapple
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.kick
+  - _importExternalDocument:
+      file: skills-weapons/shields.yaml
+      rqid: i.skill.shields-large
+      overrides:
+        - path: system.gainedChance # TODO should it be baseChance?
+          value: 25
+  - _importExternalDocument:
+      file: skills-weapons/shields.yaml
+      rqid: i.skill.shields-medium
+      overrides:
+        - path: system.gainedChance # TODO should it be baseChance?
+          value: 30
+
+  # weapon items
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.fist
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.grapple
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.kick
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+
+  # passion items
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.loyalty-base
+      overrides:
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.clan}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.clan}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.loyalty-base
+      overrides:
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.tribe}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.tribe}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.love-base
+      overrides:
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Love}}$ (${{rqgCompendiumContent.passionSubject.family}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.family}}$
 effects: []
 flags:
   rqg:
