@@ -2,44 +2,46 @@ import chalk from "chalk";
 import { existsSync, promises } from "fs";
 import * as path from "path";
 import * as fs from "fs";
-import {
-  CompendiumPack,
-  getDictionary,
-  getLocalisedData,
-  PackError,
-  PackMetadata,
-} from "./compendium-pack";
+import { cwd } from "process";
+import { CompendiumPack, PackMetadata } from "./compendium-pack";
+import {doTranslation, tryOrThrow} from "./utils";
+import { PackError } from "./packError";
 
 export const config = {
-  i18nDir: "module/i18n", // TODO add path.resolve to all paths??? ***
-  translationsFileNames: ["uiContent", "rqgCompendiumContent"],
-  outDir: path.resolve(process.cwd(), "dist/{lang}/packs"),
-  packTemplateDir: path.resolve(process.cwd(), "./pack-templates"),
-  packageManifest: "./module/module.json",
+  i18nDir: path.resolve(cwd(), "module", "i18n"),
+  translationsFileNames: ["uiContent", "rqgCompendiumContent"], // filenames except .json Will be part of the translation key
+  outDir: path.resolve(cwd(), "dist", "{lang}"), // `{lang}` will be replaced by a language code
+  distDir: path.resolve(cwd(), "dist"),
+  packTemplateDir: path.resolve(cwd(), "pack-templates"),
+  packageManifest: path.resolve(cwd(), "module", "module.json"),
 } as const;
 
-const moduleManifest = JSON.parse(fs.readFileSync(path.resolve(config.packageManifest), "utf-8"));
+export const getOutDir = (language: string): string =>
+  path.join(config.distDir, language);
+
+export const getPackOutDir = (language: string): string =>
+  path.join(config.distDir, language, "packs");
+
+const moduleManifest = JSON.parse(fs.readFileSync(config.packageManifest, "utf-8"));
 export const packsMetadata = moduleManifest.packs as PackMetadata[];
 
 const targetLanguages = fs.readdirSync(config.i18nDir).filter((file) => {
   return fs.statSync(path.join(config.i18nDir, file)).isDirectory();
 });
 
-//check if the output directories exists, and create them if necessary
 for (const lang of targetLanguages) {
-  const langOutDir = config.outDir.replace("{lang}", lang);
+  const langOutDir = getPackOutDir(lang);
   if (!existsSync(langOutDir)) {
     await promises.mkdir(langOutDir, { recursive: true });
   }
-  const dictionary = getDictionary(lang);
-  const localisedModuleManifest = getLocalisedData(dictionary, lang, [moduleManifest])[0];
-  try {
-    // TODO breaks if outDir is changed!!!
-    fs.writeFileSync(`dist/${lang}/module.json`, JSON.stringify(localisedModuleManifest, null, 2));
-    // TODO use the replacer to supply a translator function ?
-  } catch (err) {
-    console.error(err); // TODO *****
-  }
+  const localisedModuleManifest = doTranslation(lang, [moduleManifest])[0];
+  const moduleFile = path.join(getOutDir(lang), "module.json");
+  tryOrThrow(
+    () => fs.writeFileSync(moduleFile, JSON.stringify(localisedModuleManifest, null, 2)),
+    (e: any) => {
+      throw new PackError(`Error when writing module.json:\n${e}`);
+    },
+  );
 }
 
 const templatePackDirPaths = fs
@@ -52,13 +54,12 @@ const templatePacks = templatePackDirPaths.map((dirPath) => CompendiumPack.loadY
 const translatedPacks: CompendiumPack[] = [];
 templatePacks.forEach((pack) => {
   targetLanguages.forEach((lang) => {
-    try {
-      translatedPacks.push(pack.translate(lang));
-    } catch (error) {
-      if (error instanceof Error) {
-        throw new PackError(`Error translating pack ${pack.name} to ${lang}: \n\n${error.message}`);
-      }
-    }
+    tryOrThrow(
+      () => translatedPacks.push(pack.translate(lang)),
+      (e: any) => {
+        throw new PackError(`Error translating pack ${pack.name} to ${lang}: \n\n${e}`);
+      },
+    );
   });
 });
 

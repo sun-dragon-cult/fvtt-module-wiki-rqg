@@ -5,8 +5,9 @@ import { existsSync, promises } from "fs";
 import * as path from "path";
 import * as yaml from "js-yaml";
 import * as crypto from "crypto";
-import { config, packsMetadata } from "./buildPacks";
-import { setProperty, tryCatch, tryOrThrow } from "./utils";
+import { config, getPackOutDir, packsMetadata } from "./buildPacks";
+import { doTranslation, isObject, setProperty, tryOrThrow } from "./utils";
+import { PackError } from "./packError";
 
 type ImportData = {
   _importExternalDocument: {
@@ -21,20 +22,13 @@ type ImportData = {
   };
 };
 
+type Document = any['items']; // TODO improve
+
 export interface PackMetadata {
   system: string;
   name: string;
   path: string;
   type: string;
-}
-
-export class PackError implements Error {
-  public name: string = "PackError";
-
-  constructor(public message: string) {
-    console.error(chalk.red(`Pack Error: ${chalk.bold(message)}`));
-    process.exit(1);
-  }
 }
 
 type CompendiumSource = any["data"]["_source"]; // TODO *** remove or redefine type ***
@@ -44,15 +38,12 @@ export class CompendiumPack {
   packDir: string;
   documentType: string;
   systemId: string;
-  data: any[];
+  data: Document[];
   language: string | undefined;
 
   constructor(packDir: string, parsedData: unknown[], isTemplate: boolean, language?: string) {
-    const packName = packDir;
-    // const packName = isTemplate ? packDir + "-" + language : packDir;
-
     const metadata = packsMetadata.find(
-      (pack) => path.basename(pack.path) === path.basename(packName),
+      (pack) => path.basename(pack.path) === path.basename(packDir),
     );
     if (!metadata && !isTemplate) {
       // Don't care about the template packs, only warn about missing translated pack specifications
@@ -92,22 +83,23 @@ export class CompendiumPack {
 
   private static parseYamlFileData(filePath: string) {
     const yamlString = fs.readFileSync(filePath, "utf-8");
-    const yamlStringWithIncludes = tryOrThrow(
-      () => includePackYaml(yamlString),
+    const documentsToBeEnriched = tryOrThrow<Document[]>(
+      () => yaml.loadAll(yamlString),
       (e) => {
-        throw new PackError(`Got error ${e} while including packYaml ${yamlString}`);
+        throw new PackError(
+          `Error in includePackYaml [${e}] when loading yamlString:\n${yamlString}`,
+        );
       },
     );
 
-    const packSources = tryOrThrow(
-      () => {
-        return yaml.loadAll(yamlStringWithIncludes);
-      },
+    return tryOrThrow(
+      () => resolveExternalImports(documentsToBeEnriched),
       (e) => {
-        throw new PackError(`Error [${e}] while loading pack includes:\n${yamlStringWithIncludes}`);
+        throw new PackError(
+          `Got error ${e} while resolving external imports ${documentsToBeEnriched}`,
+        );
       },
     );
-    return packSources.flat(Infinity);
   }
 
   private finalize(docSource: CompendiumSource, batch: ChainedBatch<ClassicLevel, string, string>) {
@@ -162,19 +154,23 @@ export class CompendiumPack {
     batch.put(docSource._key, docSource); //add it to the DB transaction
   }
 
-  private addId(object: any, dbLocation: string, parentId?: string): any {
+  /**
+   * Create a db id that is the same every time for the same document, by using a hash
+   * of compendium name + document.name + document.type + document.text
+   */
+  private addId(document: Document, dbLocation: string, parentId?: string): Document {
     const currentObjectId: string =
-      object._id ??
+      document._id ??
       crypto
         .createHash("md5")
-        .update(this.name + object.name + object.type + object.text) // Has to be unique - use data that should be unique when combined (like "cults | en - Orlanth - cult - undefined")
+        .update(this.name + document.name + document.type + document.text) // Has to be unique - use data that should be unique when combined (like "cults | en - Orlanth - cult - undefined")
         .digest("base64")
         .replace(/[+=/]/g, "")
         .substring(0, 16);
-    object._id = currentObjectId;
-    const parentObjectId = parentId ? `${parentId}.` : "";
-    object._key = dbLocation + parentObjectId + currentObjectId;
-    return object;
+    document._id = currentObjectId;
+    const parentObjectId = parentId ? `${parentId}.` : ""; // TODO is there a better way of constructing level ids?
+    document._key = dbLocation + parentObjectId + currentObjectId;
+    return document;
   }
 
   /**
@@ -182,17 +178,21 @@ export class CompendiumPack {
    */
   translate(lang: string): CompendiumPack {
     // Include the filename in path to match the behaviour in starter set
-    const dictionary = getDictionary(lang);
-    const localisedData = getLocalisedData(dictionary, lang, this.data);
+    const localisedData = doTranslation(lang, this.data);
 
     // clone this CompendiumPack
     return new CompendiumPack(this.packDir, localisedData.flat(Infinity), false, lang);
   }
 
+  /**
+   * Save the CompendiumPack to the db.
+   *
+   * Return the number of documents in the CompendiumPack.
+   */
   async save(): Promise<number> {
-    const langOutPath = config.outDir.replace("{lang}", this.language!);
+    const langPackOutPath = getPackOutDir(this.language!);
     //create DB and grab a transaction
-    const dbPath = path.join(`${langOutPath}`, this.packDir);
+    const dbPath = path.join(langPackOutPath, this.packDir);
     const db = new ClassicLevel(dbPath, { keyEncoding: "utf8", valueEncoding: "json" });
     const batch = db.batch();
 
@@ -255,162 +255,53 @@ export class CompendiumPack {
   }
 }
 
-/**
- * Translate a key given a dictionary.
- * @return {string} translated text
- */
-function lookup(dict: any, key: string): string {
-  const keyParts = key.split(".");
+function resolveExternalImports(documentsToBeEnriched: Document[]): Document[] {
+  documentsToBeEnriched.map((documentToEnrich) => {
+    // Look for import metadata in the items list only for now
+    documentToEnrich.items = documentToEnrich?.items?.map((embeddedItemObject: ImportData) => {
+      if (!embeddedItemObject._importExternalDocument) {
+        return embeddedItemObject; // TODO Should I even support embedding items directly, or is this an error?
+      }
 
-  const value = keyParts.reduce(function (acc, keyPart) {
-    return acc[keyPart];
-  }, dict);
-
-  return value;
-}
-
-export function isObject(value: unknown): boolean {
-  return typeof value === "object" && value !== null;
-}
-
-/**
- *
- * @param yamlString does not handle multiple document (separated by ---)
- */
-function includePackYaml(yamlString: string): string {
-  const documentsToEnrich = tryOrThrow<any[]>(
-    () => yaml.loadAll(yamlString),
-    (e) => {
-      throw new PackError(
-        `Error in includePackYaml [${e}] when loading yamlString:\n${yamlString}`,
+      const packTemplate = path.resolve(
+        config.packTemplateDir,
+        embeddedItemObject._importExternalDocument.file,
       );
-    },
-  );
-
-  tryOrThrow<void>(
-    () => {
-      documentsToEnrich.map((documentToEnrich) => {
-        documentToEnrich.items = documentToEnrich?.items?.map((embeddedItemObject: ImportData) => {
-          if (!embeddedItemObject._importExternalDocument) {
-            return embeddedItemObject; // TODO Should I even support embedding items directly, or is this an error?
-          }
-
-          const packTemplate = path.resolve(
-            config.packTemplateDir,
+      const packTemplateYamlString = tryOrThrow(
+        () => fs.readFileSync(packTemplate, "utf-8"),
+        (e) => {
+          throw new PackError(`Error ${e} when reading packTemplate file ${packTemplate}`);
+        },
+      );
+      const packEntries = yaml.loadAll(packTemplateYamlString) as Document[];
+      const documentToImport = packEntries.find(
+        (entry) =>
+          entry?.flags?.rqg?.documentRqidFlags?.id ===
+          embeddedItemObject._importExternalDocument.rqid,
+      );
+      if (!documentToImport) {
+        throw new PackError(
+          `Did not find an entry in [${chalk.bold(
             embeddedItemObject._importExternalDocument.file,
-          );
-          const packTemplateYamlString = tryOrThrow(
-            () => fs.readFileSync(packTemplate, "utf-8"),
-            (e) => {
-              throw new PackError(`Error ${e} when reading packTemplate file ${packTemplate}`);
-            },
-          );
-          const packEntries = yaml.loadAll(packTemplateYamlString) as any[];
-          const documentToImport = packEntries.find(
-            (entry) =>
-              entry?.flags?.rqg?.documentRqidFlags?.id ===
-              embeddedItemObject._importExternalDocument.rqid,
-          );
-          if (!documentToImport) {
-            console.error(
-              `Did not find an entry in [${chalk.bold(
-                embeddedItemObject._importExternalDocument.file,
-              )}] 
-        with an RQID of [${chalk.bold(embeddedItemObject._importExternalDocument.rqid)}]`,
-            );
-            return "";
-          }
+          )}] with an RQID of [${chalk.bold(embeddedItemObject._importExternalDocument.rqid)}]`,
+        );
+      }
 
-          for (const override of embeddedItemObject._importExternalDocument?.overrides ?? []) {
-            // TODO check if matchingEntry has something in overrideKey already, if not it's probably a mistake
-            setProperty(documentToImport, override.path, override.value);
-          }
-          return documentToImport;
-        });
-      });
-    },
-    (e: any) => {
-      throw new PackError(`TODO Error [${e}] when enriching ${documentsToEnrich}`);
-    },
-  );
+      for (const override of embeddedItemObject._importExternalDocument?.overrides ?? []) {
+        // TODO check if matchingEntry has something in overrideKey already, if not it's probably a mistake
+        setProperty(documentToImport, override.path, override.value);
+      }
+      return documentToImport;
+    });
+  });
 
-  return yaml.dump(documentsToEnrich);
+  return documentsToBeEnriched.flat(Infinity);
 }
-
-// function includePackYamlBAK(yamlString: string): string {
-//   const tokenRegex =
-//     /"\|{{\s*(?<packName>[\w+./-]+)\s+(?<rqid>[\w.-]+)\s+\[\s+(?<override>[^[]*)?]\s*}}\|"/gm;
-//
-//   return yamlString.replace(tokenRegex, replaceLinkedDocs);
-// }
-
-// function replaceLinkedDocs(
-//   match: string,
-//   packName: string | undefined,
-//   rqid: string | undefined,
-//   override: string | undefined,
-// ): string {
-//   if (!packName || !rqid) {
-//     console.error(
-//       `Missing packName [${packName}] or Rqid [${rqid}] when matching token [${match}]`,
-//     );
-//     return "";
-//   }
-//   const overrides = override?.split(",").map((item) => item.trim()) ?? [];
-//   const packTemplate = path.resolve(packTemplateDir + "/" + packName);
-//
-//   const packTemplateYamlString = packTemplate ? fs.readFileSync(packTemplate, "utf-8") : undefined;
-//   const packEntries = yaml.loadAll(packTemplateYamlString ?? "") as any[];
-//
-//   // const packEntries = packTemplateYamlString?.split("---") ?? [];
-//   // const rqidRegex = new RegExp(`^\\s*id:\\s+${escapeRegex(rqid)}$`, "m");
-//
-//   const matchingEntry = packEntries.find(
-//     (entry) => entry?.flags?.rqg?.documentRqidFlags?.id === rqid,
-//   );
-//   if (!matchingEntry) {
-//     console.error(
-//       `Did not find an entry in the pack [${chalk.bold(packName)}] with an RQID of [${chalk.bold(
-//         rqid,
-//       )}] to match the token [${chalk.bold(match)}]`,
-//     );
-//     return "";
-//   }
-//
-//   // for (const entry of packEntries) {
-//   //   if (entry?.flags?.rqg?.documentRqidFlags?.id === rqid) {
-//   // Add two spaces to every line to indent it properly
-//   // let cleanEntry = entry.replace(/\r/, "").replace(/\n/gm, "\n  ");
-//
-//   for (const override of overrides) {
-//     const [overrideKey, overrideValue] = override.split(":").map((item) => item.trim());
-//     // const overrideRegex = new RegExp(`(${escapeRegex(overrideKey)}:\\s*)(.+)`, "m");
-//     // cleanEntry = cleanEntry.replace(overrideRegex, (match, xxx: string) => xxx + overrideValue); // TODO rename xxx
-//
-//     // TODO check if matchingEntry has something in overrideKey already, if not it's probably a mistake
-//
-//     setProperty(matchingEntry, overrideKey, overrideValue);
-//   }
-//   return yaml.dump(matchingEntry);
-//   // }
-//   // }
-//
-//   // // Didn't find an entry
-//   // console.error(
-//   //   `Did not find an entry in the pack [${chalk.bold(packName)}] with an RQID of [${chalk.bold(
-//   //     rqid,
-//   //   )}] to match the token [${chalk.bold(match)}]`,
-//   // );
-//   // return "";
-// }
 
 /**
  * Flushes the log of the given database to create compressed binary tables.
- * @param {ClassicLevel} db The database to compress.
- * @returns {Promise<void>}
- * @private
  */
-async function _compactClassicLevel(db: ClassicLevel<string, string>) {
+async function _compactClassicLevel(db: ClassicLevel<string, string>): Promise<void> {
   const forwardIterator = db.keys({ limit: 1, fillCache: false });
   const firstKey = await forwardIterator.next();
   await forwardIterator.close();
@@ -420,40 +311,6 @@ async function _compactClassicLevel(db: ClassicLevel<string, string>) {
   await backwardIterator.close();
 
   if (firstKey && lastKey) {
-    return db.compactRange(firstKey, lastKey, { keyEncoding: "utf8" });
+    await db.compactRange(firstKey, lastKey, { keyEncoding: "utf8" });
   }
-}
-
-export function getDictionary(lang: string): any {
-  return config.translationsFileNames.reduce((dict: any, filename: string) => {
-    dict[filename] = JSON.parse(
-      fs.readFileSync(`${config.i18nDir}/${lang}/${filename}.json`, "utf8"),
-    );
-    return dict;
-  }, {});
-}
-
-export function getLocalisedData(dictionary: any, lang: string, untranslated: any[]) {
-  return untranslated.map((d) => {
-    const translated = JSON.stringify(d).replace(
-      /\$\{\{ ?([\w\-.]+) ?}}\$/g,
-      function (match: string, key: string) {
-        const translation = lookup(dictionary, key);
-
-        if (translation == null) {
-          console.error(chalk.red(match, "translation key missing in language", lang));
-        }
-        return translation ?? match;
-      },
-    );
-    try {
-      return JSON.parse(translated);
-    } catch (error) {
-      if (error instanceof Error) {
-        console.error(
-          chalk.red(`Unable to parse translated JSON ${translated}\n\n${error.message}`),
-        );
-      }
-    }
-  });
 }
