@@ -22,7 +22,7 @@ type ImportData = {
   };
 };
 
-type Document = any['items']; // TODO improve
+type Document = any["items"]; // TODO improve
 
 export interface PackMetadata {
   system: string;
@@ -168,7 +168,7 @@ export class CompendiumPack {
         .replace(/[+=/]/g, "")
         .substring(0, 16);
     document._id = currentObjectId;
-    const parentObjectId = parentId ? `${parentId}.` : ""; // TODO is there a better way of constructing level ids?
+    const parentObjectId = parentId ? `${parentId}.` : ""; // TODO check if the sublevels package would be good to use
     document._key = dbLocation + parentObjectId + currentObjectId;
     return document;
   }
@@ -227,12 +227,11 @@ export class CompendiumPack {
     const checks = Object.entries({
       name: (data: { name?: unknown }) => typeof data.name === "string",
       flags: (data: unknown) => typeof data === "object" && data !== null && "flags" in data,
-      permission: (data: { permission?: { default: unknown } }) =>
-        !data.permission ||
-        (typeof data.permission === "object" &&
-          data.permission != null &&
-          Object.keys(data.permission).length === 1 &&
-          Number.isInteger(data.permission.default)),
+      ownership: (data: { ownership?: { default?: unknown } }) =>
+        !data.ownership ||
+        (typeof data.ownership === "object" &&
+          Object.keys(data.ownership).length === 1 &&
+          Number.isInteger(data.ownership.default)),
     });
 
     const failedChecks = checks

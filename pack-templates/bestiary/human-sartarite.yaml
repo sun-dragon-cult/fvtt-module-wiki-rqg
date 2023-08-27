@@ -546,6 +546,8 @@ items:
         - path: system.subject
           value: ${{rqgCompendiumContent.passionSubject.family}}$
 effects: []
+ownership:
+  default: 0
 flags:
   rqg:
     documentRqidFlags:

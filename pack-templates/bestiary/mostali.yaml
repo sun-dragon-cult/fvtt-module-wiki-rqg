@@ -307,6 +307,8 @@ items:
         - path: system.subject
           value: ${{rqgCompendiumContent.passionSubject.uz}}$
 effects: [ ]
+ownership:
+  default: 0
 flags:
   rqg:
     documentRqidFlags:
