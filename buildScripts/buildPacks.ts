@@ -10,7 +10,6 @@ import { PackError } from "./packError";
 export const config = {
   i18nDir: path.resolve(cwd(), "module", "i18n"),
   translationsFileNames: ["uiContent", "rqgCompendiumContent"], // filenames except .json Will be part of the translation key
-  outDir: path.resolve(cwd(), "dist", "{lang}"), // `{lang}` will be replaced by a language code
   distDir: path.resolve(cwd(), "dist"),
   packTemplateDir: path.resolve(cwd(), "pack-templates"),
   packageManifest: path.resolve(cwd(), "module", "module.json"),

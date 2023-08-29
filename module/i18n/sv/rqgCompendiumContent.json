@@ -45,7 +45,27 @@
       "hitLocationHumanoids": "🇸🇪Humanoids",
       "hitLocationHumanoidsWinged": "🇸🇪Humanoids, Winged",
       "hitLocationMammothsMastodons": "🇸🇪Mammoths/Mastodons",
-      "hitLocationScorpionMen": "🇸🇪Scorpion Men"
+      "hitLocationScorpionMen": "🇸🇪Scorpion Men",
+      "hitLocationSerpents": "🇸🇪Serpents",
+      "hitLocationSerpentsWinged": "🇸🇪Serpents, Winged",
+      "hitLocationSpidersGiant": "🇸🇪Spiders, Giant",
+      "hitLocationWalktapi": "🇸🇪Walktapi",
+      "hitLocationWyverns": "🇸🇪Wyverns",
+      "passions": "🇸🇪Passions",
+      "passionsBase": "🇸🇪Passions, Base",
+      "runesPc": "🇸🇪Runes (Player Character)",
+      "regionDescriptions": "🇸🇪Region Descriptions",
+      "runeDescriptions": "🇸🇪Rune Descriptions",
+      "runes": "🇸🇪Runes (All)",
+      "runeMagicSpells": "🇸🇪Rune Magic Spells",
+      "runeMagicDescriptions": "🇸🇪Rune Magic Descriptions",
+      "skills": "🇸🇪Skills",
+      "skillDescriptions": "🇸🇪Skill Descriptions",
+      "skillsWeapons": "🇸🇪Skills - Weapons",
+      "speciesDescriptions": "🇸🇪Species Descriptions",
+      "spiritMagicSpells": "🇸🇪Spirit Magic Spells",
+      "spiritMagicDescriptions": "🇸🇪Spirit Magic Descriptions",
+      "tribeDescriptions": "🇸🇪Tribe Descriptions"
     }
   },
   "cult": {

@@ -48,7 +48,7 @@ export class CompendiumPack {
     if (!metadata && !isTemplate) {
       // Don't care about the template packs, only warn about missing translated pack specifications
       throw new PackError(
-        `Compendium at ${packDir} has no metadata in the "packs" section in the system.json manifest file.`,
+        `Compendium pack-template folder at ${packDir} has no metadata in the "packs" section in the system.json manifest file.`,
       );
     }
     this.language = language;
