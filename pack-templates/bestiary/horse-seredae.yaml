@@ -1,0 +1,279 @@
+name: ${{rqgCompendiumContent.bestiary.horseSeredae.name}}$
+type: character
+img: icons/svg/mystery-man.svg
+system:
+  characteristics:
+    strength:
+      value: 26
+      formula: 4d6+12
+    constitution:
+      value: 13
+      formula: 2d6+6
+    size:
+      value: 26
+      formula: 4d6+12
+    dexterity:
+      value: 11
+      formula: 3d6
+    intelligence:
+      value:
+      formula:
+    power:
+      value: 11
+      formula: 3d6
+      hasExperience: false
+    charisma:
+      value:
+      formula:
+  background:
+    species: ${{rqgCompendiumContent.bestiary.horseSeredae.species}}$
+    occupation: ""
+    homeland: ""
+    cultureJournalRqidLinks: []
+    tribeJournalRqidLinks: []
+    clanJournalRqidLinks: []
+    birthyear:
+    age:
+    gender: ""
+    town: ""
+    tribe: ""
+    clan: ""
+    reputation:
+    standardOfLiving: ""
+    baseIncome:
+    ransom:
+    ransomDetails: ""
+    biography: ""
+  allies: ${{rqgCompendiumContent.bestiary.horseSeredae.notes}}$
+  attributes:
+    magicPoints:
+      value: 11
+    hitPoints:
+      value: 17
+    move:
+      currentLocomotion: walk
+      walk:
+        value: 12
+        carryingFactor: 2
+      swim:
+        value: 2
+        carryingFactor: 0.5
+      fly: {}
+    heroPoints: 0
+    isCreature: true
+    health: healthy
+prototypeToken:
+  name: ${{rqgCompendiumContent.bestiary.horseSeredae.name}}$
+  displayName: 0
+  actorLink: false
+  texture:
+    src: icons/svg/mystery-man.svg
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint:
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hitPoints.value
+  bar2:
+    attribute: attributes.magicPoints.value
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color:
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type:
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range:
+    angle: 360
+    visionMode: basic
+    color:
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  flags: {}
+  randomImg: false
+items:
+  # hit location items
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.right-hind-leg
+      overrides:
+        - path: system.naturalAp
+          value: 1
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.left-hind-leg
+      overrides:
+        - path: system.naturalAp
+          value: 1
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.hindquarter
+      overrides:
+        - path: system.naturalAp
+          value: 1
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.forequarter
+      overrides:
+        - path: system.naturalAp
+          value: 1
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.right-foreleg
+      overrides:
+        - path: system.naturalAp
+          value: 1
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.left-foreleg
+      overrides:
+        - path: system.naturalAp
+          value: 1
+  - _importExternalDocument:
+      file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
+      rqid: i.hit-location.head
+      overrides:
+        - path: system.naturalAp
+          value: 1
+
+  # skill items
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.climb
+      overrides:
+        - path: system.gainedChance
+          value: -10 # todo is this correct?
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.dodge
+      overrides:
+        - path: system.gainedChance
+          value: 3
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.jump
+      overrides:
+        - path: system.gainedChance
+          value: 42
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.swim
+      overrides:
+        - path: system.gainedChance
+          value: 35
+
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.listen
+      overrides:
+        - path: system.gainedChance
+          value: 15
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.scent-intruder
+      overrides:
+        - path: system.gainedChance
+          value: 5
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.scan
+      overrides:
+        - path: system.gainedChance
+          value: 15
+
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.bite
+      overrides:
+        - path: system.gainedChance
+          value: 0
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.kick
+      overrides:
+        - path: system.gainedChance
+          value: 10
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.rear-and-plunge
+      overrides:
+        - path: system.gainedChance
+          value: 0
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.trample
+      overrides:
+        - path: system.gainedChance
+          value: 0
+
+  # weapon items
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.kick
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+        - path: system.usage.oneHand.damage
+          value: 1d6
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.trample
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+        - path: system.usage.oneHand.damage
+          value: 4d6
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.bite
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+        - path: system.usage.oneHand.damage
+          value: 1d8
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.rear-and-plunge
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+        - path: system.usage.oneHand.damage
+          value: 2d6
+effects: []
+folder:
+sort: 0
+ownership:
+  default: 0
+flags:
+  rqg:
+    documentRqidFlags:
+      id: a.character.horse-seredae
+      priority: ${{rqgCompendiumContent.prio}}$
+      lang: ${{rqgCompendiumContent.lang}}$

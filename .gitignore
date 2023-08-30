@@ -1,0 +1,13 @@
+.idea/
+**/.DS_Store
+.run/
+# Project exclude paths
+dist/
+node_modules/
+coverage/
+
+module/packs/*
+!module/packs/.gitignore
+
+package-lock.json
+yarn-error.log

@@ -1,0 +1,680 @@
+{
+  "id": "${{rqgCompendiumContent.module.id}}$",
+  "title": "${{rqgCompendiumContent.module.title}}$",
+  "description": "${{rqgCompendiumContent.module.description}}$",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 11,
+    "verified": "11"
+  },
+  "styles": [],
+  "authors": [
+    {
+      "name": "Wake",
+      "email": "ake+rqg@wivange.se"
+    }
+  ],
+  "esmodules": [],
+  "relationships": {
+    "systems": [
+      {
+        "id": "rqg",
+        "type": "system"
+      }
+    ]
+  },
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://avatars.githubusercontent.com/u/68651683?s=96&v=4"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "${{rqgCompendiumContent.module.folders.topFolder}}$",
+      "sorting": "m",
+      "color": "#176341",
+      "folders": [
+        {
+          "name": "${{rqgCompendiumContent.module.folders.cultsAndMagic}}$",
+          "sorting": "m",
+          "color": "#269261",
+          "packs": [
+            "spirit-magic-spells",
+            "rune-magic-spells",
+            "cults",
+            "spirit-magic-descriptions",
+            "rune-magic-descriptions",
+            "cult-descriptions"
+          ]
+        },
+        {
+          "name": "${{rqgCompendiumContent.module.folders.equipment}}$",
+          "sorting": "a",
+          "color": "#269261",
+          "packs": [
+            "equipment-armor",
+            "equipment-gear",
+            "equipment-weapons"
+          ]
+        },
+        {
+          "name": "${{rqgCompendiumContent.module.folders.bestiary}}$",
+          "sorting": "a",
+          "color": "#269261",
+          "packs": [
+            "bestiary",
+            "species-descriptions"
+          ]
+        },
+        {
+          "name": "${{rqgCompendiumContent.module.folders.skillsAndPassions}}$",
+          "sorting": "m",
+          "color": "#269261",
+          "packs": [
+            "skills",
+            "skills-weapons",
+            "passions",
+            "passions-base",
+            "skill-descriptions"
+          ]
+        },
+        {
+          "name": "${{rqgCompendiumContent.module.folders.runes}}$",
+          "sorting": "a",
+          "color": "#269261",
+          "packs": [
+            "pc-runes",
+            "runes",
+            "rune-descriptions"
+          ]
+        },
+        {
+          "name": "${{rqgCompendiumContent.module.folders.occupationsAndPlaces}}$",
+          "sorting": "a",
+          "color": "#269261",
+          "packs": [
+            "homelands",
+            "clan-descriptions",
+            "culture-descriptions",
+            "homeland-descriptions",
+            "region-descriptions",
+            "tribe-descriptions",
+            "name-bases",
+            "name-tables"
+          ]
+        },
+        {
+          "name": "${{rqgCompendiumContent.module.folders.hitLocations}}$",
+          "sorting": "a",
+          "color": "#269261",
+          "packs": [
+            "hit-locations-beetles",
+            "hit-locations-birds-flying",
+            "hit-locations-birds-running",
+            "hit-locations-centaurs",
+            "hit-locations-dragons-manticores",
+            "hit-locations-dragonsnails-one-headed",
+            "hit-locations-dragonsnails-two-headed",
+            "hit-locations-four-legged-animals",
+            "hit-locations-four-legged-animals-winged",
+            "hit-locations-gorp",
+            "hit-locations-harpies",
+            "hit-locations-humanoids",
+            "hit-locations-humanoids-winged",
+            "hit-locations-mammoths-mastodons",
+            "hit-locations-scorpion-men",
+            "hit-locations-serpents",
+            "hit-locations-serpents-winged",
+            "hit-locations-spiders-giant",
+            "hit-locations-walktapi",
+            "hit-locations-wyverns"
+          ]
+        },
+        {
+          "name": "${{rqgCompendiumContent.module.folders.macrosAndRolltables}}$",
+          "sorting": "a",
+          "color": "#269261",
+          "packs": [
+            "combat-fumble"
+          ]
+        }
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "clan-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.clanDescriptions}}$",
+      "system": "rqg",
+      "path": "packs/clan-descriptions",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "JournalEntry"
+    },
+    {
+      "name": "combat-fumble",
+      "label": "${{rqgCompendiumContent.module.packs.combatFumble}}$",
+      "system": "rqg",
+      "path": "packs/combat-fumble",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "RollTable"
+    },
+    {
+      "name": "cult-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.cultDescriptions}}$",
+      "system": "rqg",
+      "path": "packs/cult-descriptions",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "JournalEntry"
+    },
+    {
+      "name": "cults",
+      "label": "${{rqgCompendiumContent.module.packs.cults}}$",
+      "system": "rqg",
+      "path": "packs/cults",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "culture-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.cultureDescriptions}}$",
+      "system": "rqg",
+      "path": "packs/culture-descriptions",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "JournalEntry"
+    },
+    {
+      "name": "bestiary",
+      "label": "${{rqgCompendiumContent.module.packs.bestiary}}$",
+      "system": "rqg",
+      "path": "packs/bestiary",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Actor"
+    },
+    {
+      "name": "equipment-armor",
+      "label": "${{rqgCompendiumContent.module.packs.armor}}$",
+      "system": "rqg",
+      "path": "packs/equipment-armor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "equipment-gear",
+      "label": "${{rqgCompendiumContent.module.packs.gear}}$",
+      "system": "rqg",
+      "path": "packs/equipment-gear",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "equipment-weapons",
+      "label": "${{rqgCompendiumContent.module.packs.weapons}}$",
+      "system": "rqg",
+      "path": "packs/equipment-weapons",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "name-bases",
+      "label": "${{rqgCompendiumContent.module.packs.nameBases}}$",
+      "system": "rqg",
+      "path": "packs/name-bases",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "JournalEntry"
+    },
+    {
+      "name": "name-tables",
+      "label": "${{rqgCompendiumContent.module.packs.nameTables}}$",
+      "system": "rqg",
+      "path": "packs/name-tables",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "RollTable"
+    },
+    {
+      "name": "homeland-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.homelandDescriptions}}$",
+      "system": "rqg",
+      "path": "packs/homeland-descriptions",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "JournalEntry"
+    },
+    {
+      "name": "homelands",
+      "label": "${{rqgCompendiumContent.module.packs.homelands}}$",
+      "system": "rqg",
+      "path": "packs/homelands",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-beetles",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationBeetles}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-beetles",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-birds-flying",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationBirdsFlying}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-birds-flying",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-birds-running",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationBirdsRunning}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-birds-running",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-centaurs",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationCentaurs}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-centaurs",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-dragons-manticores",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationDragonsManticores}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-dragons-manticores",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-dragonsnails-one-headed",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationDragonsnailsOneHeaded}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-dragonsnails-one-headed",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-dragonsnails-two-headed",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationDragonsnailsTwoHeaded}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-dragonsnails-two-headed",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-four-legged-animals",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationFourLeggedAnimals}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-four-legged-animals",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-four-legged-animals-winged",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationFourLeggedAnimalsWinged}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-four-legged-animals-winged",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-gorp",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationGorp}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-gorp",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-harpies",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationHarpies}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-harpies",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-humanoids",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationHumanoids}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-humanoids",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-humanoids-winged",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationHumanoidsWinged}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-humanoids-winged",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-mammoths-mastodons",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationMammothsMastodons}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-mammoths-mastodons",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-scorpion-men",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationScorpionMen}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-scorpion-men",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-serpents",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationSerpents}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-serpents",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-serpents-winged",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationSerpentsWinged}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-serpents-winged",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-spiders-giant",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationSpidersGiant}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-spiders-giant",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-walktapi",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationWalktapi}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-walktapi",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "hit-locations-wyverns",
+      "label": "${{rqgCompendiumContent.module.packs.hitLocationWyverns}}$",
+      "system": "rqg",
+      "path": "packs/hit-locations-wyverns",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "passions",
+      "label": "${{rqgCompendiumContent.module.packs.passions}}$",
+      "system": "rqg",
+      "path": "packs/passions",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "passions-base",
+      "label": "${{rqgCompendiumContent.module.packs.passionsBase}}$",
+      "system": "rqg",
+      "path": "packs/passions-base",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "pc-runes",
+      "label": "${{rqgCompendiumContent.module.packs.runesPc}}$",
+      "system": "rqg",
+      "path": "packs/pc-runes",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "region-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.regionDescriptions}}$",
+      "system": "rqg",
+      "path": "packs/region-descriptions",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "JournalEntry"
+    },
+    {
+      "name": "rune-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.runeDescriptions}}$",
+      "system": "rqg",
+      "path": "packs/rune-descriptions",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "JournalEntry"
+    },
+    {
+      "name": "runes",
+      "label": "${{rqgCompendiumContent.module.packs.runes}}$",
+      "system": "rqg",
+      "path": "packs/runes",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "rune-magic-spells",
+      "label": "${{rqgCompendiumContent.module.packs.runeMagicSpells}}$",
+      "system": "rqg",
+      "path": "packs/rune-magic-spells",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "rune-magic-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.runeMagicDescriptions}}$",
+      "system": "rqg",
+      "path": "packs/rune-magic-descriptions",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "JournalEntry"
+    },
+    {
+      "name": "skills",
+      "label": "${{rqgCompendiumContent.module.packs.skills}}$",
+      "system": "rqg",
+      "path": "packs/skills",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "skill-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.skillDescriptions}}$",
+      "system": "rqg",
+      "path": "packs/skill-descriptions",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "JournalEntry"
+    },
+    {
+      "name": "skills-weapons",
+      "label": "${{rqgCompendiumContent.module.packs.skillsWeapons}}$",
+      "system": "rqg",
+      "path": "packs/skills-weapons",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "species-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.speciesDescriptions}}$",
+      "system": "rqg",
+      "path": "packs/species-descriptions",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "JournalEntry"
+    },
+    {
+      "name": "spirit-magic-spells",
+      "label": "${{rqgCompendiumContent.module.packs.spiritMagicSpells}}$",
+      "system": "rqg",
+      "path": "packs/spirit-magic-spells",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item"
+    },
+    {
+      "name": "spirit-magic-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.spiritMagicDescriptions}}$",
+      "system": "rqg",
+      "path": "packs/spirit-magic-descriptions",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "JournalEntry"
+    },
+    {
+      "name": "tribe-descriptions",
+      "label": "${{rqgCompendiumContent.module.packs.tribeDescriptions}}$",
+      "system": "rqg",
+      "path": "packs/tribe-descriptions",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "JournalEntry"
+    }
+  ]
+}
