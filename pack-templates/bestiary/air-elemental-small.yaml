@@ -29,9 +29,9 @@ system:
     species: ${{rqgCompendiumContent.bestiary.airElementalSmall.species}}$
     occupation: ""
     homeland: ""
-    cultureJournalRqidLinks: [ ]
-    tribeJournalRqidLinks: [ ]
-    clanJournalRqidLinks: [ ]
+    cultureJournalRqidLinks: []
+    tribeJournalRqidLinks: []
+    clanJournalRqidLinks: []
     birthyear:
     age:
     gender: ""
@@ -117,11 +117,11 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: [ ]
-  flags: { }
+  detectionModes: []
+  flags: {}
   randomImg: false
-items: [ ]
-effects: [ ]
+items: []
+effects: []
 folder:
 sort: 0
 ownership:

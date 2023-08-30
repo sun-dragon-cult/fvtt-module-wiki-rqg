@@ -33,9 +33,9 @@ system:
       documentType: JournalEntry
     occupation: ""
     homeland: sartar
-    cultureJournalRqidLinks: [ ]
-    tribeJournalRqidLinks: [ ]
-    clanJournalRqidLinks: [ ]
+    cultureJournalRqidLinks: []
+    tribeJournalRqidLinks: []
+    clanJournalRqidLinks: []
     birthyear:
     age:
     gender: ""
@@ -62,7 +62,7 @@ system:
       swim:
         value: 2
         carryingFactor: 0.5
-      fly: { }
+      fly: {}
     heroPoints: 0
     isCreature: false
     health: healthy
@@ -107,7 +107,7 @@ token:
     attribute: attributes.hitPoints.value
   bar2:
     attribute: attributes.magicPoints.value
-  flags: { }
+  flags: {}
   randomImg: false
 items:
   # hit location items
@@ -446,7 +446,7 @@ items:
           value: ${{uiContent.RQG.Item.Passion.PassionEnum.Love}}$ (${{rqgCompendiumContent.passionSubject.family}}$)
         - path: system.subject
           value: ${{rqgCompendiumContent.passionSubject.family}}$
-effects: [ ]
+effects: []
 ownership:
   default: 0
 flags:

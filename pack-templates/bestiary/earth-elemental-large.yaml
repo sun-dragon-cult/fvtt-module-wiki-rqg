@@ -29,9 +29,9 @@ system:
     species: ${{rqgCompendiumContent.bestiary.earthElementalLarge.species}}$
     occupation: ""
     homeland: ""
-    cultureJournalRqidLinks: [ ]
-    tribeJournalRqidLinks: [ ]
-    clanJournalRqidLinks: [ ]
+    cultureJournalRqidLinks: []
+    tribeJournalRqidLinks: []
+    clanJournalRqidLinks: []
     birthyear:
     age:
     gender: ""
@@ -58,7 +58,7 @@ system:
       swim:
         value: 3
         carryingFactor: 1
-      fly: { }
+      fly: {}
     heroPoints: 0
     isCreature: true
     health: healthy
@@ -115,11 +115,11 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: [ ]
-  flags: { }
+  detectionModes: []
+  flags: {}
   randomImg: false
-items: [ ]
-effects: [ ]
+items: []
+effects: []
 folder:
 sort: 0
 ownership:

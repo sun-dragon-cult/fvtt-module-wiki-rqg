@@ -29,9 +29,9 @@ system:
     species: ${{rqgCompendiumContent.bestiary.shadowcat.species}}$
     occupation: ""
     homeland: ""
-    cultureJournalRqidLinks: [ ]
-    tribeJournalRqidLinks: [ ]
-    clanJournalRqidLinks: [ ]
+    cultureJournalRqidLinks: []
+    tribeJournalRqidLinks: []
+    clanJournalRqidLinks: []
     birthyear:
     age:
     gender: ""
@@ -58,7 +58,7 @@ system:
       swim:
         value: 2
         carryingFactor: 0.5
-      fly: { }
+      fly: {}
     heroPoints: 0
     isCreature: true
     health: healthy
@@ -115,8 +115,8 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: [ ]
-  flags: { }
+  detectionModes: []
+  flags: {}
   randomImg: false
 items:
   # hit location items
@@ -207,7 +207,7 @@ items:
           value: equipped
         - path: system.usage.oneHand.damage
           value: 1d6
-effects: [ ]
+effects: []
 folder:
 sort: 0
 ownership:

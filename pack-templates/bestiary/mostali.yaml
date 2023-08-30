@@ -29,9 +29,9 @@ system:
     species: ${{rqgCompendiumContent.bestiary.mostali.species}}$
     occupation: ""
     homeland: sartar
-    cultureJournalRqidLinks: [ ]
-    tribeJournalRqidLinks: [ ]
-    clanJournalRqidLinks: [ ]
+    cultureJournalRqidLinks: []
+    tribeJournalRqidLinks: []
+    clanJournalRqidLinks: []
     birthyear:
     age:
     gender: ""
@@ -58,7 +58,7 @@ system:
       swim:
         value: 2
         carryingFactor: 0.5
-      fly: { }
+      fly: {}
     heroPoints: 0
     isCreature: true
     health: healthy
@@ -115,8 +115,8 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: [ ]
-  flags: { }
+  detectionModes: []
+  flags: {}
   randomImg: false
 items:
   # hit location items
@@ -306,7 +306,7 @@ items:
           value: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.uz}}$)
         - path: system.subject
           value: ${{rqgCompendiumContent.passionSubject.uz}}$
-effects: [ ]
+effects: []
 ownership:
   default: 0
 flags:

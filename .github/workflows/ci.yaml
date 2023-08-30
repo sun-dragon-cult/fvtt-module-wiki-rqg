@@ -3,7 +3,7 @@ name: Release
 on:
   workflow_dispatch:
   release:
-    types: [ published ]
+    types: [published]
 
 env:
   project_url: "https://github.com/${{github.repository}}"
@@ -40,7 +40,7 @@ jobs:
             MODULE_FILE_NAME="${LANG}-module.json"
             MODULE_FOLDER="wiki-${LANG}-rqg"
             DIST_MODULE_FILE_PATH="${LANG_PATH%/}-module.json"
-          
+
             mkdir "${MODULE_FOLDER}"
             cp -r "${LANG_PATH}"* "${MODULE_FOLDER}"
             mv "${LANG_PATH}"module.json "${DIST_MODULE_FILE_PATH}"
@@ -64,6 +64,6 @@ jobs:
           draft: ${{ github.event.release.unpublished }}
           prerelease: ${{ github.event.release.prerelease }}
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: './dist/*module.json, ./*.zip'
+          artifacts: "./dist/*module.json, ./*.zip"
           tag: ${{ github.event.release.tag_name }}
           body: ${{ github.event.release.body }}

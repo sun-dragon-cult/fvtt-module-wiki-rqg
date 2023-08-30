@@ -4,7 +4,7 @@ import * as path from "path";
 import * as fs from "fs";
 import { cwd } from "process";
 import { CompendiumPack, PackMetadata } from "./compendium-pack";
-import {doTranslation, tryOrThrow} from "./utils";
+import { doTranslation, tryOrThrow } from "./utils";
 import { PackError } from "./packError";
 
 export const config = {
@@ -15,8 +15,7 @@ export const config = {
   packageManifest: path.resolve(cwd(), "module", "module.json"),
 } as const;
 
-export const getOutDir = (language: string): string =>
-  path.join(config.distDir, language);
+export const getOutDir = (language: string): string => path.join(config.distDir, language);
 
 export const getPackOutDir = (language: string): string =>
   path.join(config.distDir, language, "packs");

@@ -1,5 +1,5 @@
 import chalk from "chalk";
-import {config} from "./buildPacks";
+import { config } from "./buildPacks";
 import fs from "fs";
 import path from "path";
 
@@ -16,13 +16,15 @@ export function setProperty(object: any, key: string, value: unknown) {
 
   // Convert the key to an object reference if it contains dot notation
   if (key.indexOf(".") !== -1) {
-    let parts = key.split(".");
+    const parts = key.split(".");
     if (parts.length === 0) {
       return false;
     }
     key = parts.pop()!;
     target = parts.reduce((o: any, i: string) => {
-      if (!o.hasOwnProperty(i)) o[i] = {};
+      if (!Object.hasOwn(o, i)) {
+        o[i] = {};
+      }
       return o[i];
     }, object);
   }
@@ -37,14 +39,18 @@ export function setProperty(object: any, key: string, value: unknown) {
   return changed;
 }
 
-export function tryCatch<T>(valueFn: () => T, catchFn?: (e: unknown) => T | undefined): T | undefined {
+export function tryCatch<T>(
+  valueFn: () => T,
+  catchFn?: (e: unknown) => T | undefined,
+): T | undefined {
   try {
     return valueFn();
   } catch (e: unknown) {
-    if (catchFn)
+    if (catchFn) {
       return catchFn(e);
+    }
   }
-  return undefined
+  return undefined;
 }
 
 export function tryOrThrow<T>(valueFn: () => T, catchFn: (e: unknown) => never): T {
