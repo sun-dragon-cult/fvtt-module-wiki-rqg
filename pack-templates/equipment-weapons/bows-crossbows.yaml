@@ -119,7 +119,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Shoot}}$
           damageType: impale
           description:
-      damage: 1d18+1
+      damage: 1d8+1
       minStrength: 9
       minDexterity: 9
   description:
