@@ -45,7 +45,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Throw}}$
           damageType: crush
           description:
-      damage: 1d8
+      damage: 1d8+db/2
       minStrength: null
       minDexterity: 9
   description:
@@ -119,7 +119,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Throw}}$
           damageType: crush
           description:
-      damage: 1d10
+      damage: 1d10+db/2
       minStrength: 9
       minDexterity: 9
   description:

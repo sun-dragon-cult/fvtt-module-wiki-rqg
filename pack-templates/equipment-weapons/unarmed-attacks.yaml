@@ -24,7 +24,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 1d3+1
+      damage: 1d3+1+db
       minStrength: 7
       minDexterity: null
       strikeRank: 4
@@ -33,7 +33,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d3+1
+      damage: 1d3+1+db
       minStrength: 7
       minDexterity: null
       strikeRank: 4
@@ -104,7 +104,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 1d3+2
+      damage: 1d3+2+db
       minStrength: 11
       minDexterity: null
       strikeRank: 4
@@ -113,7 +113,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d3+2
+      damage: 1d3+2+db
       minStrength: 11
       minDexterity: null
       strikeRank: 4
@@ -184,7 +184,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
           damageType: parry
           description:
-      damage: 1d4+1
+      damage: 1d4+1+db
       minStrength: 7
       minDexterity: 9
       strikeRank: 4
@@ -193,7 +193,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d4+1
+      damage: 1d4+1+db
       minStrength: 7
       minDexterity: 9
       strikeRank: 4
@@ -264,7 +264,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 1d3
+      damage: 1d3+db
       minStrength: null
       minDexterity: null
       strikeRank: 4
@@ -273,7 +273,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d3
+      damage: 1d3+db
       minStrength: null
       minDexterity: null
       strikeRank: 4
@@ -415,7 +415,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 1d6
+      damage: 1d6+db
       minStrength: null
       minDexterity: null
       strikeRank: 4
@@ -492,7 +492,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 1d6
+      damage: 1d6+db
       minStrength: null
       minDexterity: null
       strikeRank: 4
@@ -569,7 +569,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 1d6
+      damage: 1d6+db
       minStrength: null
       minDexterity: null
       strikeRank: 4
@@ -643,7 +643,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Bite}}$
           damageType: crush
           description:
-      damage: 1d6
+      damage: 1d6+db
       minStrength: null
       minDexterity: null
       strikeRank: 4
@@ -717,7 +717,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Trample}}$
           damageType: crush
           description:
-      damage: 1d6
+      damage: 1d6+db
       minStrength: null
       minDexterity: null
       strikeRank: 4
@@ -791,7 +791,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Claw}}$
           damageType: cut
           description:
-      damage: 1d6
+      damage: 1d6+db
       minStrength: null
       minDexterity: null
       strikeRank: 4
@@ -875,7 +875,7 @@ system:
         rqid: i.skill.hug
         name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.claw}}$)
       combatManeuvers: []
-      damage: 1d6
+      damage: 1d6+db
       minStrength: 0
       minDexterity: 0
       strikeRank: 0
@@ -931,7 +931,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Claw}}$
           damageType: cut
           description:
-      damage: 1d6
+      damage: 1d6+db
       minStrength: null
       minDexterity: null
       strikeRank: 4
@@ -1005,7 +1005,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Gore}}$
           damageType: cut
           description:
-      damage: 1d6
+      damage: 1d6+db
       minStrength: null
       minDexterity: null
       strikeRank: 4

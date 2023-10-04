@@ -24,7 +24,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 1d6+2
+      damage: 1d6+2+db
       minStrength: 11
       minDexterity: 9
       strikeRank: 3
@@ -33,7 +33,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d6+2
+      damage: 1d6+2+db
       minStrength: 11
       minDexterity: 9
       strikeRank: 3
@@ -104,7 +104,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 1d6+2
+      damage: 1d6+2+db
       minStrength: 11
       minDexterity: 9
       strikeRank: 3
@@ -113,7 +113,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d6+2
+      damage: 1d6+2+db
       minStrength: 11
       minDexterity: 9
       strikeRank: 3
@@ -199,7 +199,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
           damageType: parry
           description:
-      damage: 2d6+2
+      damage: 2d6+2+db
       minStrength: 9
       minDexterity: 9
       strikeRank: 1
@@ -279,7 +279,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 2d8
+      damage: 2d8+db
       minStrength: 11
       minDexterity: 7
       strikeRank: 1
@@ -341,7 +341,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 1d8+2
+      damage: 1d8+2+db
       minStrength: 13
       minDexterity: 7
       strikeRank: 3
@@ -350,7 +350,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d8+2
+      damage: 1d8+2+db
       minStrength: 13
       minDexterity: 7
       strikeRank: 3
@@ -421,7 +421,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 1d6+2
+      damage: 1d6+2+db
       minStrength: 7
       minDexterity: 7
       strikeRank: 3
@@ -501,7 +501,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 1d6
+      damage: 1d6+db
       minStrength: null
       minDexterity: 90
       strikeRank: 4
@@ -510,7 +510,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d6
+      damage: 1d6+db
       minStrength: null
       minDexterity: 90
       strikeRank: 4
@@ -581,7 +581,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 1d6
+      damage: 1d6+db
       minStrength: 7
       minDexterity: 7
       strikeRank: 4
@@ -590,7 +590,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d6
+      damage: 1d6+db
       minStrength: 7
       minDexterity: 7
       strikeRank: 4
@@ -679,7 +679,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 1d8+2
+      damage: 1d8+2+db
       minStrength: 9
       minDexterity: 7
       strikeRank: 3
@@ -759,7 +759,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
           description:
-      damage: 1d8
+      damage: 1d8+db
       minStrength: 9
       minDexterity: 9
       strikeRank: 0

@@ -21,7 +21,7 @@ system:
           damageType: crush
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
-      damage: 1d3
+      damage: 1d3+db
       minStrength: 5
       minDexterity:
       strikeRank: 3
@@ -30,7 +30,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d3
+      damage: 1d3+db
       minStrength: 5
       minDexterity:
       strikeRank: 3
@@ -99,7 +99,7 @@ system:
           damageType: crush
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
-      damage: 1d4
+      damage: 1d4+db
       minStrength: 9
       minDexterity:
       strikeRank: 3
@@ -108,7 +108,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d4
+      damage: 1d4+db
       minStrength: 9
       minDexterity:
       strikeRank: 3
@@ -177,7 +177,7 @@ system:
           damageType: crush
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
           damageType: special
-      damage: 1d6
+      damage: 1d6+db
       minStrength: 12
       minDexterity:
       strikeRank: 3
@@ -186,7 +186,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d6
+      damage: 1d6+db
       minStrength: 12
       minDexterity:
       strikeRank: 3

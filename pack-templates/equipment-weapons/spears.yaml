@@ -21,7 +21,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
           damageType: parry
           description:
-      damage: 1d6
+      damage: 1d6+db
       minStrength: 9
       minDexterity: 9
       strikeRank: 2
@@ -30,7 +30,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d6
+      damage: 1d6+db
       minStrength: 9
       minDexterity: 9
       strikeRank: 2
@@ -54,7 +54,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
           damageType: parry
           description:
-      damage: 1d10
+      damage: 1d10+db/2
       minStrength: 9
       minDexterity: 9
   description:
@@ -104,7 +104,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
           damageType: parry
           description:
-      damage: 1d6+1
+      damage: 1d6+1+db
       minStrength: 9
       minDexterity: 7
       strikeRank: 2
@@ -113,7 +113,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d6+1
+      damage: 1d6+1+db
       minStrength: 9
       minDexterity: 7
       strikeRank: 2
@@ -128,7 +128,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
           damageType: parry
           description:
-      damage: 1d8+1
+      damage: 1d8+1+db
       minStrength: 7
       minDexterity: 7
       strikeRank: 1
@@ -143,7 +143,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
           damageType: parry
           description:
-      damage: 1d6+1
+      damage: 1d6+1+db/2
       minStrength: 9
       minDexterity: 7
   description:
@@ -193,7 +193,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
           damageType: parry
           description:
-      damage: 1d10+1
+      damage: 1d10+1+db
       minStrength: 9
       minDexterity: 7
       strikeRank: 0
@@ -202,7 +202,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d10+1
+      damage: 1d10+1+db
       minStrength: 9
       minDexterity: 7
       strikeRank: 0
@@ -288,7 +288,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
           damageType: parry
           description:
-      damage: 2d6+1
+      damage: 2d6+1+db
       minStrength: 11
       minDexterity: 7
       strikeRank: 0
@@ -365,7 +365,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
           damageType: parry
           description:
-      damage: 1d10+1
+      damage: 1d10+1+db
       minStrength: 9
       minDexterity: 7
       strikeRank: 0

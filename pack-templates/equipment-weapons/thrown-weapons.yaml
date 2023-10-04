@@ -21,7 +21,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
           damageType: parry
           description:
-      damage: 1d6+1
+      damage: 1d6+1+db
       minStrength: 7
       minDexterity: 7
       strikeRank: 4
@@ -30,7 +30,7 @@ system:
         rqid:
         name:
       combatManeuvers: []
-      damage: 1d6+1
+      damage: 1d6+1+db
       minStrength: 7
       minDexterity: 7
       strikeRank: 4
@@ -51,7 +51,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Thrust}}$
           damageType: impale
           description:
-      damage: 1d6
+      damage: 1d6+db/2
       minStrength: 9
       minDexterity: 9
   description:
@@ -125,7 +125,7 @@ system:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Throw}}$
           damageType: crush
           description:
-      damage: 1d4
+      damage: 1d4+db/2
       minStrength: null
       minDexterity: null
   description:
