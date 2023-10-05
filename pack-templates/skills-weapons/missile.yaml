@@ -388,7 +388,7 @@ type: skill
 img: systems/rqg/assets/images/weapons/thrown-dagger.svg
 system:
   category: missileWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.thrownAxe.name}}$
+  skillName: ${{rqgCompendiumContent.weaponSkill.thrownDagger.name}}$
   specialization:
   baseChance: 5
   gainedChance: 0
