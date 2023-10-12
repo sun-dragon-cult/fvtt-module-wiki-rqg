@@ -6,9 +6,9 @@ system:
   chance: 0
   hasExperience: false
   runeType: ${{rqgCompendiumContent.runeType.condition}}$
-  minorRunes: []
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks: []
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..fate-condition
     name: ${{rqgCompendiumContent.rune.fate}}$
@@ -28,9 +28,9 @@ system:
   chance: 0
   hasExperience: false
   runeType: ${{rqgCompendiumContent.runeType.condition}}$
-  minorRunes: []
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks: []
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..infinity-condition
     name: ${{rqgCompendiumContent.rune.infinity}}$
@@ -50,9 +50,9 @@ system:
   chance: 0
   hasExperience: false
   runeType: ${{rqgCompendiumContent.runeType.condition}}$
-  minorRunes: []
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks: []
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..law-condition
     name: ${{rqgCompendiumContent.rune.law}}$
@@ -72,9 +72,9 @@ system:
   chance: 0
   hasExperience: false
   runeType: ${{rqgCompendiumContent.runeType.condition}}$
-  minorRunes: []
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks: []
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..light-condition
     name: ${{rqgCompendiumContent.rune.light}}$
@@ -94,9 +94,9 @@ system:
   chance: 0
   hasExperience: false
   runeType: ${{rqgCompendiumContent.runeType.condition}}$
-  minorRunes: []
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks: []
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..luck-condition
     name: ${{rqgCompendiumContent.rune.luck}}$
@@ -116,9 +116,9 @@ system:
   chance: 0
   hasExperience: false
   runeType: ${{rqgCompendiumContent.runeType.condition}}$
-  minorRunes: []
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks: []
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..magic-condition
     name: ${{rqgCompendiumContent.rune.magic}}$
@@ -138,9 +138,9 @@ system:
   chance: 0
   hasExperience: false
   runeType: ${{rqgCompendiumContent.runeType.condition}}$
-  minorRunes: []
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks: []
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..mastery-condition
     name: ${{rqgCompendiumContent.rune.mastery}}$

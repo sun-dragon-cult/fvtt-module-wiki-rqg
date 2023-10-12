@@ -3,11 +3,9 @@ name: ${{rqgCompendiumContent.runeMagic.bindingEnchantment.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  rqid: rune-magic-binding-enchantment
-  rqidPriority: ${{rqgCompendiumContent.prio}}$
-  rqidLang: ${{rqgCompendiumContent.lang}}$
-  runes:
-    - Magic (condition)
+  runeRqidLinks:
+    - rqid: i.rune.magic-condition
+      name: ${{rqgCompendiumContent.rune.magic}}$ (${{rqgCompendiumContent.runeType.condition}}$)
   points: 1
   isRitual: true
   isStackable: true

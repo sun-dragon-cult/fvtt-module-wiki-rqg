@@ -10,7 +10,6 @@ system:
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
-  runes: []
   descriptionRqidLink:
     rqid: je..melee-weapon
     name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
@@ -34,7 +33,6 @@ system:
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
-  runes: []
   descriptionRqidLink:
     rqid: je..melee-weapon
     name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
@@ -58,7 +56,6 @@ system:
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
-  runes: []
   descriptionRqidLink:
     rqid: je..melee-weapon
     name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$

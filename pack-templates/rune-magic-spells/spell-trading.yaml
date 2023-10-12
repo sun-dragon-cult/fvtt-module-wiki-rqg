@@ -3,8 +3,9 @@ name: ${{rqgCompendiumContent.runeMagic.spellTrading.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Harmony (power)
+  runeRqidLinks:
+    - rqid: i.rune.harmony-power
+      name: ${{rqgCompendiumContent.rune.harmony}}$ (${{rqgCompendiumContent.runeType.power}}$)
   points: 2
   castingRange: touch
   duration: instant

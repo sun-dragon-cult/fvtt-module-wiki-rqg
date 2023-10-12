@@ -6,11 +6,13 @@ system:
   chance: 0
   hasExperience: false
   runeType: ${{rqgCompendiumContent.runeType.element}}$
-  minorRunes:
-    - ${{rqgCompendiumContent.rune.darkness}}$ (${{rqgCompendiumContent.runeType.element}}$)
-    - ${{rqgCompendiumContent.rune.water}}$ (${{rqgCompendiumContent.runeType.element}}$)
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks:
+    - rqid: i.rune.darkness-element
+      name: ${{rqgCompendiumContent.rune.darkness}}$ (${{rqgCompendiumContent.runeType.element}}$)
+    - rqid: i.rune.water-element
+      name: ${{rqgCompendiumContent.rune.water}}$ (${{rqgCompendiumContent.runeType.element}}$)
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..air-element
     name: ${{rqgCompendiumContent.rune.air}}$
@@ -30,11 +32,13 @@ system:
   chance: 0
   hasExperience: false
   runeType: ${{rqgCompendiumContent.runeType.element}}$
-  minorRunes:
-    - ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
-    - ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks:
+    - rqid: i.rune.earth-element
+      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+    - rqid: i.rune.air-element
+      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..darkness-element
     name: ${{rqgCompendiumContent.rune.darkness}}$
@@ -54,11 +58,13 @@ system:
   chance: 0
   hasExperience: false
   runeType: ${{rqgCompendiumContent.runeType.element}}$
-  minorRunes:
-    - ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
-    - ${{rqgCompendiumContent.rune.darkness}}$ (${{rqgCompendiumContent.runeType.element}}$)
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks:
+    - rqid: i.rune.air-element
+      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+    - rqid: i.rune.darkness-element
+      name: ${{rqgCompendiumContent.rune.darkness}}$ (${{rqgCompendiumContent.runeType.element}}$)
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..earth-element
     name: ${{rqgCompendiumContent.rune.earth}}$
@@ -78,11 +84,13 @@ system:
   chance: 0
   hasExperience: false
   runeType: ${{rqgCompendiumContent.runeType.element}}$
-  minorRunes:
-    - ${{rqgCompendiumContent.rune.water}}$ (${{rqgCompendiumContent.runeType.element}}$)
-    - ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks:
+    - rqid: i.rune.water-element
+      name: ${{rqgCompendiumContent.rune.water}}$ (${{rqgCompendiumContent.runeType.element}}$)
+    - rqid: i.rune.earth-element
+      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..fire-sky-element
     name: ${{rqgCompendiumContent.rune.fireSky}}$
@@ -102,9 +110,9 @@ system:
   chance: 0
   hasExperience: false
   runeType: ${{rqgCompendiumContent.runeType.element}}$
-  minorRunes:
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks:
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..moon-element
     name: ${{rqgCompendiumContent.rune.moon}}$
@@ -124,11 +132,13 @@ system:
   chance: 0
   hasExperience: false
   runeType: ${{rqgCompendiumContent.runeType.element}}$
-  minorRunes:
-    - ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
-    - ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks:
+    - rqid: i.rune.earth-element
+      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+    - rqid: i.rune.air-element
+      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..water-element
     name: ${{rqgCompendiumContent.rune.water}}$

@@ -3,8 +3,9 @@ name: ${{rqgCompendiumContent.runeMagic.sunbright.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Fire/Sky (element)
+  runeRqidLinks:
+    - rqid: i.rune.fire-sky-element
+      name: ${{rqgCompendiumContent.rune.fireSky}}$ (${{rqgCompendiumContent.runeType.element}}$)
   points: 2
   castingRange: ranged
   duration: temporal

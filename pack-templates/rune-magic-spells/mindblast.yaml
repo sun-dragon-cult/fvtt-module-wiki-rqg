@@ -3,8 +3,9 @@ name: ${{rqgCompendiumContent.runeMagic.mindblast.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Moon (element)
+  runeRqidLinks:
+    - rqid: i.rune.moon-element
+      name: ${{rqgCompendiumContent.rune.moon}}$ (${{rqgCompendiumContent.runeType.element}}$)
   points: 2
   castingRange: ranged
   duration: instant

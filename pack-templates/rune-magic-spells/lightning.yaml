@@ -3,8 +3,9 @@ name: ${{rqgCompendiumContent.runeMagic.lightning.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Air (element)
+  runeRqidLinks:
+    - rqid: i.rune.air-element
+      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
   points: 1
   castingRange: ranged
   duration: instant

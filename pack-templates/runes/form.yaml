@@ -6,9 +6,11 @@ system:
   chance: 50
   hasExperience: false
   runeType: form
-  minorRunes: []
   isMastered: false
-  opposingRune: ${{rqgCompendiumContent.rune.man}}$ (${{rqgCompendiumContent.runeType.form}}$)
+  minorRuneRqidLinks: []
+  opposingRuneRqidLink:
+    rqid: i.rune.man-form
+    name: ${{rqgCompendiumContent.rune.man}}$ (${{rqgCompendiumContent.runeType.form}}$)
   descriptionRqidLink:
     rqid: je..beast-form
     name: ${{rqgCompendiumContent.rune.beast}}$
@@ -28,9 +30,9 @@ system:
   chance: 50
   hasExperience: false
   runeType: form
-  minorRunes: []
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks: []
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..chaos-form
     name: ${{rqgCompendiumContent.rune.chaos}}$
@@ -50,9 +52,9 @@ system:
   chance: 50
   hasExperience: false
   runeType: form
-  minorRunes: []
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks: []
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..dragonewt-form
     name: ${{rqgCompendiumContent.rune.dragonewt}}$
@@ -72,9 +74,11 @@ system:
   chance: 50
   hasExperience: false
   runeType: form
-  minorRunes: []
   isMastered: false
-  opposingRune: ${{rqgCompendiumContent.rune.man}}$ (${{rqgCompendiumContent.runeType.form}}$)
+  minorRuneRqidLinks: []
+  opposingRuneRqidLink:
+    rqid: i.rune.beast-form
+    name: ${{rqgCompendiumContent.rune.beast}}$ (${{rqgCompendiumContent.runeType.form}}$)
   descriptionRqidLink:
     rqid: je..man-form
     name: ${{rqgCompendiumContent.rune.man}}$
@@ -94,9 +98,9 @@ system:
   chance: 50
   hasExperience: false
   runeType: form
-  minorRunes: []
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks: []
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..plant-form
     name: ${{rqgCompendiumContent.rune.plant}}$
@@ -116,9 +120,9 @@ system:
   chance: 50
   hasExperience: false
   runeType: form
-  minorRunes: []
   isMastered: false
-  opposingRune:
+  minorRuneRqidLinks: []
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..spirit-form
     name: ${{rqgCompendiumContent.rune.spirit}}$

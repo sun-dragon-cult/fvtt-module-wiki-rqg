@@ -3,8 +3,9 @@ name: ${{rqgCompendiumContent.runeMagic.sanctify.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Magic (condition)
+  runeRqidLinks:
+    - rqid: i.rune.magic-condition
+      name: ${{rqgCompendiumContent.rune.magic}}$ (${{rqgCompendiumContent.runeType.condition}}$)
   points: 1
   isRitual: true
   isStackable: true

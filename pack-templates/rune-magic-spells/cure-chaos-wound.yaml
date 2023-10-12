@@ -3,9 +3,11 @@ name: ${{rqgCompendiumContent.runeMagic.cureChaosWound.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Fertility (power)
-    - Harmony (power)
+  runeRqidLinks:
+    - rqid: i.rune.fertility-power
+      name: ${{rqgCompendiumContent.rune.fertility}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    - rqid: i.rune.harmony-power
+      name: ${{rqgCompendiumContent.rune.harmony}}$ (${{rqgCompendiumContent.runeType.power}}$)
   points: 1
   castingRange: touch
   duration: instant

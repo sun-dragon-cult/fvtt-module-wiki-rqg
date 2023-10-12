@@ -6,10 +6,11 @@ system:
   chance: 50
   hasExperience: false
   runeType: technique
-  minorRunes:
-    - ${{rqgCompendiumContent.rune.separate}}$ (${{rqgCompendiumContent.runeType.technique}}$)
   isMastered: true
-  opposingRune:
+  minorRuneRqidLinks:
+    - rqid: i.rune.separate-technique
+      name: ${{rqgCompendiumContent.rune.separate}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..combine-technique
     name: ${{rqgCompendiumContent.rune.combine}}$
@@ -29,13 +30,17 @@ system:
   chance: 50
   hasExperience: false
   runeType: technique
-  minorRunes:
-    - ${{rqgCompendiumContent.rune.combine}}$ (${{rqgCompendiumContent.runeType.technique}}$)
-    - ${{rqgCompendiumContent.rune.dispel}}$ (${{rqgCompendiumContent.runeType.technique}}$)
-    - ${{rqgCompendiumContent.rune.separate}}$ (${{rqgCompendiumContent.runeType.technique}}$)
-    - ${{rqgCompendiumContent.rune.summon}}$ (${{rqgCompendiumContent.runeType.technique}}$)
   isMastered: true
-  opposingRune:
+  minorRuneRqidLinks:
+    - rqid: i.rune.combine-technique
+      name: ${{rqgCompendiumContent.rune.combine}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+    - rqid: i.rune.dispel-technique
+      name: ${{rqgCompendiumContent.rune.dispel}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+    - rqid: i.rune.separate-technique
+      name: ${{rqgCompendiumContent.rune.separate}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+    - rqid: i.rune.summon-technique
+      name: ${{rqgCompendiumContent.rune.summon}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..command-technique
     name: ${{rqgCompendiumContent.rune.command}}$
@@ -55,10 +60,11 @@ system:
   chance: 50
   hasExperience: false
   runeType: technique
-  minorRunes:
-    - ${{rqgCompendiumContent.rune.summon}}$ (${{rqgCompendiumContent.runeType.technique}}$)
   isMastered: true
-  opposingRune:
+  minorRuneRqidLinks:
+    - rqid: i.rune.summon-technique
+      name: ${{rqgCompendiumContent.rune.summon}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..dispel-technique
     name: ${{rqgCompendiumContent.rune.dispel}}$
@@ -78,10 +84,11 @@ system:
   chance: 50
   hasExperience: false
   runeType: technique
-  minorRunes:
-    - ${{rqgCompendiumContent.rune.combine}}$ (${{rqgCompendiumContent.runeType.technique}}$)
   isMastered: true
-  opposingRune:
+  minorRuneRqidLinks:
+    - rqid: i.rune.combine-technique
+      name: ${{rqgCompendiumContent.rune.combine}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..separate-technique
     name: ${{rqgCompendiumContent.rune.separate}}$
@@ -101,10 +108,11 @@ system:
   chance: 50
   hasExperience: false
   runeType: technique
-  minorRunes:
-    - ${{rqgCompendiumContent.rune.dispel}}$ (${{rqgCompendiumContent.runeType.technique}}$)
   isMastered: true
-  opposingRune:
+  minorRuneRqidLinks:
+    - rqid: i.rune.dispel-technique
+      name: ${{rqgCompendiumContent.rune.dispel}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..summon-technique
     name: ${{rqgCompendiumContent.rune.summon}}$
@@ -124,13 +132,17 @@ system:
   chance: 50
   hasExperience: false
   runeType: technique
-  minorRunes:
-    - ${{rqgCompendiumContent.rune.combine}}$ (${{rqgCompendiumContent.runeType.technique}}$)
-    - ${{rqgCompendiumContent.rune.dispel}}$ (${{rqgCompendiumContent.runeType.technique}}$)
-    - ${{rqgCompendiumContent.rune.separate}}$ (${{rqgCompendiumContent.runeType.technique}}$)
-    - ${{rqgCompendiumContent.rune.summon}}$ (${{rqgCompendiumContent.runeType.technique}}$)
   isMastered: true
-  opposingRune:
+  minorRuneRqidLinks:
+    - rqid: i.rune.combine-technique
+      name: ${{rqgCompendiumContent.rune.combine}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+    - rqid: i.rune.dispel-technique
+      name: ${{rqgCompendiumContent.rune.dispel}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+    - rqid: i.rune.separate-technique
+      name: ${{rqgCompendiumContent.rune.separate}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+    - rqid: i.rune.summon-technique
+      name: ${{rqgCompendiumContent.rune.summon}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+  opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..tap-technique
     name: ${{rqgCompendiumContent.rune.tap}}$

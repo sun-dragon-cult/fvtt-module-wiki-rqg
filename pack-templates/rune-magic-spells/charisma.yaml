@@ -3,10 +3,13 @@ name: ${{rqgCompendiumContent.runeMagic.charisma.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Fertility (power)
-    - Illusion (power)
-    - Beast (form)
+  runeRqidLinks:
+    - rqid: i.rune.fertility-power
+      name: ${{rqgCompendiumContent.rune.fertility}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    - rqid: i.rune.illusion-power
+      name: ${{rqgCompendiumContent.rune.illusion}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    - rqid: i.rune.beast-form
+      name: ${{rqgCompendiumContent.rune.beast}}$ (${{rqgCompendiumContent.runeType.form}}$)
   points: 1
   castingRange: ranged
   duration: temporal

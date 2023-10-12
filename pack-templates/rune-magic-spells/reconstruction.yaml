@@ -3,8 +3,9 @@ name: ${{rqgCompendiumContent.runeMagic.reconstruction.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Truth (power)
+  runeRqidLinks:
+    - rqid: i.rune.truth-power
+      name: ${{rqgCompendiumContent.rune.truth}}$ (${{rqgCompendiumContent.runeType.power}}$)
   points: 3
   castingRange: ranged
   duration: temporal

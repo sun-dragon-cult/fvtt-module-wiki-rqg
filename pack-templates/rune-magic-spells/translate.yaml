@@ -3,11 +3,9 @@ name: ${{rqgCompendiumContent.runeMagic.translate.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  rqid: rune-magic-translate
-  rqidPriority: ${{rqgCompendiumContent.prio}}$
-  rqidLang: ${{rqgCompendiumContent.lang}}$
-  runes:
-    - Truth (power)
+  runeRqidLinks:
+    - rqid: i.rune.truth-power
+      name: ${{rqgCompendiumContent.rune.truth}}$ (${{rqgCompendiumContent.runeType.power}}$)
   points: 1
   castingRange: touch
   duration: temporal

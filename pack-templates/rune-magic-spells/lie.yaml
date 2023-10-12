@@ -3,9 +3,11 @@ name: ${{rqgCompendiumContent.runeMagic.lie.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Illusion (power)
-    - Disorder (power)
+  runeRqidLinks:
+    - rqid: i.rune.illusion-power
+      name: ${{rqgCompendiumContent.rune.illusion}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    - rqid: i.rune.disorder-power
+      name: ${{rqgCompendiumContent.rune.disorder}}$ (${{rqgCompendiumContent.runeType.power}}$)
   points: 2
   castingRange: self
   duration: instant

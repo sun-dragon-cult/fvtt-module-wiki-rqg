@@ -3,9 +3,11 @@ name: ${{rqgCompendiumContent.runeMagic.reflection.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Moon (element)
-    - Illusion (power)
+  runeRqidLinks:
+    - rqid: i.rune.moon-element
+      name: ${{rqgCompendiumContent.rune.moon}}$ (${{rqgCompendiumContent.runeType.element}}$)
+    - rqid: i.rune.illusion-power
+      name: ${{rqgCompendiumContent.rune.illusion}}$ (${{rqgCompendiumContent.runeType.power}}$)
   points: 2
   castingRange: touch
   duration: permanent

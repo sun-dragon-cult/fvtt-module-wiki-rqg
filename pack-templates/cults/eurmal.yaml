@@ -12,20 +12,23 @@ system:
     value: 0
     max: 0
   holyDays:
-  runes:
-    - ${{rqgCompendiumContent.runeDescription.illusionPower.name}}$
-    - ${{rqgCompendiumContent.runeDescription.disorderPower.name}}$
-    - ${{rqgCompendiumContent.runeDescription.illusionPower.name}}$
+  runeRqidLinks:
+    - rqid: i.rune.illusion-power
+      name: ${{rqgCompendiumContent.rune.illusion}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    - rqid: i.rune.disorder-power
+      name: ${{rqgCompendiumContent.rune.disorder}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    - rqid: i.rune.illusion-power
+      name: ${{rqgCompendiumContent.rune.illusion}}$ (${{rqgCompendiumContent.runeType.power}}$)
   descriptionRqidLink:
     rqid: je..eurmal
     name: ${{rqgCompendiumContent.cult.eurmal.name}}$
   commonRuneMagicRqidLinks:
-    - name: Divination
-      rqid: i.rune-magic.divination
-    - name: Extension
-      rqid: i.rune-magic.extension
-    - name: Multispell
-      rqid: i.rune-magic.multispell
+    - rqid: i.rune-magic.divination
+      name: ${{rqgCompendiumContent.runeMagic.divination.name}}$
+    - rqid: i.rune-magic.extension
+      name: ${{rqgCompendiumContent.runeMagic.extension.name}}$
+    - rqid: i.rune-magic.multispell
+      name: ${{rqgCompendiumContent.runeMagic.multispell.name}}$
 effects: []
 flags:
   rqg:

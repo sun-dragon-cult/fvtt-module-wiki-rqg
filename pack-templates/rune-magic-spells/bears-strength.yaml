@@ -3,8 +3,9 @@ name: ${{rqgCompendiumContent.runeMagic.bearsStrength.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Beast (form)
+  runeRqidLinks:
+    - rqid: i.rune.beast-form
+      name: ${{rqgCompendiumContent.rune.beast}}$ (${{rqgCompendiumContent.runeType.form}}$)
   points: 2
   castingRange: touch
   duration: temporal

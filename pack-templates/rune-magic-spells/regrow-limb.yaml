@@ -3,10 +3,13 @@ name: ${{rqgCompendiumContent.runeMagic.regrowLimb.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Fertility (power)
-    - Movement (power)
-    - Moon (element)
+  runeRqidLinks:
+    - rqid: i.rune.fertility-power
+      name: ${{rqgCompendiumContent.rune.fertility}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    - rqid: i.rune.movement-power
+      name: ${{rqgCompendiumContent.rune.movement}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    - rqid: i.rune.moon-element
+      name: ${{rqgCompendiumContent.rune.moon}}$ (${{rqgCompendiumContent.runeType.element}}$)
   points: 2
   castingRange: touch
   duration: permanent

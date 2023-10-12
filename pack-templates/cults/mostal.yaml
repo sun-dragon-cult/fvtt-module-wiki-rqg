@@ -12,38 +12,41 @@ system:
     value: 0
     max: 0
   holyDays:
-  runes:
-    - ${{rqgCompendiumContent.runeDescription.stasisPower.name}}$
-    - ${{rqgCompendiumContent.runeDescription.earthElement.name}}$
-    - ${{rqgCompendiumContent.runeDescription.stasisPower.name}}$
+  runeRqidLinks:
+    - rqid: i.rune.stasis-power
+      name: ${{rqgCompendiumContent.rune.stasis}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    - rqid: i.rune.earth-element
+      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+    - rqid: i.rune.stasis-power
+      name: ${{rqgCompendiumContent.rune.stasis}}$ (${{rqgCompendiumContent.runeType.power}}$)
   descriptionRqidLink:
     rqid: je..mostal
     name: ${{rqgCompendiumContent.cult.mostal.name}}$
   commonRuneMagicRqidLinks:
-    - name: Command Cult Spirit (Elemental)
-      rqid: i.rune-magic.command-cult-spirit-elemental
-    - name: Dismiss Magic
-      rqid: i.rune-magic.dismiss-magic
-    - name: Divination
-      rqid: i.rune-magic.divination
-    - name: Extension
-      rqid: i.rune-magic.extension
-    - name: Find Enemy
-      rqid: i.rune-magic.find-enemy
-    - name: Heal Wound
-      rqid: i.rune-magic.heal-wound
-    - name: Multispell
-      rqid: i.rune-magic.multispell
-    - name: Sanctify
-      rqid: i.rune-magic.sanctify
-    - name: Soul Sight
-      rqid: i.rune-magic.soul-sight
-    - name: Spirit Block
-      rqid: i.rune-magic.spirit-block
-    - name: Summon Cult Spirit
-      rqid: i.rune-magic.summon-cult-spirit
-    - name: Warding
-      rqid: i.rune-magic.warding
+    - rqid: i.rune-magic.command-cult-spirit-elemental
+      name: ${{rqgCompendiumContent.runeMagic.commandCultSpiritElemental.name}}$
+    - rqid: i.rune-magic.dismiss-magic
+      name: ${{rqgCompendiumContent.runeMagic.dismissMagic.name}}$
+    - rqid: i.rune-magic.divination
+      name: ${{rqgCompendiumContent.runeMagic.divination.name}}$
+    - rqid: i.rune-magic.extension
+      name: ${{rqgCompendiumContent.runeMagic.extension.name}}$
+    - rqid: i.rune-magic.find-enemy
+      name: ${{rqgCompendiumContent.runeMagic.findEnemy.name}}$
+    - rqid: i.rune-magic.heal-wound
+      name: ${{rqgCompendiumContent.runeMagic.healWound.name}}$
+    - rqid: i.rune-magic.multispell
+      name: ${{rqgCompendiumContent.runeMagic.multispell.name}}$
+    - rqid: i.rune-magic.sanctify
+      name: ${{rqgCompendiumContent.runeMagic.sanctify.name}}$
+    - rqid: i.rune-magic.soul-sight
+      name: ${{rqgCompendiumContent.runeMagic.soulSight.name}}$
+    - rqid: i.rune-magic.spirit-block
+      name: ${{rqgCompendiumContent.runeMagic.spiritBlock.name}}$
+    - rqid: i.rune-magic.summon-cult-spirit
+      name: ${{rqgCompendiumContent.runeMagic.summonCultSpirit.name}}$
+    - rqid: i.rune-magic.warding
+      name: ${{rqgCompendiumContent.runeMagic.warding.name}}$
 effects: []
 flags:
   rqg:

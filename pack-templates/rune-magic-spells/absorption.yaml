@@ -3,9 +3,11 @@ name: ${{rqgCompendiumContent.runeMagic.absorption.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Earth (element) # to deprecate
-    - Darkness (element) # to deprecate
+  runeRqidLinks:
+    - rqid: i.rune.earth-element
+      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+    - rqid: i.rune.darkness-element
+      name: ${{rqgCompendiumContent.rune.darkness}}$ (${{rqgCompendiumContent.runeType.element}}$)
   points: 1
   castingRange: ranged
   duration: temporal

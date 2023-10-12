@@ -3,8 +3,9 @@ name: ${{rqgCompendiumContent.runeMagic.createMarket.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Harmony (power)
+  runeRqidLinks:
+    - rqid: i.rune.harmony-power
+      name: ${{rqgCompendiumContent.rune.harmony}}$ (${{rqgCompendiumContent.runeType.power}}$)
   points: 3
   isRitual: true
   isStackable: false

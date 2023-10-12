@@ -3,8 +3,9 @@ name: ${{rqgCompendiumContent.runeMagic.fear.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Darkness (element)
+  runeRqidLinks:
+    - rqid: i.rune.darkness-element
+      name: ${{rqgCompendiumContent.rune.darkness}}$ (${{rqgCompendiumContent.runeType.element}}$)
   points: 2
   castingRange: ranged
   duration: temporal

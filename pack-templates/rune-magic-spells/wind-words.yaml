@@ -6,9 +6,11 @@ system:
   rqid: rune-magic-wind-words
   rqidPriority: ${{rqgCompendiumContent.prio}}$
   rqidLang: ${{rqgCompendiumContent.lang}}$
-  runes:
-    - Air (element)
-    - Movement (power)
+  runeRqidLinks:
+    - rqid: i.rune.air-element
+      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+    - rqid: i.rune.movement-power
+      name: ${{rqgCompendiumContent.rune.movement}}$ (${{rqgCompendiumContent.runeType.power}}$)
   points: 1
   castingRange: ranged
   duration: temporal

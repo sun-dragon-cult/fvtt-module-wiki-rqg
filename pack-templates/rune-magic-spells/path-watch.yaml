@@ -3,8 +3,9 @@ name: ${{rqgCompendiumContent.runeMagic.pathWatch.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Movement (power)
+  runeRqidLinks:
+    - rqid: i.rune.movement-power
+      name: ${{rqgCompendiumContent.rune.movement}}$ (${{rqgCompendiumContent.runeType.power}}$)
   points: 2
   castingRange: self
   duration: special

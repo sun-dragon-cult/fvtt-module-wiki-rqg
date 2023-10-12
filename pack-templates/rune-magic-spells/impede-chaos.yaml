@@ -3,10 +3,13 @@ name: ${{rqgCompendiumContent.runeMagic.impedeChaos.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Air (element)
-    - Death (power)
-    - Beast (form)
+  runeRqidLinks:
+    - rqid: i.rune.air-element
+      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+    - rqid: i.rune.death-power
+      name: ${{rqgCompendiumContent.rune.death}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    - rqid: i.rune.beast-form
+      name: ${{rqgCompendiumContent.rune.beast}}$ (${{rqgCompendiumContent.runeType.form}}$)
   points: 1
   castingRange: ranged
   duration: temporal

@@ -3,8 +3,9 @@ name: ${{rqgCompendiumContent.runeMagic.summonHealingSpirit.name}}$
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
-  runes:
-    - Fertility (power)
+  runeRqidLinks:
+    - rqid: i.rune.fertility-power
+      name: ${{rqgCompendiumContent.rune.fertility}}$ (${{rqgCompendiumContent.runeType.power}}$)
   points: 1
   castingRange: ranged
   duration: temoral
