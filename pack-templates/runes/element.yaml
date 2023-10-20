@@ -5,7 +5,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.air}}$
   chance: 0
   hasExperience: false
-  runeType: ${{rqgCompendiumContent.runeType.element}}$
+  runeType:
+    type: element
+    name: ${{rqgCompendiumContent.runeType.element}}$
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.darkness-element
@@ -31,7 +33,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.darkness}}$
   chance: 0
   hasExperience: false
-  runeType: ${{rqgCompendiumContent.runeType.element}}$
+  runeType:
+    type: element
+    name: ${{rqgCompendiumContent.runeType.element}}$
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.earth-element
@@ -57,7 +61,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.earth}}$
   chance: 0
   hasExperience: false
-  runeType: ${{rqgCompendiumContent.runeType.element}}$
+  runeType:
+    type: element
+    name: ${{rqgCompendiumContent.runeType.element}}$
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.air-element
@@ -83,7 +89,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.fireSky}}$
   chance: 0
   hasExperience: false
-  runeType: ${{rqgCompendiumContent.runeType.element}}$
+  runeType:
+    type: element
+    name: ${{rqgCompendiumContent.runeType.element}}$
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.water-element
@@ -109,7 +117,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.moon}}$
   chance: 0
   hasExperience: false
-  runeType: ${{rqgCompendiumContent.runeType.element}}$
+  runeType:
+    type: element
+    name: ${{rqgCompendiumContent.runeType.element}}$
   isMastered: false
   minorRuneRqidLinks:
   opposingRuneRqidLink:
@@ -131,7 +141,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.water}}$
   chance: 0
   hasExperience: false
-  runeType: ${{rqgCompendiumContent.runeType.element}}$
+  runeType:
+    type: element
+    name: ${{rqgCompendiumContent.runeType.element}}$
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.earth-element

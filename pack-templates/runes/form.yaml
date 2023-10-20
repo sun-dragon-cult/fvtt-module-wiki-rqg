@@ -5,7 +5,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.beast}}$
   chance: 50
   hasExperience: false
-  runeType: form
+  runeType:
+    type: form
+    name: ${{rqgCompendiumContent.runeType.form}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -29,7 +31,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.chaos}}$
   chance: 50
   hasExperience: false
-  runeType: form
+  runeType:
+    type: form
+    name: ${{rqgCompendiumContent.runeType.form}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -51,7 +55,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.dragonewt}}$
   chance: 50
   hasExperience: false
-  runeType: form
+  runeType:
+    type: form
+    name: ${{rqgCompendiumContent.runeType.form}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -73,7 +79,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.man}}$
   chance: 50
   hasExperience: false
-  runeType: form
+  runeType:
+    type: form
+    name: ${{rqgCompendiumContent.runeType.form}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -97,7 +105,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.plant}}$
   chance: 50
   hasExperience: false
-  runeType: form
+  runeType:
+    type: form
+    name: ${{rqgCompendiumContent.runeType.form}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -119,7 +129,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.spirit}}$
   chance: 50
   hasExperience: false
-  runeType: form
+  runeType:
+    type: form
+    name: ${{rqgCompendiumContent.runeType.form}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:

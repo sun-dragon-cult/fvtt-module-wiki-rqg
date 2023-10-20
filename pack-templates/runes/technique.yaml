@@ -5,7 +5,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.combine}}$
   chance: 50
   hasExperience: false
-  runeType: technique
+  runeType:
+    type: technique
+    name: ${{rqgCompendiumContent.runeType.technique}}$
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.separate-technique
@@ -29,7 +31,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.command}}$
   chance: 50
   hasExperience: false
-  runeType: technique
+  runeType:
+    type: technique
+    name: ${{rqgCompendiumContent.runeType.technique}}$
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.combine-technique
@@ -59,7 +63,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.dispel}}$
   chance: 50
   hasExperience: false
-  runeType: technique
+  runeType:
+    type: technique
+    name: ${{rqgCompendiumContent.runeType.technique}}$
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.summon-technique
@@ -83,7 +89,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.separate}}$
   chance: 50
   hasExperience: false
-  runeType: technique
+  runeType:
+    type: technique
+    name: ${{rqgCompendiumContent.runeType.technique}}$
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.combine-technique
@@ -107,7 +115,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.summon}}$
   chance: 50
   hasExperience: false
-  runeType: technique
+  runeType:
+    type: technique
+    name: ${{rqgCompendiumContent.runeType.technique}}$
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.dispel-technique
@@ -131,7 +141,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.tap}}$
   chance: 50
   hasExperience: false
-  runeType: technique
+  runeType:
+    type: technique
+    name: ${{rqgCompendiumContent.runeType.technique}}$
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.combine-technique

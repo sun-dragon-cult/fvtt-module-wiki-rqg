@@ -5,7 +5,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.air}}$
   chance: 0
   hasExperience: false
-  runeType: ${{rqgCompendiumContent.runeType.element}}$
+  runeType:
+    type: element
+    name: ${{rqgCompendiumContent.runeType.element}}$
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.darkness-element
@@ -31,7 +33,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.darkness}}$
   chance: 0
   hasExperience: false
-  runeType: ${{rqgCompendiumContent.runeType.element}}$
+  runeType:
+    type: element
+    name: ${{rqgCompendiumContent.runeType.element}}$
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.earth-element
@@ -57,7 +61,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.earth}}$
   chance: 0
   hasExperience: false
-  runeType: ${{rqgCompendiumContent.runeType.element}}$
+  runeType:
+    type: element
+    name: ${{rqgCompendiumContent.runeType.element}}$
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.air-element
@@ -83,7 +89,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.fireSky}}$
   chance: 0
   hasExperience: false
-  runeType: ${{rqgCompendiumContent.runeType.element}}$
+  runeType:
+    type: element
+    name: ${{rqgCompendiumContent.runeType.element}}$
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.water-element
@@ -109,7 +117,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.moon}}$
   chance: 0
   hasExperience: false
-  runeType: ${{rqgCompendiumContent.runeType.element}}$
+  runeType:
+    type: element
+    name: ${{rqgCompendiumContent.runeType.element}}$
   isMastered: false
   minorRuneRqidLinks:
   opposingRuneRqidLink:
@@ -131,7 +141,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.water}}$
   chance: 0
   hasExperience: false
-  runeType: ${{rqgCompendiumContent.runeType.element}}$
+  runeType:
+    type: element
+    name: ${{rqgCompendiumContent.runeType.element}}$
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.earth-element
@@ -157,7 +169,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.beast}}$
   chance: 50
   hasExperience: false
-  runeType: form
+  runeType:
+    type: form
+    name: ${{rqgCompendiumContent.runeType.form}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -181,7 +195,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.man}}$
   chance: 50
   hasExperience: false
-  runeType: form
+  runeType:
+    type: form
+    name: ${{rqgCompendiumContent.runeType.form}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -205,7 +221,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.death}}$
   chance: 50
   hasExperience: false
-  runeType: power
+  runeType:
+    type: power
+    name: ${{rqgCompendiumContent.runeType.power}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -229,7 +247,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.disorder}}$
   chance: 50
   hasExperience: false
-  runeType: power
+  runeType:
+    type: power
+    name: ${{rqgCompendiumContent.runeType.power}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -253,7 +273,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.fertility}}$
   chance: 50
   hasExperience: false
-  runeType: power
+  runeType:
+    type: power
+    name: ${{rqgCompendiumContent.runeType.power}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -277,7 +299,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.harmony}}$
   chance: 50
   hasExperience: false
-  runeType: power
+  runeType:
+    type: power
+    name: ${{rqgCompendiumContent.runeType.power}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -301,7 +325,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.illusion}}$
   chance: 50
   hasExperience: false
-  runeType: power
+  runeType:
+    type: power
+    name: ${{rqgCompendiumContent.runeType.power}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -325,7 +351,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.movement}}$
   chance: 50
   hasExperience: false
-  runeType: power
+  runeType:
+    type: power
+    name: ${{rqgCompendiumContent.runeType.power}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -349,7 +377,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.stasis}}$
   chance: 50
   hasExperience: false
-  runeType: power
+  runeType:
+    type: power
+    name: ${{rqgCompendiumContent.runeType.power}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -373,7 +403,9 @@ system:
   rune: ${{rqgCompendiumContent.rune.truth}}$
   chance: 50
   hasExperience: false
-  runeType: power
+  runeType:
+    type: power
+    name: ${{rqgCompendiumContent.runeType.power}}$
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
