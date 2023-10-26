@@ -9,9 +9,9 @@ system:
     - rqid: i.rune.illusion-power
       name: ${{rqgCompendiumContent.rune.illusion}}$ (${{rqgCompendiumContent.runeType.power}}$)
   points: 2
-  castingRange: touch
-  duration: permanent
-  isStackable: false
+  castingRange: ranged
+  duration: temporal
+  isStackable: true
   isOneUse: false
   chance: 0
   descriptionRqidLink:
