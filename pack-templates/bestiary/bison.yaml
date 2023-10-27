@@ -182,18 +182,14 @@ items:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.head-butt
       overrides:
-        - path: system.equippedStatus
-          value: equipped
         - path: system.usage.oneHand.damage
-          value: 2d10
+          value: 2d10+db
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.trample
       overrides:
-        - path: system.equippedStatus
-          value: equipped
         - path: system.usage.oneHand.damage
-          value: 6d6
+          value: 6d6+db
 effects: []
 folder:
 sort: 0

@@ -3,7 +3,7 @@ name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent
 type: skill
 img: systems/rqg/assets/images/weapons/claw.svg
 system:
-  category: meleeWeapons
+  category: naturalWeapons
   skillName: ${{rqgCompendiumContent.weaponSkill.fists.name}}$
   specialization: ${{rqgCompendiumContent.weaponSkill.fists.specialization.claw}}$
   baseChance: 25

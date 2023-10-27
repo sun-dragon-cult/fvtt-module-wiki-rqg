@@ -196,10 +196,8 @@ items:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.bite
       overrides:
-        - path: system.equippedStatus
-          value: equipped
         - path: system.usage.oneHand.damage
-          value: 1d8
+          value: 1d8+db
 effects: []
 folder:
 sort: 0

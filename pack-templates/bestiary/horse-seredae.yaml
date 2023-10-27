@@ -216,7 +216,7 @@ items:
           value: 0
   - _importExternalDocument:
       file: skills-weapons/natural.yaml
-      rqid: i.skill.kick
+      rqid: i.skill.kicks-kick
       overrides:
         - path: system.gainedChance
           value: 10
@@ -237,35 +237,24 @@ items:
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.kick
-      overrides:
-        - path: system.equippedStatus
-          value: equipped
-        - path: system.usage.oneHand.damage
-          value: 1d6
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.trample
       overrides:
-        - path: system.equippedStatus
-          value: equipped
         - path: system.usage.oneHand.damage
-          value: 4d6
+          value: 4d6+db
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.bite
       overrides:
-        - path: system.equippedStatus
-          value: equipped
         - path: system.usage.oneHand.damage
-          value: 1d8
+          value: 1d8+db
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.rear-and-plunge
       overrides:
-        - path: system.equippedStatus
-          value: equipped
         - path: system.usage.oneHand.damage
-          value: 2d6
+          value: 2d6+db
 effects: []
 folder:
 sort: 0

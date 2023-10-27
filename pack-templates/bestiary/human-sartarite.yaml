@@ -434,7 +434,7 @@ items:
       rqid: i.skill.grapple
   - _importExternalDocument:
       file: skills-weapons/natural.yaml
-      rqid: i.skill.kick
+      rqid: i.skill.kicks-kick
 
   - _importExternalDocument:
       file: skills-weapons/1h-axe.yaml
@@ -486,7 +486,7 @@ items:
       rqid: i.skill.grapple
   - _importExternalDocument:
       file: skills-weapons/natural.yaml
-      rqid: i.skill.kick
+      rqid: i.skill.kicks-kick
   - _importExternalDocument:
       file: skills-weapons/shields.yaml
       rqid: i.skill.shields-large
@@ -504,21 +504,12 @@ items:
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.fist
-      overrides:
-        - path: system.equippedStatus
-          value: equipped
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.grapple
-      overrides:
-        - path: system.equippedStatus
-          value: equipped
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.kick
-      overrides:
-        - path: system.equippedStatus
-          value: equipped
 
   # passion items
   - _importExternalDocument:

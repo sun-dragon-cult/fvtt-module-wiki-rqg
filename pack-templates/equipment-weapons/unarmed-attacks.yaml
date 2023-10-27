@@ -70,7 +70,7 @@ system:
     real: 10
     estimated: 0
   isNatural: false
-  equippedStatus: carried
+  equippedStatus: equipped
   rate: null
   range: 0
   isProjectile: false
@@ -150,87 +150,7 @@ system:
     real: 20
     estimated: 0
   isNatural: false
-  equippedStatus: carried
-  rate: null
-  range: 0
-  isProjectile: false
-  isProjectileWeapon: false
-  isThrownWeapon: false
-  isRangedWeapon: false
----
-name: ${{rqgCompendiumContent.weapon.clawMetal}}$
-type: weapon
-img: systems/rqg/assets/images/weapons/claw.svg
-flags:
-  rqg:
-    documentRqidFlags:
-      id: i.weapon.claw-metal
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
-effects: []
-system:
-  usage:
-    oneHand:
-      skillRqidLink:
-        rqid: i.skill.fists-claw
-        name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.claw}}$)
-      combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Cut}}$
-          damageType: slash
-          description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Thrust}}$
-          damageType: impale
-          description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
-          damageType: parry
-          description:
-      damage: 1d4+1+db
-      minStrength: 7
-      minDexterity: 9
-      strikeRank: 4
-    offHand:
-      skillRqidLink:
-        rqid:
-        name:
-      combatManeuvers: []
-      damage: 1d4+1+db
-      minStrength: 7
-      minDexterity: 9
-      strikeRank: 4
-    twoHand:
-      skillRqidLink:
-        rqid:
-        name:
-      combatManeuvers: []
-      damage:
-      minStrength: 0
-      minDexterity: 0
-      strikeRank: 0
-    missile:
-      skillRqidLink:
-        rqid:
-        name:
-      combatManeuvers: []
-      damage:
-      minStrength: 0
-      minDexterity: 0
-  description:
-  gmNotes:
-  hitPoints:
-    value:
-    max:
-  hitPointLocation: arm
-  encumbrance: 1
-  location:
-  attunedTo:
-  physicalItemType: unique
-  quantity: 1
-  isContainer: false
-  price:
-    real: 25
-    estimated: 0
-  isNatural: false
-  equippedStatus: carried
+  equippedStatus: equipped
   rate: null
   range: 0
   isProjectile: false
@@ -310,7 +230,7 @@ system:
     real: 0
     estimated: 0
   isNatural: true
-  equippedStatus: carried
+  equippedStatus: equipped
   rate: null
   range: 0
   isProjectile: false
@@ -384,7 +304,7 @@ system:
     real: 0
     estimated: 0
   isNatural: true
-  equippedStatus: carried
+  equippedStatus: equipped
   rate: null
   range: 0
   isProjectile: false
@@ -406,8 +326,8 @@ system:
   usage:
     oneHand:
       skillRqidLink:
-        rqid: i.skill.kick
-        name: ${{rqgCompendiumContent.weaponSkill.kick.name}}$
+        rqid: i.skill.kicks-kick
+        name: ${{rqgCompendiumContent.weaponSkill.kicks.name}}$ (${{rqgCompendiumContent.weaponSkill.kicks.specialization.kick}}$)
       combatManeuvers:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Kick}}$
           damageType: crush
@@ -461,7 +381,7 @@ system:
     real: 0
     estimated: 0
   isNatural: true
-  equippedStatus: carried
+  equippedStatus: equipped
   rate: null
   range: 0
   isProjectile: false
@@ -538,7 +458,7 @@ system:
     real: 0
     estimated: 0
   isNatural: true
-  equippedStatus: carried
+  equippedStatus: equipped
   rate: null
   range: 0
   isProjectile: false
@@ -615,7 +535,7 @@ system:
     real: 0
     estimated: 0
   isNatural: true
-  equippedStatus: carried
+  equippedStatus: equipped
   rate: null
   range: 0
   isProjectile: false
@@ -689,7 +609,7 @@ system:
     real: 0
     estimated: 0
   isNatural: true
-  equippedStatus: carried
+  equippedStatus: equipped
   rate: null
   range: 0
   isProjectile: false
@@ -763,7 +683,7 @@ system:
     real: 0
     estimated: 0
   isNatural: true
-  equippedStatus: carried
+  equippedStatus: equipped
   rate: null
   range: 0
   isProjectile: false
@@ -792,8 +712,8 @@ system:
           damageType: cut
           description:
       damage: 1d6+db
-      minStrength: null
-      minDexterity: null
+      minStrength:
+      minDexterity:
       strikeRank: 4
     offHand:
       skillRqidLink:
@@ -837,7 +757,7 @@ system:
     real: 0
     estimated: 0
   isNatural: true
-  equippedStatus: carried
+  equippedStatus: equipped
   rate: null
   range: 0
   isProjectile: false
@@ -903,7 +823,7 @@ system:
     real: 0
     estimated: 0
   isNatural: true
-  equippedStatus: carried
+  equippedStatus: equipped
   rate: null
   range: 0
   isProjectile: false
@@ -977,7 +897,7 @@ system:
     real: 0
     estimated: 0
   isNatural: true
-  equippedStatus: carried
+  equippedStatus: equipped
   rate: null
   range: 0
   isProjectile: false
@@ -1051,7 +971,7 @@ system:
     real: 0
     estimated: 0
   isNatural: true
-  equippedStatus: carried
+  equippedStatus: equipped
   rate: null
   range: 0
   isProjectile: false

@@ -176,7 +176,7 @@ items:
           value: 25
   - _importExternalDocument:
       file: skills-weapons/natural.yaml
-      rqid: i.skill.claw
+      rqid: i.skill.fists-claw
       overrides:
         - path: system.gainedChance
           value: 10
@@ -192,26 +192,17 @@ items:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.hug
       overrides:
-        - path: system.equippedStatus
-          value: equipped
         - path: system.usage.twoHand.damage
-          value: 5d6
+          value: 5d6+db
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.claw
-      overrides:
-        - path: system.equippedStatus
-          value: equipped
-        - path: system.usage.oneHand.damage
-          value: 1d6
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.bite
       overrides:
-        - path: system.equippedStatus
-          value: equipped
         - path: system.usage.oneHand.damage
-          value: 1d8
+          value: 1d8+db
 effects: []
 folder:
 sort: 0

@@ -3,7 +3,7 @@ name: ${{rqgCompendiumContent.weaponSkill.bite.name}}$
 type: skill
 img: systems/rqg/assets/images/weapons/bite.svg
 system:
-  category: meleeWeapons
+  category: naturalWeapons
   skillName: ${{rqgCompendiumContent.weaponSkill.bite.name}}$
   specialization:
   baseChance: 25
@@ -26,7 +26,7 @@ name: ${{rqgCompendiumContent.weaponSkill.headButt.name}}$
 type: skill
 img: systems/rqg/assets/images/weapons/head-butt.svg
 system:
-  category: meleeWeapons
+  category: naturalWeapons
   skillName: ${{rqgCompendiumContent.weaponSkill.headButt.name}}$
   specialization:
   baseChance: 25
@@ -49,7 +49,7 @@ name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent
 type: skill
 img: systems/rqg/assets/images/weapons/fist.svg
 system:
-  category: meleeWeapons
+  category: naturalWeapons
   skillName: ${{rqgCompendiumContent.weaponSkill.fists.name}}$
   specialization: ${{rqgCompendiumContent.weaponSkill.fists.name}}$
   baseChance: 25
@@ -72,7 +72,7 @@ name: ${{rqgCompendiumContent.weaponSkill.gore.name}}$
 type: skill
 img: systems/rqg/assets/images/weapons/head-butt.svg
 system:
-  category: meleeWeapons
+  category: naturalWeapons
   skillName: ${{rqgCompendiumContent.weaponSkill.gore.name}}$
   specialization:
   baseChance: 25
@@ -95,7 +95,7 @@ name: ${{rqgCompendiumContent.weaponSkill.grapple.name}}$
 type: skill
 img: systems/rqg/assets/images/weapons/grab.svg
 system:
-  category: meleeWeapons
+  category: naturalWeapons
   skillName: ${{rqgCompendiumContent.weaponSkill.grapple.name}}$
   specialization:
   baseChance: 25
@@ -118,7 +118,7 @@ name: ${{rqgCompendiumContent.weaponSkill.hug.name}}$
 type: skill
 img: systems/rqg/assets/images/weapons/grab.svg
 system:
-  category: meleeWeapons
+  category: naturalWeapons
   skillName: ${{rqgCompendiumContent.weaponSkill.hug.name}}$
   specialization:
   baseChance: 25
@@ -137,13 +137,13 @@ flags:
       priority: ${{rqgCompendiumContent.prio}}$
 ---
 # kick
-name: ${{rqgCompendiumContent.weaponSkill.kick.name}}$
+name: ${{rqgCompendiumContent.weaponSkill.kicks.name}}$ (${{rqgCompendiumContent.weaponSkill.kicks.specialization.kick}}$)
 type: skill
 img: systems/rqg/assets/images/weapons/kick.svg
 system:
-  category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.kick.name}}$
-  specialization:
+  category: naturalWeapons
+  skillName: ${{rqgCompendiumContent.weaponSkill.kicks.name}}$
+  specialization: ${{rqgCompendiumContent.weaponSkill.kicks.specialization.kick}}$
   baseChance: 15
   gainedChance: 0
   canGetExperience: true
@@ -155,7 +155,7 @@ effects: []
 flags:
   rqg:
     documentRqidFlags:
-      id: i.skill.kick
+      id: i.skill.kicks-kick
       lang: ${{rqgCompendiumContent.lang}}$
       priority: ${{rqgCompendiumContent.prio}}$
 ---
@@ -164,7 +164,7 @@ name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent
 type: skill
 img: systems/rqg/assets/images/weapons/claw.svg
 system:
-  category: meleeWeapons
+  category: naturalWeapons
   skillName: ${{rqgCompendiumContent.weaponSkill.fists.name}}$
   specialization: ${{rqgCompendiumContent.weaponSkill.fists.specialization.rip}}$
   baseChance: 25
@@ -187,7 +187,7 @@ name: ${{rqgCompendiumContent.weaponSkill.rearAndPlunge.name}}$
 type: skill
 img: systems/rqg/assets/images/weapons/rear-plunge.svg
 system:
-  category: meleeWeapons
+  category: naturalWeapons
   skillName: ${{rqgCompendiumContent.weaponSkill.rearAndPlunge.name}}$
   specialization:
   baseChance: 25
@@ -210,7 +210,7 @@ name: ${{rqgCompendiumContent.weaponSkill.sting.name}}$
 type: skill
 img: systems/rqg/assets/images/weapons/sting.svg
 system:
-  category: meleeWeapons
+  category: naturalWeapons
   skillName: ${{rqgCompendiumContent.weaponSkill.sting.name}}$
   specialization:
   baseChance: 25
@@ -233,7 +233,7 @@ name: ${{rqgCompendiumContent.weaponSkill.trample.name}}$
 type: skill
 img: systems/rqg/assets/images/weapons/trample.svg
 system:
-  category: meleeWeapons
+  category: naturalWeapons
   skillName: ${{rqgCompendiumContent.weaponSkill.trample.name}}$
   specialization:
   baseChance: 25
@@ -252,13 +252,13 @@ flags:
       priority: ${{rqgCompendiumContent.prio}}$
 ---
 # claw
-name: ${{rqgCompendiumContent.weaponSkill.claw.name}}$
+name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.claw}}$)
 type: skill
 img: systems/rqg/assets/images/weapons/claw.svg
 system:
-  category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.claw.name}}$
-  specialization:
+  category: naturalWeapons
+  skillName: ${{rqgCompendiumContent.weaponSkill.fists.name}}$
+  specialization: ${{rqgCompendiumContent.weaponSkill.fists.specialization.claw}}$
   baseChance: 25
   gainedChance: 0
   canGetExperience: true
@@ -270,6 +270,6 @@ effects: []
 flags:
   rqg:
     documentRqidFlags:
-      id: i.skill.claw
+      id: i.skill.fists-claw
       lang: ${{rqgCompendiumContent.lang}}$
       priority: ${{rqgCompendiumContent.prio}}$
