@@ -781,7 +781,7 @@ system:
       combatManeuvers: []
       minStrength:
       minDexterity:
-      strikeRank: 4
+      strikeRank:
     offHand:
       skillRqidLink:
         rqid:
@@ -789,16 +789,19 @@ system:
       combatManeuvers: []
       minStrength:
       minDexterity:
-      strikeRank: 4
+      strikeRank:
     twoHand:
       skillRqidLink:
         rqid: i.skill.hug
         name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.claw}}$)
-      combatManeuvers: []
-      damage: 1d6+db
+      combatManeuvers:
+        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Hug}}$
+          damageType: crush
+          description:
+      damage: 5d6
       minStrength: 0
       minDexterity: 0
-      strikeRank: 0
+      strikeRank: 4
     missile:
       skillRqidLink:
         rqid:

@@ -166,6 +166,8 @@ items:
       overrides:
         - path: system.naturalAp
           value: 3
+        - path: system.baseHpDelta
+          value: 1
 
   # skill items
   - _importExternalDocument:
@@ -190,19 +192,19 @@ items:
   # weapon items
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
-      rqid: i.weapon.hug
+      rqid: i.weapon.bite
       overrides:
-        - path: system.usage.twoHand.damage
-          value: 5d6+db
+        - path: system.usage.oneHand.damage
+          value: 1d8+db
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.claw
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
-      rqid: i.weapon.bite
+      rqid: i.weapon.hug
       overrides:
-        - path: system.usage.oneHand.damage
-          value: 1d8+db
+        - path: system.usage.twoHand.damage
+          value: 5d6
 effects: []
 folder:
 sort: 0
