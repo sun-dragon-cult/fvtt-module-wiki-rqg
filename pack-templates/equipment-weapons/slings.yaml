@@ -193,7 +193,7 @@ system:
       damage:
       minStrength: 0
       minDexterity: 0
-  description: <p>Sling pellets</p>
+  description:
   gmNotes:
   hitPoints:
     value: 0

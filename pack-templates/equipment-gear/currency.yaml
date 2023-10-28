@@ -15,7 +15,7 @@ system:
   price:
     real: 0.01
     estimated: 0.01
-  encumbrance: 0.01
+  encumbrance: 0.00333
   equippedStatus: carried
   location:
   isContainer: false
@@ -39,7 +39,7 @@ system:
   price:
     real: 0.1
     estimated: 0.1
-  encumbrance: 0.01
+  encumbrance: 0.00625
   equippedStatus: carried
   location:
   isContainer: false
@@ -63,7 +63,7 @@ system:
   price:
     real: 1
     estimated: 1
-  encumbrance: 0.01
+  encumbrance: 0.00625
   equippedStatus: carried
   location:
   isContainer: false
