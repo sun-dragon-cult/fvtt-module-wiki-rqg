@@ -123,9 +123,15 @@ items:
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.right-hind-leg
+      overrides:
+        - path: system.baseHpDelta
+          value: -1
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.left-hind-leg
+      overrides:
+        - path: system.baseHpDelta
+          value: -1
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.hindquarter
@@ -135,9 +141,15 @@ items:
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.right-foreleg
+      overrides:
+        - path: system.baseHpDelta
+          value: -1
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.left-foreleg
+      overrides:
+        - path: system.baseHpDelta
+          value: -1
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.head
@@ -188,13 +200,13 @@ items:
       rqid: i.weapon.claw
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.bite
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.rip
       overrides:
         - path: system.usage.oneHand.damage
           value: 3d6+db
-  - _importExternalDocument:
-      file: equipment-weapons/unarmed-attacks.yaml
-      rqid: i.weapon.bite
 effects: []
 folder:
 sort: 0
