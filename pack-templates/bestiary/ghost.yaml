@@ -20,7 +20,7 @@ system:
       formula: 2d6+6
     power:
       value: 11
-      formula: 3d6
+      formula: 4d6
       hasExperience: false
     charisma:
       value: 11
@@ -51,16 +51,14 @@ system:
     hitPoints:
       value: 0
     move:
-      currentLocomotion: walk
-      walk:
-        value: 8
-        carryingFactor: 1
-      swim:
-        value: 2
-        carryingFactor: 0.5
-      fly: {}
+      currentLocomotion: fly
+      walk: {}
+      swim: {}
+      fly:
+        value: 14
+        carryingFactor: 0
     heroPoints: 0
-    isCreature: true
+    isCreature: false
     health: healthy
 prototypeToken:
   name: ${{rqgCompendiumContent.bestiary.ghost.name}}$
@@ -125,7 +123,7 @@ items:
       rqid: i.skill.spirit-combat
       overrides:
         - path: system.gainedChance
-          value: 55
+          value: 45
 effects: []
 folder:
 sort: 0
