@@ -54,7 +54,7 @@ system:
       currentLocomotion: walk
       walk:
         value: 12
-        carryingFactor: 1
+        carryingFactor: 4
       swim:
         value: 2
         carryingFactor: 0.5
@@ -138,12 +138,16 @@ items:
       overrides:
         - path: system.naturalAp
           value: 3
+        - path: system.baseHpDelta
+          value: 2
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.forequarter
       overrides:
         - path: system.naturalAp
           value: 3
+        - path: system.baseHpDelta
+          value: 2
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.right-foreleg
@@ -162,6 +166,8 @@ items:
       overrides:
         - path: system.naturalAp
           value: 3
+        - path: system.baseHpDelta
+          value: 1
 
   # skill items
   - _importExternalDocument:
@@ -189,7 +195,7 @@ items:
       rqid: i.weapon.trample
       overrides:
         - path: system.usage.oneHand.damage
-          value: 6d6+db
+          value: 6d6
 effects: []
 folder:
 sort: 0

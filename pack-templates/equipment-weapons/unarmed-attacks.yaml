@@ -486,10 +486,7 @@ system:
         - name: Trample
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
-          damageType: special
-          description:
-      damage: 1d6+db
+      damage: 1d6
       minStrength: null
       minDexterity: null
       strikeRank: 4
