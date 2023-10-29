@@ -126,12 +126,16 @@ items:
       overrides:
         - path: system.naturalAp
           value: 4
+        - path: system.baseHpDelta
+          value: -1
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.left-hind-leg
       overrides:
         - path: system.naturalAp
           value: 4
+        - path: system.baseHpDelta
+          value: -1
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.hindquarter
@@ -150,12 +154,16 @@ items:
       overrides:
         - path: system.naturalAp
           value: 4
+        - path: system.baseHpDelta
+          value: -1
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.left-foreleg
       overrides:
         - path: system.naturalAp
           value: 4
+        - path: system.baseHpDelta
+          value: -1
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.head
@@ -187,16 +195,16 @@ items:
   # weapon items
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
-      rqid: i.weapon.trample
-      overrides:
-        - path: system.usage.oneHand.damage
-          value: 4d6+db
-  - _importExternalDocument:
-      file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.gore
       overrides:
         - path: system.usage.oneHand.damage
           value: 2d6+db
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.trample
+      overrides:
+        - path: system.usage.oneHand.damage
+          value: 4d6
 effects: []
 folder:
 sort: 0
