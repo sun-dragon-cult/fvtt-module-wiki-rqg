@@ -120,7 +120,14 @@ prototypeToken:
   detectionModes: []
   flags: {}
   randomImg: false
-items: []
+items:
+  # hit location items
+  - _importExternalDocument:
+      file: hit-locations-gorp/hit-locations-gorp.yaml
+      rqid: i.hit-location.body
+      overrides:
+        - path: system.baseHpDelta
+          value: 12
 effects: []
 folder:
 sort: 0
