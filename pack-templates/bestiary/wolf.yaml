@@ -60,7 +60,7 @@ system:
         carryingFactor: 0.5
       fly: {}
     heroPoints: 0
-    isCreature: true
+    isCreature: false
     health: healthy
 prototypeToken:
   name: ${{rqgCompendiumContent.bestiary.wolf.name}}$
@@ -126,12 +126,16 @@ items:
       overrides:
         - path: system.naturalAp
           value: 2
+        - path: system.baseHpDelta
+          value: -1
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.left-hind-leg
       overrides:
         - path: system.naturalAp
           value: 2
+        - path: system.baseHpDelta
+          value: -1
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.hindquarter
@@ -150,12 +154,16 @@ items:
       overrides:
         - path: system.naturalAp
           value: 2
+        - path: system.baseHpDelta
+          value: -1
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.left-foreleg
       overrides:
         - path: system.naturalAp
           value: 2
+        - path: system.baseHpDelta
+          value: -1
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.head
@@ -169,7 +177,7 @@ items:
       rqid: i.skill.dodge
       overrides:
         - path: system.gainedChance
-          value: -4
+          value: -14
 
   - _importExternalDocument:
       file: skills/perception-skills.yaml
@@ -189,7 +197,7 @@ items:
       rqid: i.skill.bite
       overrides:
         - path: system.gainedChance
-          value: 5
+          value: -5
 
   # weapon items
   - _importExternalDocument:
@@ -197,7 +205,7 @@ items:
       rqid: i.weapon.bite
       overrides:
         - path: system.usage.oneHand.damage
-          value: 1d8+db
+          value: 1d8
 effects: []
 folder:
 sort: 0
