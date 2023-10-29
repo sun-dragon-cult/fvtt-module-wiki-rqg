@@ -138,12 +138,16 @@ items:
       overrides:
         - path: system.naturalAp
           value: 1
+        - path: system.baseHpDelta
+          value: 2
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.forequarter
       overrides:
         - path: system.naturalAp
           value: 1
+        - path: system.baseHpDelta
+          value: 2
   - _importExternalDocument:
       file: hit-locations-four-legged-animals/hit-locations-four-legged-animals.yaml
       rqid: i.hit-location.right-foreleg
@@ -161,6 +165,8 @@ items:
       rqid: i.hit-location.head
       overrides:
         - path: system.naturalAp
+          value: 1
+        - path: system.baseHpDelta
           value: 1
 
   # skill items
@@ -200,13 +206,13 @@ items:
       rqid: i.skill.scent-intruder
       overrides:
         - path: system.gainedChance
-          value: 5
+          value: 25
   - _importExternalDocument:
       file: skills/perception-skills.yaml
       rqid: i.skill.scan
       overrides:
         - path: system.gainedChance
-          value: 15
+          value: 5
 
   - _importExternalDocument:
       file: skills-weapons/natural.yaml
@@ -236,25 +242,25 @@ items:
   # weapon items
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
-      rqid: i.weapon.kick
-  - _importExternalDocument:
-      file: equipment-weapons/unarmed-attacks.yaml
-      rqid: i.weapon.trample
-      overrides:
-        - path: system.usage.oneHand.damage
-          value: 4d6+db
-  - _importExternalDocument:
-      file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.bite
       overrides:
         - path: system.usage.oneHand.damage
-          value: 1d8+db
+          value: 1d8
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.kick
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
       rqid: i.weapon.rear-and-plunge
       overrides:
         - path: system.usage.oneHand.damage
           value: 2d6+db
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.trample
+      overrides:
+        - path: system.usage.oneHand.damage
+          value: 4d6
 effects: []
 folder:
 sort: 0
