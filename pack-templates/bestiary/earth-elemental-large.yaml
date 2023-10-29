@@ -11,7 +11,7 @@ system:
       formula:
     size:
       value: 29
-      formula: 3d6_18
+      formula: 3d6+18
     dexterity:
       value:
       formula:
@@ -118,7 +118,18 @@ prototypeToken:
   detectionModes: []
   flags: {}
   randomImg: false
-items: []
+items:
+  # hit location items
+  - _importExternalDocument:
+      file: hit-locations-gorp/hit-locations-gorp.yaml
+      rqid: i.hit-location.body
+      overrides:
+        - path: system.baseHpDelta
+          value: 12
+  # Weapon
+  - name: . # Minimal weapon to show damage bonus
+    type: weapon
+
 effects: []
 folder:
 sort: 0
