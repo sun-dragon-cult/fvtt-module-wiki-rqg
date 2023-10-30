@@ -19,3 +19,25 @@ flags:
       id: i.skill.cult-lore-orlanth
       priority: ${{rqgCompendiumContent.prio}}$
       lang: ${{rqgCompendiumContent.lang}}$
+---
+# cult lore Aldrya
+name: ${{rqgCompendiumContent.skill.cultLore.skillName}}$ (${{rqgCompendiumContent.cult.aldrya.name}}$)
+type: skill
+img: systems/rqg/assets/images/passion/devotion.svg
+system:
+  category: knowledge
+  skillName: ${{rqgCompendiumContent.skill.cultLore.skillName}}$
+  specialization: ${{rqgCompendiumContent.cult.aldrya.name}}$
+  baseChance: 5
+  gainedChance: 0
+  canGetExperience: false
+  descriptionRqidLink:
+    rqid: je..cult-lore
+    name: ${{rqgCompendiumContent.skill.cultLore.skillName}}$
+effects: []
+flags:
+  rqg:
+    documentRqidFlags:
+      id: i.skill.cult-lore-aldrya
+      priority: ${{rqgCompendiumContent.prio}}$
+      lang: ${{rqgCompendiumContent.lang}}$

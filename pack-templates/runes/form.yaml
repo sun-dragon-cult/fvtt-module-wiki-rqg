@@ -110,7 +110,7 @@ system:
     name: ${{rqgCompendiumContent.runeType.form}}$
   isMastered: false
   minorRuneRqidLinks: []
-  opposingRuneRqidLink:
+  opposingRuneRqidLink: {}
   descriptionRqidLink:
     rqid: je..plant-form
     name: ${{rqgCompendiumContent.rune.plant}}$

@@ -259,6 +259,9 @@
       "title": "<h3>Spirit Magic</h3><br/>"
     }
   },
+  "elderRace": {
+    "aldryami": "Aldryami"
+  },
   "language": {
     "aldryami": {
       "name": "Aldryami"
@@ -1144,7 +1147,8 @@
       "skillName": "Insight",
       "description": "<p>Evaluating someone’s character, emotional state, trustworthiness, and motives based on body language, speech patterns, and other factors. Specialties are per species, so most adventurers have Human as their specialty, while others might be Aldryami, Ducks, Mostali, Trolls, or even Dragons.</p>",
       "specialization": {
-        "human": "Human"
+        "human": "Human",
+        "aldryami": "Aldryami"
       }
     },
     "intimidate": {

@@ -1,0 +1,21 @@
+# elder-race-lore aldryami
+name: ${{rqgCompendiumContent.skill.elderRaceLore.skillName}}$ (${{rqgCompendiumContent.elderRace.aldryami}}$)
+type: skill
+img: systems/rqg/assets/images/skills/elder-race-lore.svg
+system:
+  category: knowledge
+  skillName: ${{rqgCompendiumContent.skill.elderRaceLore.skillName}}$
+  specialization: ${{rqgCompendiumContent.elderRace.aldryami}}$
+  baseChance: 5
+  gainedChance: 0
+  canGetExperience: false
+  descriptionRqidLink:
+    rqid: je..elder-race-lore
+    name: ${{rqgCompendiumContent.skill.elderRaceLore.skillName}}$
+effects: []
+flags:
+  rqg:
+    documentRqidFlags:
+      id: i.skill.elder-race-lore-aldryami
+      priority: ${{rqgCompendiumContent.prio}}$
+      lang: ${{rqgCompendiumContent.lang}}$

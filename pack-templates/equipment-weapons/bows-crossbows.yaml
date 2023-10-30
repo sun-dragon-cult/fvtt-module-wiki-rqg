@@ -561,17 +561,17 @@ system:
       damage:
       minStrength: 0
       minDexterity: 0
-  description: "<p>Bow Arrows</p>"
+  description:
   gmNotes:
   hitPoints:
     value:
     max:
-  hitPointLocation:
+  hitPointLocation: ---
   encumbrance: 0
   location:
   attunedTo:
   physicalItemType: consumable
-  quantity: 20
+  quantity: 12
   isContainer: false
   price:
     real: 0
@@ -633,12 +633,12 @@ system:
       damage:
       minStrength: 0
       minDexterity: 0
-  description: "<p>Crossbow Bolts</p>"
+  description:
   gmNotes:
   hitPoints:
     value:
     max:
-  hitPointLocation:
+  hitPointLocation: ---
   encumbrance: 0
   location:
   attunedTo:

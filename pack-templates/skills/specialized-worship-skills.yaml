@@ -1,4 +1,4 @@
-# worship
+# worship Orlanth
 name: ${{rqgCompendiumContent.skill.worship.skillName}}$ (${{rqgCompendiumContent.cult.orlanth.name}}$)
 type: skill
 img: systems/rqg/assets/images/skills/worship.svg
@@ -17,5 +17,27 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.skill.worship-orlanth
+      priority: ${{rqgCompendiumContent.prio}}$
+      lang: ${{rqgCompendiumContent.lang}}$
+---
+# worship Aldrya
+name: ${{rqgCompendiumContent.skill.worship.skillName}}$ (${{rqgCompendiumContent.cult.aldrya.name}}$)
+type: skill
+img: systems/rqg/assets/images/skills/worship.svg
+system:
+  category: magic
+  skillName: ${{rqgCompendiumContent.skill.worship.skillName}}$
+  specialization: ${{rqgCompendiumContent.cult.aldrya.name}}$
+  baseChance: 5
+  gainedChance: 0
+  canGetExperience: true
+  descriptionRqidLink:
+    rqid: je..worship
+    name: ${{rqgCompendiumContent.skill.worship.skillName}}$
+effects: []
+flags:
+  rqg:
+    documentRqidFlags:
+      id: i.skill.worship-aldrya
       priority: ${{rqgCompendiumContent.prio}}$
       lang: ${{rqgCompendiumContent.lang}}$
