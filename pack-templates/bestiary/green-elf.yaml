@@ -605,6 +605,79 @@ items:
         - path: system.equippedStatus
           value: equipped
 
+  # Armor - added inline since it's not truly part of wiki
+  - name: ${{uiContent.RQG.Item.Armor.ArmorType.Greaves}}$ (${{rqgCompendiumContent.equipment.armor.material.elfBark}}$)
+    type: armor
+    img: systems/rqg/assets/images/items/armor.svg
+    system:
+      size: 11
+      encumbrance: 1
+      equippedStatus: equipped
+      hitLocations:
+        - ${{rqgCompendiumContent.hitLocation.humanoid.leftLeg}}$
+        - ${{rqgCompendiumContent.hitLocation.humanoid.rightLeg}}$
+      armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Greaves}}$
+      material: ${{rqgCompendiumContent.equipment.armor.material.elfBark}}$
+      absorbs: 2
+      moveQuietlyPenalty: 0
+      isContainer: false
+      physicalItemType: unique
+      quantity: 1
+    effects: []
+  - name: ${{uiContent.RQG.Item.Armor.ArmorType.Hauberk}}$ (${{rqgCompendiumContent.equipment.armor.material.elfBark}}$)
+    type: armor
+    img: systems/rqg/assets/images/items/armor.svg
+    system:
+      size: 11
+      encumbrance: 1
+      equippedStatus: equipped
+      hitLocations:
+        - ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+        - ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+      armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Hauberk}}$
+      material: ${{rqgCompendiumContent.equipment.armor.material.elfBark}}$
+      absorbs: 2
+      moveQuietlyPenalty: 0
+      isContainer: false
+      physicalItemType: unique
+      quantity: 1
+    effects: []
+  - name: ${{uiContent.RQG.Item.Armor.ArmorType.Hood}}$ (${{rqgCompendiumContent.equipment.armor.material.elfBark}}$)
+    type: armor
+    img: systems/rqg/assets/images/items/armor.svg
+    system:
+      size: 11
+      encumbrance: 0.5
+      equippedStatus: equipped
+      hitLocations:
+        - ${{rqgCompendiumContent.hitLocation.humanoid.head}}$
+      armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Hood}}$
+      material: ${{rqgCompendiumContent.equipment.armor.material.elfBark}}$
+      absorbs: 2
+      moveQuietlyPenalty: 0
+      isContainer: false
+      physicalItemType: unique
+      quantity: 1
+    effects: []
+  - name: ${{uiContent.RQG.Item.Armor.ArmorType.Sleeves}}$ (${{rqgCompendiumContent.equipment.armor.material.elfBark}}$)
+    type: armor
+    img: systems/rqg/assets/images/items/armor.svg
+    system:
+      size: 11
+      encumbrance: 0.5
+      equippedStatus: equipped
+      hitLocations:
+        - ${{rqgCompendiumContent.hitLocation.humanoid.leftArm}}$
+        - ${{rqgCompendiumContent.hitLocation.humanoid.rightArm}}$
+      armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Sleeves}}$
+      material: ${{rqgCompendiumContent.equipment.armor.material.elfBark}}$
+      absorbs: 2
+      moveQuietlyPenalty: 0
+      isContainer: false
+      physicalItemType: unique
+      quantity: 1
+    effects: []
+
   # Passions
   - _importExternalDocument:
       file: passions-base/passions-base.yaml

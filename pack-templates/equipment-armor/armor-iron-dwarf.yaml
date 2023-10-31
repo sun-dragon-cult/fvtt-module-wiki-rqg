@@ -43,7 +43,8 @@ effects: []
 system:
   hitLocations:
     - ${{rqgCompendiumContent.hitLocation.humanoid.head}}$
-  armorType: ${{rqgCompendiumContent.equipment.armor.closedHelm}}$
+  namePrefix:
+  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.ClosedHelm}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Iron}}$
   absorbs: 9
   encumbrance: 2

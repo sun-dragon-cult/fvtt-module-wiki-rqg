@@ -1,4 +1,4 @@
-name: ${{rqgCompendiumContent.equipment.armor.cuirass}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyLeather}}$)
+name: ${{uiContent.RQG.Item.Armor.ArmorType.Cuirass}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyLeather}}$)
 type: armor
 img: systems/rqg/assets/images/armor/cuirass.svg
 flags:
@@ -11,7 +11,7 @@ effects: []
 system:
   hitLocations:
     - ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
-  armorType: ${{rqgCompendiumContent.equipment.armor.cuirass}}$
+  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Cuirass}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyLeather}}$
   absorbs: 2
   encumbrance: 1
@@ -25,7 +25,7 @@ system:
   equippedStatus: carried
   description: ${{rqgCompendiumContent.equipment.armor.description.heavyLeather}}$ ${{rqgCompendiumContent.equipment.armor.description.cuirass}}$
 ---
-name: ${{rqgCompendiumContent.equipment.armor.hauberk}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyLeather}}$)
+name: ${{uiContent.RQG.Item.Armor.ArmorType.Hauberk}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyLeather}}$)
 type: armor
 img: systems/rqg/assets/images/armor/hauberk.svg
 flags:
@@ -39,7 +39,7 @@ system:
   hitLocations:
     - ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
     - ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
-  armorType: ${{rqgCompendiumContent.equipment.armor.hauberk}}$
+  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Hauberk}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyLeather}}$
   absorbs: 2
   encumbrance: 1
@@ -53,7 +53,7 @@ system:
   equippedStatus: carried
   description: ${{rqgCompendiumContent.equipment.armor.description.heavyLeather}}$ ${{rqgCompendiumContent.equipment.armor.description.hauberk}}$
 ---
-name: ${{rqgCompendiumContent.equipment.armor.pants}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyLeather}}$)
+name: ${{uiContent.RQG.Item.Armor.ArmorType.PantsTrews}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyLeather}}$)
 type: armor
 img: systems/rqg/assets/images/armor/pants.svg
 flags:
@@ -68,7 +68,7 @@ system:
     - ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
     - ${{rqgCompendiumContent.hitLocation.humanoid.leftLeg}}$
     - ${{rqgCompendiumContent.hitLocation.humanoid.rightLeg}}$
-  armorType: ${{rqgCompendiumContent.equipment.armor.pants}}$
+  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.PantsTrews}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyLeather}}$
   absorbs: 2
   encumbrance: 1

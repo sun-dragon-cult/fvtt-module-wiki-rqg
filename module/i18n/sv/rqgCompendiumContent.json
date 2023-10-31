@@ -1646,24 +1646,11 @@
   },
   "equipment": {
     "armor": {
-      "hood": "🇸🇪Hood",
-      "broadBrimmedHat": "🇸🇪Broad-brimmed Hat",
-      "cap": "🇸🇪Cap",
-      "compositeHelm": "🇸🇪Composite Helm",
-      "openHelm": "🇸🇪Open Helm",
-      "closedHelm": "🇸🇪Closed Helm",
-      "fullHelm": "🇸🇪Full Helm",
-      "sleeves": "🇸🇪Sleeves",
-      "vambraces": "🇸🇪Vambraces",
-      "cuirass": "🇸🇪Cuirass",
-      "linothorax": "🇸🇪Linothorax",
-      "hauberk": "🇸🇪Hauberk",
-      "segmented": "🇸🇪Segmented",
-      "skirt": "🇸🇪Skirt",
-      "pants": "🇸🇪Pants",
-      "greaves": "🇸🇪Greaves",
       "unenchantedHeavyDwarfChainmail": "🇸🇪Unenchanted Heavy Dwarf Chainmail",
       "unenchantedDwarfHelmet": "🇸🇪Unenchanted Heavy Dwarf Closed Helmet",
+      "material": {
+        "elfBark": "🇸🇪Elf Bark"
+      },
       "description": {
         "cuirboilli": "🇸🇪<p>Cuirboilli is leather treated with boiling wax, hardening it almost to the resiliency of metal.</p>",
         "heavyLeather": "🇸🇪<p>Heavy leather is the thickness of a shoe sole and provides two points of protection.  Unlike normal leather, heavy leather cannot be worn under other armor.</p>",

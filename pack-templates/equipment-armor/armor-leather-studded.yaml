@@ -1,4 +1,4 @@
-name: ${{rqgCompendiumContent.equipment.armor.skirt}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.StuddedLeather}}$)
+name: ${{uiContent.RQG.Item.Armor.ArmorType.Skirt}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.StuddedLeather}}$)
 type: armor
 img: systems/rqg/assets/images/armor/skirt.svg
 flags:
@@ -11,7 +11,7 @@ effects: []
 system:
   hitLocations:
     - ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
-  armorType: ${{rqgCompendiumContent.equipment.armor.skirt}}$
+  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Skirt}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.StuddedLeather}}$
   absorbs: 3
   encumbrance: 1

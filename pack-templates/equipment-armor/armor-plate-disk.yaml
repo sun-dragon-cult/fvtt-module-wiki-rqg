@@ -1,4 +1,4 @@
-name: ${{rqgCompendiumContent.equipment.armor.cuirass}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.DiskPlate}}$)
+name: ${{uiContent.RQG.Item.Armor.ArmorType.Cuirass}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.DiskPlate}}$)
 type: armor
 img: systems/rqg/assets/images/armor/cuirass.svg
 flags:
@@ -11,7 +11,7 @@ effects: []
 system:
   hitLocations:
     - ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
-  armorType: ${{rqgCompendiumContent.equipment.armor.cuirass}}$
+  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Cuirass}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.DiskPlate}}$
   absorbs: 5
   encumbrance: 2

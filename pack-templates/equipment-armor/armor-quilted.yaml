@@ -1,4 +1,4 @@
-name: ${{rqgCompendiumContent.equipment.armor.linothorax}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Quilted}}$)
+name: ${{uiContent.RQG.Item.Armor.ArmorType.Linothorax}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Quilted}}$)
 type: armor
 img: systems/rqg/assets/images/armor/hauberk.svg
 flags:
@@ -12,7 +12,7 @@ system:
   hitLocations:
     - ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
     - ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
-  armorType: ${{rqgCompendiumContent.equipment.armor.linothorax}}$
+  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Linothorax}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Quilted}}$
   absorbs: 2
   encumbrance: 1

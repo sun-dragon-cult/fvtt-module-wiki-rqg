@@ -16,7 +16,13 @@
       "spiritMagic": "Spirit Magic Spell",
       "weapon": "Weapon",
       "Reputation": "Reputation"
+    },
+    "Actor": {
+      "character": "Character"
     }
+  },
+  "COMBAT": {
+    "InitiativeReset": "Reset SR"
   },
   "RQG": {
     "ActorCreation": {
@@ -215,7 +221,10 @@
         "HP": "HP",
         "Chance": "Chance",
         "Damage": "Damage",
+        "Range": "Range:",
+        "Rate": "Rate:",
         "SR": "SR",
+        "SRTooltip": "<h3>Strike Rank Modifiers</h3><ul><li>Augmenting +0</li><li>Prepare new spell or different weapon +5</li><li>Reload missile +5</li><li>Getting up from prone position +5</li><li>Surprised by foe within 3 m / yards +3</li><li>Surprised by foe within 4-9 m / yards +1</li><li>Movement: each 3 m / yards +1</li><li>Magic points used after first (which is free) +1</li></ul>",
         "Dodge": "Dodge",
         "SpiritCombat": "Spirit Combat",
         "SpiritCombatDamage": "Spirit Combat Damage",
@@ -245,6 +254,8 @@
         "ExtendedAbbr": "Ext",
         "Skill": "Skill",
         "Damage": "Damage",
+        "Range": "Range",
+        "Rate": "Rate",
         "MinimumStrength": "STR",
         "MinimumDexterity": "DEX",
         "HitPointsAbbr": "HP",
@@ -295,6 +306,8 @@
         "ImportPassionCheckboxTitle": "Import Passion: \"{passionName}\""
       },
       "Rune": {
+        "IncorrectRuneWarning": "Rune type is not one of element, power, form, condition or technique. Please update it.",
+        "TypeDontMatchTranslationTip": "Name of rune type does not match current translation in system. Not an error, just inconsistent translations.<br>Reselecting the type will reset it to the system standard.",
         "Condition": "Condition",
         "Elemental": "Elemental",
         "Form": "Form",
@@ -609,6 +622,7 @@
         "DamageBonusDamageTag": "damage bonus",
         "CrushSpecialDamageTag": "crushing special",
         "ImpaleSpecialDamageTag": "impale special",
+        "SlashSpecialDamageTag": "slash special",
         "FumbleTableMissingWarn": "The fumble table \"{fumbleTableName}\" is missing.",
         "PluralResults": "{numberOfResults} results",
         "SingularResult": "a result",
@@ -666,7 +680,6 @@
         "Deity": "Deity",
         "CultName": "Cult Name",
         "CultTagline": "Cult Tagline",
-        "AddNewRunePlaceholder": "Add new rune",
         "Runes": "Runes",
         "HolyDays": "Holy Days",
         "RunePoints": "Rune Points",
@@ -763,7 +776,7 @@
         "RuneLinks": "Rune Links"
       },
       "Notification": {
-        "CantFindRuneInAvailableRunesError": "Can't find rune \"{runeName}\" in any compendium",
+        "CantFindRuneInAvailableRunesError": "Can't find rune \"{rqid}\" in any compendium",
         "ItemWasNotHitLocationError": "Called hitLocation#onActorPrepareEmbeddedEntities on an item that wasn't a hitLocation",
         "HitLocationDoesNotHaveActorError": "Hit Location item didn't have an actor",
         "ActorDoesNotHaveMaxHpError": "Actor doesn't have max hitPoints",
@@ -873,7 +886,6 @@
         "OneUseQ": "One Use?",
         "GrantedByCult": "Granted by Cult",
         "Runes": "Runes",
-        "AddNewRunePlaceholder": "Add new rune",
         "runeMagicCultDialog": {
           "title": "Which cult provides this Rune Magic?",
           "btnAddRuneMagic": "Add Rune Magic",
@@ -978,11 +990,11 @@
           "parry": "Parry",
           "special": "Special"
         },
-        "NaturalWeaponQ": "Natural Weapon?",
-        "ThrownWeaponQ": "Thrown Weapon? (half damage bonus)",
-        "ProjectileWeaponQ": "Projectile Weapon? (no damage bonus, use linked projectile)",
-        "RangedWeaponQ": "Ranged Weapon? (no damage bonus, no projectile)",
-        "ProjectileQ": "Projectile? (ammunition)",
+        "NaturalWeaponQ": "Natural Weapon",
+        "ThrownWeaponQ": "Thrown Weapon (decreases quantity with each usage)",
+        "ProjectileWeaponQ": "Projectile Weapon (decreases quantity of linked projectile with each usage)",
+        "RangedWeaponQ": "Ranged Weapon (does not decrease any quantity)",
+        "ProjectileQ": "Projectile (ammunition - used together with a Projectile Weapon)",
         "Projectile": "Projectile",
         "Range": "Range",
         "Rate": "Rate",
@@ -1051,6 +1063,7 @@
     },
     "Game": {
       "MeleeRoundAbbr": "MR",
+      "SrMeleeRoundAbbr": "S/MR",
       "ResultEnum": {
         "0": "Hyper Critical",
         "1": "Special Critical",
@@ -1088,6 +1101,7 @@
       "GenerateDefaultRqid": "Create RuneQuest System ID (rqid) based on current document. The rqid should be based on the english document name.",
       "rqidPriority": "Rqid Priority",
       "rqidLang": "Language",
+      "Folder": "Folder",
       "FoundryId": "Foundry ID",
       "FoundryUuid": "Foundry UUID",
       "ParentFoundryId": "Parent Foundry ID",
@@ -1098,7 +1112,9 @@
       "DocsInWorld": "{count} documents in the world",
       "DocsInCompendiums": "{count} documents in the compendiums",
       "DuplicateWarning": "Warning: Multiple rqids with same priority!",
+      "CouldNotFindRune": "Could not find cached rune with rqid {rqid}",
       "Error": {
+        "NoWikiModule": "Please enable the required wiki module <a href='https://github.com/sun-dragon-cult/fvtt-system-rqg/wiki/Installing'>See installing instructions</a>",
         "NoSheet": "No sheet found for document linked to by RQG System ID (rqid) \"{rqid}\". See console log.",
         "MoreThanOneRqidMatchInWorld": "More than one RQG Document in the world (not in compendium packs) matched the rqid \"{rqid}\", lang \"{lang}\", and priority \"{priority}\". Please review your RQG System settings.  See console log for item ids.",
         "MoreThanOneRqidMatchInPacks": "More than one RQG Document in installed compendium packs matched the rqid \"{rqid}\", lang \"{lang}\", and priority \"{priority}\". Please review your RQG System settings.  See console log for item ids.",
@@ -1137,14 +1153,6 @@
         "settingName": "World Language",
         "settingHint": "This is the language the game will be played in. It affects which compendium packs and journal descriptions are shown. It is recommended, but not strictly necessary, that all players have this language selected as their 'Core Settings Language Preference'."
       },
-      "ShowOnlyWorldLanguagePacks": {
-        "settingName": "Filter compendium packs",
-        "settingHint": "Show only system provided compendium packs in the language defined in the 'World Language' setting, hiding the compendium packs provided by the system in other languages. If the selected language is not available the English compendium packs will be shown."
-      },
-      "ShowEnglishLanguagePacksAlso": {
-        "settingName": "English compendium packs",
-        "settingHint": "Show the English compendium packs in addition to the selected 'World Language'."
-      },
       "FumbleRollTable": {
         "settingName": "Fumble Roll Table",
         "settingHint": "The name of the Fumble roll table - will be used in combat"
@@ -1152,10 +1160,6 @@
       "SpecialCrit": {
         "settingName": "Special & Hyper Critical results",
         "settingHint": "*** Alpha version - not fully implemented *** Adds the possibility to roll a special critical (skill/100) and hyper critical (skill/500)"
-      },
-      "MagicRuneName": {
-        "settingName": "Magic (condition) Rune name",
-        "settingHint": "If a Rune Magic Spell has this rune it is considered \"Common\", and an adventurer can cast it using any of the cult runes associated with the rune point(s) they spend."
       },
       "WorldMigrationVersion": {
         "settingName": "World Migration Version",
@@ -1207,6 +1211,26 @@
     "UI": {
       "SortItems": "Sort items alphabetically",
       "MultipleCults": "Character has more cults,<br> see Rune Magic Tab"
+    },
+    "SheetName": {
+      "Actor": {
+        "Character": "Character Sheet"
+      },
+      "Item": {
+        "Armor": "Armor Item Sheet",
+        "Cult": "Cult Item Sheet",
+        "Gear": "Gear Item Sheet",
+        "HitLocation": "Hit Location Item Sheet",
+        "Homeland": "Homeland Item Sheet",
+        "Occupation": "Occupation Item Sheet",
+        "Passion": "Passion Item Sheet",
+        "Rune": "Rune Item Sheet",
+        "RuneMagicSpell": "Rune Magic Item Sheet",
+        "Skill": "Skill Item Sheet",
+        "SpiritMagicSpell": "Spirit Magic Item Sheet",
+        "Weapon": "Weapon Item Sheet"
+      },
+      "RollTable":"Rollable Table Sheet"
     },
     "Integrations": {
       "DragRuler": {
