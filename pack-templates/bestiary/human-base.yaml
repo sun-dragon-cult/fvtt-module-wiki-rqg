@@ -185,7 +185,7 @@ items:
       file: runes/power.yaml
       rqid: i.rune.stasis-power
 
-  # skill items
+  # Skills
   - _importExternalDocument:
       file: skills/agility-skills.yaml
       rqid: i.skill.boat

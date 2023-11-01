@@ -60,7 +60,7 @@ system:
         carryingFactor: 0.5
       fly: {}
     heroPoints: 0
-    isCreature: true
+    isCreature: false
     health: healthy
 prototypeToken:
   name: ${{rqgCompendiumContent.bestiary.mostali.name}}$
@@ -149,7 +149,13 @@ items:
       rqid: i.hit-location.head
       overrides:
 
-  # runes items
+  # Runes
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.air-element
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.darkness-element
   - _importExternalDocument:
       file: runes/element.yaml
       rqid: i.rune.earth-element
@@ -157,25 +163,171 @@ items:
         - path: system.chance
           value: 80
   - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.fire-sky-element
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.moon-element
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.water-element
+
+  - _importExternalDocument:
+      file: runes/form.yaml
+      rqid: i.rune.man-form
+  - _importExternalDocument:
+      file: runes/form.yaml
+      rqid: i.rune.beast-form
+
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.death-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.disorder-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.fertility-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.harmony-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.truth-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.illusion-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.movement-power
+      overrides:
+        - path: system.chance
+          value: 20
+  - _importExternalDocument:
       file: runes/power.yaml
       rqid: i.rune.stasis-power
       overrides:
         - path: system.chance
           value: 80
 
-    # skill items
+    # Skills
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.boat
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.climb
   - _importExternalDocument:
       file: skills/agility-skills.yaml
       rqid: i.skill.dodge
       overrides:
         - path: system.gainedChance
-          value: 1
+          value: 13
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.drive-chariot
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.jump
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.swim
+
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.act
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.art
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.bargain
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.charm
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.dance
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.disguise
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.fast-talk
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.intimidate
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.intrigue
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.orate
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.sing
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.speak-language-mostali
+      overrides:
+        - path: system.baseChance
+          value: 50
+
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.battle
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.celestial-lore
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.evaluate
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.farm
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.first-aid
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.game
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.herd
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.manage-household
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.mineral-lore
       overrides:
         - path: system.gainedChance
-          value: 30
+          value: 25
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.peaceful-cut
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.plant-lore
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.read-write-mostali
+      overrides:
+        - path: system.gainedChance
+          value: 45
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.survival
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.treat-disease
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.treat-poison
+
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.prepare-corpse
   - _importExternalDocument:
       file: skills/magic-skills.yaml
       rqid: i.skill.spirit-combat
@@ -183,42 +335,76 @@ items:
         - path: system.gainedChance
           value: 55
   - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.spirit-travel
+
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.conceal
+  - _importExternalDocument:
       file: skills/manipulation-skills.yaml
       rqid: i.skill.craft
       overrides:
         - path: system.gainedChance
-          value: 55
+          value: 50
         - path: system.specialization
           value: ${{rqgCompendiumContent.craftSpecialization.iron}}$
         - path: flags.rqg.documentRqidFlags.id
-          value: i.skill.craft-iron # todo is this a good way to change rqids?
+          value: i.skill.craft-iron
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.devise
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.sleight
+
+  - _importExternalDocument:
+      file: skills/specialized-insight-skills.yaml
+      rqid: i.skill.insight-mostali
+      overrides:
+        - path: system.baseChance
+          value: 20
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.listen
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.scan
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.search
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.track
   - _importExternalDocument:
       file: skills/perception-skills.yaml
       rqid: i.skill.earthsense-scan
       overrides:
         - path: system.gainedChance
-          value: 25
+          value: 20
   - _importExternalDocument:
       file: skills/perception-skills.yaml
       rqid: i.skill.earthsense-search
       overrides:
         - path: system.gainedChance
-          value: 25
+          value: 20
+
   - _importExternalDocument:
-      file: skills/specialized-language-skills.yaml
-      rqid: i.skill.read-write-mostali
-      overrides:
-        - path: system.gainedChance
-          value: 50
+      file: skills/stealth-skills.yaml
+      rqid: i.skill.hide
   - _importExternalDocument:
-      file: skills/specialized-language-skills.yaml
-      rqid: i.skill.speak-language-mostali
-      overrides:
-        - path: system.gainedChance
-          value: 50
+      file: skills/stealth-skills.yaml
+      rqid: i.skill.move-quietly
+
   - _importExternalDocument:
       file: skills-weapons/1h-axe.yaml
       rqid: i.skill.1h-axes-battle-axe
+      overrides:
+        - path: system.gainedChance
+          value: 50
+  - _importExternalDocument:
+      file: skills-weapons/2h-melee.yaml
+      rqid: i.skill.2h-axes-battle-axe
       overrides:
         - path: system.gainedChance
           value: 50
@@ -241,19 +427,56 @@ items:
         - path: system.gainedChance
           value: 65
 
-  # Armor items
+  # Gear
   - _importExternalDocument:
-      file: equipment-armor/armor-iron-dwarf.yaml
-      rqid: i.armor.unenchanted-heavy-dwarf-chainmail-iron
+      file: equipment-gear/quiver-small.yaml
+      rqid: i.gear.small-quiver
       overrides:
         - path: system.equippedStatus
           value: equipped
-  - _importExternalDocument:
-      file: equipment-armor/armor-iron-dwarf.yaml
-      rqid: i.armor.unenchanted-dwarf-helmet-iron
-      overrides:
-        - path: system.equippedStatus
-          value: equipped
+
+  # Armor items - added inline since it's not truly part of wiki
+  - name: ${{rqgCompendiumContent.equipment.armor.unenchantedHeavyDwarfChainmail}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Iron}}$)
+    type: armor
+    img: systems/rqg/assets/images/armor/chain-mail.svg
+    effects: []
+    system:
+      hitLocations:
+        - ${{rqgCompendiumContent.hitLocation.humanoid.rightLeg}}$
+        - ${{rqgCompendiumContent.hitLocation.humanoid.leftLeg}}$
+        - ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+        - ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+        - ${{rqgCompendiumContent.hitLocation.humanoid.rightArm}}$
+        - ${{rqgCompendiumContent.hitLocation.humanoid.leftArm}}$
+      armorType: ${{rqgCompendiumContent.equipment.armor.unenchantedHeavyDwarfChainmail}}$
+      material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Iron}}$
+      absorbs: 9
+      encumbrance: 7
+      moveQuietlyPenalty: -30
+      size: 7
+      isContainer: false
+      physicalItemType: unique
+      equippedStatus: equipped
+      description: ${{rqgCompendiumContent.equipment.armor.description.unenchantedHeavyDwarfChainmail}}$
+
+  - name: ${{rqgCompendiumContent.equipment.armor.unenchantedDwarfHelmet}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Iron}}$)
+    type: armor
+    img: systems/rqg/assets/images/armor/closed-helmet.svg
+    effects: []
+    system:
+      hitLocations:
+        - ${{rqgCompendiumContent.hitLocation.humanoid.head}}$
+      namePrefix:
+      armorType: ${{uiContent.RQG.Item.Armor.ArmorType.ClosedHelm}}$
+      material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Iron}}$
+      absorbs: 9
+      encumbrance: 2
+      moveQuietlyPenalty: 0
+      size: 7
+      isContainer: false
+      physicalItemType: unique
+      equippedStatus: equipped
+      description: ${{rqgCompendiumContent.equipment.armor.description.unenchantedDwarfHelmet}}$
 
   # Weapon items
   - _importExternalDocument:
@@ -269,17 +492,19 @@ items:
         - path: system.equippedStatus
           value: equipped
   - _importExternalDocument:
-      file: equipment-weapons/hammers-maces-clubs.yaml
-      rqid: i.weapon.war-hammer-iron
+      file: equipment-weapons/bows-crossbows.yaml
+      rqid: i.weapon.crossbow-bolts
       overrides:
         - path: system.equippedStatus
           value: equipped
+        - path: system.location
+          value: ${{rqgCompendiumContent.equipment.gear.quiverSmall}}$
+  - _importExternalDocument:
+      file: equipment-weapons/hammers-maces-clubs.yaml
+      rqid: i.weapon.war-hammer-iron
   - _importExternalDocument:
       file: equipment-weapons/shield.yaml
       rqid: i.weapon.medium-wooden-shield
-      overrides:
-        - path: system.equippedStatus
-          value: equipped
 
   # Passion items
   - _importExternalDocument:

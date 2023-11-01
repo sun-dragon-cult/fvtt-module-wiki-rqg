@@ -41,3 +41,25 @@ flags:
       id: i.skill.insight-aldryami
       priority: ${{rqgCompendiumContent.prio}}$
       lang: ${{rqgCompendiumContent.lang}}$
+---
+# insight mostali
+name: ${{rqgCompendiumContent.skill.insight.skillName}}$ (${{rqgCompendiumContent.skill.insight.specialization.mostali}}$)
+type: skill
+img: systems/rqg/assets/images/skills/insight.svg
+system:
+  category: perception
+  skillName: ${{rqgCompendiumContent.skill.insight.skillName}}$
+  specialization: ${{rqgCompendiumContent.skill.insight.specialization.mostali}}$
+  baseChance: 0
+  gainedChance: 0
+  canGetExperience: true
+  descriptionRqidLink:
+    rqid: je..insight
+    name: ${{rqgCompendiumContent.skill.insight.skillName}}$
+effects: []
+flags:
+  rqg:
+    documentRqidFlags:
+      id: i.skill.insight-mostali
+      priority: ${{rqgCompendiumContent.prio}}$
+      lang: ${{rqgCompendiumContent.lang}}$
