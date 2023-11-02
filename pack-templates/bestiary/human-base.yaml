@@ -4,26 +4,26 @@ img: icons/svg/mystery-man.svg
 system:
   characteristics:
     strength:
-      value: 12
+      value: 11
       formula: 3d6
     constitution:
-      value: 13
+      value: 11
       formula: 3d6
     size:
-      value: 15
+      value: 13
       formula: 2d6+6
     dexterity:
-      value: 12
+      value: 11
       formula: 3d6
     intelligence:
-      value: 10
+      value: 13
       formula: 2d6+6
     power:
-      value: 15
+      value: 11
       formula: 3d6
       hasExperience: false
     charisma:
-      value: 12
+      value: 11
       formula: 3d6
   background:
     species: ${{rqgCompendiumContent.bestiary.humanBase.species}}$
@@ -38,22 +38,22 @@ system:
     clanJournalRqidLinks: []
     birthyear:
     age:
-    gender: ""
-    town: ""
-    tribe: ""
-    clan: ""
+    gender:
+    town:
+    tribe:
+    clan:
     reputation:
-    standardOfLiving: ""
+    standardOfLiving:
     baseIncome:
     ransom:
-    ransomDetails: ""
+    ransomDetails:
     biography:
   allies: ${{rqgCompendiumContent.bestiary.humanBase.notes}}$
   attributes:
     magicPoints:
-      value: 15
+      value: 11
     hitPoints:
-      value: 14
+      value: 12
     move:
       currentLocomotion: walk
       walk:
@@ -244,16 +244,13 @@ items:
   - _importExternalDocument:
       file: skills/communication-skills.yaml
       rqid: i.skill.speak-language
+      overrides:
+        - path: system.baseChance
+          value: 50
 
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
-      rqid: i.skill.alchemy # TODO this and some others should not be a default skill?
-  - _importExternalDocument:
-      file: skills/knowledge-skills.yaml
       rqid: i.skill.animal-lore
-  - _importExternalDocument:
-      file: skills/knowledge-skills.yaml
-      rqid: i.skill.bureaucracy
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.battle
@@ -266,6 +263,9 @@ items:
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.customs
+      overrides:
+        - path: system.baseChance
+          value: 25
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.elder-race-lore
@@ -287,12 +287,9 @@ items:
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.homeland-lore
-  - _importExternalDocument:
-      file: skills/knowledge-skills.yaml
-      rqid: i.skill.library-use
-  - _importExternalDocument:
-      file: skills/knowledge-skills.yaml
-      rqid: i.skill.lore
+      overrides:
+        - path: system.baseChance
+          value: 30
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.manage-household
@@ -307,13 +304,7 @@ items:
       rqid: i.skill.plant-lore
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
-      rqid: i.skill.read-write
-  - _importExternalDocument:
-      file: skills/knowledge-skills.yaml
       rqid: i.skill.survival
-  - _importExternalDocument:
-      file: skills/knowledge-skills.yaml
-      rqid: i.skill.shiphandling
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.treat-disease
@@ -323,31 +314,13 @@ items:
 
   - _importExternalDocument:
       file: skills/magic-skills.yaml
-      rqid: i.skill.meditate
-  - _importExternalDocument:
-      file: skills/magic-skills.yaml
       rqid: i.skill.prepare-corpse
-  - _importExternalDocument:
-      file: skills/magic-skills.yaml
-      rqid: i.skill.sense-assassin # TODO should not be part of a base human
-  - _importExternalDocument:
-      file: skills/magic-skills.yaml
-      rqid: i.skill.sense-chaos # TODO should not be part of a base human
   - _importExternalDocument:
       file: skills/magic-skills.yaml
       rqid: i.skill.spirit-combat
   - _importExternalDocument:
       file: skills/magic-skills.yaml
-      rqid: i.skill.spirit-dance
-  - _importExternalDocument:
-      file: skills/magic-skills.yaml
-      rqid: i.skill.spirit-lore
-  - _importExternalDocument:
-      file: skills/magic-skills.yaml
       rqid: i.skill.spirit-travel
-  - _importExternalDocument:
-      file: skills/magic-skills.yaml
-      rqid: i.skill.understand-herd-beast
   - _importExternalDocument:
       file: skills/magic-skills.yaml
       rqid: i.skill.worship
@@ -371,6 +344,9 @@ items:
   - _importExternalDocument:
       file: skills/specialized-insight-skills.yaml
       rqid: i.skill.insight-human
+      overrides:
+        - path: system.baseChance
+          value: 20
   - _importExternalDocument:
       file: skills/perception-skills.yaml
       rqid: i.skill.listen
