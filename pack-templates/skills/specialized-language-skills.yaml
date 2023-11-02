@@ -245,6 +245,28 @@ flags:
       priority: ${{rqgCompendiumContent.prio}}$
       lang: ${{rqgCompendiumContent.lang}}$
 ---
+# speak-language-darktongue
+name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.darktongue.name}}$)
+type: skill
+img: systems/rqg/assets/images/skills/speak.svg
+system:
+  category: communication
+  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+  specialization: ${{rqgCompendiumContent.language.darktongue.name}}$
+  baseChance: 0
+  gainedChance: 0
+  canGetExperience: true
+  descriptionRqidLink:
+    rqid: je..speak-language
+    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+effects: []
+flags:
+  rqg:
+    documentRqidFlags:
+      id: i.skill.speak-language-darktongue
+      priority: ${{rqgCompendiumContent.prio}}$
+      lang: ${{rqgCompendiumContent.lang}}$
+---
 # speak-language-esrolian
 name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.esrolian.name}}$)
 type: skill

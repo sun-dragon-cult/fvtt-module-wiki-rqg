@@ -53,7 +53,7 @@ system:
   hitPoints:
     value:
     max:
-  hitPointLocation:
+  hitPointLocation: ---
   encumbrance: 1
   location:
   attunedTo:
@@ -118,7 +118,6 @@ system:
       combatManeuvers:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Throw}}$
           damageType: crush
-          description:
       damage: 1d10+db/2
       minStrength: 9
       minDexterity: 9
@@ -196,14 +195,14 @@ system:
   description:
   gmNotes:
   hitPoints:
-    value: 0
+    value:
     max:
-  hitPointLocation:
+  hitPointLocation: ---
   encumbrance: 0.1
   location:
   attunedTo:
   physicalItemType: consumable
-  quantity: 10
+  quantity: 12
   isContainer: false
   price:
     real: 0

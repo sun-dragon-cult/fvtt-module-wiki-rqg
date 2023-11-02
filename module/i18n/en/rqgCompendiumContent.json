@@ -266,6 +266,9 @@
     "aldryami": {
       "name": "Aldryami"
     },
+    "darktongue": {
+      "name": "Darktongue"
+    },
     "esrolian": {
       "name": "Esrolian"
     },
@@ -1149,7 +1152,8 @@
       "specialization": {
         "human": "Human",
         "aldryami": "Aldryami",
-        "mostali": "Mostali"
+        "mostali": "Mostali",
+        "uz": "Uz"
       }
     },
     "intimidate": {

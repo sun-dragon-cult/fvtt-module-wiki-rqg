@@ -266,6 +266,9 @@
     "aldryami": {
       "name": "🇸🇪Aldryami"
     },
+    "darktongue": {
+      "name": "🇸🇪Darktongue"
+    },
     "esrolian": {
       "name": "🇸🇪Esrolian"
     },
@@ -1148,7 +1151,9 @@
       "description": "🇸🇪<p>Evaluating someone’s character, emotional state, trustworthiness, and motives based on body language, speech patterns, and other factors. Specialties are per species, so most adventurers have Human as their specialty, while others might be Aldryami, Ducks, Mostali, Trolls, or even Dragons.</p>",
       "specialization": {
         "human": "🇸🇪Human",
-        "aldryami": "🇸🇪Aldryami"
+        "aldryami": "🇸🇪Aldryami",
+        "mostali": "🇸🇪Mostali",
+        "uz": "🇸🇪Uz"
       }
     },
     "intimidate": {

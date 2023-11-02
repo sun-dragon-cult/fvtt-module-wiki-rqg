@@ -60,7 +60,7 @@ system:
         carryingFactor: 0.5
       fly: {}
     heroPoints: 0
-    isCreature: true
+    isCreature: false
     health: healthy
 prototypeToken:
   name: ${{rqgCompendiumContent.bestiary.uzko.name}}$
@@ -119,7 +119,7 @@ prototypeToken:
   flags: {}
   randomImg: false
 items:
-  # hit location items
+  # Hit Locations
   - _importExternalDocument:
       file: hit-locations-humanoids/hit-locations-humanoids.yaml
       rqid: i.hit-location.right-leg
@@ -163,21 +163,68 @@ items:
         - path: system.naturalAp
           value: 1
 
-  # rune items
+  # Runes
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.air-element
   - _importExternalDocument:
       file: runes/element.yaml
       rqid: i.rune.darkness-element
       overrides:
         - path: system.chance
           value: 60
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.earth-element
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.fire-sky-element
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.moon-element
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.water-element
 
-  # skill items
+  - _importExternalDocument:
+      file: runes/form.yaml
+      rqid: i.rune.man-form
+  - _importExternalDocument:
+      file: runes/form.yaml
+      rqid: i.rune.beast-form
+
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.death-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.disorder-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.fertility-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.harmony-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.truth-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.illusion-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.movement-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.stasis-power
+
+    # Skills
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.boat
   - _importExternalDocument:
       file: skills/agility-skills.yaml
       rqid: i.skill.climb
-      overrides:
-        - path: system.gainedChance
-          value: 0
   - _importExternalDocument:
       file: skills/agility-skills.yaml
       rqid: i.skill.dodge
@@ -186,86 +233,207 @@ items:
           value: 13
   - _importExternalDocument:
       file: skills/agility-skills.yaml
+      rqid: i.skill.drive-chariot
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
       rqid: i.skill.jump
       overrides:
         - path: system.gainedChance
           value: 7
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.swim
 
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.act
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.art
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.bargain
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.charm
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.dance
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.disguise
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.fast-talk
   - _importExternalDocument:
       file: skills/communication-skills.yaml
       rqid: i.skill.intimidate
       overrides:
         - path: system.gainedChance
           value: 20
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.intrigue
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.orate
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.sing
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.speak-language-darktongue
+      overrides:
+        - path: system.baseChance
+          value: 50
 
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.battle
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.celestial-lore
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.evaluate
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.farm
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.first-aid
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.game
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.herd
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.manage-household
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.mineral-lore
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.peaceful-cut
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.plant-lore
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.survival
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.treat-disease
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.treat-poison
+
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.prepare-corpse
   - _importExternalDocument:
       file: skills/magic-skills.yaml
       rqid: i.skill.spirit-combat
       overrides:
         - path: system.gainedChance
           value: 20
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.spirit-travel
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.conceal
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.devise
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.sleight
 
+  - _importExternalDocument:
+      file: skills/specialized-insight-skills.yaml
+      rqid: i.skill.insight-uz
+      overrides:
+        - path: system.baseChance
+          value: 20
   - _importExternalDocument:
       file: skills/perception-skills.yaml
       rqid: i.skill.listen
       overrides:
         - path: system.gainedChance
-          value: 15
+          value: 10
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.scan
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.search
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.track
   - _importExternalDocument:
       file: skills/perception-skills.yaml
       rqid: i.skill.darksense-scan
       overrides:
         - path: system.gainedChance
-          value: 20
+          value: 15
   - _importExternalDocument:
       file: skills/perception-skills.yaml
       rqid: i.skill.darksense-search
       overrides:
         - path: system.gainedChance
-          value: 10
+          value: 5
 
   - _importExternalDocument:
       file: skills/stealth-skills.yaml
       rqid: i.skill.hide
       overrides:
         - path: system.gainedChance
-          value: 30
+          value: 35
   - _importExternalDocument:
       file: skills/stealth-skills.yaml
       rqid: i.skill.move-quietly
       overrides:
         - path: system.gainedChance
-          value: 30
+          value: 35
 
   - _importExternalDocument:
       file: skills-weapons/1h-mace.yaml
       rqid: i.skill.1h-maces-heavy-mace
       overrides:
         - path: system.gainedChance
-          value: 35
+          value: 30
   - _importExternalDocument:
       file: skills-weapons/2h-melee.yaml
       rqid: i.skill.2h-hammers-maul
       overrides:
         - path: system.gainedChance
-          value: 30
+          value: 25
   - _importExternalDocument:
       file: skills-weapons/missile.yaml
       rqid: i.skill.slings-sling
       overrides:
         - path: system.gainedChance
-          value: 45
+          value: 40
   - _importExternalDocument:
       file: skills-weapons/shields.yaml
       rqid: i.skill.shields-large
       overrides:
         - path: system.gainedChance
-          value: 30
+          value: 25
 
-  # armor items
+  # Armor
   - _importExternalDocument:
       file: equipment-armor/armor-cuirboilli.yaml
       rqid: i.armor.greaves-cuirboilli
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-armor/armor-cuirboilli.yaml
+      rqid: i.armor.vambraces-cuirboilli
       overrides:
         - path: system.equippedStatus
           value: equipped
@@ -282,7 +450,7 @@ items:
         - path: system.equippedStatus
           value: equipped
 
-  # weapon items
+  # Weapons
   - _importExternalDocument:
       file: equipment-weapons/hammers-maces-clubs.yaml
       rqid: i.weapon.maul
@@ -307,6 +475,14 @@ items:
       overrides:
         - path: system.equippedStatus
           value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/slings.yaml
+      rqid: i.weapon.sling-stones
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+        - path: system.quantity
+          value: 4
 
   # passion items
   - _importExternalDocument:
