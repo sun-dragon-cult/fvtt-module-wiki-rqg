@@ -211,6 +211,12 @@
     "lunarProvincial": "Lunar Provincial",
     "tarshite": "Tarshite"
   },
+  "tribe": {
+    "colymar": "Colymar"
+  },
+  "clan": {
+    "ernaldori": "Ernaldori"
+  },
   "homeland": {
     "esrolia": {
       "name": "Esrolia",
@@ -1727,6 +1733,8 @@
       "instrumentDrumDescription": "<p>A wood or bronze drum with a stretched animal skin head.</p>",
       "instrumentKithara": "Kithara",
       "instrumentKitharaDescription": "<p>A stringed instrument with a deep wooden sound box.</p>",
+      "magicCrystal10mp": "Magic point storage crystal, 10 mp",
+      "orlanthImage": "Bronze image of Orlanth",
       "quiverLarge": "Large Quiver",
       "quiverLargeDescription": "<p>Holds 40 arrows. A leather, wooden, or stiffened cloth container used for carrying arrows or crossbow bolts. Worn slung low on the hip, at the waist, or over the back.</p>",
       "quiverMedium": "Medium Quiver",
@@ -1944,13 +1952,19 @@
   },
   "passionSubject": {
     "aldryami": "Aldryami",
+    "argrath": "Argrath",
     "casteDuties": "Caste Duties",
     "clan": "Clan",
+    "colymarTribe": "Colymar Tribe",
+    "ernaldoriClan": "Ernaldori Clan",
     "tribe": "Tribe",
     "family": "Family",
     "forest": "Forest",
+    "lunarEmpire": "Lunar Empire",
     "mostali": "Mostali",
     "matriarch": "Matriarch",
+    "orlanth": "Orlanth",
+    "sartar": "Sartar",
     "uz": "Uz"
   },
   "bestiary": {
@@ -2022,6 +2036,13 @@
       "name": "Human (Sartarite)",
       "species": "Homo sapiens sapiens",
       "notes": "<p><strong>Note:</strong>This is template for a human that has the &quot;Homeland Cultural Skill Bonuses&quot;, bonus to Air Rune, and Passions for Sartar applied. See RQG p 60-63. Import this template to your world and you can duplicate it and rename it to make Sartarite PCs or NPCs.</p><p><strong>Note:</strong>This has the bonus to Base Chance for both Composite Bow and Slings.  Please remove one.</p><h1>Human (Sartarite)</h1><p>Sartar is the default homeland for adventurers, a mountainous kingdom made up of Storm-worshiping hill tribes united by the royal house of Sartar. Sartar recently liberated itself from the Lunar Empire, and in doing so began the Hero Wars. It is ruled by Kallyr Starbrow, and is a hotbed of magical questing, petty feuds, and would-be Heroes.</p><p>Others consider Sartarites to be quarrelsome, reckless, and fiercely independent. Most are devoted to Orlanth and Ernalda and hate the Lunar Empire with a burning passion.</p>"
+    },
+    "vasana": {
+      "name": "Vasana",
+      "extendedName": "Farnan's Daughter",
+      "species": "Homo sapiens sapiens",
+      "notes": "<h2>How to Play Vasana</h2> <ul> <li>You are a natural born leader with a Charisma 19. Take charge!</li> <li>You have strong passions&mdash;Hate (Lunar Empire), Devotion (Orlanth), Honor, and your Loyalties&mdash;use them when appropriate to augment your skills.</li> <li>Your high Death Rune makes you a warrior ascetic. You ignore pain and pleasure. Your high Air Rune makes you passionate, proud, and violent.</li> <li>Your Lance attack while riding your bison can do huge amounts of damage. But you are better on the defensive when you use your sword.</li> <li>You have a good array of Rune spells for combat, but you need to choose very carefully as you don&rsquo;t have any Rune points to spare. Use Demoralize on a foe before you fight them!</li></ul>",
+      "biography": "<p>Vasana is a small, athletic woman with a vicious scar across one side of her face. Despite her size, she rides a bison and is more than capable of commanding warriors and priests more senior than herself.</p><p>Vasana&rsquo;s grandmother was a scribe in the service of the Princes of Sartar, and died with great glory in the Battle of Boldhome. Vasana&rsquo;s father was Farnan, a temple orphan who married Vareena, a priestess of Ernalda from the Ernaldori clan. Farnan joined Starbrow&rsquo;s Rebellion and later personally aided Kallyr Starbrow in her escape from Sartar. He died defending Whitewall in 1620, devoured by the Crimson Bat. Farnan&rsquo;s soul was annihilated and Vasana, then a teenager, swore revenge.</p><p>As soon as she was initiated as an adult, Vasana left her mother&rsquo;s farm to avenge her father against the Lunar Empire. In 1623, she followed King Broyan to the metropolis of Nochet, accompanied by her half-sister Yanioth. At the Battle of Pennel Ford, she fought with great glory, and gained the attention of Argrath. Vasana followed Argrath into Prax and joined the army of the White Bull in the liberation of Pavis. Pursuing honor again, she fought with great glory at the Second Battle of Moonbroth, and was nearly killed (receiving a nasty scar on her face) in the process of killing a Lunar priestess. After the Dragonrise, she returned to her mother&rsquo;s farm to recover.</p>"
     },
     "mostali": {
       "name": "Mostali (Dwarf)",

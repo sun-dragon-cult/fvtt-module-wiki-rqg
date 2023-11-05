@@ -1,0 +1,853 @@
+name: ${{rqgCompendiumContent.bestiary.vasana.name}}$
+type: character
+img: modules/${{rqgCompendiumContent.module.id}}$/tokens/vasana-actor.webp
+system:
+  extendedName: ${{rqgCompendiumContent.bestiary.vasana.extendedName}}$
+  characteristics:
+    strength:
+      value: 16
+      formula: 3d6
+    constitution:
+      value: 12
+      formula: 3d6
+    size:
+      value: 10
+      formula: 2d6+6
+    dexterity:
+      value: 11
+      formula: 3d6
+    intelligence:
+      value: 15
+      formula: 2d6+6
+    power:
+      value: 15
+      formula: 3d6
+      hasExperience: false
+    charisma:
+      value: 19
+      formula: 3d6
+  background:
+    species: ${{rqgCompendiumContent.bestiary.humanBase.species}}$
+    speciesRqidLink:
+      rqid: je..species-description-human
+      name: Human
+      documentType: JournalEntry
+    occupation: warriorHeavyCavalry
+    homeland: sartar
+    cultureJournalRqidLinks: []
+    tribeJournalRqidLinks: []
+    clanJournalRqidLinks: []
+    birthyear:
+    age:
+    gender: ""
+    town: ""
+    tribe: ${{rqgCompendiumContent.tribe.colymar}}$
+    clan: ${{rqgCompendiumContent.clan.ernaldori}}$
+    reputation: 20
+    standardOfLiving: ""
+    baseIncome:
+    ransom: 500
+    ransomDetails: ""
+    biography: ${{rqgCompendiumContent.bestiary.vasana.biography}}$
+  allies: ${{rqgCompendiumContent.bestiary.vasana.notes}}$
+  attributes:
+    magicPoints:
+      value: 15
+    hitPoints:
+      value: 12
+    move:
+      currentLocomotion: walk
+      walk:
+        value: 8
+        carryingFactor: 1
+      swim:
+        value: 2
+        carryingFactor: 0.5
+      fly: {}
+    heroPoints: 0
+    isCreature: false
+    health: healthy
+token:
+  name: ${{rqgCompendiumContent.bestiary.vasana.name}}$
+  img: modules/${{rqgCompendiumContent.module.id}}$/tokens/vasana-token.webp
+  displayName: 0
+  actorLink: true
+  width: 1
+  height: 1
+  scale: 1
+  mirrorX: false
+  mirrorY: false
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  vision: false
+  dimSight: 0
+  brightSight: 0
+  sightAngle: 0
+  light:
+    alpha: 0.5
+    angle: 0
+    bright: 0
+    coloration: 1
+    dim: 0
+    gradual: true
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hitPoints.value
+  bar2:
+    attribute: attributes.magicPoints.value
+  flags: {}
+  randomImg: false
+items:
+  # Hit Locations
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.right-leg
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.left-leg
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.abdomen
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.chest
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.right-arm
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.left-arm
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.head
+
+  # Runes
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.air-element
+      overrides:
+        - path: system.chance
+          value: 90
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.darkness-element
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.earth-element
+      overrides:
+        - path: system.chance
+          value: 20
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.fire-sky-element
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.moon-element
+      overrides:
+        - path: system.chance
+          value: 50
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.water-element
+
+  - _importExternalDocument:
+      file: runes/form.yaml
+      rqid: i.rune.man-form
+  - _importExternalDocument:
+      file: runes/form.yaml
+      rqid: i.rune.beast-form
+
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.death-power
+      overrides:
+        - path: system.chance
+          value: 75
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.disorder-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.fertility-power
+      overrides:
+        - path: system.chance
+          value: 25
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.harmony-power
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.truth-power
+      overrides:
+        - path: system.chance
+          value: 70
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.illusion-power
+      overrides:
+        - path: system.chance
+          value: 30
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.movement-power
+      overrides:
+        - path: system.chance
+          value: 75
+  - _importExternalDocument:
+      file: runes/power.yaml
+      rqid: i.rune.stasis-power
+      overrides:
+        - path: system.chance
+          value: 25
+
+  # Spirit Magic
+  - _importExternalDocument:
+      file: spirit-magic-spells/demoralize.yaml
+      rqid: i.spirit-magic.demoralize
+  - _importExternalDocument:
+      file: spirit-magic-spells/heal.yaml
+      rqid: i.spirit-magic.heal
+      overrides:
+        - path: system.points
+          value: 2
+  - _importExternalDocument:
+      file: spirit-magic-spells/mobility.yaml
+      rqid: i.spirit-magic.mobility
+
+  # Cult
+  - _importExternalDocument:
+      file: cults/orlanth-vinga.yaml
+      rqid: i.cult.vinga-orlanth
+      overrides:
+        - path: _id
+          value: VingasCultItemId # fixate an id so the runeMagic can be attached
+        - path: system.joinedCults
+          value:
+            - cultName: ${{rqgCompendiumContent.cult.orlanth.subcult.vinga.name}}$
+              tagline: ${{rqgCompendiumContent.cult.orlanth.subcult.vinga.tagline}}$
+              rank: initiate
+        - path: system.runePoints
+          value:
+            value: 3
+            max: 3
+
+  # Rune Magic
+  - _importExternalDocument:
+      file: rune-magic-spells/fearless.yaml
+      rqid: i.rune-magic.fearless
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+  - _importExternalDocument:
+      file: rune-magic-spells/lightning.yaml
+      rqid: i.rune-magic.lightning
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+  - _importExternalDocument:
+      file: rune-magic-spells/shield.yaml
+      rqid: i.rune-magic.shield
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+
+  - _importExternalDocument:
+      file: rune-magic-spells/command-cult-spirit-elemental.yaml
+      rqid: i.rune-magic.command-cult-spirit-elemental
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+  - _importExternalDocument:
+      file: rune-magic-spells/dismiss-magic.yaml
+      rqid: i.rune-magic.dismiss-magic
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+  - _importExternalDocument:
+      file: rune-magic-spells/divination.yaml
+      rqid: i.rune-magic.divination
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+  - _importExternalDocument:
+      file: rune-magic-spells/extension.yaml
+      rqid: i.rune-magic.extension
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+  - _importExternalDocument:
+      file: rune-magic-spells/find-enemy.yaml
+      rqid: i.rune-magic.find-enemy
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+  - _importExternalDocument:
+      file: rune-magic-spells/heal-wound.yaml
+      rqid: i.rune-magic.heal-wound
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+  - _importExternalDocument:
+      file: rune-magic-spells/multispell.yaml
+      rqid: i.rune-magic.multispell
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+  - _importExternalDocument:
+      file: rune-magic-spells/sanctify.yaml
+      rqid: i.rune-magic.sanctify
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+  - _importExternalDocument:
+      file: rune-magic-spells/soul-sight.yaml
+      rqid: i.rune-magic.soul-sight
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+  - _importExternalDocument:
+      file: rune-magic-spells/spirit-block.yaml
+      rqid: i.rune-magic.spirit-block
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+  - _importExternalDocument:
+      file: rune-magic-spells/summon-cult-spirit.yaml
+      rqid: i.rune-magic.summon-cult-spirit
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+  - _importExternalDocument:
+      file: rune-magic-spells/warding.yaml
+      rqid: i.rune-magic.warding
+      overrides:
+        - path: system.cultId
+          value: VingasCultItemId
+
+  # Skills
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.boat
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.climb
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.dodge
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.drive-chariot
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.jump
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.ride
+      overrides:
+        - path: name
+          value: ${{rqgCompendiumContent.skill.ride.skillName}}$ (${{rqgCompendiumContent.bestiary.bison.name}}$)
+        - path: system.specialization
+          value: ${{rqgCompendiumContent.bestiary.bison.name}}$
+        - path: system.gainedChance
+          value: 65
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.swim
+
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.act
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.art
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.bargain
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.charm
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.dance
+      overrides:
+        - path: system.gainedChance
+          value: 5
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.disguise
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.fast-talk
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.intimidate
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.intrigue
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.orate
+      overrides:
+        - path: system.gainedChance
+          value: 25
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.sing
+      overrides:
+        - path: system.gainedChance
+          value: 30
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.speak-language-heortling
+      overrides:
+        - path: system.baseChance
+          value: 50
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.speak-language-stormspeech
+      overrides:
+        - path: system.gainedChance
+          value: 20
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.speak-language-tradetalk
+      overrides:
+        - path: system.gainedChance
+          value: 10
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.animal-lore
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.battle
+      overrides:
+        - path: system.gainedChance
+          value: 50
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.celestial-lore
+  - _importExternalDocument:
+      file: skills/specialized-cult-lore-skills.yaml
+      rqid: i.skill.cult-lore-orlanth
+      overrides:
+        - path: system.gainedChance
+          value: 15
+  - _importExternalDocument:
+      file: skills/specialized-customs-skills.yaml
+      rqid: i.skill.customs-heortling
+      overrides:
+        - path: system.baseChance
+          value: 25
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.evaluate
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.farm
+      overrides:
+        - path: system.gainedChance
+          value: 15
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.first-aid
+      overrides:
+        - path: system.gainedChance
+          value: 10
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.game
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.herd
+      overrides:
+        - path: system.gainedChance
+          value: 10
+  - _importExternalDocument:
+      file: skills/specialized-homeland-skills.yaml
+      rqid: i.skill.homeland-lore-sartar
+      overrides:
+        - path: system.baseChance
+          value: 30
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.manage-household
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.mineral-lore
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.peaceful-cut
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.plant-lore
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.survival
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.treat-disease
+  - _importExternalDocument:
+      file: skills/knowledge-skills.yaml
+      rqid: i.skill.treat-poison
+
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.meditate
+      overrides:
+        - path: system.gainedChance
+          value: 15
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.prepare-corpse
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.spirit-combat
+      overrides:
+        - path: system.gainedChance
+          value: 15
+  - _importExternalDocument:
+      file: skills/magic-skills.yaml
+      rqid: i.skill.spirit-travel
+  - _importExternalDocument:
+      file: skills/specialized-worship-skills.yaml
+      rqid: i.skill.worship-orlanth
+      overrides:
+        - path: system.gainedChance
+          value: 20
+
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.conceal
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.devise
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.sleight
+
+  - _importExternalDocument:
+      file: skills/specialized-insight-skills.yaml
+      rqid: i.skill.insight-human
+      overrides:
+        - path: system.baseChance
+          value: 20
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.listen
+      overrides:
+        - path: system.gainedChance
+          value: 10
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.scan
+      overrides:
+        - path: system.gainedChance
+          value: 20
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.search
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.track
+
+  - _importExternalDocument:
+      file: skills/stealth-skills.yaml
+      rqid: i.skill.hide
+  - _importExternalDocument:
+      file: skills/stealth-skills.yaml
+      rqid: i.skill.move-quietly
+
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.fists-fist
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.grapple
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.kicks-kick
+
+  - _importExternalDocument:
+      file: skills-weapons/1h-sword.yaml
+      rqid: i.skill.1h-swords-broadsword
+      overrides:
+        - path: system.gainedChance
+          value: 75
+  - _importExternalDocument:
+      file: skills-weapons/1h-spear.yaml
+      rqid: i.skill.1h-spears-lance
+      overrides:
+        - path: system.gainedChance
+          value: 60
+  - _importExternalDocument:
+      file: skills-weapons/2h-melee.yaml
+      rqid: i.skill.2h-axes-battle-axe
+      overrides:
+        - path: system.gainedChance
+          value: 40
+  - _importExternalDocument:
+      file: skills-weapons/1h-axe.yaml
+      rqid: i.skill.1h-axes-battle-axe
+      overrides:
+        - path: system.gainedChance
+          value: 40
+  - _importExternalDocument:
+      file: skills-weapons/shields.yaml
+      rqid: i.skill.shields-medium
+      overrides:
+        - path: system.gainedChance
+          value: 35
+  - _importExternalDocument:
+      file: skills-weapons/missile.yaml
+      rqid: i.skill.bows-composite-bow
+      overrides:
+        - path: system.gainedChance
+          value: 35
+
+  # Gear
+  - _importExternalDocument:
+      file: equipment-gear/quiver-small.yaml
+      rqid: i.gear.small-quiver
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-gear/currency.yaml
+      rqid: i.gear.wheels
+      overrides:
+        - path: system.quantity
+          value: 0
+  - _importExternalDocument:
+      file: equipment-gear/currency.yaml
+      rqid: i.gear.lunars
+      overrides:
+        - path: system.quantity
+          value: 20
+  - _importExternalDocument:
+      file: equipment-gear/currency.yaml
+      rqid: i.gear.clacks
+      overrides:
+        - path: system.quantity
+          value: 0
+  - name: ${{rqgCompendiumContent.equipment.gear.orlanthImage}}$
+    type: gear
+    img: systems/rqg/assets/images/gear/colombian-statue.svg
+    flags:
+      rqg:
+        documentRqidFlags:
+          id: i.gear.image-orlanth
+          priority: ${{rqgCompendiumContent.prio}}$
+          lang: ${{rqgCompendiumContent.lang}}$
+    effects: []
+    system:
+      description:
+      gmNotes:
+      quantity: 1
+      price:
+        real:
+        estimated:
+      encumbrance: 0.5
+      equippedStatus: carried
+      location:
+      isContainer: false
+      attunedTo:
+      physicalItemType: unique
+  - name: ${{rqgCompendiumContent.equipment.gear.magicCrystal10mp}}$
+    type: gear
+    img: systems/rqg/assets/images/gear/crystal-shine.svg
+    flags:
+      rqg:
+        documentRqidFlags:
+          id: i.gear.crystal-10mp-storage
+          priority: ${{rqgCompendiumContent.prio}}$
+          lang: ${{rqgCompendiumContent.lang}}$
+    effects: []
+    system:
+      description:
+      gmNotes:
+      quantity: 10
+      price:
+        real:
+        estimated:
+      encumbrance: 0
+      equippedStatus: equipped
+      location:
+      isContainer: false
+      attunedTo:
+      physicalItemType: consumable
+
+  # Armor
+  - _importExternalDocument:
+      file: equipment-armor/armor-plate-bronze.yaml
+      rqid: i.armor.closed-helm-bronze-plate
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-armor/armor-plate-disk.yaml
+      rqid: i.armor.cuirass-disk-plate
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-armor/armor-leather-studded.yaml
+      rqid: i.armor.skirt-studded-leather
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-armor/armor-plate-bronze.yaml
+      rqid: i.armor.vambraces-bronze-plate
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-armor/armor-plate-bronze.yaml
+      rqid: i.armor.greaves-bronze-plate
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+
+  # Weapons
+  - _importExternalDocument:
+      file: equipment-weapons/swords-daggers.yaml
+      rqid: i.weapon.broadsword
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/spears.yaml
+      rqid: i.weapon.lance
+      overrides:
+        - path: system.usage.oneHand.damage
+          value: 1d10+1+3d6
+  - _importExternalDocument:
+      file: equipment-weapons/axes.yaml
+      rqid: i.weapon.battle-axe
+  - _importExternalDocument:
+      file: equipment-weapons/shield.yaml
+      rqid: i.weapon.medium-wooden-shield
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/bows-crossbows.yaml
+      rqid: i.weapon.composite-bow
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/bows-crossbows.yaml
+      rqid: i.weapon.arrows
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+        - path: system.location
+          value: ${{rqgCompendiumContent.equipment.gear.quiverSmall}}$
+
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.fist
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.grapple
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.kick
+
+  # Passions
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.honor-base
+      overrides:
+        - path: system.chance
+          value: 70
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.devotion-base
+      overrides:
+        - path: system.chance
+          value: 80
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Devotion}}$ (${{rqgCompendiumContent.passionSubject.orlanth}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.orlanth}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.hate-base
+      overrides:
+        - path: system.chance
+          value: 90
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Devotion}}$ (${{rqgCompendiumContent.passionSubject.lunarEmpire}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.lunarEmpire}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.love-base
+      overrides:
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Love}}$ (${{rqgCompendiumContent.passionSubject.family}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.family}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.loyalty-base
+      overrides:
+        - path: system.chance
+          value: 70
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.argrath}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.argrath}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.loyalty-base
+      overrides:
+        - path: system.chance
+          value: 70
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.colymarTribe}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.colymarTribe}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.loyalty-base
+      overrides:
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.ernaldoriClan}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.ernaldoriClan}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.loyalty-base
+      overrides:
+        - path: system.chance
+          value: 70
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.sartar}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.sartar}}$
+
+effects: []
+ownership:
+  default: 0
+flags:
+  rqg:
+    documentRqidFlags:
+      id: a.character.species-template-human-base
+      lang: ${{rqgCompendiumContent.lang}}$
+      priority: ${{rqgCompendiumContent.prio}}$

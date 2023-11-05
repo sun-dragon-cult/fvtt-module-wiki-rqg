@@ -8,6 +8,7 @@ import { doTranslation, tryOrThrow } from "./utils";
 import { PackError } from "./packError";
 
 export const config = {
+  assetDirs: ["tokens"], // folder names to copy to dist as is
   i18nDir: path.resolve(cwd(), "module", "i18n"),
   translationsFileNames: ["uiContent", "rqgCompendiumContent"], // filenames except .json Will be part of the translation key
   distDir: path.resolve(cwd(), "dist"),
@@ -33,6 +34,20 @@ for (const lang of targetLanguages) {
     await promises.mkdir(langOutDir, { recursive: true });
   }
   const localisedModuleManifest = doTranslation(lang, [moduleManifest])[0];
+
+  tryOrThrow(
+    () => {
+      config.assetDirs.forEach((dir) => {
+        const source = path.resolve(cwd(), "module", dir);
+        const destination = path.resolve(getOutDir(lang), dir);
+        fs.cpSync(source, destination, { recursive: true });
+      });
+    },
+    (e: any) => {
+      throw new PackError(`Error when copying assets dir:\n${e}`);
+    },
+  );
+
   const moduleFile = path.join(getOutDir(lang), "module.json");
   tryOrThrow(
     () => fs.writeFileSync(moduleFile, JSON.stringify(localisedModuleManifest, null, 2)),
