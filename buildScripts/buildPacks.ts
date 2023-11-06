@@ -59,6 +59,7 @@ for (const lang of targetLanguages) {
 
 const templatePackDirPaths = fs
   .readdirSync(config.packTemplateDir)
+  .filter((dirname) => !dirname.startsWith("_")) // Ignore folders that start with '_' like '_partial-includes'
   .map((dirName) => path.resolve(config.packTemplateDir, dirName));
 
 // Loads all template packs into memory

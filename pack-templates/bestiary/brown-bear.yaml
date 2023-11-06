@@ -63,61 +63,11 @@ system:
     isCreature: true
     health: healthy
 prototypeToken:
-  name: ${{rqgCompendiumContent.bestiary.brownBear.name}}$
-  displayName: 0
-  actorLink: false
-  texture:
-    src: icons/svg/mystery-man.svg
-    scaleX: 1
-    scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
-    tint:
-  width: 1
-  height: 1
-  lockRotation: false
-  rotation: 0
-  alpha: 1
-  disposition: -1
-  displayBars: 0
-  bar1:
-    attribute: attributes.hitPoints.value
-  bar2:
-    attribute: attributes.magicPoints.value
-  light:
-    alpha: 0.5
-    angle: 360
-    bright: 0
-    color:
-    coloration: 1
-    dim: 0
-    attenuation: 0.5
-    luminosity: 0.5
-    saturation: 0
-    contrast: 0
-    shadows: 0
-    animation:
-      type:
-      speed: 5
-      intensity: 5
-      reverse: false
-    darkness:
-      min: 0
-      max: 1
-  sight:
-    enabled: false
-    range:
-    angle: 360
-    visionMode: basic
-    color:
-    attenuation: 0.1
-    brightness: 0
-    saturation: 0
-    contrast: 0
-  detectionModes: []
-  flags: {}
-  randomImg: false
+  _importExternalDocument:
+    file: _partial-includes/actor-npc-prototype-token.yaml
+    overrides:
+      - path: name
+        value: ${{rqgCompendiumContent.bestiary.brownBear.name}}$
 items:
   # hit location items
   - _importExternalDocument:

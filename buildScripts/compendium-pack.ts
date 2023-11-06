@@ -254,44 +254,53 @@ export class CompendiumPack {
   }
 }
 
-function resolveExternalImports(documentsToBeEnriched: Document[]): Document[] {
-  documentsToBeEnriched.map((documentToEnrich) => {
-    // Look for import metadata in the items list only for now
-    documentToEnrich.items = documentToEnrich?.items?.map((embeddedItemObject: ImportData) => {
-      if (!embeddedItemObject._importExternalDocument) {
-        return embeddedItemObject; // TODO Should I even support embedding items directly, or is this an error?
-      }
+function enrich(embeddedItemObject: ImportData) {
+  if (!embeddedItemObject._importExternalDocument) {
+    return embeddedItemObject; // Only import into '_importExternalDocument' fields
+  }
 
-      const packTemplate = path.resolve(
-        config.packTemplateDir,
-        embeddedItemObject._importExternalDocument.file,
-      );
-      const packTemplateYamlString = tryOrThrow(
-        () => fs.readFileSync(packTemplate, "utf-8"),
-        (e) => {
-          throw new PackError(`Error ${e} when reading packTemplate file ${packTemplate}`);
-        },
-      );
-      const packEntries = yaml.loadAll(packTemplateYamlString) as Document[];
-      const documentToImport = packEntries.find(
+  const packTemplate = path.resolve(
+    config.packTemplateDir,
+    embeddedItemObject._importExternalDocument.file,
+  );
+  const packTemplateYamlString = tryOrThrow(
+    () => fs.readFileSync(packTemplate, "utf-8"),
+    (e) => {
+      throw new PackError(`Error ${e} when reading packTemplate file ${packTemplate}`);
+    },
+  );
+  const packEntries = yaml.loadAll(packTemplateYamlString) as Document[];
+  const documentToImport = embeddedItemObject._importExternalDocument.rqid
+    ? packEntries.find(
         (entry) =>
           entry?.flags?.rqg?.documentRqidFlags?.id ===
           embeddedItemObject._importExternalDocument.rqid,
-      );
-      if (!documentToImport) {
-        throw new PackError(
-          `Did not find an entry in [${chalk.bold(
-            embeddedItemObject._importExternalDocument.file,
-          )}] with an RQID of [${chalk.bold(embeddedItemObject._importExternalDocument.rqid)}]`,
-        );
-      }
+      )
+    : packEntries[0]; // if no rqid was supplied, just embed the entire file. Assume only one document in yaml file
+  if (!documentToImport) {
+    throw new PackError(
+      `Did not find an entry in [${chalk.bold(
+        embeddedItemObject._importExternalDocument.file,
+      )}] with an RQID of [${chalk.bold(embeddedItemObject._importExternalDocument.rqid)}]`,
+    );
+  }
 
-      for (const override of embeddedItemObject._importExternalDocument?.overrides ?? []) {
-        // TODO check if matchingEntry has something in overrideKey already, if not it's probably a mistake
-        setProperty(documentToImport, override.path, override.value);
-      }
-      return documentToImport;
-    });
+  for (const override of embeddedItemObject._importExternalDocument?.overrides ?? []) {
+    // TODO check if matchingEntry has something in overrideKey already, if not it's probably a mistake
+    setProperty(documentToImport, override.path, override.value);
+  }
+  return documentToImport;
+}
+
+function resolveExternalImports(documentsToBeEnriched: Document[]): Document[] {
+  documentsToBeEnriched.map((documentToEnrich: Document) => {
+    if (documentToEnrich.items) {
+      documentToEnrich.items = documentToEnrich?.items?.map((i: any) => enrich(i));
+    }
+
+    if (documentToEnrich.prototypeToken) {
+      documentToEnrich.prototypeToken = enrich(documentToEnrich.prototypeToken);
+    }
   });
 
   return documentsToBeEnriched.flat(Infinity);
