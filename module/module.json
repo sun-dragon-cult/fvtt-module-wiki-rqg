@@ -68,10 +68,16 @@
         },
         {
           "name": "${{rqgCompendiumContent.module.folders.bestiary}}$",
-          "sorting": "a",
+          "sorting": "m",
           "color": "#269261",
           "packs": [
-            "bestiary",
+            "adventurers",
+            "bestiary-animals",
+            "bestiary-chaos-monsters",
+            "bestiary-elder-races",
+            "bestiary-elementals",
+            "bestiary-mounts",
+            "bestiary-spirits",
             "species-descriptions"
           ]
         },
@@ -207,10 +213,76 @@
       "type": "JournalEntry"
     },
     {
-      "name": "bestiary",
-      "label": "${{rqgCompendiumContent.module.packs.bestiary}}$",
+      "name": "adventurers",
+      "label": "${{rqgCompendiumContent.module.packs.adventurers}}$",
       "system": "rqg",
-      "path": "packs/bestiary",
+      "path": "packs/adventurers",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Actor"
+    },
+    {
+      "name": "bestiary-animals",
+      "label": "${{rqgCompendiumContent.module.packs.bestiaryAnimals}}$",
+      "system": "rqg",
+      "path": "packs/bestiary-animals",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Actor"
+    },
+    {
+      "name": "bestiary-chaos-monsters",
+      "label": "${{rqgCompendiumContent.module.packs.bestiaryChaosMonsters}}$",
+      "system": "rqg",
+      "path": "packs/bestiary-chaos-monsters",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Actor"
+    },
+    {
+      "name": "bestiary-elder-races",
+      "label": "${{rqgCompendiumContent.module.packs.bestiaryElderRaces}}$",
+      "system": "rqg",
+      "path": "packs/bestiary-elder-races",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Actor"
+    },
+    {
+      "name": "bestiary-elementals",
+      "label": "${{rqgCompendiumContent.module.packs.bestiaryElementals}}$",
+      "system": "rqg",
+      "path": "packs/bestiary-elementals",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Actor"
+    },
+    {
+      "name": "bestiary-mounts",
+      "label": "${{rqgCompendiumContent.module.packs.bestiaryMounts}}$",
+      "system": "rqg",
+      "path": "packs/bestiary-mounts",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Actor"
+    },
+    {
+      "name": "bestiary-spirits",
+      "label": "${{rqgCompendiumContent.module.packs.bestiarySpirits}}$",
+      "system": "rqg",
+      "path": "packs/bestiary-spirits",
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
