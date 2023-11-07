@@ -15,7 +15,7 @@ system:
         rqid: i.skill.fists-light-cestus
         name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.lightCestus}}$)
       combatManeuvers:
-        - name: Hit
+        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Hit}}$
           damageType: crush
           description:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
@@ -95,7 +95,7 @@ system:
         rqid: i.skill.fists-heavy-cestus
         name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.heavyCestus}}$)
       combatManeuvers:
-        - name: Hit
+        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Hit}}$
           damageType: crush
           description:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
@@ -406,7 +406,7 @@ system:
         rqid: i.skill.head-butt
         name: ${{rqgCompendiumContent.weaponSkill.headButt.name}}$
       combatManeuvers:
-        - name: Head Butt
+        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.HeadButt}}$
           damageType: crush
           description:
         - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
