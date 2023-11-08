@@ -1,5 +1,5 @@
-# read-write-aldryami
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.language.aldryami.name}}$)
+# read-write-theyalan (Esrolian, Heortling, Praxian, Tarshite, Tradetalk)
+name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.script.theyalan}}$)
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
@@ -8,7 +8,7 @@ system:
   rqidLang: ${{rqgCompendiumContent.lang}}$
   category: knowledge
   skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.aldryami.name}}$
+  specialization: ${{rqgCompendiumContent.script.theyalan}}$
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
@@ -19,12 +19,12 @@ effects: []
 flags:
   rqg:
     documentRqidFlags:
-      id: i.skill.read-write-aldryami
+      id: i.skill.read-write-theyalan
       priority: ${{rqgCompendiumContent.prio}}$
       lang: ${{rqgCompendiumContent.lang}}$
 ---
-# read-write-esrolian
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.language.esrolian.name}}$)
+# read-write-pelorian (New Pelorian, Dara Happan, Firespeech)
+name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.script.pelorian}}$)
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
@@ -33,7 +33,7 @@ system:
   rqidLang: ${{rqgCompendiumContent.lang}}$
   category: knowledge
   skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.esrolian.name}}$
+  specialization: ${{rqgCompendiumContent.script.pelorian}}$
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
@@ -44,37 +44,12 @@ effects: []
 flags:
   rqg:
     documentRqidFlags:
-      id: i.skill.read-write-esrolian
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
----
-# read-write-heorting
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.language.heortling.name}}$)
-type: skill
-img: systems/rqg/assets/images/skills/read-write.svg
-system:
-  rqid: skill-read-write
-  rqidPriority: ${{rqgCompendiumContent.prio}}$
-  rqidLang: ${{rqgCompendiumContent.lang}}$
-  category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.heortling.name}}$
-  baseChance: 0
-  gainedChance: 0
-  canGetExperience: false
-  descriptionRqidLink:
-    rqid: je..read-write
-    name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-effects: []
-flags:
-  rqg:
-    documentRqidFlags:
-      id: i.skill.read-write-heortling
+      id: i.skill.read-write-pelorian
       priority: ${{rqgCompendiumContent.prio}}$
       lang: ${{rqgCompendiumContent.lang}}$
 ---
 # read-write-mostali
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.language.mostali.name}}$)
+name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.script.mostali}}$)
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
@@ -83,7 +58,7 @@ system:
   rqidLang: ${{rqgCompendiumContent.lang}}$
   category: knowledge
   skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.mostali.name}}$
+  specialization: ${{rqgCompendiumContent.script.mostali}}$
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
@@ -98,8 +73,8 @@ flags:
       priority: ${{rqgCompendiumContent.prio}}$
       lang: ${{rqgCompendiumContent.lang}}$
 ---
-# read-write-new-pelorian
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.language.newPelorian.name}}$)
+# read-write-darktoungue
+name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.script.darktoungue}}$)
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
@@ -108,7 +83,7 @@ system:
   rqidLang: ${{rqgCompendiumContent.lang}}$
   category: knowledge
   skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.newPelorian.name}}$
+  specialization: ${{rqgCompendiumContent.script.darktoungue}}$
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
@@ -119,12 +94,12 @@ effects: []
 flags:
   rqg:
     documentRqidFlags:
-      id: i.skill.read-write-new-pelorian
+      id: i.skill.read-write-darktoungue
       priority: ${{rqgCompendiumContent.prio}}$
       lang: ${{rqgCompendiumContent.lang}}$
 ---
-# read-write-praxian
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.language.praxian.name}}$)
+# read-write-auldWyrmish
+name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.script.auldWyrmish}}$)
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
@@ -133,7 +108,7 @@ system:
   rqidLang: ${{rqgCompendiumContent.lang}}$
   category: knowledge
   skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.praxian.name}}$
+  specialization: ${{rqgCompendiumContent.script.auldWyrmish}}$
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
@@ -144,82 +119,7 @@ effects: []
 flags:
   rqg:
     documentRqidFlags:
-      id: i.skill.read-write-praxian
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
----
-# read-write-pure-horse-tongue
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.language.pureHorseTongue.name}}$)
-type: skill
-img: systems/rqg/assets/images/skills/read-write.svg
-system:
-  rqid: skill-read-write
-  rqidPriority: ${{rqgCompendiumContent.prio}}$
-  rqidLang: ${{rqgCompendiumContent.lang}}$
-  category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.pureHorseTongue.name}}$
-  baseChance: 0
-  gainedChance: 0
-  canGetExperience: false
-  descriptionRqidLink:
-    rqid: je..read-write
-    name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-effects: []
-flags:
-  rqg:
-    documentRqidFlags:
-      id: i.skill.read-write-pure-horse-tongue
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
----
-# read-write-tarshite
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.language.tarshite.name}}$)
-type: skill
-img: systems/rqg/assets/images/skills/read-write.svg
-system:
-  rqid: skill-read-write
-  rqidPriority: ${{rqgCompendiumContent.prio}}$
-  rqidLang: ${{rqgCompendiumContent.lang}}$
-  category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.tarshite.name}}$
-  baseChance: 0
-  gainedChance: 0
-  canGetExperience: false
-  descriptionRqidLink:
-    rqid: je..read-write
-    name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-effects: []
-flags:
-  rqg:
-    documentRqidFlags:
-      id: i.skill.read-write-tarshite
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
----
-# read-write-tradetalk
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.language.tradetalk.name}}$)
-type: skill
-img: systems/rqg/assets/images/skills/read-write.svg
-system:
-  rqid: skill-read-write
-  rqidPriority: ${{rqgCompendiumContent.prio}}$
-  rqidLang: ${{rqgCompendiumContent.lang}}$
-  category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.tradetalk.name}}$
-  baseChance: 0
-  gainedChance: 0
-  canGetExperience: false
-  descriptionRqidLink:
-    rqid: je..read-write
-    name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-effects: []
-flags:
-  rqg:
-    documentRqidFlags:
-      id: i.skill.read-write-tradetalk
+      id: i.skill.read-write-auldWyrmish
       priority: ${{rqgCompendiumContent.prio}}$
       lang: ${{rqgCompendiumContent.lang}}$
 ---

@@ -478,6 +478,12 @@ items:
       file: skills/magic-skills.yaml
       rqid: i.skill.prepare-corpse
   - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.read-write-theyalan
+      overrides:
+        - path: system.gainedChance
+          value: 25
+  - _importExternalDocument:
       file: skills/magic-skills.yaml
       rqid: i.skill.spirit-combat
       overrides:

@@ -310,6 +310,13 @@
       "name": "🇸🇪Tradetalk"
     }
   },
+  "script": {
+    "theyalan" : "Theyalan",
+    "pelorian": "Pelorian",
+    "mostali": "Mostali",
+    "auldWyrmish": "Auld Wyrmish",
+    "darktoungue": "Darktoungue"
+  },
   "rune": {
     "air": "Luft",
     "beast": "Best",
