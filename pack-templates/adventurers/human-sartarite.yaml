@@ -4,26 +4,26 @@ img: icons/svg/mystery-man.svg
 system:
   characteristics:
     strength:
-      value: 12
+      value: 11
       formula: 3d6
     constitution:
-      value: 13
+      value: 11
       formula: 3d6
     size:
-      value: 15
+      value: 13
       formula: 2d6+6
     dexterity:
-      value: 12
+      value: 11
       formula: 3d6
     intelligence:
-      value: 10
+      value: 13
       formula: 2d6+6
     power:
-      value: 15
+      value: 11
       formula: 3d6
       hasExperience: false
     charisma:
-      value: 12
+      value: 11
       formula: 3d6
   background:
     species: ${{rqgCompendiumContent.bestiary.humanSartarite.species}}$
@@ -51,9 +51,9 @@ system:
   allies: ${{rqgCompendiumContent.bestiary.humanSartarite.notes}}$
   attributes:
     magicPoints:
-      value: 15
+      value: 11
     hitPoints:
-      value: 14
+      value: 12
     move:
       currentLocomotion: walk
       walk:
@@ -151,7 +151,7 @@ items:
       file: runes/power.yaml
       rqid: i.rune.stasis-power
 
-  # skill items
+  # Skills
   - _importExternalDocument:
       file: skills/agility-skills.yaml
       rqid: i.skill.boat
@@ -172,7 +172,7 @@ items:
       rqid: i.skill.ride
       overrides:
         - path: system.gainedChance
-          value: 15
+          value: 5
   - _importExternalDocument:
       file: skills/agility-skills.yaml
       rqid: i.skill.swim
@@ -194,7 +194,7 @@ items:
       rqid: i.skill.dance
       overrides:
         - path: system.gainedChance
-          value: 15
+          value: 5
   - _importExternalDocument:
       file: skills/communication-skills.yaml
       rqid: i.skill.disguise
@@ -215,7 +215,7 @@ items:
       rqid: i.skill.sing
       overrides:
         - path: system.gainedChance
-          value: 20
+          value: 10
   - _importExternalDocument:
       file: skills/specialized-language-skills.yaml
       rqid: i.skill.speak-language-heortling
@@ -226,17 +226,12 @@ items:
       file: skills/specialized-language-skills.yaml
       rqid: i.skill.speak-language-tradetalk
       overrides:
-        - path: system.baseChance # TODO should it be gainedChance?
+        - path: system.gainedChance
           value: 10
-  - _importExternalDocument:
-      file: skills/knowledge-skills.yaml
-      rqid: i.skill.alchemy # TODO this and some others should not be a default skill?
+
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.animal-lore
-  - _importExternalDocument:
-      file: skills/knowledge-skills.yaml
-      rqid: i.skill.bureaucracy
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.battle
@@ -250,7 +245,7 @@ items:
       file: skills/specialized-customs-skills.yaml
       rqid: i.skill.customs-heortling
       overrides:
-        - path: system.gainedChance # TODO should it be baseChance?
+        - path: system.baseChance
           value: 25
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
@@ -262,8 +257,8 @@ items:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.farm
       overrides:
-        - path: system.gainedChance # TODO should it be baseChance?
-          value: 30
+        - path: system.gainedChance
+          value: 20
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.first-aid
@@ -274,20 +269,14 @@ items:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.herd
       overrides:
-        - path: system.gainedChance # TODO should it be baseChance?
+        - path: system.gainedChance
           value: 15
   - _importExternalDocument:
       file: skills/specialized-homeland-skills.yaml
       rqid: i.skill.homeland-lore-sartar
       overrides:
-        - path: system.gainedChance # TODO should it be baseChance?
+        - path: system.baseChance
           value: 30
-  - _importExternalDocument:
-      file: skills/knowledge-skills.yaml
-      rqid: i.skill.library-use
-  - _importExternalDocument:
-      file: skills/knowledge-skills.yaml
-      rqid: i.skill.lore
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.manage-household
@@ -301,14 +290,8 @@ items:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.plant-lore
   - _importExternalDocument:
-      file: skills/specialized-language-skills.yaml
-      rqid: i.skill.read-write-heortling
-  - _importExternalDocument:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.survival
-  - _importExternalDocument:
-      file: skills/knowledge-skills.yaml
-      rqid: i.skill.shiphandling
   - _importExternalDocument:
       file: skills/knowledge-skills.yaml
       rqid: i.skill.treat-disease
@@ -318,31 +301,13 @@ items:
 
   - _importExternalDocument:
       file: skills/magic-skills.yaml
-      rqid: i.skill.meditate
-  - _importExternalDocument:
-      file: skills/magic-skills.yaml
       rqid: i.skill.prepare-corpse
-  - _importExternalDocument:
-      file: skills/magic-skills.yaml
-      rqid: i.skill.sense-assassin # TODO should not be part of a base human
-  - _importExternalDocument:
-      file: skills/magic-skills.yaml
-      rqid: i.skill.sense-chaos # TODO should not be part of a base human
   - _importExternalDocument:
       file: skills/magic-skills.yaml
       rqid: i.skill.spirit-combat
   - _importExternalDocument:
       file: skills/magic-skills.yaml
-      rqid: i.skill.spirit-dance
-  - _importExternalDocument:
-      file: skills/magic-skills.yaml
-      rqid: i.skill.spirit-lore
-  - _importExternalDocument:
-      file: skills/magic-skills.yaml
       rqid: i.skill.spirit-travel
-  - _importExternalDocument:
-      file: skills/magic-skills.yaml
-      rqid: i.skill.understand-herd-beast
   - _importExternalDocument:
       file: skills/magic-skills.yaml
       rqid: i.skill.worship
@@ -367,7 +332,7 @@ items:
       file: skills/specialized-insight-skills.yaml
       rqid: i.skill.insight-human
       overrides:
-        - path: system.gainedChance # TODO should it be baseChance?
+        - path: system.baseChance
           value: 20
   - _importExternalDocument:
       file: skills/perception-skills.yaml
@@ -403,44 +368,44 @@ items:
       file: skills-weapons/1h-axe.yaml
       rqid: i.skill.1h-axes-battle-axe
       overrides:
-        - path: system.gainedChance # TODO should it be baseChance?
-          value: 25
+        - path: system.gainedChance
+          value: 10
   - _importExternalDocument:
       file: skills-weapons/1h-dagger.yaml
       rqid: i.skill.1h-daggers-dagger
       overrides:
-        - path: system.gainedChance # TODO should it be baseChance?
-          value: 25
+        - path: system.gainedChance
+          value: 10
   - _importExternalDocument:
       file: skills-weapons/1h-spear.yaml
       rqid: i.skill.1h-spears-shortspear
       overrides:
-        - path: system.gainedChance # TODO should it be baseChance?
-          value: 15
+        - path: system.gainedChance
+          value: 10
   - _importExternalDocument:
       file: skills-weapons/1h-sword.yaml
       rqid: i.skill.1h-swords-broadsword
       overrides:
-        - path: system.gainedChance # TODO should it be baseChance?
-          value: 25
+        - path: system.gainedChance
+          value: 15
   - _importExternalDocument:
       file: skills-weapons/missile.yaml
       rqid: i.skill.bows-composite-bow
       overrides:
-        - path: system.gainedChance # TODO should it be baseChance?
-          value: 15
+        - path: system.gainedChance
+          value: 10
   - _importExternalDocument:
       file: skills-weapons/missile.yaml
       rqid: i.skill.javelins-javelin
       overrides:
-        - path: system.gainedChance # TODO should it be baseChance?
-          value: 20
+        - path: system.gainedChance
+          value: 10
   - _importExternalDocument:
       file: skills-weapons/missile.yaml
       rqid: i.skill.slings-sling
       overrides:
-        - path: system.gainedChance # TODO should it be baseChance?
-          value: 15
+        - path: system.gainedChance
+          value: 10
   - _importExternalDocument:
       file: skills-weapons/natural.yaml
       rqid: i.skill.fists-fist
@@ -454,14 +419,14 @@ items:
       file: skills-weapons/shields.yaml
       rqid: i.skill.shields-large
       overrides:
-        - path: system.gainedChance # TODO should it be baseChance?
-          value: 25
+        - path: system.gainedChance
+          value: 10
   - _importExternalDocument:
       file: skills-weapons/shields.yaml
       rqid: i.skill.shields-medium
       overrides:
-        - path: system.gainedChance # TODO should it be baseChance?
-          value: 30
+        - path: system.gainedChance
+          value: 15
 
   # weapon items
   - _importExternalDocument:
