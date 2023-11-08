@@ -2,7 +2,7 @@
   "id": "${{rqgCompendiumContent.module.id}}$",
   "title": "${{rqgCompendiumContent.module.title}}$",
   "description": "${{rqgCompendiumContent.module.description}}$",
-  "version": "1.0.0",
+  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": 11,
     "verified": "11"
