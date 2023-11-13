@@ -8,7 +8,7 @@ system:
   naturalAp: 0
   wounds: []
   hitLocationType: limb
-  connectedTo: ${{rqgCompendiumContent.hitLocation.beetle.abdomen}}$
+  connectedTo: i.hit-location.abdomen
   hitLocationHealthState: healthy
   actorHealthImpact: healthy
 effects: []
@@ -29,7 +29,7 @@ system:
   naturalAp: 0
   wounds: []
   hitLocationType: limb
-  connectedTo: ${{rqgCompendiumContent.hitLocation.beetle.abdomen}}$
+  connectedTo: i.hit-location.abdomen
   hitLocationHealthState: healthy
   actorHealthImpact: healthy
 effects: []
@@ -50,7 +50,7 @@ system:
   naturalAp: 0
   wounds: []
   hitLocationType: limb
-  connectedTo: ${{rqgCompendiumContent.hitLocation.beetle.abdomen}}$
+  connectedTo: i.hit-location.abdomen
   hitLocationHealthState: healthy
   actorHealthImpact: healthy
 effects: []
@@ -71,7 +71,7 @@ system:
   naturalAp: 0
   wounds: []
   hitLocationType: limb
-  connectedTo: ${{rqgCompendiumContent.hitLocation.beetle.abdomen}}$
+  connectedTo: i.hit-location.abdomen
   hitLocationHealthState: healthy
   actorHealthImpact: healthy
 effects: []
@@ -134,7 +134,7 @@ system:
   naturalAp: 0
   wounds: []
   hitLocationType: limb
-  connectedTo: ${{rqgCompendiumContent.hitLocation.beetle.thorax}}$
+  connectedTo: i.hit-location.thorax
   hitLocationHealthState: healthy
   actorHealthImpact: healthy
 effects: []
@@ -155,7 +155,7 @@ system:
   naturalAp: 0
   wounds: []
   hitLocationType: limb
-  connectedTo: ${{rqgCompendiumContent.hitLocation.beetle.thorax}}$
+  connectedTo: i.hit-location.thorax
   hitLocationHealthState: healthy
   actorHealthImpact: healthy
 effects: []

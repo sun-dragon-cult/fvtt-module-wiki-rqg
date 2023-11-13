@@ -8,7 +8,7 @@ system:
   naturalAp: 0
   wounds: []
   hitLocationType: limb
-  connectedTo: ${{rqgCompendiumContent.hitLocation.wyvern.abdomen}}$
+  connectedTo: i.hit-location.abdomen
   hitLocationHealthState: healthy
   actorHealthImpact: healthy
 effects: []
@@ -29,7 +29,7 @@ system:
   naturalAp: 0
   wounds: []
   hitLocationType: limb
-  connectedTo: ${{rqgCompendiumContent.hitLocation.wyvern.abdomen}}$
+  connectedTo: i.hit-location.abdomen
   hitLocationHealthState: healthy
   actorHealthImpact: healthy
 effects: []
@@ -50,7 +50,7 @@ system:
   naturalAp: 0
   wounds: []
   hitLocationType: limb
-  connectedTo: ${{rqgCompendiumContent.hitLocation.wyvern.abdomen}}$
+  connectedTo: i.hit-location.abdomen
   hitLocationHealthState: healthy
   actorHealthImpact: healthy
 effects: []
@@ -113,7 +113,7 @@ system:
   naturalAp: 0
   wounds: []
   hitLocationType: limb
-  connectedTo: ${{rqgCompendiumContent.hitLocation.wyvern.chest}}$
+  connectedTo: i.hit-location.chest
   hitLocationHealthState: healthy
   actorHealthImpact: healthy
 effects: []
@@ -134,7 +134,7 @@ system:
   naturalAp: 0
   wounds: []
   hitLocationType: limb
-  connectedTo: ${{rqgCompendiumContent.hitLocation.wyvern.chest}}$
+  connectedTo: i.hit-location.chest
   hitLocationHealthState: healthy
   actorHealthImpact: healthy
 effects: []

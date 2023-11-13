@@ -8,7 +8,7 @@ system:
   naturalAp: 0
   wounds: []
   hitLocationType: limb
-  connectedTo: ${{rqgCompendiumContent.hitLocation.serpent.body}}$
+  connectedTo: i.hit-location.body
   hitLocationHealthState: healthy
   actorHealthImpact: healthy
 effects: []
