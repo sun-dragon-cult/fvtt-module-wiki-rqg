@@ -391,13 +391,19 @@ items:
     img: systems/rqg/assets/images/armor/chain-mail.svg
     effects: []
     system:
-      hitLocations:
-        - ${{rqgCompendiumContent.hitLocation.humanoid.rightLeg}}$
-        - ${{rqgCompendiumContent.hitLocation.humanoid.leftLeg}}$
-        - ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
-        - ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
-        - ${{rqgCompendiumContent.hitLocation.humanoid.rightArm}}$
-        - ${{rqgCompendiumContent.hitLocation.humanoid.leftArm}}$
+      hitLocationRqidLinks:
+        - name: ${{rqgCompendiumContent.hitLocation.humanoid.rightLeg}}$
+          rqid: i.hit-location.right-leg
+        - name: ${{rqgCompendiumContent.hitLocation.humanoid.leftLeg}}$
+          rqid: i.hit-location.left-leg
+        - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+          rqid: i.hit-location.abdomen
+        - name: ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+          rqid: i.hit-location.chest
+        - name: ${{rqgCompendiumContent.hitLocation.humanoid.rightArm}}$
+          rqid: i.hit-location.right-arm
+        - name: ${{rqgCompendiumContent.hitLocation.humanoid.leftArm}}$
+          rqid: i.hit-location.left-arm
       armorType: ${{rqgCompendiumContent.equipment.armor.unenchantedHeavyDwarfChainmail}}$
       material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Iron}}$
       absorbs: 9
@@ -414,8 +420,9 @@ items:
     img: systems/rqg/assets/images/armor/closed-helmet.svg
     effects: []
     system:
-      hitLocations:
-        - ${{rqgCompendiumContent.hitLocation.humanoid.head}}$
+      hitLocationRqidLinks:
+        - name: ${{rqgCompendiumContent.hitLocation.humanoid.head}}$
+          rqid: i.hit-location.head
       namePrefix:
       armorType: ${{uiContent.RQG.Item.Armor.ArmorType.ClosedHelm}}$
       material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Iron}}$

@@ -9,9 +9,11 @@ flags:
       lang: ${{rqgCompendiumContent.lang}}$
 effects: []
 system:
-  hitLocations:
-    - ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
-    - ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+  hitLocationRqidLinks:
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+      rqid: i.hit-location.chest
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+      rqid: i.hit-location.abdomen
   armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Linothorax}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Linen}}$
   absorbs: 3
@@ -37,8 +39,9 @@ flags:
       lang: ${{rqgCompendiumContent.lang}}$
 effects: []
 system:
-  hitLocations:
-    - ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+  hitLocationRqidLinks:
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+      rqid: i.hit-location.abdomen
   armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Skirt}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Linen}}$
   absorbs: 3

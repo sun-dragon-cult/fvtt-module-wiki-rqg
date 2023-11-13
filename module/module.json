@@ -21,7 +21,7 @@
         "id": "rqg",
         "type": "system",
         "compatibility": {
-          "minimum": "3.2.0"
+          "minimum": "3.3.0"
         }
       }
     ]

@@ -9,9 +9,11 @@ flags:
       lang: ${{rqgCompendiumContent.lang}}$
 effects: []
 system:
-  hitLocations:
-    - ${{rqgCompendiumContent.hitLocation.humanoid.leftArm}}$
-    - ${{rqgCompendiumContent.hitLocation.humanoid.rightArm}}$
+  hitLocationRqidLinks:
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.leftArm}}$
+      rqid: i.hit-location.left-arm
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.rightArm}}$
+      rqid: i.hit-location.right-arm
   armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Sleeves}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.LightScale}}$
   absorbs: 4
@@ -37,8 +39,9 @@ flags:
       lang: ${{rqgCompendiumContent.lang}}$
 effects: []
 system:
-  hitLocations:
-    - ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+  hitLocationRqidLinks:
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+      rqid: i.hit-location.chest
   armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Cuirass}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.LightScale}}$
   absorbs: 4
@@ -64,9 +67,11 @@ flags:
       lang: ${{rqgCompendiumContent.lang}}$
 effects: []
 system:
-  hitLocations:
-    - ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
-    - ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+  hitLocationRqidLinks:
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+      rqid: i.hit-location.chest
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+      rqid: i.hit-location.abdomen
   armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Hauberk}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.LightScale}}$
   absorbs: 4
@@ -92,8 +97,9 @@ flags:
       lang: ${{rqgCompendiumContent.lang}}$
 effects: []
 system:
-  hitLocations:
-    - ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+  hitLocationRqidLinks:
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+      rqid: i.hit-location.abdomen
   armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Skirt}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.LightScale}}$
   absorbs: 4

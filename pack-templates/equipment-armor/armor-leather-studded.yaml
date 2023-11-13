@@ -9,8 +9,9 @@ flags:
       lang: ${{rqgCompendiumContent.lang}}$
 effects: []
 system:
-  hitLocations:
-    - ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+  hitLocationRqidLinks:
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+      rqid: i.hit-location.abdomen
   armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Skirt}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.StuddedLeather}}$
   absorbs: 3

@@ -9,8 +9,9 @@ flags:
       lang: ${{rqgCompendiumContent.lang}}$
 effects: []
 system:
-  hitLocations:
-    - ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+  hitLocationRqidLinks:
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+      rqid: i.hit-location.chest
   armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Cuirass}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.DiskPlate}}$
   absorbs: 5

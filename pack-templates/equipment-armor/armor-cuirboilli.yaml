@@ -9,9 +9,11 @@ flags:
       lang: ${{rqgCompendiumContent.lang}}$
 effects: []
 system:
-  hitLocations:
-    - ${{rqgCompendiumContent.hitLocation.humanoid.leftArm}}$
-    - ${{rqgCompendiumContent.hitLocation.humanoid.rightArm}}$
+  hitLocationRqidLinks:
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.leftArm}}$
+      rqid: i.hit-location.left-arm
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.rightArm}}$
+      rqid: i.hit-location.right-arm
   armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Vambraces}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Cuirboilli}}$
   absorbs: 3
@@ -37,9 +39,11 @@ flags:
       lang: ${{rqgCompendiumContent.lang}}$
 effects: []
 system:
-  hitLocations:
-    - ${{rqgCompendiumContent.hitLocation.humanoid.leftLeg}}$
-    - ${{rqgCompendiumContent.hitLocation.humanoid.rightLeg}}$
+  hitLocationRqidLinks:
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.leftLeg}}$
+      rqid: i.hit-location.left-leg
+    - name: ${{rqgCompendiumContent.hitLocation.humanoid.rightLeg}}$
+      rqid: i.hit-location.right-leg
   armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Greaves}}$
   material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Cuirboilli}}$
   absorbs: 3
