@@ -208,7 +208,7 @@ system:
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
-    rqid: je..evaluate
+    rqid: je..farm
     name: ${{rqgCompendiumContent.skill.farm.skillName}}$
 effects: []
 flags:

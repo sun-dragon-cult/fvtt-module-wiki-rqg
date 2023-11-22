@@ -18,7 +18,6 @@
     },
     "packs": {
       "adventurers": "Äventyrare",
-      "rqidMacros": "🇸🇪Rqid Macros | sv",
       "clanDescriptions": "Klanbeskrivningar",
       "combatFumble": "Stridsfummel",
       "cultDescriptions": "Kultbesrivningar",
@@ -671,11 +670,11 @@
       "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Cults:</b> Chalana Arroy</i></p><p>Prevents anyone from becoming violent within three meters of the caster per point spent. To act violently in this space requires a resistance roll of caster’s POW compared to the resistance table. Anyone within range whose POW would be overcome is affected. Counteracts emotion-affecting spells (Demoralize or Fanaticism) weaker than the Harmony spell (how many points spent in it). Harmony can be boosted with magic points to make it more powerful to overcome other spells.</p>"
     },
     "healBody": {
-      "name": "🇸🇪Heal Body",
+      "name": "Hela kropp",
       "description": "🇸🇪<p><i><b>Cost:</b> 3<br><b>Type:</b> Touch, Instant<br><b>Cults:</b> Chalana Arroy, Babeester Gor, Eiritha, Ernalda, Orlanth Adventurous</i></p><p>Heals all the damage the target suffered, regardless of hit location(s).</p>"
     },
     "healWound": {
-      "name": "🇸🇪Heal Wound",
+      "name": "Hela sår",
       "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Type:</b> Touch, Instant<br><b>Cults:</b> All</i></p><p>Heals hit points equal to the magic points spent.</p>"
     },
     "healingTrance": {
@@ -699,7 +698,7 @@
       "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Cults:</b> Ernalda</i></p><p>Affects any Ernalda or Orlanth cultist within three meters of the caster. Cancels Demoralize, Fanaticism, and other emotion-affecting magic on them, calm and avoiding violence if possible.</p>"
     },
     "knowledge": {
-      "name": "🇸🇪Knowledge",
+      "name": "Kunskap",
       "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Type:</b> Touch<br><b>Cults:</b> Lhankor Mhy</i></p><p>Allows the caster to read the history of an item.</p>"
     },
     "leap": {
@@ -707,7 +706,7 @@
       "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Cults:</b> Orlanth Adventurous</i></p><p>Target can jump up to six meters high or six meters away for the duration. Each extra point adds +6 meters to the distance.</p>"
     },
     "lie": {
-      "name": "🇸🇪Lie",
+      "name": "Ljug",
       "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Type:</b> Self, Instant<br><b>Cults:</b> Eurmal</i></p><p>The caster may utter a lie, no matter how outrageous, that any listener believes. Lasts until proven false (minimum one melee round). Listeners must understand the language spoken, unless the lie is nonverbal, such as a feint or misleading gesture.</p>"
     },
     "lightning": {
@@ -715,7 +714,7 @@
       "description": "🇸🇪 <p><i><b>Cost:</b> 1+<br><b>Type:</b> Instant<br><b>Cults:</b> Orlanth Adventurous</i></p><p>Summons a blast of lightning, doing 1D6 per Rune point to a single hit location if the target’s POW is overcome by the caster. Physical armor does not protect against the damage, but magic armor or protection does.</p>"
     },
     "lock": {
-      "name": "🇸🇪Lock",
+      "name": "Lås",
       "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Ritual<br><b>Cults:</b> Issaries</i></p><p>Locks a door, gate, hatch, chest, etc. with a STR equal to the number of magic points used. It must be cast upon a closable door, and the spell does not increase its armor or durability in any way. It takes one hour to cast per point but lasts eight weeks. This spell is often stacked with Passage.</p>"
     },
     "madness": {
@@ -735,7 +734,7 @@
       "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Type:</b> Instant<br><b>Cults:</b> Seven Mothers</i></p><p>Destroys the INT of the target if the caster overcomes the target’s POW. Effect lasts days equal to 1/2 the caster’s POW (round up). It cannot be dispelled. If the caster rolls a special success in overcoming the target’s POW, the attack also causes 1D6+2 damage to the target’s head hit location. Armor does not protect against this damage, though magical protection will.</p>"
     },
     "mindRead": {
-      "name": "🇸🇪Mind Read",
+      "name": "Tankeläsa",
       "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Cults:</b> Lhankor Mhy</i></p><p>Caster can read the conscious thoughts of the target without their consent, though the target can tell what is happening. The caster must overcome the target’s POW for the spell to operate.</p>"
     },
     "mistCloud": {
@@ -743,7 +742,7 @@
       "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Cults:</b> Orlanth Adventurous</i></p><p>Creates a bubble of natural-looking mist two meters in diameter around the caster for every Rune point spent. Visibility within or through the mist is limited to one meter.</p>"
     },
     "morale": {
-      "name": "🇸🇪Morale",
+      "name": "Moral",
       "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Type:</b> Ritual<br><b>Cults:</b> Humakt</i></p><p>Creates a field around the caster and their unit like a Fanaticism spell, without the restrictions on dodging and parrying. Lasts until sunrise or sunset, whichever comes first.</p>"
     },
     "multispell": {
@@ -751,7 +750,7 @@
       "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Self<br><b>Cults:</b> All</i></p><p>Allows combining two spirit magic spells, casting them together on their highest strike rank. Continues for the Multispell’s entire duration: so every melee round, the caster can cast two spirit magic spells. Each extra Rune point adds one spell.</p>"
     },
     "oath": {
-      "name": "🇸🇪Oath",
+      "name": "Ed",
       "description": "🇸🇪<p><i><b>Cost:</b> 2+<br><b>Type:</b> Ritual<br><b>Cults:</b> Humakt</i></p><p>Each person involved spends magic points, forming a pact: oathbreakers suffer a Sever Spirit spell with magic points equal to the total magic points spent in Oath. Each extra Rune point adds one person to the oath. Lasts until broken.</p>"
     },
     "passage": {
@@ -799,7 +798,7 @@
       "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Cults:</b> Maran Gor</i></p><p>Causes a small earthquake: magic points spent determine its area of effect and Rune points its severity. Affects one square meter per magic point, exponentially (1 magic point = 1 square meter, 2 magic points = 4 square meters, etc.). Everyone in the area reduces all Agility and Manipulation skills by –5% per point and must succeed in a DEX×5 roll each round or fall down, modified by the above penalty.</p>"
     },
     "shield": {
-      "name": "🇸🇪Shield",
+      "name": "Sköld",
       "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Cults:</b> Many</i></p><p>The Rune varies by cult. Every point of Shield gives the wearer 2 points of magical armor and 2 points of Countermagic. The effects are cumulative with Protection or Countermagic.</p>"
     },
     "slash": {
@@ -851,7 +850,7 @@
       "description": "🇸🇪<p><i><b>Cost:</b> 3+<br><b>Type:</b> Self or Touch, Instant<br><b>Cults:</b> Orlanth Adventurous</i></p><p>The caster can teleport to visible spot, either with their eyes or through the eyes of an allied spirit. Each additional Rune point enables one extra living thing to be teleported at the same time, provided they are touching the caster. Unwilling targets must be defeated in a POW resistance roll.</p>"
     },
     "translate": {
-      "name": "🇸🇪Translate",
+      "name": "Översätt",
       "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Type:</b> Touch<br><b>Cults:</b> Lhankor Mhy</i></p><p>Translates all words touched by the user’s index finger at normal reading speed, leaving an impression of the meaning afterwards. Does not translate languages the reader does not know.</p>"
     },
     "truespeak": {
@@ -896,7 +895,7 @@
       "description": "🇸🇪<p>Adds +5% to hit and +1 damage per point to a blunt weapon. Magic damage can harm magical creatures.</p>"
     },
     "coordination": {
-      "name": "🇸🇪Coordination",
+      "name": "Koordination",
       "description": "🇸🇪<p>Increases target’s DEX by +3, modifying strike ranks by –1 and adding +5% to all Agility, Manipulation, Stealth, and Weapon category skills.</p>"
     },
     "countermagic": {
@@ -904,7 +903,7 @@
       "description": "🇸🇪<p>Blocks 1 point of spirit magic for every point of Countermagic or 1 point of Rune magic per every 2 points of Countermagic.</p>"
     },
     "demoralize": {
-      "name": "🇸🇪Demoralize",
+      "name": "Demoralisera",
       "description": "🇸🇪<p>Target will try to retreat if possible; if not, target attacks at half chance.</p>"
     },
     "detectEnemies": {
@@ -928,7 +927,7 @@
       "description": "🇸🇪<p>If target’s POW is overcome, does 1D3 damage to a random hit location, no armor protection.</p>"
     },
     "distraction": {
-      "name": "🇸🇪Distraction",
+      "name": "Distraktion",
       "description": "🇸🇪<p>Forces targeted spirit to attack the caster instead of anyone else.</p>"
     },
     "dullblade": {
@@ -940,7 +939,7 @@
       "description": "🇸🇪<p>Puts out a fire. 1 point extinguishes a torch or lantern, 2 a small campfire, 3 a large campfire, etc.</p>"
     },
     "fanaticism": {
-      "name": "🇸🇪Fanaticism",
+      "name": "Fanatism",
       "description": "🇸🇪<p>Target increases their chance to hit by half again but cannot parry. Dodge is halved.</p>"
     },
     "farsee": {
@@ -956,7 +955,7 @@
       "description": "🇸🇪<p>Cast on an edged weapon or spear, does 3D6 damage (instead of the weapon’s actual damage) plus damage bonus. Magic resistance does not work against it. The weapon is unharmed. Incompatible with Bladesharp.</p>"
     },
     "forget": {
-      "name": "🇸🇪Forget",
+      "name": "Glöm",
       "description": "🇸🇪<p>Causes the subject to forget what happened ten rounds before and after the casting. Takes effect five minutes after the spell is cast.</p>"
     },
     "glamour": {
@@ -964,11 +963,11 @@
       "description": "🇸🇪<p>Increases CHA by +8. Increases spirit combat damage by one step, increases all Communication and Magic category skills by +10%.</p>"
     },
     "glue": {
-      "name": "🇸🇪Glue",
+      "name": "Klister",
       "description": "🇸🇪<p>Creates a small glob of magical glue, STR equal to the magic points spent ×10. Can be broken with a successful resistance roll. Does not work on living organic matteRanged (50m), and objects glued must be at rest.</p>"
     },
     "heal": {
-      "name": "🇸🇪Heal",
+      "name": "Läka",
       "description": "🇸🇪<p>Each magic point heals 1 hit point in a designated hit location. Can be used multiple times.</p>"
     },
     "ignite": {
@@ -976,11 +975,11 @@
       "description": "🇸🇪<p>This spell ignites anything normally flammable. It creates a small fire that can set such things alight such as a torch, a thatched roof, or a dry backpack. Skin cannot be ignited. Hair or fur can be, but only if the caster overcomes the target’s POW.</p>"
     },
     "lantern": {
-      "name": "🇸🇪Lantern",
+      "name": "Lanterna",
       "description": "🇸🇪<p>Cast on a flat surface, creates a 12-meter glowing radius.</p>"
     },
     "light": {
-      "name": "🇸🇪Light",
+      "name": "Ljus",
       "description": "🇸🇪<p>Cast on an object, lights everything within a 10-meter radius.</p>"
     },
     "mobility": {
@@ -992,11 +991,11 @@
       "description": "🇸🇪<p>Each point cast creates a magical duplicate of an original missile. Roll attacks separately. The first is the original. Any later missiles cannot impale but can do critical damage. Can be cast upon a missile and does not activate until fired within the duration. Incompatible with Speedart and Firearrow.</p>"
     },
     "protection": {
-      "name": "🇸🇪Protection",
+      "name": "Skydd",
       "description": "🇸🇪<p>Each magic point acts as 1 armor point to the whole body.</p>"
     },
     "repair": {
-      "name": "🇸🇪Repair",
+      "name": "Reparera",
       "description": "🇸🇪<p>Repairs broken objects, each point restoring 1D10 hit points if applicable, if all pieces are present. Item shows a seam and is reduced by 1 hit point permanently.</p>"
     },
     "secondSight": {
@@ -1004,7 +1003,7 @@
       "description": "🇸🇪<p>Allows the target to view the POW aura of living beings and spirits and gauge their relative strength.</p>"
     },
     "shimmer": {
-      "name": "🇸🇪Shimmer",
+      "name": "Skimmer",
       "description": "🇸🇪<p>Blurs the air around the target, making them harder to hit. Reduces attacks against them by –5% per point. Incompatible with Countermagic, Protection, and Spirit Screen.</p>"
     },
     "silence": {
@@ -1032,7 +1031,7 @@
       "description": "🇸🇪<p>Each magic point absorbs 1 point of spiritual damage in spirit combat.</p>"
     },
     "strength": {
-      "name": "🇸🇪Strength",
+      "name": "Styrka",
       "description": "🇸🇪<p>Increases target’s STR by +8, raising damage bonus by one step (0 to 1D4, 1D4 to 1D6, 1D6 to 2D6) and increasing Agility and Manipulation category skills by +10%. Incompatible with Vigor.</p>"
     },
     "vigor": {
@@ -1040,13 +1039,13 @@
       "description": "🇸🇪<p>Adds +3 to target’s CON, increasing hit points by +3 and hit points per location by +1. Incompatible with Strength.</p>"
     },
     "visibility": {
-      "name": "🇸🇪Visibility",
+      "name": "Synlighet",
       "description": "🇸🇪<p>Forces a spirit to take shape in this world and makes it subject to spells. See Spirit Combat.</p>"
     }
   },
   "skill": {
     "act": {
-      "skillName": "🇸🇪Act",
+      "skillName": "Agera",
       "description": "🇸🇪<p>Portraying a different persona, whether in a staged performance or in a social situation.</p>"
     },
     "art": {
@@ -1070,8 +1069,8 @@
       "description": "🇸🇪<p>Negotiation and compromise, haggling: used when buying and selling. If successful, the target agrees to a lower reasonable price. This is often handled as an opposed roll.</p>"
     },
     "boat": {
-      "skillName": "🇸🇪Boat",
-      "description": "🇸🇪<p>Handling a small boat, kayak, or raft. This alsovincludes knowledge of their general maintenance.</p>"
+      "skillName": "Båt",
+      "description": "🇸🇪<p>Handling a small boat, kayak, or raft. This also includes knowledge of their general maintenance.</p>"
     },
     "bureaucracy": {
       "skillName": "Byråkrati",
@@ -1086,7 +1085,7 @@
       "description": "🇸🇪<p>Physical attraction, seduction, flattery, or simply warmth of personality, used to compel a desired reaction.</p>"
     },
     "climb": {
-      "skillName": "🇸🇪Climb",
+      "skillName": "Klättra",
       "description": "🇸🇪<p>Climbing up or down walls, trees, cliffs, or any other surfaces.</p>"
     },
     "conceal": {
@@ -1543,11 +1542,11 @@
       "name": "Kram"
     },
     "javelins": {
-      "name": "🇸🇪Javelins",
+      "name": "Kastspjut",
       "specialization": {
         "dart": "🇸🇪Dart",
-        "javelin": "🇸🇪Javelin",
-        "shortspear": "🇸🇪Shortspear"
+        "javelin": "Kastspjut",
+        "shortspear": "Kortspjut"
       }
     },
     "kicks": {
@@ -1563,7 +1562,7 @@
       }
     },
     "quarterstaff": {
-      "name": "🇸🇪Quarterstaff"
+      "name": "Stridsstav"
     },
     "rearAndPlunge": {
       "name": "🇸🇪Rear & Plunge"
@@ -1584,16 +1583,16 @@
       }
     },
     "sting": {
-      "name": "🇸🇪Sting"
+      "name": "Stick"
     },
     "thrownAxe": {
-      "name": "🇸🇪Thrown Axe"
+      "name": "Kastyxa"
     },
     "thrownDagger": {
-      "name": "🇸🇪Thrown Dagger"
+      "name": "Kastkniv"
     },
     "thrownRock": {
-      "name": "🇸🇪Thrown Rock"
+      "name": "Kastad sten"
     },
     "trample": {
       "name": "🇸🇪Trample"
@@ -1624,7 +1623,7 @@
     "singlestick": "🇸🇪Singlestick",
     "woodenClub": "Träklubba",
     "twoHandedMace": "🇸🇪Two Handed Mace",
-    "quarterstaff": "🇸🇪Quarterstaff",
+    "quarterstaff": "Stridsstav",
     "atlatlDart": "🇸🇪Atlatl Dart",
     "atlatlJavelin": "🇸🇪Atlatl Javelin",
     "dart": "🇸🇪Dart",

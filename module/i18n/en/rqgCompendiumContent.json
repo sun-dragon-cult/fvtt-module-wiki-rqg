@@ -18,7 +18,6 @@
     },
     "packs": {
       "adventurers": "Adventurers",
-      "rqidMacros": "Rqid Macros",
       "clanDescriptions": "Clan Descriptions",
       "combatFumble": "Combat Fumble",
       "cultDescriptions": "Cult Descriptions",
@@ -1071,7 +1070,7 @@
     },
     "boat": {
       "skillName": "Boat",
-      "description": "<p>Handling a small boat, kayak, or raft. This alsovincludes knowledge of their general maintenance.</p>"
+      "description": "<p>Handling a small boat, kayak, or raft. This also includes knowledge of their general maintenance.</p>"
     },
     "bureaucracy": {
       "skillName": "Bureaucracy",
