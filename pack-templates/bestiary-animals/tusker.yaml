@@ -2,6 +2,7 @@ name: ${{rqgCompendiumContent.bestiary.tusker.name}}$
 type: character
 img: icons/svg/mystery-man.svg
 system:
+  editMode: false
   characteristics:
     strength:
       value: 23

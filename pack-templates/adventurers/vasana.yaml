@@ -2,6 +2,7 @@ name: ${{rqgCompendiumContent.bestiary.vasana.name}}$
 type: character
 img: modules/${{rqgCompendiumContent.module.id}}$/tokens/vasana-actor.webp
 system:
+  editMode: false
   extendedName: ${{rqgCompendiumContent.bestiary.vasana.extendedName}}$
   characteristics:
     strength:
