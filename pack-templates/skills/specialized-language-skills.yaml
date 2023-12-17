@@ -3,9 +3,6 @@ name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumCont
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
-  rqid: skill-read-write
-  rqidPriority: ${{rqgCompendiumContent.prio}}$
-  rqidLang: ${{rqgCompendiumContent.lang}}$
   category: knowledge
   skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
   specialization: ${{rqgCompendiumContent.script.theyalan}}$
@@ -28,9 +25,6 @@ name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumCont
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
-  rqid: skill-read-write
-  rqidPriority: ${{rqgCompendiumContent.prio}}$
-  rqidLang: ${{rqgCompendiumContent.lang}}$
   category: knowledge
   skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
   specialization: ${{rqgCompendiumContent.script.pelorian}}$
@@ -53,9 +47,6 @@ name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumCont
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
-  rqid: skill-read-write
-  rqidPriority: ${{rqgCompendiumContent.prio}}$
-  rqidLang: ${{rqgCompendiumContent.lang}}$
   category: knowledge
   skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
   specialization: ${{rqgCompendiumContent.script.mostali}}$
@@ -78,9 +69,6 @@ name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumCont
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
-  rqid: skill-read-write
-  rqidPriority: ${{rqgCompendiumContent.prio}}$
-  rqidLang: ${{rqgCompendiumContent.lang}}$
   category: knowledge
   skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
   specialization: ${{rqgCompendiumContent.script.darktoungue}}$
@@ -103,9 +91,6 @@ name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumCont
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
-  rqid: skill-read-write
-  rqidPriority: ${{rqgCompendiumContent.prio}}$
-  rqidLang: ${{rqgCompendiumContent.lang}}$
   category: knowledge
   skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
   specialization: ${{rqgCompendiumContent.script.auldWyrmish}}$
@@ -362,5 +347,27 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.skill.speak-language-tradetalk
+      priority: ${{rqgCompendiumContent.prio}}$
+      lang: ${{rqgCompendiumContent.lang}}$
+---
+# speak-language-tusk-rider
+name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.tuskRider.name}}$)
+type: skill
+img: systems/rqg/assets/images/skills/speak.svg
+system:
+  category: communication
+  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+  specialization: ${{rqgCompendiumContent.language.tuskRider.name}}$
+  baseChance: 50
+  gainedChance: 0
+  canGetExperience: true
+  descriptionRqidLink:
+    rqid: je..speak-language
+    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+effects: []
+flags:
+  rqg:
+    documentRqidFlags:
+      id: i.skill.speak-language-tusk-rider
       priority: ${{rqgCompendiumContent.prio}}$
       lang: ${{rqgCompendiumContent.lang}}$

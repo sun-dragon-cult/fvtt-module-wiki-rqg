@@ -1,0 +1,330 @@
+name: ${{rqgCompendiumContent.bestiary.tuskRider.name}}$
+type: character
+img: icons/svg/mystery-man.svg
+system:
+  editMode: false
+  characteristics:
+    strength:
+      value: 13
+      formula: 2d6+6
+    constitution:
+      value: 13
+      formula: 2d6+6
+    size:
+      value: 13
+      formula: 2d6+6
+    dexterity:
+      value: 11
+      formula: 3d6
+    intelligence:
+      value: 13
+      formula: 2d6+6
+    power:
+      value: 11
+      formula: 3d6
+      hasExperience: false
+    charisma:
+      value: 4
+      formula: 1d6
+  background:
+    species: ${{rqgCompendiumContent.bestiary.tuskRider.species}}$
+    occupation: ""
+    homeland: ""
+    cultureJournalRqidLinks: []
+    tribeJournalRqidLinks: []
+    clanJournalRqidLinks: []
+    birthyear:
+    age:
+    gender: ""
+    town: ""
+    tribe: ""
+    clan: ""
+    reputation:
+    standardOfLiving: ""
+    baseIncome:
+    ransom:
+    ransomDetails: ""
+    biography: ""
+  allies: ${{rqgCompendiumContent.bestiary.tuskRider.notes}}$
+  attributes:
+    magicPoints:
+      value: 11
+    hitPoints:
+      value: 14
+    move:
+      currentLocomotion: walk
+      walk:
+        value: 8
+        carryingFactor: 1
+      swim:
+        value: 2
+        carryingFactor: 0.5
+      fly: {}
+    heroPoints: 0
+    isCreature: false
+    health: healthy
+prototypeToken:
+  _importExternalDocument:
+    file: _partial-includes/actor-npc-prototype-token.yaml
+    overrides:
+      - path: name
+        value: ${{rqgCompendiumContent.bestiary.tuskRider.name}}$
+items:
+  # Hit Locations
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.right-leg
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.left-leg
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.abdomen
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.chest
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.right-arm
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.left-arm
+  - _importExternalDocument:
+      file: hit-locations-humanoids/hit-locations-humanoids.yaml
+      rqid: i.hit-location.head
+
+  # Runes
+  - _importExternalDocument:
+      file: runes/form.yaml
+      rqid: i.rune.beast-form
+      overrides:
+        - path: system.chance
+          value: 60
+
+  - _importExternalDocument:
+      file: runes/element.yaml
+      rqid: i.rune.darkness-element
+      overrides:
+        - path: system.chance
+          value: 60
+
+  # Spirit Magic
+  - _importExternalDocument:
+      file: spirit-magic-spells/demoralize.yaml
+      rqid: i.spirit-magic.demoralize
+  - _importExternalDocument:
+      file: spirit-magic-spells/heal.yaml
+      rqid: i.spirit-magic.heal
+
+  # Skills
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.dodge
+      overrides:
+        - path: system.gainedChance
+          value: 39
+  - _importExternalDocument:
+      file: skills/specialized-ride-skills.yaml
+      rqid: i.skill.ride-tusker
+      overrides:
+        - path: system.gainedChance
+          value: 85
+
+  - _importExternalDocument:
+      file: skills/communication-skills.yaml
+      rqid: i.skill.intimidate
+      overrides:
+        - path: system.gainedChance
+          value: 40
+
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.speak-language-tarshite
+      overrides:
+        - path: system.gainedChance
+          value: 25
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.speak-language-tusk-rider
+      overrides:
+        - path: system.gainedChance
+          value: 10
+
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.conceal
+      overrides:
+        - path: system.gainedChance
+          value: 35
+  - name: ${{rqgCompendiumContent.skill.bloodyCut.skillName}}$
+    type: skill
+    img: systems/rqg/assets/images/skills/peaceful-cut.svg
+    system:
+      category: knowledge
+      skillName: ${{rqgCompendiumContent.skill.bloodyCut.skillName}}$
+      specialization:
+      baseChance: 30
+      gainedChance: 0
+      canGetExperience: true
+      descriptionRqidLink:
+        rqid:
+        name:
+    effects: []
+    flags:
+      rqg:
+        documentRqidFlags:
+          id: i.skill.bloody-cut
+          priority: ${{rqgCompendiumContent.prio}}$
+          lang: ${{rqgCompendiumContent.lang}}$
+
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.search
+      overrides:
+        - path: system.gainedChance
+          value: 25
+  - _importExternalDocument:
+      file: skills/perception-skills.yaml
+      rqid: i.skill.track
+      overrides:
+        - path: system.gainedChance
+          value: 40
+
+  - _importExternalDocument:
+      file: skills/stealth-skills.yaml
+      rqid: i.skill.hide
+      overrides:
+        - path: system.gainedChance
+          value: 15
+  - _importExternalDocument:
+      file: skills/stealth-skills.yaml
+      rqid: i.skill.move-quietly
+      overrides:
+        - path: system.gainedChance
+          value: 15
+
+  - _importExternalDocument:
+      file: skills-weapons/1h-spear.yaml
+      rqid: i.skill.1h-spears-lance
+      overrides:
+        - path: system.gainedChance
+          value: 50
+  - _importExternalDocument:
+      file: skills-weapons/2h-melee.yaml
+      rqid: i.skill.2h-spears-longspear
+      overrides:
+        - path: system.gainedChance
+          value: 35
+  - _importExternalDocument:
+      file: skills-weapons/1h-sword.yaml
+      rqid: i.skill.1h-swords-broadsword
+      overrides:
+        - path: system.gainedChance
+          value: 40
+
+  # Weapons
+  - _importExternalDocument:
+      file: equipment-weapons/spears.yaml
+      rqid: i.weapon.lance
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/spears.yaml
+      rqid: i.weapon.long-spear
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/swords-daggers.yaml
+      rqid: i.weapon.broadsword
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+
+  # Armor
+  - _importExternalDocument:
+      file: equipment-armor/armor-plate-bronze.yaml
+      rqid: i.armor.open-helm-bronze-plate
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+        - path: system.absorbs
+          value: 4
+  - _importExternalDocument:
+      file: equipment-armor/armor-leather-heavy.yaml
+      rqid: i.armor.hauberk-heavy-leather
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+        - path: system.absorbs
+          value: 4 # cheating
+  - _importExternalDocument:
+      file: equipment-armor/armor-cuirboilli.yaml
+      rqid: i.armor.vambraces-cuirboilli
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+        - path: system.absorbs
+          value: 4 # cheating
+  - _importExternalDocument:
+      file: equipment-armor/armor-cuirboilli.yaml
+      rqid: i.armor.greaves-cuirboilli
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+        - path: system.absorbs
+          value: 4 # cheating
+
+  # Passions
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.devotion-base
+      overrides:
+        - path: system.chance
+          value: 75
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Devotion}}$ (${{rqgCompendiumContent.passionSubject.bloodyTusk}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.bloodyTusk}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.hate-base
+      overrides:
+        - path: system.chance
+          value: 80
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.anything}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.anything}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.love-base
+      overrides:
+        - path: system.chance
+          value: 70
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Love}}$ (${{rqgCompendiumContent.passionSubject.causingPain}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.causingPain}}$
+  - _importExternalDocument:
+      file: passions-base/passions-base.yaml
+      rqid: i.passion.loyalty-base
+      overrides:
+        - path: system.chance
+          value: 70
+        - path: name
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.warLeader}}$)
+        - path: system.subject
+          value: ${{rqgCompendiumContent.passionSubject.warLeader}}$
+effects: []
+folder:
+sort: 0
+ownership:
+  default: 0
+flags:
+  rqg:
+    documentRqidFlags:
+      id: a.character.tusk-rider
+      priority: ${{rqgCompendiumContent.prio}}$
+      lang: ${{rqgCompendiumContent.lang}}$

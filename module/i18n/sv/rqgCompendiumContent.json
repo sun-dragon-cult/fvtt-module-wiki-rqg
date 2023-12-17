@@ -306,6 +306,9 @@
     },
     "tradetalk": {
       "name": "🇸🇪Tradetalk"
+    },
+    "tuskRider": {
+      "name": "🇸🇪Tusk Rider"
     }
   },
   "script": {
@@ -1072,6 +1075,9 @@
       "skillName": "Båt",
       "description": "🇸🇪<p>Handling a small boat, kayak, or raft. This also includes knowledge of their general maintenance.</p>"
     },
+    "bloodyCut": {
+      "skillName": "🇸🇪Bloody Cut"
+    },
     "bureaucracy": {
       "skillName": "Byråkrati",
       "description": "🇸🇪<p>Understanding and maneuvering around the institutions of a government or court.</p>"
@@ -1147,6 +1153,9 @@
     "firstAid": {
       "skillName": "🇸🇪First Aid",
       "description": "🇸🇪<p>Treating injuries or victims in shock. See the first aid section for more on First Aid and injuries.</p>"
+    },
+    "fly": {
+      "skillName": "🇸🇪Fly"
     },
     "game": {
       "skillName": "🇸🇪Game",
@@ -1251,7 +1260,8 @@
       "description": "🇸🇪<p>Riding a horse or other riding animal. Specialties include Horse, Bison, Impala, Zebra, Rhinoceros, etc. See Mounted Combat for more information.</p>",
       "specialization": {
         "bison": "Bison",
-        "horse": "Häst"
+        "horse": "Häst",
+        "tusker": "🇸🇪Tusker"
       }
     },
     "scan": {
@@ -1591,6 +1601,9 @@
     "thrownDagger": {
       "name": "Kastkniv"
     },
+    "thrownDung": {
+      "name": "🇸🇪Thrown Dung"
+    },
     "thrownRock": {
       "name": "Kastad sten"
     },
@@ -1665,7 +1678,10 @@
     "gore": "🇸🇪Gore",
     "rip": "Riv",
     "hug": "Kram",
-    "rearAndPlunge": "🇸🇪Rear and Plunge"
+    "sting": "Stick",
+    "rearAndPlunge": "🇸🇪Rear and Plunge",
+    "dung": "🇸🇪Dung",
+    "dungDescription": "🇸🇪<p>-1d10 from CHA</p><p>Victim must wash in wine to clean off. Until the victim has done so, only creatures of Chaos would associate with the victim. The victim is also exposed to a disease.</p>"
   },
   "equipment": {
     "armor": {
@@ -1964,8 +1980,11 @@
   },
   "passionSubject": {
     "aldryami": "🇸🇪Aldryami",
+    "anything": "🇸🇪Anything",
     "argrath": "🇸🇪Argrath",
+    "bloodyTusk": "🇸🇪Bloody Tusk",
     "casteDuties": "🇸🇪Caste Duties",
+    "causingPain": "🇸🇪Causing Pain",
     "clan": "🇸🇪Clan",
     "colymarTribe": "🇸🇪Colymar Tribe",
     "ernaldoriClan": "🇸🇪Ernaldori Clan",
@@ -1977,7 +1996,8 @@
     "matriarch": "🇸🇪Matriarch",
     "orlanth": "🇸🇪Orlanth",
     "sartar": "🇸🇪Sartar",
-    "uz": "🇸🇪Uz"
+    "uz": "🇸🇪Uz",
+    "warLeader": "🇸🇪War Leader"
   },
   "bestiary": {
     "spiritDescriptionGeneral": "🇸🇪",
@@ -2034,6 +2054,11 @@
       "species": "Dendro sapien vronkalum",
       "notes": "🇸🇪<h1>Finishing Details</h1><ul>  <li>Choose Earth or Fire/Sky Rune (Earth is default)</li>  <li>Add one or more cults, see below</li></ul><h1>Aldryami (Elves)</h1><p>The race known as the Aldryami consists of elves, dryads, pixies, and runners. They belong to the vegetable kingdom. Essentially mobile plants, Aldryami are significantly different from other humanoids and beasts.</p><p>Aldryami commonly associate in forest communities. Since all claim descent from (and actively engage in worship of) the goddess Aldrya, the members of these mixed forest communities are collectively named after her&mdash;Aldryami.</p><p>Elves come in various races, identified as colors by humans, dependent upon the type of forest in which they are found. The green elves are native to coniferous trees, the brown to deciduous temperate forests, the yellow to tropical jungle, and the red to ferns and other primitive plants.</p><p>The primary Rune of the Aldryami is the Plant Form Rune.</p><h1>Green Elves</h1><p>The green elves, or vronkali, were the most important elf type in the Great Darkness but have lost ground since then. Green elves are of male or female gender, and do not breed with dryads. They do not sleep in winter but experience a daily period of rest. Green elves are associated with coniferous forests. They inhabit cool temperate lands. In snow, they can ski cross-country with carved magic wooden shoes. In warmer lands, they often share their forests with brown elves.</p><p>A green elf typically weighs about 65 kilograms and stands a little over 170 centimeters tall.</p><p><strong>Special Notes</strong>: Like the trolls, their eternal enemies, green elves are vulnerable to the &ldquo;new metal&rdquo; iron and cannot handle it. Any damage from an iron weapon penetrating their armor will do twice the normal damage.</p><p><strong>Armor:</strong>&nbsp;Green elves have no natural armor but often wear 2-point armor made of treated bark or other plant materials. They often wear cloaks made of leaves that add +20% to their Hide skill in an appropriate forest. They generally prefer to Dodge rather than parry.</p><p><strong>Magic:</strong>&nbsp;All elves worship Aldrya. Other common gods include Babeester Gor, Chalana Arroy, Ernalda, Flamal, and Yelmalio. Common spirit magic is Heal and Speedart.</p>"
     },
+    "harpy": {
+      "name": "🇸🇪Harpy",
+      "species": "Gynaves vexans",
+      "notes": ""
+    },
     "horseSeredae": {
       "name": "🇸🇪Horse (Seredae)",
       "species": "Equus caballus",
@@ -2061,6 +2086,11 @@
       "species": "Mostali lithanthropus",
       "notes": "🇸🇪<p>Also called dwarfs, the Mostali claim descent from Mostal the Maker, a primeval deity said to have created the World. The dwarfs have a long and ancient history, most of which is unknown to humanity. They are pragmatic and stoic, happy with practical matters and unafraid of hard work, and are conservative and secretive to an extreme. Their hard religion offers them personal immortality. The official dwarf religion is a sorcery of a limited, but practical, variety.</p><p>The Mostali are locked in eternal war with the elves (dating from the early Gods War) and are no friends to trolls. The enmity of elf and dwarf predates the current form of both species and reaches back to their creation. The byword of their relationships with other intelligent beings is always mutual distrust.</p><p>The dwarfs are divided into occupational castes that often behave like separate species. Only the soldier caste—the Iron Dwarfs—is regularly seen outside their underground cities. The iron discipline and unyielding attitude of dwarf culture is inhuman in its rigidity. Most humans cannot understand their machine-like state of mind. Apparently, many dwarfs cannot either, for there is a significant rate of desertion from the ranks. These are considered heretics by conventional dwarfs, and in some places, they form whole societies.</p><p>The Mostali were the first to discover iron and were the first to learn to work it. They have created many other constructs to aid them, from gargoyles and the stone giants called jolanti, to even more exotic constructs like the Alchemical Transformer and the Cannon Cult.</p><p><strong>Armor</strong>: Coat of unenchanted heavy dwarf iron chainmail (9 pts.) and full helm (9 pts.). The dwarf has a 70% chance of being unaffected by any spell cast at them.</p><p><strong>Runes</strong>: All dwarfs have the Earth and Stasis Runes at 80% or higher.</p><p><strong>Magic</strong>: Dwarfs use dwarf sorcery (see the <a href='https://www.chaosium.com/runequest-glorantha-bestiary-hardcover/'>Glorantha Bestiary</a>). An Iron dwarf wearing unenchanted armor does not cast spells in combat.</p><p><strong>Enchanged Iron Weapons</strong>: Damage against an elf or troll that penetrates armor is doubled. Can strike creatures immune to normal weapons.</p><p><strong>Note</strong>: The dwarf crossbow is a repeater. It fires once a round without needing to reload, until all five quarrels in the clip have been expended. It takes three rounds to refill the clip.<p>"
     },
+    "scorpionMan": {
+      "name": "Scorpionmänniska",
+      "species": "Hominiscorpio devourens",
+      "notes": ""
+    },
     "shadowcat": {
       "name": "🇸🇪Shadowcat",
       "species": "Lynx umbrosus",
@@ -2070,6 +2100,11 @@
       "name": "🇸🇪Tusker",
       "species": "Sus paracaballus",
       "notes": "🇸🇪<p>Tuskers are gigantic boars as big as buffalo, ridden only by tusk riders. These beasts are fierce and ill-tempered but love their masters beyond all comprehension.</p><p><strong>Note</strong>: A tusker cannot gore and trample the same opponent in the same melee round.</p>"
+    },
+    "tuskRider": {
+      "name": "🇸🇪Tusk Rider",
+      "species": "Homo hybridus",
+      "notes": ""
     },
     "uzko": {
       "name": "🇸🇪Uzko (Dark Troll)",

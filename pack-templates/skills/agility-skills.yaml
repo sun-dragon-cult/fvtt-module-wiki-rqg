@@ -47,9 +47,6 @@ name: ${{rqgCompendiumContent.skill.dodge.skillName}}$
 type: skill
 img: systems/rqg/assets/images/skills/dodge.svg
 system:
-  rqid: skill-dodge
-  rqidPriority: ${{rqgCompendiumContent.prio}}$
-  rqidLang: ${{rqgCompendiumContent.lang}}$
   category: agility
   skillName: ${{rqgCompendiumContent.skill.dodge.skillName}}$
   specialization:
@@ -94,9 +91,6 @@ name: ${{rqgCompendiumContent.skill.jump.skillName}}$
 type: skill
 img: systems/rqg/assets/images/skills/jump.svg
 system:
-  rqid: skill-jump
-  rqidPriority: ${{rqgCompendiumContent.prio}}$
-  rqidLang: ${{rqgCompendiumContent.lang}}$
   category: agility
   skillName: Jump
   specialization:

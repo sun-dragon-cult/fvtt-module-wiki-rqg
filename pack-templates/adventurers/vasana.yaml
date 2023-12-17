@@ -764,7 +764,7 @@ items:
         - path: system.chance
           value: 90
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Devotion}}$ (${{rqgCompendiumContent.passionSubject.lunarEmpire}}$)
+          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.lunarEmpire}}$)
         - path: system.subject
           value: ${{rqgCompendiumContent.passionSubject.lunarEmpire}}$
   - _importExternalDocument:

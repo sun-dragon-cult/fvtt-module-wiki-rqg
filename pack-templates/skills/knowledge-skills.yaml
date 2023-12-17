@@ -442,9 +442,6 @@ name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (...)
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
-  rqid: skill-read-write
-  rqidPriority: ${{rqgCompendiumContent.prio}}$
-  rqidLang: ${{rqgCompendiumContent.lang}}$
   category: knowledge
   skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
   specialization: "..."

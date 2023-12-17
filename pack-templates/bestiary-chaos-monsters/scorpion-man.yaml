@@ -1,0 +1,205 @@
+name: ${{rqgCompendiumContent.bestiary.scorpionMan.name}}$
+type: character
+img: icons/svg/mystery-man.svg
+system:
+  editMode: false
+  characteristics:
+    strength:
+      value: 19
+      formula: 2d6+12
+    constitution:
+      value: 11
+      formula: 3d6
+    size:
+      value: 19
+      formula: 2d6+12
+    dexterity:
+      value: 14
+      formula: 3d6+3
+    intelligence:
+      value: 7
+      formula: 2d6
+    power:
+      value: 7
+      formula: 2d6
+      hasExperience: false
+    charisma:
+      value: 11
+      formula: 3d6
+  background:
+    species: ${{rqgCompendiumContent.bestiary.scorpionMan.species}}$
+    occupation: ""
+    homeland: ""
+    cultureJournalRqidLinks: []
+    tribeJournalRqidLinks: []
+    clanJournalRqidLinks: []
+    birthyear:
+    age:
+    gender: ""
+    town: ""
+    tribe: ""
+    clan: ""
+    reputation:
+    standardOfLiving: ""
+    baseIncome:
+    ransom:
+    ransomDetails: ""
+    biography: ""
+  allies: ${{rqgCompendiumContent.bestiary.scorpionMan.notes}}$
+  attributes:
+    magicPoints:
+      value: 7
+    hitPoints:
+      value: 13
+    move:
+      currentLocomotion: walk
+      walk:
+        value: 8
+        carryingFactor: 1
+      swim:
+        value: 2
+        carryingFactor: 0.5
+      fly: {}
+    heroPoints: 0
+    isCreature: false
+    health: healthy
+prototypeToken:
+  _importExternalDocument:
+    file: _partial-includes/actor-npc-prototype-token.yaml
+    overrides:
+      - path: name
+        value: ${{rqgCompendiumContent.bestiary.scorpionMan.name}}$
+items:
+  # hit location items
+  - _importExternalDocument:
+      file: hit-locations-scorpion-men/hit-locations-scorpion-men.yaml
+      rqid: i.hit-location.right-hind-leg
+  - _importExternalDocument:
+      file: hit-locations-scorpion-men/hit-locations-scorpion-men.yaml
+      rqid: i.hit-location.right-middle-leg
+  - _importExternalDocument:
+      file: hit-locations-scorpion-men/hit-locations-scorpion-men.yaml
+      rqid: i.hit-location.right-foreleg
+  - _importExternalDocument:
+      file: hit-locations-scorpion-men/hit-locations-scorpion-men.yaml
+      rqid: i.hit-location.left-hind-leg
+  - _importExternalDocument:
+      file: hit-locations-scorpion-men/hit-locations-scorpion-men.yaml
+      rqid: i.hit-location.left-middle-leg
+  - _importExternalDocument:
+      file: hit-locations-scorpion-men/hit-locations-scorpion-men.yaml
+      rqid: i.hit-location.left-foreleg
+  - _importExternalDocument:
+      file: hit-locations-scorpion-men/hit-locations-scorpion-men.yaml
+      rqid: i.hit-location.tail
+  - _importExternalDocument:
+      file: hit-locations-scorpion-men/hit-locations-scorpion-men.yaml
+      rqid: i.hit-location.thorax
+  - _importExternalDocument:
+      file: hit-locations-scorpion-men/hit-locations-scorpion-men.yaml
+      rqid: i.hit-location.chest
+  - _importExternalDocument:
+      file: hit-locations-scorpion-men/hit-locations-scorpion-men.yaml
+      rqid: i.hit-location.right-arm
+  - _importExternalDocument:
+      file: hit-locations-scorpion-men/hit-locations-scorpion-men.yaml
+      rqid: i.hit-location.left-arm
+  - _importExternalDocument:
+      file: hit-locations-scorpion-men/hit-locations-scorpion-men.yaml
+      rqid: i.hit-location.head
+
+  # Runes
+  - _importExternalDocument:
+      file: runes/form.yaml
+      rqid: i.rune.beast-form
+      overrides:
+        - path: system.chance
+          value: 80
+
+  - _importExternalDocument:
+      file: runes/form.yaml
+      rqid: i.rune.chaos-form
+      overrides:
+        - path: system.chance
+          value: 60
+
+  # skill items
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.climb
+      overrides:
+        - path: system.gainedChance
+          value: 5
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.dodge
+      overrides:
+        - path: system.gainedChance
+          value: 20
+
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.speak-language-tradetalk
+      overrides:
+        - path: system.gainedChance
+          value: 20
+
+  - _importExternalDocument:
+      file: skills/manipulation-skills.yaml
+      rqid: i.skill.devise
+      overrides:
+        - path: system.gainedChance
+          value: 30
+
+  - _importExternalDocument:
+      file: skills-weapons/natural.yaml
+      rqid: i.skill.sting
+      overrides:
+        - path: system.gainedChance
+          value: 25
+  - _importExternalDocument:
+      file: skills-weapons/1h-mace.yaml
+      rqid: i.skill.1h-maces-club
+      overrides:
+        - path: system.gainedChance
+          value: 35
+  - _importExternalDocument:
+      file: skills-weapons/missile.yaml
+      rqid: i.skill.slings-sling
+      overrides:
+        - path: system.gainedChance
+          value: 40
+
+  # weapon items
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.sting
+  - _importExternalDocument:
+      file: equipment-weapons/hammers-maces-clubs.yaml
+      rqid: i.weapon.wooden-club
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/slings.yaml
+      rqid: i.weapon.sling
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+  - _importExternalDocument:
+      file: equipment-weapons/slings.yaml
+      rqid: i.weapon.sling-stones
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+effects: []
+folder:
+sort: 0
+ownership:
+  default: 0
+flags:
+  rqg:
+    documentRqidFlags:
+      id: a.character.scorpion-man
+      priority: ${{rqgCompendiumContent.prio}}$
+      lang: ${{rqgCompendiumContent.lang}}$

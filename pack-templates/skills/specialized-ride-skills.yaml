@@ -41,3 +41,25 @@ flags:
       id: i.skill.ride-horse
       priority: ${{rqgCompendiumContent.prio}}$
       lang: ${{rqgCompendiumContent.lang}}$
+---
+# ride-tusker
+name: ${{rqgCompendiumContent.skill.ride.skillName}}$ (${{rqgCompendiumContent.skill.ride.specialization.tusker}}$)
+type: skill
+img: systems/rqg/assets/images/skills/ride.svg
+system:
+  category: agility
+  skillName: ${{rqgCompendiumContent.skill.ride.skillName}}$
+  specialization: ${{rqgCompendiumContent.skill.ride.specialization.tusker}}$
+  baseChance: 5
+  gainedChance: 0
+  canGetExperience: true
+  descriptionRqidLink:
+    rqid: je..ride
+    name: ${{rqgCompendiumContent.skill.ride.skillName}}$
+effects: []
+flags:
+  rqg:
+    documentRqidFlags:
+      id: i.skill.ride-tusker
+      priority: ${{rqgCompendiumContent.prio}}$
+      lang: ${{rqgCompendiumContent.lang}}$

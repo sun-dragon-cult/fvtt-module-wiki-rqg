@@ -1,0 +1,328 @@
+name: ${{rqgCompendiumContent.bestiary.harpy.name}}$
+type: character
+img: icons/svg/mystery-man.svg
+system:
+  editMode: false
+  characteristics:
+    strength:
+      value: 11
+      formula: 3d6
+    constitution:
+      value: 11
+      formula: 3d6
+    size:
+      value: 7
+      formula: 2d6
+    dexterity:
+      value: 14
+      formula: 4d6
+    intelligence:
+      value: 11
+      formula: 3d6
+    power:
+      value: 11
+      formula: 3d6
+      hasExperience: false
+    charisma:
+      value: 4
+      formula: 1d6
+  background:
+    species: ${{rqgCompendiumContent.bestiary.harpy.species}}$
+    occupation: ""
+    homeland: ""
+    cultureJournalRqidLinks: []
+    tribeJournalRqidLinks: []
+    clanJournalRqidLinks: []
+    birthyear:
+    age:
+    gender: ""
+    town: ""
+    tribe: ""
+    clan: ""
+    reputation:
+    standardOfLiving: ""
+    baseIncome:
+    ransom:
+    ransomDetails: ""
+    biography: ""
+  allies: ${{rqgCompendiumContent.bestiary.harpy.notes}}$
+  attributes:
+    magicPoints:
+      value: 11
+    hitPoints:
+      value: 10
+    move:
+      currentLocomotion: fly
+      walk:
+        value: 3
+        carryingFactor: 1
+      swim: {}
+      fly:
+        value: 10
+        carryingFactor: 0.5
+    heroPoints: 0
+    isCreature: false
+    health: healthy
+prototypeToken:
+  _importExternalDocument:
+    file: _partial-includes/actor-npc-prototype-token.yaml
+    overrides:
+      - path: name
+        value: ${{rqgCompendiumContent.bestiary.harpy.name}}$
+items:
+  # Hit Locations
+  - _importExternalDocument:
+      file: hit-locations-harpies/hit-locations-harpies.yaml
+      rqid: i.hit-location.right-leg
+  - _importExternalDocument:
+      file: hit-locations-harpies/hit-locations-harpies.yaml
+      rqid: i.hit-location.left-leg
+  - _importExternalDocument:
+      file: hit-locations-harpies/hit-locations-harpies.yaml
+      rqid: i.hit-location.abdomen
+  - _importExternalDocument:
+      file: hit-locations-harpies/hit-locations-harpies.yaml
+      rqid: i.hit-location.chest
+  - _importExternalDocument:
+      file: hit-locations-harpies/hit-locations-harpies.yaml
+      rqid: i.hit-location.right-wing
+  - _importExternalDocument:
+      file: hit-locations-harpies/hit-locations-harpies.yaml
+      rqid: i.hit-location.left-wing
+  - _importExternalDocument:
+      file: hit-locations-harpies/hit-locations-harpies.yaml
+      rqid: i.hit-location.head
+
+  # Spirit Magic
+  - _importExternalDocument:
+      file: spirit-magic-spells/speedart.yaml
+      rqid: i.spirit-magic.speedart
+
+  # Skills
+  - _importExternalDocument:
+      file: skills/agility-skills.yaml
+      rqid: i.skill.dodge
+      overrides:
+        - path: system.gainedChance
+          value: 32
+
+  - name: ${{rqgCompendiumContent.skill.fly.skillName}}$
+    type: skill
+    img: systems/rqg/assets/images/skills/fly.svg
+    system:
+      category: agility
+      skillName: ${{rqgCompendiumContent.skill.fly.skillName}}$
+      specialization:
+      baseChance: 0
+      gainedChance: 85
+      canGetExperience: true
+      descriptionRqidLink:
+        rqid:
+        name:
+    effects: []
+    flags:
+      rqg:
+        documentRqidFlags:
+          id: i.skill.fly
+          priority: ${{rqgCompendiumContent.prio}}$
+          lang: ${{rqgCompendiumContent.lang}}$
+
+  - _importExternalDocument:
+      file: skills/specialized-language-skills.yaml
+      rqid: i.skill.speak-language-tarshite
+      overrides:
+        - path: system.gainedChance
+          value: 30
+
+  - _importExternalDocument:
+      file: skills-weapons/1h-fist.yaml
+      rqid: i.skill.fists-claw
+  - _importExternalDocument:
+      file: skills-weapons/missile.yaml
+      rqid: i.skill.thrown-rock
+      overrides:
+        - path: system.gainedChance
+          value: 10
+  - name: ${{rqgCompendiumContent.weaponSkill.thrownDung.name}}$
+    type: skill
+    img: systems/rqg/assets/images/weapons/rock.svg
+    system:
+      category: missileWeapons
+      skillName: ${{rqgCompendiumContent.weaponSkill.thrownDung.name}}$
+      specialization:
+      baseChance: 15
+      gainedChance: 55
+      canGetExperience: true
+      hasExperience: false
+      descriptionRqidLink:
+        rqid: je..missile-weapon
+        name: ${{rqgCompendiumContent.skill.missileWeapon.skillName}}$
+    effects: []
+    flags:
+      rqg:
+        documentRqidFlags:
+          id: i.skill.thrown-dung
+          lang: ${{rqgCompendiumContent.lang}}$
+          priority: ${{rqgCompendiumContent.prio}}$
+
+  # Weapons
+  - _importExternalDocument:
+      file: equipment-weapons/unarmed-attacks.yaml
+      rqid: i.weapon.claw
+      overrides:
+        - path: system.equippedStatus
+          value: equipped
+
+  - name: Stone
+    type: weapon
+    img: systems/rqg/assets/images/weapons/rock.svg
+    system:
+      usage:
+        oneHand:
+          combatManeuvers:
+            - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Throw}}$
+              damageType: crush
+              description:
+          damage: 1d6
+          minStrength: 0
+          minDexterity: 0
+          strikeRank: 2
+          skillRqidLink:
+            rqid: i.skill.thrown-rock
+            name: ${{rqgCompendiumContent.weaponSkill.thrownRock.name}}$
+        offHand:
+          combatManeuvers:
+            - name:
+              damageType:
+              description:
+          damage: 1d6
+          minStrength: 0
+          minDexterity: 0
+          strikeRank: 2
+        twoHand:
+          combatManeuvers: []
+          damage: ""
+          minStrength: 0
+          minDexterity: 0
+          strikeRank: 0
+        missile:
+          combatManeuvers: []
+          damage: ""
+          minStrength: 0
+          minDexterity: 0
+      description: ""
+      gmNotes: ""
+      hitPoints:
+        value:
+        max:
+      hitPointLocation: "---"
+      encumbrance: 0
+      location: ""
+      attunedTo: ""
+      physicalItemType: unique
+      quantity: 1
+      isContainer: false
+      price:
+        real: 0
+        estimated: 0
+      isNatural: true
+      equippedStatus: equipped
+      rate:
+      range: 0
+      isProjectile: false
+      isProjectileWeapon: false
+      isThrownWeapon: false
+      isRangedWeapon: false
+      projectileId: ""
+      namePrefix: Stone
+    effects: []
+    folder:
+    flags:
+      rqg:
+        documentRqidFlags:
+          id: i.weapon.drop-stone
+          priority: ${{rqgCompendiumContent.prio}}$
+          lang: ${{rqgCompendiumContent.lang}}$
+
+  - name: ${{rqgCompendiumContent.weapon.dung}}$
+    type: weapon
+    img: modules/${{rqgCompendiumContent.module.id}}$/artwork/dung.svg
+    system:
+      usage:
+        oneHand:
+          combatManeuvers:
+            - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Throw}}$
+              damageType: special
+              description: ${{rqgCompendiumContent.weapon.dungDescription}}$
+          damage:
+          minStrength: 0
+          minDexterity: 0
+          strikeRank: 2
+          skillRqidLink:
+            rqid: i.skill.thrown-dung
+            name: ${{rqgCompendiumContent.weaponSkill.thrownDung.name}}$
+        offHand:
+          combatManeuvers:
+            - name:
+              damageType:
+              description:
+          damage:
+          minStrength: 0
+          minDexterity: 0
+          strikeRank: 2
+        twoHand:
+          combatManeuvers: []
+          damage: ""
+          minStrength: 0
+          minDexterity: 0
+          strikeRank: 0
+        missile:
+          combatManeuvers: []
+          damage: ""
+          minStrength: 0
+          minDexterity: 0
+      description: ""
+      gmNotes: ""
+      hitPoints:
+        value:
+        max:
+      hitPointLocation: "---"
+      encumbrance: 0
+      location: ""
+      attunedTo: ""
+      physicalItemType: unique
+      quantity: 1
+      isContainer: false
+      price:
+        real: 0
+        estimated: 0
+      isNatural: true
+      equippedStatus: equipped
+      rate:
+      range: 0
+      isProjectile: false
+      isProjectileWeapon: false
+      isThrownWeapon: false
+      isRangedWeapon: false
+      projectileId: ""
+      namePrefix: Stone
+    effects: []
+    folder:
+    flags:
+      rqg:
+        documentRqidFlags:
+          id: i.weapon.drop-stone
+          priority: ${{rqgCompendiumContent.prio}}$
+          lang: ${{rqgCompendiumContent.lang}}$
+
+effects: []
+folder:
+sort: 0
+ownership:
+  default: 0
+flags:
+  rqg:
+    documentRqidFlags:
+      id: a.character.harpy
+      priority: ${{rqgCompendiumContent.prio}}$
+      lang: ${{rqgCompendiumContent.lang}}$

@@ -381,7 +381,7 @@ system:
   gmNotes:
   hitPoints:
     value: 10
-    max: null
+    max: 10
   hitPointLocation:
   encumbrance: 3
   location:

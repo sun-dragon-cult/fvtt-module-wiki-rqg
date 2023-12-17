@@ -3,7 +3,7 @@
 ---
 name: ${{uiContent.RQG.Item.Passion.PassionEnum.Ambition}}$
 type: passion
-img: systems/rqg/assets/images/passion/loyalty.svg
+img: systems/rqg/assets/images/passion/ambition.svg
 flags:
   rqg:
     documentRqidFlags:
@@ -22,7 +22,7 @@ effects: []
 ---
 name: ${{uiContent.RQG.Item.Passion.PassionEnum.Cowardly}}$
 type: passion
-img: systems/rqg/assets/images/passion/loyalty.svg
+img: systems/rqg/assets/images/passion/cowardly.svg
 flags:
   rqg:
     documentRqidFlags:
@@ -41,7 +41,7 @@ effects: []
 ---
 name: ${{uiContent.RQG.Item.Passion.PassionEnum.Devotion}}$
 type: passion
-img: systems/rqg/assets/images/passion/loyalty.svg
+img: systems/rqg/assets/images/passion/devotion.svg
 flags:
   rqg:
     documentRqidFlags:
@@ -60,7 +60,7 @@ effects: []
 ---
 name: ${{uiContent.RQG.Item.Passion.PassionEnum.Fear}}$
 type: passion
-img: systems/rqg/assets/images/passion/loyalty.svg
+img: systems/rqg/assets/images/passion/fear.svg
 flags:
   rqg:
     documentRqidFlags:
@@ -79,7 +79,7 @@ effects: []
 ---
 name: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$
 type: passion
-img: systems/rqg/assets/images/passion/loyalty.svg
+img: systems/rqg/assets/images/passion/hate.svg
 flags:
   rqg:
     documentRqidFlags:
@@ -98,7 +98,7 @@ effects: []
 ---
 name: ${{uiContent.RQG.Item.Passion.PassionEnum.Honor}}$
 type: passion
-img: systems/rqg/assets/images/passion/loyalty.svg
+img: systems/rqg/assets/images/passion/honor.svg
 flags:
   rqg:
     documentRqidFlags:

@@ -1,3 +1,80 @@
+name: ${{rqgCompendiumContent.weapon.sting}}$
+type: weapon
+img: systems/rqg/assets/images/weapons/sting.svg
+flags:
+  rqg:
+    documentRqidFlags:
+      id: i.weapon.sting
+      priority: ${{rqgCompendiumContent.prio}}$
+      lang: ${{rqgCompendiumContent.lang}}$
+effects: []
+system:
+  usage:
+    oneHand:
+      skillRqidLink:
+        rqid: i.skill.sting
+        name: ${{rqgCompendiumContent.weaponSkill.sting.name}}$
+      combatManeuvers:
+        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Hit}}$
+          damageType: crush
+          description:
+        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+          damageType: parry
+          description:
+      damage: 1d6+db
+      minStrength:
+      minDexterity: null
+      strikeRank: 7
+    offHand:
+      skillRqidLink:
+        rqid:
+        name:
+      combatManeuvers: []
+      damage: 1d3+1+db
+      minStrength: 7
+      minDexterity: null
+      strikeRank: 4
+    twoHand:
+      skillRqidLink:
+        rqid:
+        name:
+      combatManeuvers: []
+      damage:
+      minStrength: 0
+      minDexterity: 0
+      strikeRank: 0
+    missile:
+      skillRqidLink:
+        rqid:
+        name:
+      combatManeuvers: []
+      damage:
+      minStrength: 0
+      minDexterity: 0
+  description:
+  gmNotes:
+  hitPoints:
+    value:
+    max:
+  hitPointLocation: ---
+  encumbrance: 0.5
+  location:
+  attunedTo:
+  physicalItemType: unique
+  quantity: 1
+  isContainer: false
+  price:
+    real: 0
+    estimated: 0
+  isNatural: true
+  equippedStatus: equipped
+  rate: null
+  range: 0
+  isProjectile: false
+  isProjectileWeapon: false
+  isThrownWeapon: false
+  isRangedWeapon: false
+---
 name: ${{rqgCompendiumContent.weapon.lightCestus}}$
 type: weapon
 img: systems/rqg/assets/images/weapons/cestus.svg

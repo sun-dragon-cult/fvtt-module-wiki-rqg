@@ -8,7 +8,7 @@ import { doTranslation, tryOrThrow } from "./utils";
 import { PackError } from "./packError";
 
 export const config = {
-  assetDirs: ["tokens"], // folder names to copy to dist as is
+  assetDirs: ["tokens", "artwork"], // folder names to copy to dist as is
   i18nDir: path.resolve(cwd(), "module", "i18n"),
   translationsFileNames: ["uiContent", "rqgCompendiumContent"], // filenames except .json Will be part of the translation key
   distDir: path.resolve(cwd(), "dist"),
