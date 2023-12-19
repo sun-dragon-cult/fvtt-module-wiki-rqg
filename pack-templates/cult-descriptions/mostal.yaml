@@ -10,7 +10,7 @@ pages:
       format: 1
       content: >
         ${{rqgCompendiumContent.journalEntryType.cultDescription.title}}$
-        <h2>${{rqgCompendiumContent.cult.mostal.name}}$, ${{rqgCompendiumContent.cult.maranGor.tagline}}$</h2>
+        <h2>${{rqgCompendiumContent.cult.mostal.name}}$, ${{rqgCompendiumContent.cult.mostal.tagline}}$</h2>
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/stasis.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/earth.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/stasis.svg" height="70">
