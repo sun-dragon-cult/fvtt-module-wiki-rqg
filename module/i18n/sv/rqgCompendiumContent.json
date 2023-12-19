@@ -506,7 +506,7 @@
     },
     "axeTrance": {
       "name": "🇸🇪Axe Trance",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Cults:</b> Babeester Gor</i></p><p>Each magic point spent with this spell increases one of the caster’s Axe skills by +10%. This can be combined with other weapon-enhancing spells, but not Berserker or Fanaticism. While in the trance, the caster must focus on using their sword in combat. Should they pause from performing any activities relating to using an axe in combat, the spell’s effect ends.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Cults:</b> Babeester Gor</i></p><p>Each magic point spent with this spell increases one of the caster’s Axe skills by +10%. This can be combined with other weapon-enhancing spells, but not Berserker or Fanaticism. While in the trance, the caster must focus on using their sword in combat. Should they pause from performing any activities relating to using an axe in combat, the spell’s effect ends.</p>"
     },
     "ban": {
       "name": "🇸🇪Ban",
