@@ -10,6 +10,7 @@ pages:
       format: 1
       content: >
         ${{rqgCompendiumContent.journalEntryType.runeMagicDescription.title}}$
+        <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/fertility.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/harmony.svg" height="70">
         ${{rqgCompendiumContent.runeMagic.healingTrance.description}}$
     sort: 0
