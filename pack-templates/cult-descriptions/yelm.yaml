@@ -10,7 +10,7 @@ pages:
       format: 1
       content: >
         ${{rqgCompendiumContent.journalEntryType.cultDescription.title}}$
-        ${{rqgCompendiumContent.cult.yelm.tagline}}$</h2>
+        <h2>${{rqgCompendiumContent.cult.yelm.name}}$, ${{rqgCompendiumContent.cult.yelm.tagline}}$</h2>
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/death.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/fire_sky.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/fire_sky.svg" height="70">
