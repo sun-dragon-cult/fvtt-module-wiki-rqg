@@ -1,6 +1,6 @@
 name: ${{rqgCompendiumContent.bestiary.airElementalMedium.name}}$
 type: character
-img: icons/svg/mystery-man.svg
+img: modules/${{rqgCompendiumContent.module.id}}$/tokens/air-medium-token.webp
 system:
   editMode: false
   characteristics:
@@ -71,6 +71,8 @@ prototypeToken:
     overrides:
       - path: name
         value: ${{rqgCompendiumContent.bestiary.airElementalMedium.name}}$
+      - path: img
+        value: modules/${{rqgCompendiumContent.module.id}}$/tokens/air-medium-token.webp
 items:
   # hit location items
   - _importExternalDocument:

@@ -1,6 +1,6 @@
 name: ${{rqgCompendiumContent.bestiary.earthElementalSmall.name}}$
 type: character
-img: icons/svg/mystery-man.svg
+img: modules/${{rqgCompendiumContent.module.id}}$/tokens/earth-small-token.webp
 system:
   editMode: false
   characteristics:
@@ -69,6 +69,8 @@ prototypeToken:
     overrides:
       - path: name
         value: ${{rqgCompendiumContent.bestiary.earthElementalSmall.name}}$
+      - path: img
+        value: modules/${{rqgCompendiumContent.module.id}}$/tokens/earth-small-token.webp
 items:
   # hit location items
   - _importExternalDocument:

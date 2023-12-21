@@ -1,6 +1,6 @@
 name: ${{rqgCompendiumContent.bestiary.scorpionMan.name}}$
 type: character
-img: icons/svg/mystery-man.svg
+img: modules/${{rqgCompendiumContent.module.id}}$/tokens/scorpion-man-token.webp
 system:
   editMode: false
   characteristics:
@@ -69,6 +69,8 @@ prototypeToken:
     overrides:
       - path: name
         value: ${{rqgCompendiumContent.bestiary.scorpionMan.name}}$
+      - path: img
+        value: modules/${{rqgCompendiumContent.module.id}}$/tokens/scorpion-man-token.webp
 items:
   # hit location items
   - _importExternalDocument:

@@ -1,6 +1,6 @@
 name: ${{rqgCompendiumContent.bestiary.brownBear.name}}$
 type: character
-img: icons/svg/mystery-man.svg
+img: modules/${{rqgCompendiumContent.module.id}}$/tokens/bear-token.webp
 system:
   editMode: false
   characteristics:
@@ -69,6 +69,8 @@ prototypeToken:
     overrides:
       - path: name
         value: ${{rqgCompendiumContent.bestiary.brownBear.name}}$
+      - path: img
+        value: modules/${{rqgCompendiumContent.module.id}}$/tokens/bear-token.webp
 items:
   # hit location items
   - _importExternalDocument:

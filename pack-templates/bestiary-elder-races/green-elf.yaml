@@ -1,6 +1,6 @@
 name: ${{rqgCompendiumContent.bestiary.greenElf.name}}$
 type: character
-img: icons/svg/mystery-man.svg
+img: modules/${{rqgCompendiumContent.module.id}}$/tokens/elves-green-token.webp
 system:
   editMode: false
   characteristics:
@@ -69,6 +69,8 @@ prototypeToken:
     overrides:
       - path: name
         value: ${{rqgCompendiumContent.bestiary.greenElf.name}}$
+      - path: img
+        value: modules/${{rqgCompendiumContent.module.id}}$/tokens/elves-green-token.webp
 items:
   # Hit locations
   - _importExternalDocument:

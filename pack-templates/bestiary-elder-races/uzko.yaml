@@ -1,6 +1,6 @@
 name: ${{rqgCompendiumContent.bestiary.uzko.name}}$
 type: character
-img: icons/svg/mystery-man.svg
+img: modules/${{rqgCompendiumContent.module.id}}$/tokens/trolls-dark-token.webp
 system:
   editMode: false
   characteristics:
@@ -69,6 +69,8 @@ prototypeToken:
     overrides:
       - path: name
         value: ${{rqgCompendiumContent.bestiary.uzko.name}}$
+      - path: img
+        value: modules/${{rqgCompendiumContent.module.id}}$/tokens/trolls-dark-token.webp
 items:
   # Hit Locations
   - _importExternalDocument:

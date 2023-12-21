@@ -1,6 +1,6 @@
 name: ${{rqgCompendiumContent.bestiary.tusker.name}}$
 type: character
-img: icons/svg/mystery-man.svg
+img: modules/${{rqgCompendiumContent.module.id}}$/tokens/tusker-mount-token.webp
 system:
   editMode: false
   characteristics:
@@ -69,6 +69,9 @@ prototypeToken:
     overrides:
       - path: name
         value: ${{rqgCompendiumContent.bestiary.tusker.name}}$
+      - path: img
+        value: modules/${{rqgCompendiumContent.module.id}}$/tokens/tusker-mount-token.webp
+
 items:
   # hit location items
   - _importExternalDocument:
