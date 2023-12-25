@@ -1,24 +1,24 @@
-name: ${{rqgCompendiumContent.weapon.sting}}$
+name: §_rqgCompendiumContent.weapon.sting_§
 type: weapon
 img: systems/rqg/assets/images/weapons/sting.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.sting
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.sting
-        name: ${{rqgCompendiumContent.weaponSkill.sting.name}}$
+        name: §_rqgCompendiumContent.weaponSkill.sting.name_§
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Hit}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Hit_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
       damage: 1d6+db
@@ -75,30 +75,30 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.lightCestus}}$
+name: §_rqgCompendiumContent.weapon.lightCestus_§
 type: weapon
 img: systems/rqg/assets/images/weapons/cestus.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.light-cestus
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.fists-light-cestus
-        name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.lightCestus}}$)
+        name: §_rqgCompendiumContent.weaponSkill.fists.name_§ (§_rqgCompendiumContent.weaponSkill.fists.specialization.lightCestus_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Hit}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Hit_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Knockback_§
           damageType: special
           description:
       damage: 1d3+1+db
@@ -155,30 +155,30 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.heavyCestus}}$
+name: §_rqgCompendiumContent.weapon.heavyCestus_§
 type: weapon
 img: systems/rqg/assets/images/weapons/cestus.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.heavy-cestus
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.fists-heavy-cestus
-        name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.heavyCestus}}$)
+        name: §_rqgCompendiumContent.weaponSkill.fists.name_§ (§_rqgCompendiumContent.weaponSkill.fists.specialization.heavyCestus_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Hit}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Hit_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Knockback_§
           damageType: special
           description:
       damage: 1d3+2+db
@@ -235,30 +235,30 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.fist}}$
+name: §_rqgCompendiumContent.weapon.fist_§
 type: weapon
 img: systems/rqg/assets/images/weapons/fist.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.fist
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.fists-fist
-        name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.fist}}$)
+        name: §_rqgCompendiumContent.weaponSkill.fists.name_§ (§_rqgCompendiumContent.weaponSkill.fists.specialization.fist_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Punch}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Punch_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Knockback_§
           damageType: special
           description:
       damage: 1d3+db
@@ -315,24 +315,24 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.grapple}}$
+name: §_rqgCompendiumContent.weapon.grapple_§
 type: weapon
 img: systems/rqg/assets/images/weapons/grab.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.grapple
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.grapple
-        name: ${{rqgCompendiumContent.weaponSkill.grapple.name}}$
+        name: §_rqgCompendiumContent.weaponSkill.grapple.name_§
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Grapple}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Grapple_§
           damageType: special
           description:
       damage:
@@ -389,27 +389,27 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.kick}}$
+name: §_rqgCompendiumContent.weapon.kick_§
 type: weapon
 img: systems/rqg/assets/images/weapons/kick.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.kick
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.kicks-kick
-        name: ${{rqgCompendiumContent.weaponSkill.kicks.name}}$ (${{rqgCompendiumContent.weaponSkill.kicks.specialization.kick}}$)
+        name: §_rqgCompendiumContent.weaponSkill.kicks.name_§ (§_rqgCompendiumContent.weaponSkill.kicks.specialization.kick_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Kick}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Kick_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Knockback_§
           damageType: special
           description:
       damage: 1d6+db
@@ -466,27 +466,27 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.headButt}}$
+name: §_rqgCompendiumContent.weapon.headButt_§
 type: weapon
 img: systems/rqg/assets/images/weapons/head-butt.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.head-butt
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.head-butt
-        name: ${{rqgCompendiumContent.weaponSkill.headButt.name}}$
+        name: §_rqgCompendiumContent.weaponSkill.headButt.name_§
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.HeadButt}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.HeadButt_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Knockback_§
           damageType: special
           description:
       damage: 1d6+db
@@ -543,22 +543,22 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.trample}}$
+name: §_rqgCompendiumContent.weapon.trample_§
 type: weapon
 img: systems/rqg/assets/images/weapons/trample.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.trample
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.trample
-        name: ${{rqgCompendiumContent.weaponSkill.trample.name}}$
+        name: §_rqgCompendiumContent.weaponSkill.trample.name_§
       combatManeuvers:
         - name: Trample
           damageType: crush
@@ -617,24 +617,24 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.bite}}$
+name: §_rqgCompendiumContent.weapon.bite_§
 type: weapon
 img: systems/rqg/assets/images/weapons/bite.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.bite
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.bite
-        name: ${{rqgCompendiumContent.weaponSkill.bite.name}}$
+        name: §_rqgCompendiumContent.weaponSkill.bite.name_§
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Bite}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Bite_§
           damageType: crush
           description:
       damage: 1d6+db
@@ -691,24 +691,24 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.rearAndPlunge}}$
+name: §_rqgCompendiumContent.weapon.rearAndPlunge_§
 type: weapon
 img: systems/rqg/assets/images/weapons/trample.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.rear-and-plunge
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.rear-and-plunge
-        name: ${{rqgCompendiumContent.weaponSkill.rearAndPlunge.name}}$
+        name: §_rqgCompendiumContent.weaponSkill.rearAndPlunge.name_§
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Trample}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Trample_§
           damageType: crush
           description:
       damage: 1d6+db
@@ -765,24 +765,24 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.claw}}$
+name: §_rqgCompendiumContent.weapon.claw_§
 type: weapon
 img: systems/rqg/assets/images/weapons/claw.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.claw
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.fists-claw
-        name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.claw}}$)
+        name: §_rqgCompendiumContent.weaponSkill.fists.name_§ (§_rqgCompendiumContent.weaponSkill.fists.specialization.claw_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Claw}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Claw_§
           damageType: cut
           description:
       damage: 1d6+db
@@ -839,15 +839,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.hug}}$
+name: §_rqgCompendiumContent.weapon.hug_§
 type: weapon
 img: systems/rqg/assets/images/weapons/grab.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.hug
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -867,9 +867,9 @@ system:
     twoHand:
       skillRqidLink:
         rqid: i.skill.hug
-        name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.claw}}$)
+        name: §_rqgCompendiumContent.weaponSkill.fists.name_§ (§_rqgCompendiumContent.weaponSkill.fists.specialization.claw_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Hug}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Hug_§
           damageType: crush
           description:
       damage: 5d6
@@ -908,24 +908,24 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.rip}}$
+name: §_rqgCompendiumContent.weapon.rip_§
 type: weapon
 img: systems/rqg/assets/images/weapons/claw.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.rip
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.fists-rip
-        name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.rip}}$)
+        name: §_rqgCompendiumContent.weaponSkill.fists.name_§ (§_rqgCompendiumContent.weaponSkill.fists.specialization.rip_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Claw}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Claw_§
           damageType: cut
           description:
       damage: 1d6+db
@@ -982,24 +982,24 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.gore}}$
+name: §_rqgCompendiumContent.weapon.gore_§
 type: weapon
 img: systems/rqg/assets/images/weapons/gore.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.gore
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.gore
-        name: ${{rqgCompendiumContent.weaponSkill.gore.name}}$
+        name: §_rqgCompendiumContent.weaponSkill.gore.name_§
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Gore}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Gore_§
           damageType: cut
           description:
       damage: 1d6+db

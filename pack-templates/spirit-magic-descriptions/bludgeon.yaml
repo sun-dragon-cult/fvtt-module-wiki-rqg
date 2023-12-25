@@ -1,7 +1,7 @@
 # bludgeon
-name: ${{rqgCompendiumContent.spiritMagic.bludgeon.name}}$
+name: §_rqgCompendiumContent.spiritMagic.bludgeon.name_§
 pages:
-  - name: ${{rqgCompendiumContent.spiritMagic.bludgeon.name}}$
+  - name: §_rqgCompendiumContent.spiritMagic.bludgeon.name_§
     type: text
     title:
       show: false
@@ -9,13 +9,13 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.spiritMagicDescription.title}}$
-        ${{rqgCompendiumContent.spiritMagic.bludgeon.description}}$
+        §_rqgCompendiumContent.journalEntryType.spiritMagicDescription.title_§
+        §_rqgCompendiumContent.spiritMagic.bludgeon.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..bludgeon
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

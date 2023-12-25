@@ -1,15 +1,15 @@
 # restore-health
-name: ${{rqgCompendiumContent.runeMagic.restoreHealth.name}}$
+name: §_rqgCompendiumContent.runeMagic.restoreHealth.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.fertility-power
-      name: ${{rqgCompendiumContent.rune.fertility}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.fertility_§ (§_rqgCompendiumContent.runeType.power_§)
     - rqid: i.rune.harmony-power
-      name: ${{rqgCompendiumContent.rune.harmony}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.harmony_§ (§_rqgCompendiumContent.runeType.power_§)
     - rqid: i.rune.man-form
-      name: ${{rqgCompendiumContent.rune.man}}$ (${{rqgCompendiumContent.runeType.form}}$)
+      name: §_rqgCompendiumContent.rune.man_§ (§_rqgCompendiumContent.runeType.form_§)
   points: 1
   castingRange: touch
   duration: instant
@@ -18,11 +18,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..restore-health
-    name: ${{rqgCompendiumContent.runeMagic.restoreHealth.name}}$
+    name: §_rqgCompendiumContent.runeMagic.restoreHealth.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.restore-health
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§

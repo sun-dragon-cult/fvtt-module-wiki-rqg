@@ -1,11 +1,11 @@
 # cloud-call
-name: ${{rqgCompendiumContent.runeMagic.cloudCall.name}}$
+name: §_rqgCompendiumContent.runeMagic.cloudCall.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.air-element
-      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
   points: 1
   castingRange: ranged
   duration: temporal
@@ -14,11 +14,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..cloud-call
-    name: ${{rqgCompendiumContent.runeMagic.cloudCall.name}}$
+    name: §_rqgCompendiumContent.runeMagic.cloudCall.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.cloud-call
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

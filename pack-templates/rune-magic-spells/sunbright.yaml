@@ -1,11 +1,11 @@
 # sunbright
-name: ${{rqgCompendiumContent.runeMagic.sunbright.name}}$
+name: §_rqgCompendiumContent.runeMagic.sunbright.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.fire-sky-element
-      name: ${{rqgCompendiumContent.rune.fireSky}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.fireSky_§ (§_rqgCompendiumContent.runeType.element_§)
   points: 2
   castingRange: ranged
   duration: temporal
@@ -14,11 +14,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..sunbright
-    name: ${{rqgCompendiumContent.runeMagic.sunbright.name}}$
+    name: §_rqgCompendiumContent.runeMagic.sunbright.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.sunbright
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

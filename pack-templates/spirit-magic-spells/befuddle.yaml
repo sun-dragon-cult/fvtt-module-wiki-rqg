@@ -1,5 +1,5 @@
 # befuddle
-name: ${{rqgCompendiumContent.spiritMagic.befuddle.name}}$
+name: §_rqgCompendiumContent.spiritMagic.befuddle.name_§
 type: spiritMagic
 img: systems/rqg/assets/images/items/spirit-magic.svg
 system:
@@ -10,11 +10,11 @@ system:
   concentration: passive
   descriptionRqidLink:
     rqid: je..befuddle
-    name: ${{rqgCompendiumContent.spiritMagic.befuddle.name}}$
+    name: §_rqgCompendiumContent.spiritMagic.befuddle.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.spirit-magic.befuddle
-      lang: ${openSystem.lang}}$
-      priority: ${openSystem.prio}}$
+      lang: ${openSystem.lang_§
+      priority: ${openSystem.prio_§

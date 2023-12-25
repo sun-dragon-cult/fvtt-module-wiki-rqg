@@ -1,11 +1,11 @@
 # passage
-name: ${{rqgCompendiumContent.runeMagic.passage.name}}$
+name: §_rqgCompendiumContent.runeMagic.passage.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.movement-power
-      name: ${{rqgCompendiumContent.rune.movement}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.movement_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 1
   isRitual: true
   isStackable: true
@@ -13,11 +13,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..passage
-    name: ${{rqgCompendiumContent.runeMagic.passage.name}}$
+    name: §_rqgCompendiumContent.runeMagic.passage.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.passage
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

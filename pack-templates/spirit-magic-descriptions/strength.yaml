@@ -1,7 +1,7 @@
 # strength
-name: ${{rqgCompendiumContent.spiritMagic.strength.name}}$
+name: §_rqgCompendiumContent.spiritMagic.strength.name_§
 pages:
-  - name: ${{rqgCompendiumContent.spiritMagic.strength.name}}$
+  - name: §_rqgCompendiumContent.spiritMagic.strength.name_§
     type: text
     title:
       show: false
@@ -9,13 +9,13 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.spiritMagicDescription.title}}$
-        ${{rqgCompendiumContent.spiritMagic.strength.description}}$
+        §_rqgCompendiumContent.journalEntryType.spiritMagicDescription.title_§
+        §_rqgCompendiumContent.spiritMagic.strength.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..strength
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

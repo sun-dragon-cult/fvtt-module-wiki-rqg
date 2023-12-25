@@ -1,373 +1,373 @@
 # read-write-theyalan (Esrolian, Heortling, Praxian, Tarshite, Tradetalk)
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.script.theyalan}}$)
+name: §_rqgCompendiumContent.skill.readWrite.skillName_§ (§_rqgCompendiumContent.script.theyalan_§)
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-  specialization: ${{rqgCompendiumContent.script.theyalan}}$
+  skillName: §_rqgCompendiumContent.skill.readWrite.skillName_§
+  specialization: §_rqgCompendiumContent.script.theyalan_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..read-write
-    name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
+    name: §_rqgCompendiumContent.skill.readWrite.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.read-write-theyalan
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # read-write-pelorian (New Pelorian, Dara Happan, Firespeech)
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.script.pelorian}}$)
+name: §_rqgCompendiumContent.skill.readWrite.skillName_§ (§_rqgCompendiumContent.script.pelorian_§)
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-  specialization: ${{rqgCompendiumContent.script.pelorian}}$
+  skillName: §_rqgCompendiumContent.skill.readWrite.skillName_§
+  specialization: §_rqgCompendiumContent.script.pelorian_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..read-write
-    name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
+    name: §_rqgCompendiumContent.skill.readWrite.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.read-write-pelorian
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # read-write-mostali
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.script.mostali}}$)
+name: §_rqgCompendiumContent.skill.readWrite.skillName_§ (§_rqgCompendiumContent.script.mostali_§)
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-  specialization: ${{rqgCompendiumContent.script.mostali}}$
+  skillName: §_rqgCompendiumContent.skill.readWrite.skillName_§
+  specialization: §_rqgCompendiumContent.script.mostali_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..read-write
-    name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
+    name: §_rqgCompendiumContent.skill.readWrite.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.read-write-mostali
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # read-write-darktoungue
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.script.darktoungue}}$)
+name: §_rqgCompendiumContent.skill.readWrite.skillName_§ (§_rqgCompendiumContent.script.darktoungue_§)
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-  specialization: ${{rqgCompendiumContent.script.darktoungue}}$
+  skillName: §_rqgCompendiumContent.skill.readWrite.skillName_§
+  specialization: §_rqgCompendiumContent.script.darktoungue_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..read-write
-    name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
+    name: §_rqgCompendiumContent.skill.readWrite.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.read-write-darktoungue
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # read-write-auldWyrmish
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (${{rqgCompendiumContent.script.auldWyrmish}}$)
+name: §_rqgCompendiumContent.skill.readWrite.skillName_§ (§_rqgCompendiumContent.script.auldWyrmish_§)
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
-  specialization: ${{rqgCompendiumContent.script.auldWyrmish}}$
+  skillName: §_rqgCompendiumContent.skill.readWrite.skillName_§
+  specialization: §_rqgCompendiumContent.script.auldWyrmish_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..read-write
-    name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
+    name: §_rqgCompendiumContent.skill.readWrite.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.read-write-auldWyrmish
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # speak-language-aldryami
-name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.aldryami.name}}$)
+name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§ (§_rqgCompendiumContent.language.aldryami.name_§)
 type: skill
 img: systems/rqg/assets/images/skills/speak.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.aldryami.name}}$
+  skillName: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
+  specialization: §_rqgCompendiumContent.language.aldryami.name_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..speak-language
-    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+    name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.speak-language-aldryami
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # speak-language-darktongue
-name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.darktongue.name}}$)
+name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§ (§_rqgCompendiumContent.language.darktongue.name_§)
 type: skill
 img: systems/rqg/assets/images/skills/speak.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.darktongue.name}}$
+  skillName: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
+  specialization: §_rqgCompendiumContent.language.darktongue.name_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..speak-language
-    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+    name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.speak-language-darktongue
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # speak-language-esrolian
-name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.esrolian.name}}$)
+name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§ (§_rqgCompendiumContent.language.esrolian.name_§)
 type: skill
 img: systems/rqg/assets/images/skills/speak.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.esrolian.name}}$
+  skillName: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
+  specialization: §_rqgCompendiumContent.language.esrolian.name_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..speak-language
-    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+    name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.speak-language-esrolian
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # speak-language-heortling
-name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.heortling.name}}$)
+name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§ (§_rqgCompendiumContent.language.heortling.name_§)
 type: skill
 img: systems/rqg/assets/images/skills/speak.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.heortling.name}}$
+  skillName: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
+  specialization: §_rqgCompendiumContent.language.heortling.name_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..speak-language
-    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+    name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.speak-language-heortling
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # speak-language-mostali
-name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.mostali.name}}$)
+name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§ (§_rqgCompendiumContent.language.mostali.name_§)
 type: skill
 img: systems/rqg/assets/images/skills/speak.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.mostali.name}}$
+  skillName: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
+  specialization: §_rqgCompendiumContent.language.mostali.name_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..speak-language
-    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+    name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.speak-language-mostali
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # speak-language-new-pelorian
-name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.newPelorian.name}}$)
+name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§ (§_rqgCompendiumContent.language.newPelorian.name_§)
 type: skill
 img: systems/rqg/assets/images/skills/speak.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.newPelorian.name}}$
+  skillName: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
+  specialization: §_rqgCompendiumContent.language.newPelorian.name_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..speak-language
-    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+    name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.speak-language-new-pelorian
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # speak-language-praxian
-name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.praxian.name}}$)
+name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§ (§_rqgCompendiumContent.language.praxian.name_§)
 type: skill
 img: systems/rqg/assets/images/skills/speak.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.praxian.name}}$
+  skillName: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
+  specialization: §_rqgCompendiumContent.language.praxian.name_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..speak-language
-    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+    name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.speak-language-praxian
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # speak-language-pure-horse-tongue
-name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.pureHorseTongue.name}}$)
+name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§ (§_rqgCompendiumContent.language.pureHorseTongue.name_§)
 type: skill
 img: systems/rqg/assets/images/skills/speak.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.pureHorseTongue.name}}$
+  skillName: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
+  specialization: §_rqgCompendiumContent.language.pureHorseTongue.name_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..speak-language
-    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+    name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.speak-language-pure-horse-tongue
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # speak-language-stormspeech
-name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.stormspeech.name}}$)
+name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§ (§_rqgCompendiumContent.language.stormspeech.name_§)
 type: skill
 img: systems/rqg/assets/images/skills/speak.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.stormspeech.name}}$
+  skillName: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
+  specialization: §_rqgCompendiumContent.language.stormspeech.name_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..speak-language
-    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+    name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.speak-language-stormspeech
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # speak-language-tarshite
-name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.tarshite.name}}$)
+name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§ (§_rqgCompendiumContent.language.tarshite.name_§)
 type: skill
 img: systems/rqg/assets/images/skills/speak.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.tarshite.name}}$
+  skillName: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
+  specialization: §_rqgCompendiumContent.language.tarshite.name_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..speak-language
-    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+    name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.speak-language-tarshite
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # speak-language-tradetalk
-name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.tradetalk.name}}$)
+name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§ (§_rqgCompendiumContent.language.tradetalk.name_§)
 type: skill
 img: systems/rqg/assets/images/skills/speak.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.tradetalk.name}}$
+  skillName: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
+  specialization: §_rqgCompendiumContent.language.tradetalk.name_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..speak-language
-    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+    name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.speak-language-tradetalk
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # speak-language-tusk-rider
-name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (${{rqgCompendiumContent.language.tuskRider.name}}$)
+name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§ (§_rqgCompendiumContent.language.tuskRider.name_§)
 type: skill
 img: systems/rqg/assets/images/skills/speak.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
-  specialization: ${{rqgCompendiumContent.language.tuskRider.name}}$
+  skillName: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
+  specialization: §_rqgCompendiumContent.language.tuskRider.name_§
   baseChance: 50
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..speak-language
-    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+    name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.speak-language-tusk-rider
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§

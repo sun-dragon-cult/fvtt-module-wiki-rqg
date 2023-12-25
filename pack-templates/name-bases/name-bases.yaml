@@ -15,8 +15,8 @@ flags:
   rqg:
     documentRqidFlags:
       id: je..names-sartarite-female
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 name: "Help: Name Generation"
 pages:
@@ -96,8 +96,8 @@ flags:
   rqg:
     documentRqidFlags:
       id: je..help-name-generation
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 name: "Names: Sartarite, Male"
 pages:
@@ -116,5 +116,5 @@ flags:
   rqg:
     documentRqidFlags:
       id: je..names-sartarite-male
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

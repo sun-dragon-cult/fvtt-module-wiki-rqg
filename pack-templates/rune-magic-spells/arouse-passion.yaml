@@ -1,11 +1,11 @@
 # arouse-passion
-name: ${{rqgCompendiumContent.runeMagic.arousePassion.name}}$
+name: §_rqgCompendiumContent.runeMagic.arousePassion.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.earth-element
-      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
   points: 1
   castingRange: ranged
   duration: temporal
@@ -14,11 +14,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..arouse-passion
-    name: ${{rqgCompendiumContent.runeMagic.arousePassion.name}}$
+    name: §_rqgCompendiumContent.runeMagic.arousePassion.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.arouse-passion
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

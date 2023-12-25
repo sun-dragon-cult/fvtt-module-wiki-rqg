@@ -1,12 +1,12 @@
 # eurmal
-name: ${{rqgCompendiumContent.cult.eurmal.name}}$
+name: §_rqgCompendiumContent.cult.eurmal.name_§
 type: cult
 img: systems/rqg/assets/images/items/cult.svg
 system:
-  deity: ${{rqgCompendiumContent.cult.eurmal.name}}$
+  deity: §_rqgCompendiumContent.cult.eurmal.name_§
   joinedCults:
-    - cultName: ${{rqgCompendiumContent.cult.eurmal.name}}$
-      tagline: ${{rqgCompendiumContent.cult.eurmal.tagline}}$
+    - cultName: §_rqgCompendiumContent.cult.eurmal.name_§
+      tagline: §_rqgCompendiumContent.cult.eurmal.tagline_§
       rank: layMember
   runePoints:
     value: 0
@@ -14,25 +14,25 @@ system:
   holyDays:
   runeRqidLinks:
     - rqid: i.rune.illusion-power
-      name: ${{rqgCompendiumContent.rune.illusion}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.illusion_§ (§_rqgCompendiumContent.runeType.power_§)
     - rqid: i.rune.disorder-power
-      name: ${{rqgCompendiumContent.rune.disorder}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.disorder_§ (§_rqgCompendiumContent.runeType.power_§)
     - rqid: i.rune.illusion-power
-      name: ${{rqgCompendiumContent.rune.illusion}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.illusion_§ (§_rqgCompendiumContent.runeType.power_§)
   descriptionRqidLink:
     rqid: je..eurmal
-    name: ${{rqgCompendiumContent.cult.eurmal.name}}$
+    name: §_rqgCompendiumContent.cult.eurmal.name_§
   commonRuneMagicRqidLinks:
     - rqid: i.rune-magic.divination
-      name: ${{rqgCompendiumContent.runeMagic.divination.name}}$
+      name: §_rqgCompendiumContent.runeMagic.divination.name_§
     - rqid: i.rune-magic.extension
-      name: ${{rqgCompendiumContent.runeMagic.extension.name}}$
+      name: §_rqgCompendiumContent.runeMagic.extension.name_§
     - rqid: i.rune-magic.multispell
-      name: ${{rqgCompendiumContent.runeMagic.multispell.name}}$
+      name: §_rqgCompendiumContent.runeMagic.multispell.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.cult.eurmal
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

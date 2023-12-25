@@ -1,7 +1,7 @@
 # storm-bull
-name: ${{rqgCompendiumContent.cult.stormBull.name}}$
+name: §_rqgCompendiumContent.cult.stormBull.name_§
 pages:
-  - name: ${{rqgCompendiumContent.cult.stormBull.name}}$
+  - name: §_rqgCompendiumContent.cult.stormBull.name_§
     type: text
     title:
       show: false
@@ -9,17 +9,17 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.cultDescription.title}}$
-        <h2>${{rqgCompendiumContent.cult.stormBull.name}}$</h2>
+        §_rqgCompendiumContent.journalEntryType.cultDescription.title_§
+        <h2>§_rqgCompendiumContent.cult.stormBull.name_§</h2>
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/death.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/beast.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/movement_change.svg" height="70">
-        ${{rqgCompendiumContent.cult.stormBull.descriptionHtml}}$
+        §_rqgCompendiumContent.cult.stormBull.descriptionHtml_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..storm-bull
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

@@ -1,6 +1,6 @@
-name: ${{rqgCompendiumContent.bestiary.greenElf.name}}$
+name: §_rqgCompendiumContent.bestiary.greenElf.name_§
 type: character
-img: modules/${{rqgCompendiumContent.module.id}}$/tokens/elves-green-token.webp
+img: modules/§_rqgCompendiumContent.module.id_§/tokens/elves-green-token.webp
 system:
   editMode: false
   characteristics:
@@ -27,7 +27,7 @@ system:
       value: 11
       formula: 3d6
   background:
-    species: ${{rqgCompendiumContent.bestiary.greenElf.species}}$
+    species: §_rqgCompendiumContent.bestiary.greenElf.species_§
     occupation: ""
     homeland: sartar
     cultureJournalRqidLinks: []
@@ -45,7 +45,7 @@ system:
     ransom:
     ransomDetails: ""
     biography: ""
-  allies: ${{rqgCompendiumContent.bestiary.greenElf.notes}}$
+  allies: §_rqgCompendiumContent.bestiary.greenElf.notes_§
   attributes:
     magicPoints:
       value: 13
@@ -68,9 +68,9 @@ prototypeToken:
     file: _partial-includes/actor-npc-prototype-token.yaml
     overrides:
       - path: name
-        value: ${{rqgCompendiumContent.bestiary.greenElf.name}}$
+        value: §_rqgCompendiumContent.bestiary.greenElf.name_§
       - path: img
-        value: modules/${{rqgCompendiumContent.module.id}}$/tokens/elves-green-token.webp
+        value: modules/§_rqgCompendiumContent.module.id_§/tokens/elves-green-token.webp
 items:
   # Hit locations
   - _importExternalDocument:
@@ -142,7 +142,7 @@ items:
         - path: system.opposingRuneRqidLink
           value:
             rqid: i.rune.plant-form
-            name: ${{rqgCompendiumContent.rune.plant}}$ (${{rqgCompendiumContent.runeType.form}}$)
+            name: §_rqgCompendiumContent.rune.plant_§ (§_rqgCompendiumContent.runeType.form_§)
 
   - _importExternalDocument:
       file: runes/form.yaml
@@ -153,7 +153,7 @@ items:
         - path: system.opposingRuneRqidLink
           value:
             rqid: i.rune.man-form
-            name: ${{rqgCompendiumContent.rune.man}}$ (${{rqgCompendiumContent.runeType.form}}$)
+            name: §_rqgCompendiumContent.rune.man_§ (§_rqgCompendiumContent.runeType.form_§)
 
   - _importExternalDocument:
       file: runes/power.yaml
@@ -530,7 +530,7 @@ items:
         - path: system.equippedStatus
           value: equipped
         - path: system.location
-          value: ${{rqgCompendiumContent.equipment.gear.quiverSmall}}$
+          value: §_rqgCompendiumContent.equipment.gear.quiverSmall_§
   - _importExternalDocument:
       file: equipment-weapons/shield.yaml
       rqid: i.weapon.small-wooden-shield
@@ -559,7 +559,7 @@ items:
           value: equipped
 
   # Armor - added inline since it's not truly part of wiki
-  - name: ${{uiContent.RQG.Item.Armor.ArmorType.Greaves}}$ (${{rqgCompendiumContent.equipment.armor.material.elfBark}}$)
+  - name: §_uiContent.RQG.Item.Armor.ArmorType.Greaves_§ (§_rqgCompendiumContent.equipment.armor.material.elfBark_§)
     type: armor
     img: systems/rqg/assets/images/items/armor.svg
     system:
@@ -567,19 +567,19 @@ items:
       encumbrance: 1
       equippedStatus: equipped
       hitLocationRqidLinks:
-        - name: ${{rqgCompendiumContent.hitLocation.humanoid.leftLeg}}$
+        - name: §_rqgCompendiumContent.hitLocation.humanoid.leftLeg_§
           rqid: i.hit-location.left-leg
-        - name: ${{rqgCompendiumContent.hitLocation.humanoid.rightLeg}}$
+        - name: §_rqgCompendiumContent.hitLocation.humanoid.rightLeg_§
           rqid: i.hit-location.right-leg
-      armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Greaves}}$
-      material: ${{rqgCompendiumContent.equipment.armor.material.elfBark}}$
+      armorType: §_uiContent.RQG.Item.Armor.ArmorType.Greaves_§
+      material: §_rqgCompendiumContent.equipment.armor.material.elfBark_§
       absorbs: 2
       moveQuietlyPenalty: 0
       isContainer: false
       physicalItemType: unique
       quantity: 1
     effects: []
-  - name: ${{uiContent.RQG.Item.Armor.ArmorType.Hauberk}}$ (${{rqgCompendiumContent.equipment.armor.material.elfBark}}$)
+  - name: §_uiContent.RQG.Item.Armor.ArmorType.Hauberk_§ (§_rqgCompendiumContent.equipment.armor.material.elfBark_§)
     type: armor
     img: systems/rqg/assets/images/items/armor.svg
     system:
@@ -587,19 +587,19 @@ items:
       encumbrance: 1
       equippedStatus: equipped
       hitLocationRqidLinks:
-        - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+        - name: §_rqgCompendiumContent.hitLocation.humanoid.abdomen_§
           rqid: i.hit-location.abdomen
-        - name: ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+        - name: §_rqgCompendiumContent.hitLocation.humanoid.chest_§
           rqid: i.hit-location.chest
-      armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Hauberk}}$
-      material: ${{rqgCompendiumContent.equipment.armor.material.elfBark}}$
+      armorType: §_uiContent.RQG.Item.Armor.ArmorType.Hauberk_§
+      material: §_rqgCompendiumContent.equipment.armor.material.elfBark_§
       absorbs: 2
       moveQuietlyPenalty: 0
       isContainer: false
       physicalItemType: unique
       quantity: 1
     effects: []
-  - name: ${{uiContent.RQG.Item.Armor.ArmorType.Hood}}$ (${{rqgCompendiumContent.equipment.armor.material.elfBark}}$)
+  - name: §_uiContent.RQG.Item.Armor.ArmorType.Hood_§ (§_rqgCompendiumContent.equipment.armor.material.elfBark_§)
     type: armor
     img: systems/rqg/assets/images/items/armor.svg
     system:
@@ -607,17 +607,17 @@ items:
       encumbrance: 0.5
       equippedStatus: equipped
       hitLocationRqidLinks:
-        - name: ${{rqgCompendiumContent.hitLocation.humanoid.head}}$
+        - name: §_rqgCompendiumContent.hitLocation.humanoid.head_§
           rqid: i.hit-location.head
-      armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Hood}}$
-      material: ${{rqgCompendiumContent.equipment.armor.material.elfBark}}$
+      armorType: §_uiContent.RQG.Item.Armor.ArmorType.Hood_§
+      material: §_rqgCompendiumContent.equipment.armor.material.elfBark_§
       absorbs: 2
       moveQuietlyPenalty: 0
       isContainer: false
       physicalItemType: unique
       quantity: 1
     effects: []
-  - name: ${{uiContent.RQG.Item.Armor.ArmorType.Sleeves}}$ (${{rqgCompendiumContent.equipment.armor.material.elfBark}}$)
+  - name: §_uiContent.RQG.Item.Armor.ArmorType.Sleeves_§ (§_rqgCompendiumContent.equipment.armor.material.elfBark_§)
     type: armor
     img: systems/rqg/assets/images/items/armor.svg
     system:
@@ -625,12 +625,12 @@ items:
       encumbrance: 0.5
       equippedStatus: equipped
       hitLocationRqidLinks:
-        - name: ${{rqgCompendiumContent.hitLocation.humanoid.leftArm}}$
+        - name: §_rqgCompendiumContent.hitLocation.humanoid.leftArm_§
           rqid: i.hit-location.left-arm
-        - name: ${{rqgCompendiumContent.hitLocation.humanoid.rightArm}}$
+        - name: §_rqgCompendiumContent.hitLocation.humanoid.rightArm_§
           rqid: i.hit-location.right-arm
-      armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Sleeves}}$
-      material: ${{rqgCompendiumContent.equipment.armor.material.elfBark}}$
+      armorType: §_uiContent.RQG.Item.Armor.ArmorType.Sleeves_§
+      material: §_rqgCompendiumContent.equipment.armor.material.elfBark_§
       absorbs: 2
       moveQuietlyPenalty: 0
       isContainer: false
@@ -644,25 +644,25 @@ items:
       rqid: i.passion.hate-base
       overrides:
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.mostali}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Hate_§ (§_rqgCompendiumContent.passionSubject.mostali_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.mostali}}$
+          value: §_rqgCompendiumContent.passionSubject.mostali_§
   - _importExternalDocument:
       file: passions-base/passions-base.yaml
       rqid: i.passion.hate-base
       overrides:
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.uz}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Hate_§ (§_rqgCompendiumContent.passionSubject.uz_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.uz}}$
+          value: §_rqgCompendiumContent.passionSubject.uz_§
   - _importExternalDocument:
       file: passions-base/passions-base.yaml
       rqid: i.passion.loyalty-base
       overrides:
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.forest}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Loyalty_§ (§_rqgCompendiumContent.passionSubject.forest_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.forest}}$
+          value: §_rqgCompendiumContent.passionSubject.forest_§
 effects: []
 ownership:
   default: 0
@@ -670,5 +670,5 @@ flags:
   rqg:
     documentRqidFlags:
       id: a.character.aldryami-green-elf
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§

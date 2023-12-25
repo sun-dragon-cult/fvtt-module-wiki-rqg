@@ -1,27 +1,27 @@
-name: ${{rqgCompendiumContent.weapon.warHammer}}$
+name: §_rqgCompendiumContent.weapon.warHammer_§
 type: weapon
 img: systems/rqg/assets/images/weapons/1h-warhammer.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.war-hammer
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.1h-hammers-war-hammer
-        name: ${{rqgCompendiumContent.weaponSkill.1h-hammers.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-hammers.specialization.warHammer}}$)
+        name: §_rqgCompendiumContent.weaponSkill.1h-hammers.name_§ (§_rqgCompendiumContent.weaponSkill.1h-hammers.specialization.warHammer_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Bash}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Bash_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Knockback_§
           damageType: special
           description:
       damage: 1d6+2+db
@@ -78,30 +78,30 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.warHammerIron}}$
+name: §_rqgCompendiumContent.weapon.warHammerIron_§
 type: weapon
 img: systems/rqg/assets/images/weapons/1h-warhammer.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.war-hammer-iron
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.1h-hammers-war-hammer
-        name: ${{rqgCompendiumContent.weaponSkill.1h-hammers.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-hammers.specialization.warHammer}}$)
+        name: §_rqgCompendiumContent.weaponSkill.1h-hammers.name_§ (§_rqgCompendiumContent.weaponSkill.1h-hammers.specialization.warHammer_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Bash}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Bash_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Knockback_§
           damageType: special
           description:
       damage: 1d6+2+db
@@ -134,7 +134,7 @@ system:
       damage:
       minStrength: 0
       minDexterity: 0
-  description: ${{rqgCompendiumContent.weapon.ironDescription}}$
+  description: §_rqgCompendiumContent.weapon.ironDescription_§
   gmNotes:
   hitPoints:
     value: 15
@@ -158,15 +158,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.greatHammer}}$
+name: §_rqgCompendiumContent.weapon.greatHammer_§
 type: weapon
 img: systems/rqg/assets/images/weapons/2h-hammer.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.great-hammer
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -191,12 +191,12 @@ system:
     twoHand:
       skillRqidLink:
         rqid: i.skill.2h-hammers-great-hammer
-        name: ${{rqgCompendiumContent.weaponSkill.2h-hammers.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-hammers.specialization.greatHammer}}$)
+        name: §_rqgCompendiumContent.weaponSkill.2h-hammers.name_§ (§_rqgCompendiumContent.weaponSkill.2h-hammers.specialization.greatHammer_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Bash}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Bash_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
       damage: 2d6+2+db
@@ -235,15 +235,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.maul}}$
+name: §_rqgCompendiumContent.weapon.maul_§
 type: weapon
 img: systems/rqg/assets/images/weapons/2h-hammer.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.maul
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -268,15 +268,15 @@ system:
     twoHand:
       skillRqidLink:
         rqid: i.skill.2h-hammers-maul
-        name: ${{rqgCompendiumContent.weaponSkill.2h-hammers.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-hammers.specialization.maul}}$)
+        name: §_rqgCompendiumContent.weaponSkill.2h-hammers.name_§ (§_rqgCompendiumContent.weaponSkill.2h-hammers.specialization.maul_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Bash}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Bash_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Knockback_§
           damageType: special
           description:
       damage: 2d8+db
@@ -315,30 +315,30 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.heavyMace}}$
+name: §_rqgCompendiumContent.weapon.heavyMace_§
 type: weapon
 img: systems/rqg/assets/images/weapons/1h-mace.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.heavy-mace
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.1h-maces-heavy-mace
-        name: ${{rqgCompendiumContent.weaponSkill.1h-maces.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-maces.specialization.heavyMace}}$)
+        name: §_rqgCompendiumContent.weaponSkill.1h-maces.name_§ (§_rqgCompendiumContent.weaponSkill.1h-maces.specialization.heavyMace_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Bash}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Bash_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Knockback_§
           damageType: special
           description:
       damage: 1d8+2+db
@@ -395,30 +395,30 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.lightMace}}$
+name: §_rqgCompendiumContent.weapon.lightMace_§
 type: weapon
 img: systems/rqg/assets/images/weapons/1h-mace.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.light-mace
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.1h-maces-light-mace
-        name: ${{rqgCompendiumContent.weaponSkill.1h-maces.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-maces.specialization.lightMace}}$)
+        name: §_rqgCompendiumContent.weaponSkill.1h-maces.name_§ (§_rqgCompendiumContent.weaponSkill.1h-maces.specialization.lightMace_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Bash}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Bash_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Knockback_§
           damageType: special
           description:
       damage: 1d6+2+db
@@ -475,30 +475,30 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.singlestick}}$
+name: §_rqgCompendiumContent.weapon.singlestick_§
 type: weapon
 img: systems/rqg/assets/images/weapons/1h-mace.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.singlestick
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.1h-maces-singlestick
-        name: ${{rqgCompendiumContent.weaponSkill.1h-maces.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-maces.specialization.singlestick}}$)
+        name: §_rqgCompendiumContent.weaponSkill.1h-maces.name_§ (§_rqgCompendiumContent.weaponSkill.1h-maces.specialization.singlestick_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Bash}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Bash_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Knockback_§
           damageType: special
           description:
       damage: 1d6+db
@@ -555,30 +555,30 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.woodenClub}}$
+name: §_rqgCompendiumContent.weapon.woodenClub_§
 type: weapon
 img: systems/rqg/assets/images/weapons/1h-mace.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.wooden-club
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.1h-maces-club
-        name: ${{rqgCompendiumContent.weaponSkill.1h-maces.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-maces.specialization.club}}$)
+        name: §_rqgCompendiumContent.weaponSkill.1h-maces.name_§ (§_rqgCompendiumContent.weaponSkill.1h-maces.specialization.club_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Bash}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Bash_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Knockback_§
           damageType: special
           description:
       damage: 1d6+db
@@ -635,15 +635,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.twoHandedMace}}$
+name: §_rqgCompendiumContent.weapon.twoHandedMace_§
 type: weapon
 img: systems/rqg/assets/images/weapons/2h-mace.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.mace-two-handed
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -668,15 +668,15 @@ system:
     twoHand:
       skillRqidLink:
         rqid: i.skill.2h-maces-mace
-        name: ${{rqgCompendiumContent.weaponSkill.2h-maces.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-maces.specialization.mace}}$)
+        name: §_rqgCompendiumContent.weaponSkill.2h-maces.name_§ (§_rqgCompendiumContent.weaponSkill.2h-maces.specialization.mace_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Bash}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Bash_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Knockback_§
           damageType: special
           description:
       damage: 1d8+2+db
@@ -715,15 +715,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.quarterstaff}}$
+name: §_rqgCompendiumContent.weapon.quarterstaff_§
 type: weapon
 img: systems/rqg/assets/images/weapons/quarterstaff.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.quarterstaff
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -748,15 +748,15 @@ system:
     twoHand:
       skillRqidLink:
         rqid: i.skill.quarterstaff
-        name: ${{rqgCompendiumContent.weaponSkill.quarterstaff.name}}$
+        name: §_rqgCompendiumContent.weaponSkill.quarterstaff.name_§
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Bash}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Bash_§
           damageType: crush
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Knockback}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Knockback_§
           damageType: special
           description:
       damage: 1d8+db

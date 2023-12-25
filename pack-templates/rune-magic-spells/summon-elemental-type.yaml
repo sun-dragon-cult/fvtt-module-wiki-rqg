@@ -1,11 +1,11 @@
 # summon-elemental-type
-name: ${{rqgCompendiumContent.runeMagic.summonElementalType.name}}$
+name: §_rqgCompendiumContent.runeMagic.summonElementalType.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.magic-condition
-      name: ${{rqgCompendiumContent.rune.magic}}$ (${{rqgCompendiumContent.runeType.condition}}$)
+      name: §_rqgCompendiumContent.rune.magic_§ (§_rqgCompendiumContent.runeType.condition_§)
   points: 1
   castingRange: ranged
   duration: temporal
@@ -14,11 +14,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..summon-elemental-type
-    name: ${{rqgCompendiumContent.runeMagic.summonElementalType.name}}$
+    name: §_rqgCompendiumContent.runeMagic.summonElementalType.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.summon-elemental-type
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

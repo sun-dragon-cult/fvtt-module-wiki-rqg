@@ -1,24 +1,24 @@
-name: ${{rqgCompendiumContent.weapon.smallAxe}}$
+name: §_rqgCompendiumContent.weapon.smallAxe_§
 type: weapon
 img: systems/rqg/assets/images/weapons/1h-axe.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.small-axe
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.1h-axes-small-axe
-        name: ${{rqgCompendiumContent.weaponSkill.1h-axes.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-axes.specialization.smallAxe}}$)
+        name: §_rqgCompendiumContent.weaponSkill.1h-axes.name_§ (§_rqgCompendiumContent.weaponSkill.1h-axes.specialization.smallAxe_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Cut}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Cut_§
           damageType: slash
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
       damage: 1d6+1+db
@@ -46,9 +46,9 @@ system:
     missile:
       skillRqidLink:
         rqid: i.skill.thrown-axe
-        name: ${{rqgCompendiumContent.weaponSkill.thrownAxe.name}}$
+        name: §_rqgCompendiumContent.weaponSkill.thrownAxe.name_§
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Throw}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Throw_§
           damageType: impale
           description:
       damage: 1d6+db/2
@@ -78,27 +78,27 @@ system:
   isThrownWeapon: true
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.battleAxe}}$
+name: §_rqgCompendiumContent.weapon.battleAxe_§
 type: weapon
 img: systems/rqg/assets/images/weapons/1h-axe.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.battle-axe
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.1h-axes-battle-axe
-        name: ${{rqgCompendiumContent.weaponSkill.1h-axes.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-axes.specialization.battleAxe}}$)
+        name: §_rqgCompendiumContent.weaponSkill.1h-axes.name_§ (§_rqgCompendiumContent.weaponSkill.1h-axes.specialization.battleAxe_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Cut}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Cut_§
           damageType: slash
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
       damage: 1d8+2+db
@@ -117,12 +117,12 @@ system:
     twoHand:
       skillRqidLink:
         rqid: i.skill.2h-axes-battle-axe
-        name: ${{rqgCompendiumContent.weaponSkill.2h-axes.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-axes.specialization.battleAxe}}$)
+        name: §_rqgCompendiumContent.weaponSkill.2h-axes.name_§ (§_rqgCompendiumContent.weaponSkill.2h-axes.specialization.battleAxe_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Cut}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Cut_§
           damageType: slash
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
       damage: 1d8+2+db
@@ -161,27 +161,27 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.battleAxeIron}}$
+name: §_rqgCompendiumContent.weapon.battleAxeIron_§
 type: weapon
 img: systems/rqg/assets/images/weapons/1h-axe.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.battle-axe-iron
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
     oneHand:
       skillRqidLink:
         rqid: i.skill.1h-axes-battle-axe
-        name: ${{rqgCompendiumContent.weaponSkill.1h-axes.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-axes.specialization.battleAxe}}$)
+        name: §_rqgCompendiumContent.weaponSkill.1h-axes.name_§ (§_rqgCompendiumContent.weaponSkill.1h-axes.specialization.battleAxe_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Cut}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Cut_§
           damageType: slash
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
       damage: 1d8+2+db
@@ -200,12 +200,12 @@ system:
     twoHand:
       skillRqidLink:
         rqid: i.skill.2h-axes-battle-axe
-        name: ${{rqgCompendiumContent.weaponSkill.2h-axes.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-axes.specialization.battleAxe}}$)
+        name: §_rqgCompendiumContent.weaponSkill.2h-axes.name_§ (§_rqgCompendiumContent.weaponSkill.2h-axes.specialization.battleAxe_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Cut}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Cut_§
           damageType: slash
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
       damage: 1d8+2+db
@@ -220,7 +220,7 @@ system:
       damage:
       minStrength: 0
       minDexterity: 0
-  description: ${{rqgCompendiumContent.weapon.ironDescription}}$
+  description: §_rqgCompendiumContent.weapon.ironDescription_§
   gmNotes:
   hitPoints:
     value: 12
@@ -244,15 +244,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.greatAxe}}$
+name: §_rqgCompendiumContent.weapon.greatAxe_§
 type: weapon
 img: systems/rqg/assets/images/weapons/2h-axe.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.great-axe
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -277,12 +277,12 @@ system:
     twoHand:
       skillRqidLink:
         rqid: i.skill.2h-axes-great-axe
-        name: ${{rqgCompendiumContent.weaponSkill.2h-axes.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-axes.specialization.greatAxe}}$)
+        name: §_rqgCompendiumContent.weaponSkill.2h-axes.name_§ (§_rqgCompendiumContent.weaponSkill.2h-axes.specialization.greatAxe_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Cut}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Cut_§
           damageType: slash
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
       damage: 2d6+2+db
@@ -321,15 +321,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.daggerAxe}}$
+name: §_rqgCompendiumContent.weapon.daggerAxe_§
 type: weapon
 img: systems/rqg/assets/images/weapons/2h-axe.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.dagger-axe
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -354,12 +354,12 @@ system:
     twoHand:
       skillRqidLink:
         rqid: i.skill.2h-axes-dagger-axe
-        name: ${{rqgCompendiumContent.weaponSkill.2h-axes.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-axes.specialization.daggerAxe}}$)
+        name: §_rqgCompendiumContent.weaponSkill.2h-axes.name_§ (§_rqgCompendiumContent.weaponSkill.2h-axes.specialization.daggerAxe_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Cut}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Cut_§
           damageType: slash
           description:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Parry}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Parry_§
           damageType: parry
           description:
       damage: 3d6+db

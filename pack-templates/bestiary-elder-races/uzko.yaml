@@ -1,6 +1,6 @@
-name: ${{rqgCompendiumContent.bestiary.uzko.name}}$
+name: §_rqgCompendiumContent.bestiary.uzko.name_§
 type: character
-img: modules/${{rqgCompendiumContent.module.id}}$/tokens/trolls-dark-token.webp
+img: modules/§_rqgCompendiumContent.module.id_§/tokens/trolls-dark-token.webp
 system:
   editMode: false
   characteristics:
@@ -27,7 +27,7 @@ system:
       value: 11
       formula: 3d6
   background:
-    species: ${{rqgCompendiumContent.bestiary.uzko.species}}$
+    species: §_rqgCompendiumContent.bestiary.uzko.species_§
     occupation: ""
     homeland: sartar
     cultureJournalRqidLinks: []
@@ -45,7 +45,7 @@ system:
     ransom:
     ransomDetails: ""
     biography: ""
-  allies: ${{rqgCompendiumContent.bestiary.uzko.notes}}$
+  allies: §_rqgCompendiumContent.bestiary.uzko.notes_§
   attributes:
     magicPoints:
       value: 11
@@ -68,9 +68,9 @@ prototypeToken:
     file: _partial-includes/actor-npc-prototype-token.yaml
     overrides:
       - path: name
-        value: ${{rqgCompendiumContent.bestiary.uzko.name}}$
+        value: §_rqgCompendiumContent.bestiary.uzko.name_§
       - path: img
-        value: modules/${{rqgCompendiumContent.module.id}}$/tokens/trolls-dark-token.webp
+        value: modules/§_rqgCompendiumContent.module.id_§/tokens/trolls-dark-token.webp
 items:
   # Hit Locations
   - _importExternalDocument:
@@ -443,33 +443,33 @@ items:
       rqid: i.passion.hate-base
       overrides:
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.aldryami}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Hate_§ (§_rqgCompendiumContent.passionSubject.aldryami_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.aldryami}}$
+          value: §_rqgCompendiumContent.passionSubject.aldryami_§
   - _importExternalDocument:
       file: passions-base/passions-base.yaml
       rqid: i.passion.hate-base
       overrides:
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.mostali}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Hate_§ (§_rqgCompendiumContent.passionSubject.mostali_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.mostali}}$
+          value: §_rqgCompendiumContent.passionSubject.mostali_§
   - _importExternalDocument:
       file: passions-base/passions-base.yaml
       rqid: i.passion.loyalty-base
       overrides:
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.matriarch}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Loyalty_§ (§_rqgCompendiumContent.passionSubject.matriarch_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.matriarch}}$
+          value: §_rqgCompendiumContent.passionSubject.matriarch_§
   - _importExternalDocument:
       file: passions-base/passions-base.yaml
       rqid: i.passion.love-base
       overrides:
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Love}}$ (${{rqgCompendiumContent.passionSubject.family}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Love_§ (§_rqgCompendiumContent.passionSubject.family_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.family}}$
+          value: §_rqgCompendiumContent.passionSubject.family_§
 effects: []
 ownership:
   default: 0
@@ -477,5 +477,5 @@ flags:
   rqg:
     documentRqidFlags:
       id: a.character.uzko
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§

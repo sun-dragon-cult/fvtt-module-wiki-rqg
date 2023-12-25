@@ -1,7 +1,7 @@
 # insight
-name: ${{rqgCompendiumContent.skill.insight.skillName}}$
+name: §_rqgCompendiumContent.skill.insight.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.insight.skillName}}$
+  - name: §_rqgCompendiumContent.skill.insight.skillName_§
     type: text
     title:
       show: false
@@ -9,24 +9,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/insight.svg" height="70">
-        ${{rqgCompendiumContent.skill.insight.description}}$
+        §_rqgCompendiumContent.skill.insight.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.perception.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.perception.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..insight
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # listen
-name: ${{rqgCompendiumContent.skill.listen.skillName}}$
+name: §_rqgCompendiumContent.skill.listen.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.listen.skillName}}$
+  - name: §_rqgCompendiumContent.skill.listen.skillName_§
     type: text
     title:
       show: false
@@ -34,24 +34,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/listen.svg" height="70">
-        ${{rqgCompendiumContent.skill.listen.description}}$
+        §_rqgCompendiumContent.skill.listen.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.perception.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.perception.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..listen
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # scan
-name: ${{rqgCompendiumContent.skill.scan.skillName}}$
+name: §_rqgCompendiumContent.skill.scan.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.scan.skillName}}$
+  - name: §_rqgCompendiumContent.skill.scan.skillName_§
     type: text
     title:
       show: false
@@ -59,24 +59,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/scan.svg" height="70">
-        ${{rqgCompendiumContent.skill.scan.description}}$
+        §_rqgCompendiumContent.skill.scan.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.perception.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.perception.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..scan
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # scent intruder
-name: ${{rqgCompendiumContent.skill.scentIntruder.skillName}}$
+name: §_rqgCompendiumContent.skill.scentIntruder.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.scentIntruder.skillName}}$
+  - name: §_rqgCompendiumContent.skill.scentIntruder.skillName_§
     type: text
     title:
       show: false
@@ -84,24 +84,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/track-by-scent.svg" height="70">
-        ${{rqgCompendiumContent.skill.scentIntruder.description}}$
+        §_rqgCompendiumContent.skill.scentIntruder.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.perception.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.perception.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..scent-intruder
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # search
-name: ${{rqgCompendiumContent.skill.search.skillName}}$
+name: §_rqgCompendiumContent.skill.search.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.search.skillName}}$
+  - name: §_rqgCompendiumContent.skill.search.skillName_§
     type: text
     title:
       show: false
@@ -109,24 +109,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/search.svg" height="70">
-        ${{rqgCompendiumContent.skill.search.description}}$
+        §_rqgCompendiumContent.skill.search.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.perception.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.perception.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..search
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # track
-name: ${{rqgCompendiumContent.skill.track.skillName}}$
+name: §_rqgCompendiumContent.skill.track.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.track.skillName}}$
+  - name: §_rqgCompendiumContent.skill.track.skillName_§
     type: text
     title:
       show: false
@@ -134,24 +134,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/track.svg" height="70">
-        ${{rqgCompendiumContent.skill.track.description}}$
+        §_rqgCompendiumContent.skill.track.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.perception.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.perception.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..track
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # Elfsense
-name: ${{rqgCompendiumContent.skill.elfsense.skillName}}$
+name: §_rqgCompendiumContent.skill.elfsense.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.elfsense.skillName}}$
+  - name: §_rqgCompendiumContent.skill.elfsense.skillName_§
     type: text
     title:
       show: false
@@ -159,24 +159,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/other-sense.svg" height="70">
-        ${{rqgCompendiumContent.skill.elfsense.description}}$
+        §_rqgCompendiumContent.skill.elfsense.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.perception.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.perception.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..elfsense
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # Earthsense scan
-name: ${{rqgCompendiumContent.skill.earthsenseScan.skillName}}$
+name: §_rqgCompendiumContent.skill.earthsenseScan.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.earthsenseScan.skillName}}$
+  - name: §_rqgCompendiumContent.skill.earthsenseScan.skillName_§
     type: text
     title:
       show: false
@@ -184,24 +184,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/scan.svg" height="70">
-        ${{rqgCompendiumContent.skill.earthsenseScan.description}}$
+        §_rqgCompendiumContent.skill.earthsenseScan.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.perception.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.perception.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..earthsense-scan
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # Earthsense search
-name: ${{rqgCompendiumContent.skill.earthsenseSearch.skillName}}$
+name: §_rqgCompendiumContent.skill.earthsenseSearch.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.earthsenseSearch.skillName}}$
+  - name: §_rqgCompendiumContent.skill.earthsenseSearch.skillName_§
     type: text
     title:
       show: false
@@ -209,24 +209,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/search.svg" height="70">
-        ${{rqgCompendiumContent.skill.earthsenseSearch.description}}$
+        §_rqgCompendiumContent.skill.earthsenseSearch.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.perception.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.perception.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..earthsense-search
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # Darksense scan
-name: ${{rqgCompendiumContent.skill.darksenseScan.skillName}}$
+name: §_rqgCompendiumContent.skill.darksenseScan.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.darksenseScan.skillName}}$
+  - name: §_rqgCompendiumContent.skill.darksenseScan.skillName_§
     type: text
     title:
       show: false
@@ -234,24 +234,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/scan.svg" height="70">
-        ${{rqgCompendiumContent.skill.darksenseScan.description}}$
+        §_rqgCompendiumContent.skill.darksenseScan.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.perception.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.perception.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..darksense-scan
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # Darksense search
-name: ${{rqgCompendiumContent.skill.darksenseSearch.skillName}}$
+name: §_rqgCompendiumContent.skill.darksenseSearch.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.darksenseSearch.skillName}}$
+  - name: §_rqgCompendiumContent.skill.darksenseSearch.skillName_§
     type: text
     title:
       show: false
@@ -259,16 +259,16 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/search.svg" height="70">
-        ${{rqgCompendiumContent.skill.darksenseSearch.description}}$
+        §_rqgCompendiumContent.skill.darksenseSearch.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.perception.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.perception.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..darksense-search
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

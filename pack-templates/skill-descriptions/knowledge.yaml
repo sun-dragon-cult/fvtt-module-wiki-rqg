@@ -1,7 +1,7 @@
 # alchemy
-name: ${{rqgCompendiumContent.skill.alchemy.skillName}}$
+name: §_rqgCompendiumContent.skill.alchemy.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.alchemy.skillName}}$
+  - name: §_rqgCompendiumContent.skill.alchemy.skillName_§
     type: text
     title:
       show: false
@@ -9,24 +9,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/alchemy.svg" height="70">
-        ${{rqgCompendiumContent.skill.alchemy.description}}$
+        §_rqgCompendiumContent.skill.alchemy.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..alchemy
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # animal lore
-name: ${{rqgCompendiumContent.skill.animalLore.skillName}}$
+name: §_rqgCompendiumContent.skill.animalLore.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.animalLore.skillName}}$
+  - name: §_rqgCompendiumContent.skill.animalLore.skillName_§
     type: text
     title:
       show: false
@@ -34,24 +34,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/animal-lore.svg" height="70">
-        ${{rqgCompendiumContent.skill.animalLore.description}}$
+        §_rqgCompendiumContent.skill.animalLore.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..animal-lore
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # battle
-name: ${{rqgCompendiumContent.skill.battle.skillName}}$
+name: §_rqgCompendiumContent.skill.battle.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.battle.skillName}}$
+  - name: §_rqgCompendiumContent.skill.battle.skillName_§
     type: text
     title:
       show: false
@@ -59,24 +59,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/battle.svg" height="70">
-        ${{rqgCompendiumContent.skill.battle.description}}$
+        §_rqgCompendiumContent.skill.battle.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..battle
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # bureaucracy
-name: ${{rqgCompendiumContent.skill.bureaucracy.skillName}}$
+name: §_rqgCompendiumContent.skill.bureaucracy.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.bureaucracy.skillName}}$
+  - name: §_rqgCompendiumContent.skill.bureaucracy.skillName_§
     type: text
     title:
       show: false
@@ -84,24 +84,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/bureaucracy.svg" height="70">
-        ${{rqgCompendiumContent.skill.bureaucracy.description}}$
+        §_rqgCompendiumContent.skill.bureaucracy.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..bureaucracy
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # celestial-lore
-name: ${{rqgCompendiumContent.skill.celestialLore.skillName}}$
+name: §_rqgCompendiumContent.skill.celestialLore.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.celestialLore.skillName}}$
+  - name: §_rqgCompendiumContent.skill.celestialLore.skillName_§
     type: text
     title:
       show: false
@@ -109,24 +109,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/celestial-lore.svg" height="70">
-        ${{rqgCompendiumContent.skill.celestialLore.description}}$
+        §_rqgCompendiumContent.skill.celestialLore.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..celestial-lore
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # cult-lore
-name: ${{rqgCompendiumContent.skill.cultLore.skillName}}$
+name: §_rqgCompendiumContent.skill.cultLore.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.cultLore.skillName}}$
+  - name: §_rqgCompendiumContent.skill.cultLore.skillName_§
     type: text
     title:
       show: false
@@ -134,24 +134,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/passion/devotion.svg" height="70">
-        ${{rqgCompendiumContent.skill.cultLore.description}}$
+        §_rqgCompendiumContent.skill.cultLore.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..cult-lore
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # customs
-name: ${{rqgCompendiumContent.skill.customs.skillName}}$
+name: §_rqgCompendiumContent.skill.customs.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.customs.skillName}}$
+  - name: §_rqgCompendiumContent.skill.customs.skillName_§
     type: text
     title:
       show: false
@@ -159,24 +159,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/customs.svg" height="70">
-        ${{rqgCompendiumContent.skill.customs.description}}$
+        §_rqgCompendiumContent.skill.customs.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..customs
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # elder-race-lore
-name: ${{rqgCompendiumContent.skill.elderRaceLore.skillName}}$
+name: §_rqgCompendiumContent.skill.elderRaceLore.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.elderRaceLore.skillName}}$
+  - name: §_rqgCompendiumContent.skill.elderRaceLore.skillName_§
     type: text
     title:
       show: false
@@ -184,24 +184,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/elder-race-lore.svg" height="70">
-        ${{rqgCompendiumContent.skill.elderRaceLore.description}}$
+        §_rqgCompendiumContent.skill.elderRaceLore.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..elder-race-lore
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # evaluate
-name: ${{rqgCompendiumContent.skill.evaluate.skillName}}$
+name: §_rqgCompendiumContent.skill.evaluate.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.evaluate.skillName}}$
+  - name: §_rqgCompendiumContent.skill.evaluate.skillName_§
     type: text
     title:
       show: false
@@ -209,24 +209,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/evaluate.svg" height="70">
-        ${{rqgCompendiumContent.skill.evaluate.description}}$
+        §_rqgCompendiumContent.skill.evaluate.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..evaluate
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # farm
-name: ${{rqgCompendiumContent.skill.farm.skillName}}$
+name: §_rqgCompendiumContent.skill.farm.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.farm.skillName}}$
+  - name: §_rqgCompendiumContent.skill.farm.skillName_§
     type: text
     title:
       show: false
@@ -234,24 +234,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/farm.svg" height="70">
-        ${{rqgCompendiumContent.skill.farm.description}}$
+        §_rqgCompendiumContent.skill.farm.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..farm
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # first-aid
-name: ${{rqgCompendiumContent.skill.firstAid.skillName}}$
+name: §_rqgCompendiumContent.skill.firstAid.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.firstAid.skillName}}$
+  - name: §_rqgCompendiumContent.skill.firstAid.skillName_§
     type: text
     title:
       show: false
@@ -259,24 +259,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/first-aid.svg" height="70">
-        ${{rqgCompendiumContent.skill.firstAid.description}}$
+        §_rqgCompendiumContent.skill.firstAid.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..first-aid
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # game
-name: ${{rqgCompendiumContent.skill.game.skillName}}$
+name: §_rqgCompendiumContent.skill.game.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.game.skillName}}$
+  - name: §_rqgCompendiumContent.skill.game.skillName_§
     type: text
     title:
       show: false
@@ -284,24 +284,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/game.svg" height="70">
-        ${{rqgCompendiumContent.skill.game.description}}$
+        §_rqgCompendiumContent.skill.game.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..game
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # herd
-name: ${{rqgCompendiumContent.skill.herd.skillName}}$
+name: §_rqgCompendiumContent.skill.herd.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.herd.skillName}}$
+  - name: §_rqgCompendiumContent.skill.herd.skillName_§
     type: text
     title:
       show: false
@@ -309,24 +309,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/herd.svg" height="70">
-        ${{rqgCompendiumContent.skill.herd.description}}$
+        §_rqgCompendiumContent.skill.herd.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..herd
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # homeland-lore
-name: ${{rqgCompendiumContent.skill.homelandLore.skillName}}$
+name: §_rqgCompendiumContent.skill.homelandLore.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.homelandLore.skillName}}$
+  - name: §_rqgCompendiumContent.skill.homelandLore.skillName_§
     type: text
     title:
       show: false
@@ -334,24 +334,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/homeland-lore.svg" height="70">
-        ${{rqgCompendiumContent.skill.homelandLore.description}}$
+        §_rqgCompendiumContent.skill.homelandLore.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..homeland-lore
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # library-use
-name: ${{rqgCompendiumContent.skill.libraryUse.skillName}}$
+name: §_rqgCompendiumContent.skill.libraryUse.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.libraryUse.skillName}}$
+  - name: §_rqgCompendiumContent.skill.libraryUse.skillName_§
     type: text
     title:
       show: false
@@ -359,24 +359,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/library-use.svg" height="70">
-        ${{rqgCompendiumContent.skill.libraryUse.description}}$
+        §_rqgCompendiumContent.skill.libraryUse.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..library-use
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # lore
-name: ${{rqgCompendiumContent.skill.lore.skillName}}$
+name: §_rqgCompendiumContent.skill.lore.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.lore.skillName}}$
+  - name: §_rqgCompendiumContent.skill.lore.skillName_§
     type: text
     title:
       show: false
@@ -384,24 +384,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/lore.svg" height="70">
-        ${{rqgCompendiumContent.skill.lore.description}}$
+        §_rqgCompendiumContent.skill.lore.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..lore
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # manage-household
-name: ${{rqgCompendiumContent.skill.manageHousehold.skillName}}$
+name: §_rqgCompendiumContent.skill.manageHousehold.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.manageHousehold.skillName}}$
+  - name: §_rqgCompendiumContent.skill.manageHousehold.skillName_§
     type: text
     title:
       show: false
@@ -409,24 +409,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/manage-household.svg" height="70">
-        ${{rqgCompendiumContent.skill.manageHousehold.description}}$
+        §_rqgCompendiumContent.skill.manageHousehold.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..manage-household
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # mineral-lore
-name: ${{rqgCompendiumContent.skill.mineralLore.skillName}}$
+name: §_rqgCompendiumContent.skill.mineralLore.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.mineralLore.skillName}}$
+  - name: §_rqgCompendiumContent.skill.mineralLore.skillName_§
     type: text
     title:
       show: false
@@ -434,24 +434,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/mineral-lore.svg" height="70">
-        ${{rqgCompendiumContent.skill.mineralLore.description}}$
+        §_rqgCompendiumContent.skill.mineralLore.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..mineral-lore
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # peaceful-cut
-name: ${{rqgCompendiumContent.skill.peacefulCut.skillName}}$
+name: §_rqgCompendiumContent.skill.peacefulCut.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.peacefulCut.skillName}}$
+  - name: §_rqgCompendiumContent.skill.peacefulCut.skillName_§
     type: text
     title:
       show: false
@@ -459,24 +459,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/peaceful-cut.svg" height="70">
-        ${{rqgCompendiumContent.skill.peacefulCut.description}}$
+        §_rqgCompendiumContent.skill.peacefulCut.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..peaceful-cut
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # plant-lore
-name: ${{rqgCompendiumContent.skill.plantLore.skillName}}$
+name: §_rqgCompendiumContent.skill.plantLore.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.plantLore.skillName}}$
+  - name: §_rqgCompendiumContent.skill.plantLore.skillName_§
     type: text
     title:
       show: false
@@ -484,24 +484,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/plant-lore.svg" height="70">
-        ${{rqgCompendiumContent.skill.plantLore.description}}$
+        §_rqgCompendiumContent.skill.plantLore.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..plant-lore
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # read-write
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
+name: §_rqgCompendiumContent.skill.readWrite.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
+  - name: §_rqgCompendiumContent.skill.readWrite.skillName_§
     type: text
     title:
       show: false
@@ -509,24 +509,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/read-write.svg" height="70">
-        ${{rqgCompendiumContent.skill.readWrite.description}}$
+        §_rqgCompendiumContent.skill.readWrite.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..read-write
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # shiphandling
-name: ${{rqgCompendiumContent.skill.shiphandling.skillName}}$
+name: §_rqgCompendiumContent.skill.shiphandling.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.shiphandling.skillName}}$
+  - name: §_rqgCompendiumContent.skill.shiphandling.skillName_§
     type: text
     title:
       show: false
@@ -534,24 +534,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/shiphandling.svg" height="70">
-        ${{rqgCompendiumContent.skill.shiphandling.description}}$
+        §_rqgCompendiumContent.skill.shiphandling.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..shiphandling
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # survival
-name: ${{rqgCompendiumContent.skill.survival.skillName}}$
+name: §_rqgCompendiumContent.skill.survival.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.survival.skillName}}$
+  - name: §_rqgCompendiumContent.skill.survival.skillName_§
     type: text
     title:
       show: false
@@ -559,24 +559,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/survival.svg" height="70">
-        ${{rqgCompendiumContent.skill.survival.description}}$
+        §_rqgCompendiumContent.skill.survival.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..survival
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # treat-disease
-name: ${{rqgCompendiumContent.skill.treatDisease.skillName}}$
+name: §_rqgCompendiumContent.skill.treatDisease.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.treatDisease.skillName}}$
+  - name: §_rqgCompendiumContent.skill.treatDisease.skillName_§
     type: text
     title:
       show: false
@@ -584,24 +584,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/treat-disease.svg" height="70">
-        ${{rqgCompendiumContent.skill.treatDisease.description}}$
+        §_rqgCompendiumContent.skill.treatDisease.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..treat-disease
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # treat-poison
-name: ${{rqgCompendiumContent.skill.treatPoison.skillName}}$
+name: §_rqgCompendiumContent.skill.treatPoison.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.treatPoison.skillName}}$
+  - name: §_rqgCompendiumContent.skill.treatPoison.skillName_§
     type: text
     title:
       show: false
@@ -609,16 +609,16 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/treat-poison.svg" height="70">
-        ${{rqgCompendiumContent.skill.treatPoison.description}}$
+        §_rqgCompendiumContent.skill.treatPoison.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.knowledge.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.knowledge.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..treat-poison
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

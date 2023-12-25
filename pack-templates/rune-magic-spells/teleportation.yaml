@@ -1,11 +1,11 @@
 # teleportation
-name: ${{rqgCompendiumContent.runeMagic.teleportation.name}}$
+name: §_rqgCompendiumContent.runeMagic.teleportation.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.movement-power
-      name: ${{rqgCompendiumContent.rune.movement}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.movement_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 3
   castingRange: touch
   duration: instant
@@ -14,11 +14,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..teleportation
-    name: ${{rqgCompendiumContent.runeMagic.teleportation.name}}$
+    name: §_rqgCompendiumContent.runeMagic.teleportation.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.teleportation
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

@@ -1,12 +1,12 @@
-name: ${{rqgCompendiumContent.weapon.poleLasso}}$
+name: §_rqgCompendiumContent.weapon.poleLasso_§
 type: weapon
 img: systems/rqg/assets/images/weapons/lasso.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.pole-lasso
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -40,9 +40,9 @@ system:
     missile:
       skillRqidLink:
         rqid: i.skill.lassos-pole-lasso
-        name: ${{rqgCompendiumContent.weaponSkill.lassos.name}}$ (${{rqgCompendiumContent.weaponSkill.lassos.specialization.poleLasso}}$)
+        name: §_rqgCompendiumContent.weaponSkill.lassos.name_§ (§_rqgCompendiumContent.weaponSkill.lassos.specialization.poleLasso_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Grapple}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Grapple_§
           damageType: special
           description:
       damage:

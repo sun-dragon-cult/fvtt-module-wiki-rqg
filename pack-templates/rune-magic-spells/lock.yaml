@@ -1,13 +1,13 @@
 # lock
-name: ${{rqgCompendiumContent.runeMagic.lock.name}}$
+name: §_rqgCompendiumContent.runeMagic.lock.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.harmony-power
-      name: ${{rqgCompendiumContent.rune.harmony}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.harmony_§ (§_rqgCompendiumContent.runeType.power_§)
     - rqid: i.rune.movement-power
-      name: ${{rqgCompendiumContent.rune.movement}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.movement_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 1
   isRitual: true
   isStackable: true
@@ -15,11 +15,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..lock
-    name: ${{rqgCompendiumContent.runeMagic.lock.name}}$
+    name: §_rqgCompendiumContent.runeMagic.lock.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.lock
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

@@ -1,4 +1,4 @@
-name: ${{rqgCompendiumContent.hitLocation.serpentWinged.tail}}$
+name: §_rqgCompendiumContent.hitLocation.serpentWinged.tail_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -16,10 +16,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.tail
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.serpentWinged.abdomen}}$
+name: §_rqgCompendiumContent.hitLocation.serpentWinged.abdomen_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -37,10 +37,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.abdomen
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.serpentWinged.chest}}$
+name: §_rqgCompendiumContent.hitLocation.serpentWinged.chest_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -58,10 +58,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.chest
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.serpentWinged.rightWing}}$
+name: §_rqgCompendiumContent.hitLocation.serpentWinged.rightWing_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -79,10 +79,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.right-wing
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.serpentWinged.leftWing}}$
+name: §_rqgCompendiumContent.hitLocation.serpentWinged.leftWing_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -100,10 +100,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.left-wing
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.serpentWinged.head}}$
+name: §_rqgCompendiumContent.hitLocation.serpentWinged.head_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -121,5 +121,5 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.head
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

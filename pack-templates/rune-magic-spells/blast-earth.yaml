@@ -1,13 +1,13 @@
 # blast-earth
-name: ${{rqgCompendiumContent.runeMagic.blastEarth.name}}$
+name: §_rqgCompendiumContent.runeMagic.blastEarth.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.earth-element
-      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.death-power
-      name: ${{rqgCompendiumContent.rune.death}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.death_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 1
   castingRange: ranged
   duration: instant
@@ -16,11 +16,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..blast-earth
-    name: ${{rqgCompendiumContent.runeMagic.blastEarth.name}}$
+    name: §_rqgCompendiumContent.runeMagic.blastEarth.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.blast-earth
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

@@ -1,7 +1,7 @@
 {
-  "id": "${{rqgCompendiumContent.module.id}}$",
-  "title": "${{rqgCompendiumContent.module.title}}$",
-  "description": "${{rqgCompendiumContent.module.description}}$",
+  "id": "§_rqgCompendiumContent.module.id_§",
+  "title": "§_rqgCompendiumContent.module.title_§",
+  "description": "§_rqgCompendiumContent.module.description_§",
   "version": "#{VERSION}#",
   "compatibility": {
     "minimum": 11,
@@ -39,12 +39,12 @@
   ],
   "packFolders": [
     {
-      "name": "${{rqgCompendiumContent.module.folders.topFolder}}$",
+      "name": "§_rqgCompendiumContent.module.folders.topFolder_§",
       "sorting": "m",
       "color": "#176341",
       "folders": [
         {
-          "name": "${{rqgCompendiumContent.module.folders.cultsAndMagic}}$",
+          "name": "§_rqgCompendiumContent.module.folders.cultsAndMagic_§",
           "sorting": "m",
           "color": "#269261",
           "packs": [
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "name": "${{rqgCompendiumContent.module.folders.equipment}}$",
+          "name": "§_rqgCompendiumContent.module.folders.equipment_§",
           "sorting": "a",
           "color": "#269261",
           "packs": [
@@ -67,7 +67,7 @@
           ]
         },
         {
-          "name": "${{rqgCompendiumContent.module.folders.bestiary}}$",
+          "name": "§_rqgCompendiumContent.module.folders.bestiary_§",
           "sorting": "m",
           "color": "#269261",
           "packs": [
@@ -82,7 +82,7 @@
           ]
         },
         {
-          "name": "${{rqgCompendiumContent.module.folders.skillsAndPassions}}$",
+          "name": "§_rqgCompendiumContent.module.folders.skillsAndPassions_§",
           "sorting": "m",
           "color": "#269261",
           "packs": [
@@ -94,7 +94,7 @@
           ]
         },
         {
-          "name": "${{rqgCompendiumContent.module.folders.runes}}$",
+          "name": "§_rqgCompendiumContent.module.folders.runes_§",
           "sorting": "a",
           "color": "#269261",
           "packs": [
@@ -104,7 +104,7 @@
           ]
         },
         {
-          "name": "${{rqgCompendiumContent.module.folders.occupationsAndPlaces}}$",
+          "name": "§_rqgCompendiumContent.module.folders.occupationsAndPlaces_§",
           "sorting": "a",
           "color": "#269261",
           "packs": [
@@ -119,7 +119,7 @@
           ]
         },
         {
-          "name": "${{rqgCompendiumContent.module.folders.hitLocations}}$",
+          "name": "§_rqgCompendiumContent.module.folders.hitLocations_§",
           "sorting": "a",
           "color": "#269261",
           "packs": [
@@ -146,7 +146,7 @@
           ]
         },
         {
-          "name": "${{rqgCompendiumContent.module.folders.macrosAndRolltables}}$",
+          "name": "§_rqgCompendiumContent.module.folders.macrosAndRolltables_§",
           "sorting": "a",
           "color": "#269261",
           "packs": [
@@ -159,7 +159,7 @@
   "packs": [
     {
       "name": "clan-descriptions",
-      "label": "${{rqgCompendiumContent.module.packs.clanDescriptions}}$",
+      "label": "§_rqgCompendiumContent.module.packs.clanDescriptions_§",
       "system": "rqg",
       "path": "packs/clan-descriptions",
       "ownership": {
@@ -170,7 +170,7 @@
     },
     {
       "name": "combat-fumble",
-      "label": "${{rqgCompendiumContent.module.packs.combatFumble}}$",
+      "label": "§_rqgCompendiumContent.module.packs.combatFumble_§",
       "system": "rqg",
       "path": "packs/combat-fumble",
       "ownership": {
@@ -181,7 +181,7 @@
     },
     {
       "name": "cult-descriptions",
-      "label": "${{rqgCompendiumContent.module.packs.cultDescriptions}}$",
+      "label": "§_rqgCompendiumContent.module.packs.cultDescriptions_§",
       "system": "rqg",
       "path": "packs/cult-descriptions",
       "ownership": {
@@ -192,7 +192,7 @@
     },
     {
       "name": "cults",
-      "label": "${{rqgCompendiumContent.module.packs.cults}}$",
+      "label": "§_rqgCompendiumContent.module.packs.cults_§",
       "system": "rqg",
       "path": "packs/cults",
       "ownership": {
@@ -203,7 +203,7 @@
     },
     {
       "name": "culture-descriptions",
-      "label": "${{rqgCompendiumContent.module.packs.cultureDescriptions}}$",
+      "label": "§_rqgCompendiumContent.module.packs.cultureDescriptions_§",
       "system": "rqg",
       "path": "packs/culture-descriptions",
       "ownership": {
@@ -214,7 +214,7 @@
     },
     {
       "name": "adventurers",
-      "label": "${{rqgCompendiumContent.module.packs.adventurers}}$",
+      "label": "§_rqgCompendiumContent.module.packs.adventurers_§",
       "system": "rqg",
       "path": "packs/adventurers",
       "ownership": {
@@ -225,7 +225,7 @@
     },
     {
       "name": "bestiary-animals",
-      "label": "${{rqgCompendiumContent.module.packs.bestiaryAnimals}}$",
+      "label": "§_rqgCompendiumContent.module.packs.bestiaryAnimals_§",
       "system": "rqg",
       "path": "packs/bestiary-animals",
       "ownership": {
@@ -236,7 +236,7 @@
     },
     {
       "name": "bestiary-chaos-monsters",
-      "label": "${{rqgCompendiumContent.module.packs.bestiaryChaosMonsters}}$",
+      "label": "§_rqgCompendiumContent.module.packs.bestiaryChaosMonsters_§",
       "system": "rqg",
       "path": "packs/bestiary-chaos-monsters",
       "ownership": {
@@ -247,7 +247,7 @@
     },
     {
       "name": "bestiary-elder-races",
-      "label": "${{rqgCompendiumContent.module.packs.bestiaryElderRaces}}$",
+      "label": "§_rqgCompendiumContent.module.packs.bestiaryElderRaces_§",
       "system": "rqg",
       "path": "packs/bestiary-elder-races",
       "ownership": {
@@ -258,7 +258,7 @@
     },
     {
       "name": "bestiary-elementals",
-      "label": "${{rqgCompendiumContent.module.packs.bestiaryElementals}}$",
+      "label": "§_rqgCompendiumContent.module.packs.bestiaryElementals_§",
       "system": "rqg",
       "path": "packs/bestiary-elementals",
       "ownership": {
@@ -269,7 +269,7 @@
     },
     {
       "name": "bestiary-mounts",
-      "label": "${{rqgCompendiumContent.module.packs.bestiaryMounts}}$",
+      "label": "§_rqgCompendiumContent.module.packs.bestiaryMounts_§",
       "system": "rqg",
       "path": "packs/bestiary-mounts",
       "ownership": {
@@ -280,7 +280,7 @@
     },
     {
       "name": "bestiary-spirits",
-      "label": "${{rqgCompendiumContent.module.packs.bestiarySpirits}}$",
+      "label": "§_rqgCompendiumContent.module.packs.bestiarySpirits_§",
       "system": "rqg",
       "path": "packs/bestiary-spirits",
       "ownership": {
@@ -291,7 +291,7 @@
     },
     {
       "name": "equipment-armor",
-      "label": "${{rqgCompendiumContent.module.packs.armor}}$",
+      "label": "§_rqgCompendiumContent.module.packs.armor_§",
       "system": "rqg",
       "path": "packs/equipment-armor",
       "ownership": {
@@ -302,7 +302,7 @@
     },
     {
       "name": "equipment-gear",
-      "label": "${{rqgCompendiumContent.module.packs.gear}}$",
+      "label": "§_rqgCompendiumContent.module.packs.gear_§",
       "system": "rqg",
       "path": "packs/equipment-gear",
       "ownership": {
@@ -313,7 +313,7 @@
     },
     {
       "name": "equipment-weapons",
-      "label": "${{rqgCompendiumContent.module.packs.weapons}}$",
+      "label": "§_rqgCompendiumContent.module.packs.weapons_§",
       "system": "rqg",
       "path": "packs/equipment-weapons",
       "ownership": {
@@ -324,7 +324,7 @@
     },
     {
       "name": "name-bases",
-      "label": "${{rqgCompendiumContent.module.packs.nameBases}}$",
+      "label": "§_rqgCompendiumContent.module.packs.nameBases_§",
       "system": "rqg",
       "path": "packs/name-bases",
       "ownership": {
@@ -335,7 +335,7 @@
     },
     {
       "name": "name-tables",
-      "label": "${{rqgCompendiumContent.module.packs.nameTables}}$",
+      "label": "§_rqgCompendiumContent.module.packs.nameTables_§",
       "system": "rqg",
       "path": "packs/name-tables",
       "ownership": {
@@ -346,7 +346,7 @@
     },
     {
       "name": "homeland-descriptions",
-      "label": "${{rqgCompendiumContent.module.packs.homelandDescriptions}}$",
+      "label": "§_rqgCompendiumContent.module.packs.homelandDescriptions_§",
       "system": "rqg",
       "path": "packs/homeland-descriptions",
       "ownership": {
@@ -357,7 +357,7 @@
     },
     {
       "name": "homelands",
-      "label": "${{rqgCompendiumContent.module.packs.homelands}}$",
+      "label": "§_rqgCompendiumContent.module.packs.homelands_§",
       "system": "rqg",
       "path": "packs/homelands",
       "ownership": {
@@ -368,7 +368,7 @@
     },
     {
       "name": "hit-locations-beetles",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationBeetles}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationBeetles_§",
       "system": "rqg",
       "path": "packs/hit-locations-beetles",
       "ownership": {
@@ -379,7 +379,7 @@
     },
     {
       "name": "hit-locations-birds-flying",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationBirdsFlying}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationBirdsFlying_§",
       "system": "rqg",
       "path": "packs/hit-locations-birds-flying",
       "ownership": {
@@ -390,7 +390,7 @@
     },
     {
       "name": "hit-locations-birds-running",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationBirdsRunning}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationBirdsRunning_§",
       "system": "rqg",
       "path": "packs/hit-locations-birds-running",
       "ownership": {
@@ -401,7 +401,7 @@
     },
     {
       "name": "hit-locations-centaurs",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationCentaurs}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationCentaurs_§",
       "system": "rqg",
       "path": "packs/hit-locations-centaurs",
       "ownership": {
@@ -412,7 +412,7 @@
     },
     {
       "name": "hit-locations-dragons-manticores",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationDragonsManticores}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationDragonsManticores_§",
       "system": "rqg",
       "path": "packs/hit-locations-dragons-manticores",
       "ownership": {
@@ -423,7 +423,7 @@
     },
     {
       "name": "hit-locations-dragonsnails-one-headed",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationDragonsnailsOneHeaded}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationDragonsnailsOneHeaded_§",
       "system": "rqg",
       "path": "packs/hit-locations-dragonsnails-one-headed",
       "ownership": {
@@ -434,7 +434,7 @@
     },
     {
       "name": "hit-locations-dragonsnails-two-headed",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationDragonsnailsTwoHeaded}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationDragonsnailsTwoHeaded_§",
       "system": "rqg",
       "path": "packs/hit-locations-dragonsnails-two-headed",
       "ownership": {
@@ -445,7 +445,7 @@
     },
     {
       "name": "hit-locations-four-legged-animals",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationFourLeggedAnimals}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationFourLeggedAnimals_§",
       "system": "rqg",
       "path": "packs/hit-locations-four-legged-animals",
       "ownership": {
@@ -456,7 +456,7 @@
     },
     {
       "name": "hit-locations-four-legged-animals-winged",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationFourLeggedAnimalsWinged}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationFourLeggedAnimalsWinged_§",
       "system": "rqg",
       "path": "packs/hit-locations-four-legged-animals-winged",
       "ownership": {
@@ -467,7 +467,7 @@
     },
     {
       "name": "hit-locations-gorp",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationGorp}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationGorp_§",
       "system": "rqg",
       "path": "packs/hit-locations-gorp",
       "ownership": {
@@ -478,7 +478,7 @@
     },
     {
       "name": "hit-locations-harpies",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationHarpies}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationHarpies_§",
       "system": "rqg",
       "path": "packs/hit-locations-harpies",
       "ownership": {
@@ -489,7 +489,7 @@
     },
     {
       "name": "hit-locations-humanoids",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationHumanoids}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationHumanoids_§",
       "system": "rqg",
       "path": "packs/hit-locations-humanoids",
       "ownership": {
@@ -500,7 +500,7 @@
     },
     {
       "name": "hit-locations-humanoids-winged",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationHumanoidsWinged}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationHumanoidsWinged_§",
       "system": "rqg",
       "path": "packs/hit-locations-humanoids-winged",
       "ownership": {
@@ -511,7 +511,7 @@
     },
     {
       "name": "hit-locations-mammoths-mastodons",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationMammothsMastodons}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationMammothsMastodons_§",
       "system": "rqg",
       "path": "packs/hit-locations-mammoths-mastodons",
       "ownership": {
@@ -522,7 +522,7 @@
     },
     {
       "name": "hit-locations-scorpion-men",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationScorpionMen}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationScorpionMen_§",
       "system": "rqg",
       "path": "packs/hit-locations-scorpion-men",
       "ownership": {
@@ -533,7 +533,7 @@
     },
     {
       "name": "hit-locations-serpents",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationSerpents}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationSerpents_§",
       "system": "rqg",
       "path": "packs/hit-locations-serpents",
       "ownership": {
@@ -544,7 +544,7 @@
     },
     {
       "name": "hit-locations-serpents-winged",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationSerpentsWinged}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationSerpentsWinged_§",
       "system": "rqg",
       "path": "packs/hit-locations-serpents-winged",
       "ownership": {
@@ -555,7 +555,7 @@
     },
     {
       "name": "hit-locations-spiders-giant",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationSpidersGiant}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationSpidersGiant_§",
       "system": "rqg",
       "path": "packs/hit-locations-spiders-giant",
       "ownership": {
@@ -566,7 +566,7 @@
     },
     {
       "name": "hit-locations-walktapi",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationWalktapi}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationWalktapi_§",
       "system": "rqg",
       "path": "packs/hit-locations-walktapi",
       "ownership": {
@@ -577,7 +577,7 @@
     },
     {
       "name": "hit-locations-wyverns",
-      "label": "${{rqgCompendiumContent.module.packs.hitLocationWyverns}}$",
+      "label": "§_rqgCompendiumContent.module.packs.hitLocationWyverns_§",
       "system": "rqg",
       "path": "packs/hit-locations-wyverns",
       "ownership": {
@@ -588,7 +588,7 @@
     },
     {
       "name": "passions",
-      "label": "${{rqgCompendiumContent.module.packs.passions}}$",
+      "label": "§_rqgCompendiumContent.module.packs.passions_§",
       "system": "rqg",
       "path": "packs/passions",
       "ownership": {
@@ -599,7 +599,7 @@
     },
     {
       "name": "passions-base",
-      "label": "${{rqgCompendiumContent.module.packs.passionsBase}}$",
+      "label": "§_rqgCompendiumContent.module.packs.passionsBase_§",
       "system": "rqg",
       "path": "packs/passions-base",
       "ownership": {
@@ -610,7 +610,7 @@
     },
     {
       "name": "pc-runes",
-      "label": "${{rqgCompendiumContent.module.packs.runesPc}}$",
+      "label": "§_rqgCompendiumContent.module.packs.runesPc_§",
       "system": "rqg",
       "path": "packs/pc-runes",
       "ownership": {
@@ -621,7 +621,7 @@
     },
     {
       "name": "region-descriptions",
-      "label": "${{rqgCompendiumContent.module.packs.regionDescriptions}}$",
+      "label": "§_rqgCompendiumContent.module.packs.regionDescriptions_§",
       "system": "rqg",
       "path": "packs/region-descriptions",
       "ownership": {
@@ -632,7 +632,7 @@
     },
     {
       "name": "rune-descriptions",
-      "label": "${{rqgCompendiumContent.module.packs.runeDescriptions}}$",
+      "label": "§_rqgCompendiumContent.module.packs.runeDescriptions_§",
       "system": "rqg",
       "path": "packs/rune-descriptions",
       "ownership": {
@@ -643,7 +643,7 @@
     },
     {
       "name": "runes",
-      "label": "${{rqgCompendiumContent.module.packs.runes}}$",
+      "label": "§_rqgCompendiumContent.module.packs.runes_§",
       "system": "rqg",
       "path": "packs/runes",
       "ownership": {
@@ -654,7 +654,7 @@
     },
     {
       "name": "rune-magic-spells",
-      "label": "${{rqgCompendiumContent.module.packs.runeMagicSpells}}$",
+      "label": "§_rqgCompendiumContent.module.packs.runeMagicSpells_§",
       "system": "rqg",
       "path": "packs/rune-magic-spells",
       "ownership": {
@@ -665,7 +665,7 @@
     },
     {
       "name": "rune-magic-descriptions",
-      "label": "${{rqgCompendiumContent.module.packs.runeMagicDescriptions}}$",
+      "label": "§_rqgCompendiumContent.module.packs.runeMagicDescriptions_§",
       "system": "rqg",
       "path": "packs/rune-magic-descriptions",
       "ownership": {
@@ -676,7 +676,7 @@
     },
     {
       "name": "skills",
-      "label": "${{rqgCompendiumContent.module.packs.skills}}$",
+      "label": "§_rqgCompendiumContent.module.packs.skills_§",
       "system": "rqg",
       "path": "packs/skills",
       "ownership": {
@@ -687,7 +687,7 @@
     },
     {
       "name": "skill-descriptions",
-      "label": "${{rqgCompendiumContent.module.packs.skillDescriptions}}$",
+      "label": "§_rqgCompendiumContent.module.packs.skillDescriptions_§",
       "system": "rqg",
       "path": "packs/skill-descriptions",
       "ownership": {
@@ -698,7 +698,7 @@
     },
     {
       "name": "skills-weapons",
-      "label": "${{rqgCompendiumContent.module.packs.skillsWeapons}}$",
+      "label": "§_rqgCompendiumContent.module.packs.skillsWeapons_§",
       "system": "rqg",
       "path": "packs/skills-weapons",
       "ownership": {
@@ -709,7 +709,7 @@
     },
     {
       "name": "species-descriptions",
-      "label": "${{rqgCompendiumContent.module.packs.speciesDescriptions}}$",
+      "label": "§_rqgCompendiumContent.module.packs.speciesDescriptions_§",
       "system": "rqg",
       "path": "packs/species-descriptions",
       "ownership": {
@@ -720,7 +720,7 @@
     },
     {
       "name": "spirit-magic-spells",
-      "label": "${{rqgCompendiumContent.module.packs.spiritMagicSpells}}$",
+      "label": "§_rqgCompendiumContent.module.packs.spiritMagicSpells_§",
       "system": "rqg",
       "path": "packs/spirit-magic-spells",
       "ownership": {
@@ -731,7 +731,7 @@
     },
     {
       "name": "spirit-magic-descriptions",
-      "label": "${{rqgCompendiumContent.module.packs.spiritMagicDescriptions}}$",
+      "label": "§_rqgCompendiumContent.module.packs.spiritMagicDescriptions_§",
       "system": "rqg",
       "path": "packs/spirit-magic-descriptions",
       "ownership": {
@@ -742,7 +742,7 @@
     },
     {
       "name": "tribe-descriptions",
-      "label": "${{rqgCompendiumContent.module.packs.tribeDescriptions}}$",
+      "label": "§_rqgCompendiumContent.module.packs.tribeDescriptions_§",
       "system": "rqg",
       "path": "packs/tribe-descriptions",
       "ownership": {

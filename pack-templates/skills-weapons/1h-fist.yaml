@@ -1,68 +1,68 @@
 # fist-claw
-name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.claw}}$)
+name: §_rqgCompendiumContent.weaponSkill.fists.name_§ (§_rqgCompendiumContent.weaponSkill.fists.specialization.claw_§)
 type: skill
 img: systems/rqg/assets/images/weapons/claw.svg
 system:
   category: naturalWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.fists.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.fists.specialization.claw}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.fists.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.fists.specialization.claw_§
   baseChance: 25
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.fists-claw
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # fist-heavy-cestus
-name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.heavyCestus}}$)
+name: §_rqgCompendiumContent.weaponSkill.fists.name_§ (§_rqgCompendiumContent.weaponSkill.fists.specialization.heavyCestus_§)
 type: skill
 img: systems/rqg/assets/images/weapons/cestus.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.fists.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.fists.specialization.heavyCestus}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.fists.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.fists.specialization.heavyCestus_§
   baseChance: 25
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.fists-heavy-cestus
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # fist-light-cestus
-name: ${{rqgCompendiumContent.weaponSkill.fists.name}}$ (${{rqgCompendiumContent.weaponSkill.fists.specialization.lightCestus}}$)
+name: §_rqgCompendiumContent.weaponSkill.fists.name_§ (§_rqgCompendiumContent.weaponSkill.fists.specialization.lightCestus_§)
 type: skill
 img: systems/rqg/assets/images/weapons/cestus.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.fists.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.fists.specialization.lightCestus}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.fists.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.fists.specialization.lightCestus_§
   baseChance: 25
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.fists-light-cestus
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

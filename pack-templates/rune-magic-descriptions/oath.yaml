@@ -1,7 +1,7 @@
 # oath
-name: ${{rqgCompendiumContent.runeMagic.oath.name}}$
+name: §_rqgCompendiumContent.runeMagic.oath.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeMagic.oath.name}}$
+  - name: §_rqgCompendiumContent.runeMagic.oath.name_§
     type: text
     title:
       show: false
@@ -9,15 +9,15 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeMagicDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeMagicDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/truth.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/death.svg" height="70">
-        ${{rqgCompendiumContent.runeMagic.oath.description}}$
+        §_rqgCompendiumContent.runeMagic.oath.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..oath
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

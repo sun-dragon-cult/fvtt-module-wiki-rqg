@@ -1,4 +1,4 @@
-name: ${{rqgCompendiumContent.hitLocation.wyvern.tail}}$
+name: §_rqgCompendiumContent.hitLocation.wyvern.tail_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -16,10 +16,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.tail
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.wyvern.rightLeg}}$
+name: §_rqgCompendiumContent.hitLocation.wyvern.rightLeg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -37,10 +37,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.right-leg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.wyvern.leftLeg}}$
+name: §_rqgCompendiumContent.hitLocation.wyvern.leftLeg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -58,10 +58,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.left-leg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.wyvern.abdomen}}$
+name: §_rqgCompendiumContent.hitLocation.wyvern.abdomen_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -79,10 +79,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.abdomen
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.wyvern.chest}}$
+name: §_rqgCompendiumContent.hitLocation.wyvern.chest_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -100,10 +100,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.chest
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.wyvern.rightWing}}$
+name: §_rqgCompendiumContent.hitLocation.wyvern.rightWing_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -121,10 +121,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.right-wing
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.wyvern.leftWing}}$
+name: §_rqgCompendiumContent.hitLocation.wyvern.leftWing_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -142,10 +142,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.left-wing
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.wyvern.head}}$
+name: §_rqgCompendiumContent.hitLocation.wyvern.head_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -163,5 +163,5 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.head
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

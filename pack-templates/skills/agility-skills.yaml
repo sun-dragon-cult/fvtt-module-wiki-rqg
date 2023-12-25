@@ -1,93 +1,93 @@
 # boat
-name: ${{rqgCompendiumContent.skill.boat.skillName}}$
+name: §_rqgCompendiumContent.skill.boat.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/boat.svg
 system:
   category: agility
-  skillName: ${{rqgCompendiumContent.skill.boat.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.boat.skillName_§
   specialization:
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..boat
-    name: ${{rqgCompendiumContent.skill.boat.skillName}}$
+    name: §_rqgCompendiumContent.skill.boat.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.boat
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # climb
-name: ${{rqgCompendiumContent.skill.climb.skillName}}$
+name: §_rqgCompendiumContent.skill.climb.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/climb.svg
 system:
   category: agility
-  skillName: ${{rqgCompendiumContent.skill.climb.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.climb.skillName_§
   specialization:
   baseChance: 40
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..climb
-    name: ${{rqgCompendiumContent.skill.climb.skillName}}$
+    name: §_rqgCompendiumContent.skill.climb.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.climb
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # dodge
-name: ${{rqgCompendiumContent.skill.dodge.skillName}}$
+name: §_rqgCompendiumContent.skill.dodge.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/dodge.svg
 system:
   category: agility
-  skillName: ${{rqgCompendiumContent.skill.dodge.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.dodge.skillName_§
   specialization:
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..dodge
-    name: ${{rqgCompendiumContent.skill.dodge.skillName}}$
+    name: §_rqgCompendiumContent.skill.dodge.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.dodge
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # drive-chariot
-name: ${{rqgCompendiumContent.skill.driveChariot.skillName}}$
+name: §_rqgCompendiumContent.skill.driveChariot.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/drive.svg
 system:
   category: agility
-  skillName: ${{rqgCompendiumContent.skill.driveChariot.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.driveChariot.skillName_§
   specialization: Chariot
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..drive-chariot
-    name: ${{rqgCompendiumContent.skill.driveChariot.skillName}}$
+    name: §_rqgCompendiumContent.skill.driveChariot.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.drive-chariot
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # jump
-name: ${{rqgCompendiumContent.skill.jump.skillName}}$
+name: §_rqgCompendiumContent.skill.jump.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/jump.svg
 system:
@@ -99,77 +99,77 @@ system:
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..jump
-    name: ${{rqgCompendiumContent.skill.jump.skillName}}$
+    name: §_rqgCompendiumContent.skill.jump.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.jump
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # ride
-name: ${{rqgCompendiumContent.skill.ride.skillName}}$ (...)
+name: §_rqgCompendiumContent.skill.ride.skillName_§ (...)
 type: skill
 img: systems/rqg/assets/images/skills/ride.svg
 system:
   category: agility
-  skillName: ${{rqgCompendiumContent.skill.ride.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.ride.skillName_§
   specialization: "..."
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..ride
-    name: ${{rqgCompendiumContent.skill.ride.skillName}}$
+    name: §_rqgCompendiumContent.skill.ride.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.ride
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # ski
-name: ${{rqgCompendiumContent.skill.ski.skillName}}$
+name: §_rqgCompendiumContent.skill.ski.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/ski.svg
 system:
   category: agility
-  skillName: ${{rqgCompendiumContent.skill.ski.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.ski.skillName_§
   specialization:
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..ski
-    name: ${{rqgCompendiumContent.skill.ski.skillName}}$
+    name: §_rqgCompendiumContent.skill.ski.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.ski
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # swim
-name: ${{rqgCompendiumContent.skill.swim.skillName}}$
+name: §_rqgCompendiumContent.skill.swim.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/swim.svg
 system:
   category: agility
-  skillName: ${{rqgCompendiumContent.skill.swim.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.swim.skillName_§
   specialization:
   baseChance: 15
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..swim
-    name: ${{rqgCompendiumContent.skill.swim.skillName}}$
+    name: §_rqgCompendiumContent.skill.swim.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.swim
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§

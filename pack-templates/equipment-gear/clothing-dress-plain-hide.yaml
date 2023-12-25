@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.clothesDressHidePlain}}$
+name: §_rqgCompendiumContent.equipment.gear.clothesDressHidePlain_§
 type: gear
 img: systems/rqg/assets/images/gear/dress.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.plain-hide-dress
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.clothesDressHidePlainDescription}}$
+  description: §_rqgCompendiumContent.equipment.gear.clothesDressHidePlainDescription_§
   gmNotes:
   quantity: 1
   price:

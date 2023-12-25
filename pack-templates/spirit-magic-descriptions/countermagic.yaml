@@ -1,7 +1,7 @@
 # countermagic
-name: ${{rqgCompendiumContent.spiritMagic.countermagic.name}}$
+name: §_rqgCompendiumContent.spiritMagic.countermagic.name_§
 pages:
-  - name: ${{rqgCompendiumContent.spiritMagic.countermagic.name}}$
+  - name: §_rqgCompendiumContent.spiritMagic.countermagic.name_§
     type: text
     title:
       show: false
@@ -9,13 +9,13 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.spiritMagicDescription.title}}$
-        ${{rqgCompendiumContent.spiritMagic.countermagic.description}}$
+        §_rqgCompendiumContent.journalEntryType.spiritMagicDescription.title_§
+        §_rqgCompendiumContent.spiritMagic.countermagic.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..countermagic
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.jewelryNecklaceGoldBeaded}}$
+name: §_rqgCompendiumContent.equipment.gear.jewelryNecklaceGoldBeaded_§
 type: gear
 img: systems/rqg/assets/images/gear/pearl-necklace.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.beaded-gold-necklace
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.jewelryNecklaceGoldBeadedDescription}}$
+  description: §_rqgCompendiumContent.equipment.gear.jewelryNecklaceGoldBeadedDescription_§
   gmNotes:
   quantity: 1
   price:

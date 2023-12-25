@@ -1,147 +1,147 @@
-name: ${{rqgCompendiumContent.rune.beast}}$ (${{rqgCompendiumContent.runeType.form}}$)
+name: §_rqgCompendiumContent.rune.beast_§ (§_rqgCompendiumContent.runeType.form_§)
 type: rune
 img: systems/rqg/assets/images/runes/beast.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.beast}}$
+  rune: §_rqgCompendiumContent.rune.beast_§
   chance: 50
   hasExperience: false
   runeType:
     type: form
-    name: ${{rqgCompendiumContent.runeType.form}}$
+    name: §_rqgCompendiumContent.runeType.form_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.man-form
-    name: ${{rqgCompendiumContent.rune.man}}$ (${{rqgCompendiumContent.runeType.form}}$)
+    name: §_rqgCompendiumContent.rune.man_§ (§_rqgCompendiumContent.runeType.form_§)
   descriptionRqidLink:
     rqid: je..beast-form
-    name: ${{rqgCompendiumContent.rune.beast}}$
+    name: §_rqgCompendiumContent.rune.beast_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.beast-form
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.chaos}}$ (${{rqgCompendiumContent.runeType.form}}$)
+name: §_rqgCompendiumContent.rune.chaos_§ (§_rqgCompendiumContent.runeType.form_§)
 type: rune
 img: systems/rqg/assets/images/runes/chaos.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.chaos}}$
+  rune: §_rqgCompendiumContent.rune.chaos_§
   chance: 50
   hasExperience: false
   runeType:
     type: form
-    name: ${{rqgCompendiumContent.runeType.form}}$
+    name: §_rqgCompendiumContent.runeType.form_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..chaos-form
-    name: ${{rqgCompendiumContent.rune.chaos}}$
+    name: §_rqgCompendiumContent.rune.chaos_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.chaos-form
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.dragonewt}}$ (${{rqgCompendiumContent.runeType.form}}$)
+name: §_rqgCompendiumContent.rune.dragonewt_§ (§_rqgCompendiumContent.runeType.form_§)
 type: rune
 img: systems/rqg/assets/images/runes/dragonewt.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.dragonewt}}$
+  rune: §_rqgCompendiumContent.rune.dragonewt_§
   chance: 50
   hasExperience: false
   runeType:
     type: form
-    name: ${{rqgCompendiumContent.runeType.form}}$
+    name: §_rqgCompendiumContent.runeType.form_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..dragonewt-form
-    name: ${{rqgCompendiumContent.rune.dragonewt}}$
+    name: §_rqgCompendiumContent.rune.dragonewt_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.dragonewt-form
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.man}}$ (${{rqgCompendiumContent.runeType.form}}$)
+name: §_rqgCompendiumContent.rune.man_§ (§_rqgCompendiumContent.runeType.form_§)
 type: rune
 img: systems/rqg/assets/images/runes/man.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.man}}$
+  rune: §_rqgCompendiumContent.rune.man_§
   chance: 50
   hasExperience: false
   runeType:
     type: form
-    name: ${{rqgCompendiumContent.runeType.form}}$
+    name: §_rqgCompendiumContent.runeType.form_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.beast-form
-    name: ${{rqgCompendiumContent.rune.beast}}$ (${{rqgCompendiumContent.runeType.form}}$)
+    name: §_rqgCompendiumContent.rune.beast_§ (§_rqgCompendiumContent.runeType.form_§)
   descriptionRqidLink:
     rqid: je..man-form
-    name: ${{rqgCompendiumContent.rune.man}}$
+    name: §_rqgCompendiumContent.rune.man_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.man-form
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.plant}}$ (${{rqgCompendiumContent.runeType.form}}$)
+name: §_rqgCompendiumContent.rune.plant_§ (§_rqgCompendiumContent.runeType.form_§)
 type: rune
 img: systems/rqg/assets/images/runes/plant.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.plant}}$
+  rune: §_rqgCompendiumContent.rune.plant_§
   chance: 50
   hasExperience: false
   runeType:
     type: form
-    name: ${{rqgCompendiumContent.runeType.form}}$
+    name: §_rqgCompendiumContent.runeType.form_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink: {}
   descriptionRqidLink:
     rqid: je..plant-form
-    name: ${{rqgCompendiumContent.rune.plant}}$
+    name: §_rqgCompendiumContent.rune.plant_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.plant-form
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.spirit}}$ (${{rqgCompendiumContent.runeType.form}}$)
+name: §_rqgCompendiumContent.rune.spirit_§ (§_rqgCompendiumContent.runeType.form_§)
 type: rune
 img: systems/rqg/assets/images/runes/spirit.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.spirit}}$
+  rune: §_rqgCompendiumContent.rune.spirit_§
   chance: 50
   hasExperience: false
   runeType:
     type: form
-    name: ${{rqgCompendiumContent.runeType.form}}$
+    name: §_rqgCompendiumContent.runeType.form_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..spirit-form
-    name: ${{rqgCompendiumContent.rune.spirit}}$
+    name: §_rqgCompendiumContent.rune.spirit_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.spirit-form
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.jewelryRingBronzeSimple}}$
+name: §_rqgCompendiumContent.equipment.gear.jewelryRingBronzeSimple_§
 type: gear
 img: systems/rqg/assets/images/gear/ring.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.simple-bronze-ring
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.jewelryRingBronzeSimpleDescription}}$
+  description: §_rqgCompendiumContent.equipment.gear.jewelryRingBronzeSimpleDescription_§
   gmNotes:
   quantity: 1
   price:

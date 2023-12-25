@@ -1,11 +1,11 @@
 # true-sword
-name: ${{rqgCompendiumContent.runeMagic.trueSword.name}}$
+name: §_rqgCompendiumContent.runeMagic.trueSword.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.death-power
-      name: ${{rqgCompendiumContent.rune.death}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.death_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 1
   castingRange: touch
   duration: temporal
@@ -14,11 +14,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..true-sword
-    name: ${{rqgCompendiumContent.runeMagic.trueSword.name}}$
+    name: §_rqgCompendiumContent.runeMagic.trueSword.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.true-sword
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

@@ -1,11 +1,11 @@
 # reconstruction
-name: ${{rqgCompendiumContent.runeMagic.reconstruction.name}}$
+name: §_rqgCompendiumContent.runeMagic.reconstruction.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.truth-power
-      name: ${{rqgCompendiumContent.rune.truth}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.truth_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 3
   castingRange: ranged
   duration: temporal
@@ -14,11 +14,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..reconstruction
-    name: ${{rqgCompendiumContent.runeMagic.reconstruction.name}}$
+    name: §_rqgCompendiumContent.runeMagic.reconstruction.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.reconstruction
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

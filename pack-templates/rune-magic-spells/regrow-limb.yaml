@@ -1,15 +1,15 @@
 # regrowLimb
-name: ${{rqgCompendiumContent.runeMagic.regrowLimb.name}}$
+name: §_rqgCompendiumContent.runeMagic.regrowLimb.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.fertility-power
-      name: ${{rqgCompendiumContent.rune.fertility}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.fertility_§ (§_rqgCompendiumContent.runeType.power_§)
     - rqid: i.rune.movement-power
-      name: ${{rqgCompendiumContent.rune.movement}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.movement_§ (§_rqgCompendiumContent.runeType.power_§)
     - rqid: i.rune.moon-element
-      name: ${{rqgCompendiumContent.rune.moon}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.moon_§ (§_rqgCompendiumContent.runeType.element_§)
   points: 2
   castingRange: touch
   duration: permanent
@@ -18,11 +18,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..regrow-limb
-    name: ${{rqgCompendiumContent.runeMagic.regrowLimb.name}}$
+    name: §_rqgCompendiumContent.runeMagic.regrowLimb.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.regrow-limb
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

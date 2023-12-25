@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.drinkMeadHorn}}$
+name: §_rqgCompendiumContent.equipment.gear.drinkMeadHorn_§
 type: gear
 img: systems/rqg/assets/images/gear/beer-horn.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.horn-of-mead
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.drinkMeadHornDescription}}$
+  description: §_rqgCompendiumContent.equipment.gear.drinkMeadHornDescription_§
   gmNotes:
   quantity: 1
   price:

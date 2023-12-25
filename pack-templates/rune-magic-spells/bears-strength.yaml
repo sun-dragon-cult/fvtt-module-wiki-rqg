@@ -1,11 +1,11 @@
 # bears-strength
-name: ${{rqgCompendiumContent.runeMagic.bearsStrength.name}}$
+name: §_rqgCompendiumContent.runeMagic.bearsStrength.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.beast-form
-      name: ${{rqgCompendiumContent.rune.beast}}$ (${{rqgCompendiumContent.runeType.form}}$)
+      name: §_rqgCompendiumContent.rune.beast_§ (§_rqgCompendiumContent.runeType.form_§)
   points: 2
   castingRange: touch
   duration: temporal
@@ -14,11 +14,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..bears-strength
-    name: ${{rqgCompendiumContent.runeMagic.bearsStrength.name}}$
+    name: §_rqgCompendiumContent.runeMagic.bearsStrength.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.bears-strength
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

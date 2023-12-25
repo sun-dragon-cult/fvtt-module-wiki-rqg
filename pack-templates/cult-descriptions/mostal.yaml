@@ -1,7 +1,7 @@
 # mostal
-name: ${{rqgCompendiumContent.cult.mostal.name}}$
+name: §_rqgCompendiumContent.cult.mostal.name_§
 pages:
-  - name: ${{rqgCompendiumContent.cult.mostal.name}}$
+  - name: §_rqgCompendiumContent.cult.mostal.name_§
     type: text
     title:
       show: false
@@ -9,17 +9,17 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.cultDescription.title}}$
-        <h2>${{rqgCompendiumContent.cult.mostal.name}}$, ${{rqgCompendiumContent.cult.mostal.tagline}}$</h2>
+        §_rqgCompendiumContent.journalEntryType.cultDescription.title_§
+        <h2>§_rqgCompendiumContent.cult.mostal.name_§, §_rqgCompendiumContent.cult.mostal.tagline_§</h2>
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/stasis.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/earth.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/stasis.svg" height="70">
-        ${{rqgCompendiumContent.cult.mostal.descriptionHtml}}$
+        §_rqgCompendiumContent.cult.mostal.descriptionHtml_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..mostal
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

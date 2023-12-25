@@ -1,11 +1,11 @@
 # multispell
-name: ${{rqgCompendiumContent.runeMagic.multispell.name}}$
+name: §_rqgCompendiumContent.runeMagic.multispell.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.magic-condition
-      name: ${{rqgCompendiumContent.rune.magic}}$ (${{rqgCompendiumContent.runeType.condition}}$)
+      name: §_rqgCompendiumContent.rune.magic_§ (§_rqgCompendiumContent.runeType.condition_§)
   points: 1
   castingRange: self
   duration: temporal
@@ -14,11 +14,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..multispell
-    name: ${{rqgCompendiumContent.runeMagic.multispell.name}}$
+    name: §_rqgCompendiumContent.runeMagic.multispell.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.multispell
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

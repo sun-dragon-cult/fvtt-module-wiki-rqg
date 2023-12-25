@@ -1,173 +1,173 @@
 # These "basic" passions exist for including on NPCs and other actors with the intention of overriding
 # "subject" to something specific.
 ---
-name: ${{uiContent.RQG.Item.Passion.PassionEnum.Ambition}}$
+name: §_uiContent.RQG.Item.Passion.PassionEnum.Ambition_§
 type: passion
 img: systems/rqg/assets/images/passion/ambition.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.passion.ambition-base
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 system:
   canGetExperience: true
   chance: 60
   description: ""
   gmNotes: ""
   hasExperience: false
-  passion: ${{uiContent.RQG.Item.Passion.PassionEnum.Ambition}}$
+  passion: §_uiContent.RQG.Item.Passion.PassionEnum.Ambition_§
   subject: null
 effects: []
 ---
-name: ${{uiContent.RQG.Item.Passion.PassionEnum.Cowardly}}$
+name: §_uiContent.RQG.Item.Passion.PassionEnum.Cowardly_§
 type: passion
 img: systems/rqg/assets/images/passion/cowardly.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.passion.cowardly-base
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 system:
   canGetExperience: true
   chance: 60
   description: ""
   gmNotes: ""
   hasExperience: false
-  passion: ${{uiContent.RQG.Item.Passion.PassionEnum.Cowardly}}$
+  passion: §_uiContent.RQG.Item.Passion.PassionEnum.Cowardly_§
   subject: null
 effects: []
 ---
-name: ${{uiContent.RQG.Item.Passion.PassionEnum.Devotion}}$
+name: §_uiContent.RQG.Item.Passion.PassionEnum.Devotion_§
 type: passion
 img: systems/rqg/assets/images/passion/devotion.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.passion.devotion-base
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 system:
   canGetExperience: true
   chance: 60
   description: ""
   gmNotes: ""
   hasExperience: false
-  passion: ${{uiContent.RQG.Item.Passion.PassionEnum.Devotion}}$
+  passion: §_uiContent.RQG.Item.Passion.PassionEnum.Devotion_§
   subject: null
 effects: []
 ---
-name: ${{uiContent.RQG.Item.Passion.PassionEnum.Fear}}$
+name: §_uiContent.RQG.Item.Passion.PassionEnum.Fear_§
 type: passion
 img: systems/rqg/assets/images/passion/fear.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.passion.fear-base
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 system:
   canGetExperience: true
   chance: 60
   description: ""
   gmNotes: ""
   hasExperience: false
-  passion: ${{uiContent.RQG.Item.Passion.PassionEnum.Fear}}$
+  passion: §_uiContent.RQG.Item.Passion.PassionEnum.Fear_§
   subject: null
 effects: []
 ---
-name: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$
+name: §_uiContent.RQG.Item.Passion.PassionEnum.Hate_§
 type: passion
 img: systems/rqg/assets/images/passion/hate.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.passion.hate-base
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 system:
   canGetExperience: true
   chance: 60
   description: ""
   gmNotes: ""
   hasExperience: false
-  passion: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$
+  passion: §_uiContent.RQG.Item.Passion.PassionEnum.Hate_§
   subject: null
 effects: []
 ---
-name: ${{uiContent.RQG.Item.Passion.PassionEnum.Honor}}$
+name: §_uiContent.RQG.Item.Passion.PassionEnum.Honor_§
 type: passion
 img: systems/rqg/assets/images/passion/honor.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.passion.honor-base
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 system:
   canGetExperience: true
   chance: 60
   description: ""
   gmNotes: ""
   hasExperience: false
-  passion: ${{uiContent.RQG.Item.Passion.PassionEnum.Honor}}$
+  passion: §_uiContent.RQG.Item.Passion.PassionEnum.Honor_§
   subject: null
 effects: []
 ---
-name: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$
+name: §_uiContent.RQG.Item.Passion.PassionEnum.Loyalty_§
 type: passion
 img: systems/rqg/assets/images/passion/loyalty.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.passion.loyalty-base
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 system:
   canGetExperience: true
   chance: 60
   description: ""
   gmNotes: ""
   hasExperience: false
-  passion: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$
+  passion: §_uiContent.RQG.Item.Passion.PassionEnum.Loyalty_§
   subject: null
 effects: []
 ---
-name: ${{uiContent.RQG.Item.Passion.PassionEnum.Love}}$
+name: §_uiContent.RQG.Item.Passion.PassionEnum.Love_§
 type: passion
 img: systems/rqg/assets/images/passion/loyalty.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.passion.love-base
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 system:
   canGetExperience: true
   chance: 60
   description: ""
   gmNotes: ""
   hasExperience: false
-  passion: ${{uiContent.RQG.Item.Passion.PassionEnum.Love}}$
+  passion: §_uiContent.RQG.Item.Passion.PassionEnum.Love_§
   subject: null
 effects: []
 ---
-name: ${{uiContent.RQG.Item.Passion.PassionEnum.Gluttony}}$
+name: §_uiContent.RQG.Item.Passion.PassionEnum.Gluttony_§
 type: passion
 img: systems/rqg/assets/images/passion/loyalty.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.passion.gluttony-base
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 system:
   canGetExperience: true
   chance: 60
   description: ""
   gmNotes: ""
   hasExperience: false
-  passion: ${{uiContent.RQG.Item.Passion.PassionEnum.Gluttony}}$
+  passion: §_uiContent.RQG.Item.Passion.PassionEnum.Gluttony_§
   subject: null
 effects: []

@@ -1,423 +1,423 @@
-name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/air.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.air}}$
+  rune: §_rqgCompendiumContent.rune.air_§
   chance: 0
   hasExperience: false
   runeType:
     type: element
-    name: ${{rqgCompendiumContent.runeType.element}}$
+    name: §_rqgCompendiumContent.runeType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.darkness-element
-      name: ${{rqgCompendiumContent.rune.darkness}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.darkness_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.water-element
-      name: ${{rqgCompendiumContent.rune.water}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.water_§ (§_rqgCompendiumContent.runeType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..air-element
-    name: ${{rqgCompendiumContent.rune.air}}$
+    name: §_rqgCompendiumContent.rune.air_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.air-element
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.darkness}}$ (${{rqgCompendiumContent.runeType.element}}$)
+name: §_rqgCompendiumContent.rune.darkness_§ (§_rqgCompendiumContent.runeType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/darkness.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.darkness}}$
+  rune: §_rqgCompendiumContent.rune.darkness_§
   chance: 0
   hasExperience: false
   runeType:
     type: element
-    name: ${{rqgCompendiumContent.runeType.element}}$
+    name: §_rqgCompendiumContent.runeType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.earth-element
-      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.air-element
-      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..darkness-element
-    name: ${{rqgCompendiumContent.rune.darkness}}$
+    name: §_rqgCompendiumContent.rune.darkness_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.darkness-element
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/earth.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.earth}}$
+  rune: §_rqgCompendiumContent.rune.earth_§
   chance: 0
   hasExperience: false
   runeType:
     type: element
-    name: ${{rqgCompendiumContent.runeType.element}}$
+    name: §_rqgCompendiumContent.runeType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.air-element
-      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.darkness-element
-      name: ${{rqgCompendiumContent.rune.darkness}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.darkness_§ (§_rqgCompendiumContent.runeType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..earth-element
-    name: ${{rqgCompendiumContent.rune.earth}}$
+    name: §_rqgCompendiumContent.rune.earth_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.earth-element
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.fireSky}}$ (${{rqgCompendiumContent.runeType.element}}$)
+name: §_rqgCompendiumContent.rune.fireSky_§ (§_rqgCompendiumContent.runeType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/fire_sky.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.fireSky}}$
+  rune: §_rqgCompendiumContent.rune.fireSky_§
   chance: 0
   hasExperience: false
   runeType:
     type: element
-    name: ${{rqgCompendiumContent.runeType.element}}$
+    name: §_rqgCompendiumContent.runeType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.water-element
-      name: ${{rqgCompendiumContent.rune.water}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.water_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.earth-element
-      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..fire-sky-element
-    name: ${{rqgCompendiumContent.rune.fireSky}}$
+    name: §_rqgCompendiumContent.rune.fireSky_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.fire-sky-element
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.moon}}$ (${{rqgCompendiumContent.runeType.element}}$)
+name: §_rqgCompendiumContent.rune.moon_§ (§_rqgCompendiumContent.runeType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/moon_full.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.moon}}$
+  rune: §_rqgCompendiumContent.rune.moon_§
   chance: 0
   hasExperience: false
   runeType:
     type: element
-    name: ${{rqgCompendiumContent.runeType.element}}$
+    name: §_rqgCompendiumContent.runeType.element_§
   isMastered: false
   minorRuneRqidLinks:
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..moon-element
-    name: ${{rqgCompendiumContent.rune.moon}}$
+    name: §_rqgCompendiumContent.rune.moon_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.moon-element
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.water}}$ (${{rqgCompendiumContent.runeType.element}}$)
+name: §_rqgCompendiumContent.rune.water_§ (§_rqgCompendiumContent.runeType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/water.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.water}}$
+  rune: §_rqgCompendiumContent.rune.water_§
   chance: 0
   hasExperience: false
   runeType:
     type: element
-    name: ${{rqgCompendiumContent.runeType.element}}$
+    name: §_rqgCompendiumContent.runeType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.earth-element
-      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.air-element
-      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..water-element
-    name: ${{rqgCompendiumContent.rune.water}}$
+    name: §_rqgCompendiumContent.rune.water_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.water-element
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.beast}}$ (${{rqgCompendiumContent.runeType.form}}$)
+name: §_rqgCompendiumContent.rune.beast_§ (§_rqgCompendiumContent.runeType.form_§)
 type: rune
 img: systems/rqg/assets/images/runes/beast.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.beast}}$
+  rune: §_rqgCompendiumContent.rune.beast_§
   chance: 50
   hasExperience: false
   runeType:
     type: form
-    name: ${{rqgCompendiumContent.runeType.form}}$
+    name: §_rqgCompendiumContent.runeType.form_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.man-form
-    name: ${{rqgCompendiumContent.rune.man}}$ (${{rqgCompendiumContent.runeType.form}}$)
+    name: §_rqgCompendiumContent.rune.man_§ (§_rqgCompendiumContent.runeType.form_§)
   descriptionRqidLink:
     rqid: je..beast-form
-    name: ${{rqgCompendiumContent.rune.beast}}$
+    name: §_rqgCompendiumContent.rune.beast_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.beast-form
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.man}}$ (${{rqgCompendiumContent.runeType.form}}$)
+name: §_rqgCompendiumContent.rune.man_§ (§_rqgCompendiumContent.runeType.form_§)
 type: rune
 img: systems/rqg/assets/images/runes/man.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.man}}$
+  rune: §_rqgCompendiumContent.rune.man_§
   chance: 50
   hasExperience: false
   runeType:
     type: form
-    name: ${{rqgCompendiumContent.runeType.form}}$
+    name: §_rqgCompendiumContent.runeType.form_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.beast-form
-    name: ${{rqgCompendiumContent.rune.beast}}$ (${{rqgCompendiumContent.runeType.form}}$)
+    name: §_rqgCompendiumContent.rune.beast_§ (§_rqgCompendiumContent.runeType.form_§)
   descriptionRqidLink:
     rqid: je..man-form
-    name: ${{rqgCompendiumContent.rune.man}}$
+    name: §_rqgCompendiumContent.rune.man_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.man-form
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.death}}$ (${{rqgCompendiumContent.runeType.power}}$)
+name: §_rqgCompendiumContent.rune.death_§ (§_rqgCompendiumContent.runeType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/death.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.death}}$
+  rune: §_rqgCompendiumContent.rune.death_§
   chance: 50
   hasExperience: false
   runeType:
     type: power
-    name: ${{rqgCompendiumContent.runeType.power}}$
+    name: §_rqgCompendiumContent.runeType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.fertility-power
-    name: ${{rqgCompendiumContent.rune.fertility}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    name: §_rqgCompendiumContent.rune.fertility_§ (§_rqgCompendiumContent.runeType.power_§)
   descriptionRqidLink:
     rqid: je..death-power
-    name: ${{rqgCompendiumContent.rune.death}}$
+    name: §_rqgCompendiumContent.rune.death_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.death-power
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.disorder}}$ (${{rqgCompendiumContent.runeType.power}}$)
+name: §_rqgCompendiumContent.rune.disorder_§ (§_rqgCompendiumContent.runeType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/disorder.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.disorder}}$
+  rune: §_rqgCompendiumContent.rune.disorder_§
   chance: 50
   hasExperience: false
   runeType:
     type: power
-    name: ${{rqgCompendiumContent.runeType.power}}$
+    name: §_rqgCompendiumContent.runeType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.harmony-power
-    name: ${{rqgCompendiumContent.rune.harmony}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    name: §_rqgCompendiumContent.rune.harmony_§ (§_rqgCompendiumContent.runeType.power_§)
   descriptionRqidLink:
     rqid: je..disorder-power
-    name: ${{rqgCompendiumContent.rune.disorder}}$
+    name: §_rqgCompendiumContent.rune.disorder_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.disorder-power
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.fertility}}$ (${{rqgCompendiumContent.runeType.power}}$)
+name: §_rqgCompendiumContent.rune.fertility_§ (§_rqgCompendiumContent.runeType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/fertility.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.fertility}}$
+  rune: §_rqgCompendiumContent.rune.fertility_§
   chance: 50
   hasExperience: false
   runeType:
     type: power
-    name: ${{rqgCompendiumContent.runeType.power}}$
+    name: §_rqgCompendiumContent.runeType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.death-power
-    name: ${{rqgCompendiumContent.rune.death}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    name: §_rqgCompendiumContent.rune.death_§ (§_rqgCompendiumContent.runeType.power_§)
   descriptionRqidLink:
     rqid: je..fertility-power
-    name: ${{rqgCompendiumContent.rune.fertility}}$
+    name: §_rqgCompendiumContent.rune.fertility_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.fertility-power
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.harmony}}$ (${{rqgCompendiumContent.runeType.power}}$)
+name: §_rqgCompendiumContent.rune.harmony_§ (§_rqgCompendiumContent.runeType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/harmony.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.harmony}}$
+  rune: §_rqgCompendiumContent.rune.harmony_§
   chance: 50
   hasExperience: false
   runeType:
     type: power
-    name: ${{rqgCompendiumContent.runeType.power}}$
+    name: §_rqgCompendiumContent.runeType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.disorder-power
-    name: ${{rqgCompendiumContent.rune.disorder}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    name: §_rqgCompendiumContent.rune.disorder_§ (§_rqgCompendiumContent.runeType.power_§)
   descriptionRqidLink:
     rqid: je..harmony-power
-    name: ${{rqgCompendiumContent.rune.harmony}}$
+    name: §_rqgCompendiumContent.rune.harmony_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.harmony-power
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.illusion}}$ (${{rqgCompendiumContent.runeType.power}}$)
+name: §_rqgCompendiumContent.rune.illusion_§ (§_rqgCompendiumContent.runeType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/illusion.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.illusion}}$
+  rune: §_rqgCompendiumContent.rune.illusion_§
   chance: 50
   hasExperience: false
   runeType:
     type: power
-    name: ${{rqgCompendiumContent.runeType.power}}$
+    name: §_rqgCompendiumContent.runeType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.truth-power
-    name: ${{rqgCompendiumContent.rune.truth}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    name: §_rqgCompendiumContent.rune.truth_§ (§_rqgCompendiumContent.runeType.power_§)
   descriptionRqidLink:
     rqid: je..illusion-power
-    name: ${{rqgCompendiumContent.rune.illusion}}$
+    name: §_rqgCompendiumContent.rune.illusion_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.illusion-power
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.movement}}$ (${{rqgCompendiumContent.runeType.power}}$)
+name: §_rqgCompendiumContent.rune.movement_§ (§_rqgCompendiumContent.runeType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/movement_change.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.movement}}$
+  rune: §_rqgCompendiumContent.rune.movement_§
   chance: 50
   hasExperience: false
   runeType:
     type: power
-    name: ${{rqgCompendiumContent.runeType.power}}$
+    name: §_rqgCompendiumContent.runeType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.stasis-power
-    name: ${{rqgCompendiumContent.rune.stasis}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    name: §_rqgCompendiumContent.rune.stasis_§ (§_rqgCompendiumContent.runeType.power_§)
   descriptionRqidLink:
     rqid: je..movement-power
-    name: ${{rqgCompendiumContent.rune.movement}}$
+    name: §_rqgCompendiumContent.rune.movement_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.movement-power
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.stasis}}$ (${{rqgCompendiumContent.runeType.power}}$)
+name: §_rqgCompendiumContent.rune.stasis_§ (§_rqgCompendiumContent.runeType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/stasis.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.stasis}}$
+  rune: §_rqgCompendiumContent.rune.stasis_§
   chance: 50
   hasExperience: false
   runeType:
     type: power
-    name: ${{rqgCompendiumContent.runeType.power}}$
+    name: §_rqgCompendiumContent.runeType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.movement-power
-    name: ${{rqgCompendiumContent.rune.movement}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    name: §_rqgCompendiumContent.rune.movement_§ (§_rqgCompendiumContent.runeType.power_§)
   descriptionRqidLink:
     rqid: je..stasis-power
-    name: ${{rqgCompendiumContent.rune.stasis}}$
+    name: §_rqgCompendiumContent.rune.stasis_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.stasis-power
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1
 ---
-name: ${{rqgCompendiumContent.rune.truth}}$ (${{rqgCompendiumContent.runeType.power}}$)
+name: §_rqgCompendiumContent.rune.truth_§ (§_rqgCompendiumContent.runeType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/truth.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.truth}}$
+  rune: §_rqgCompendiumContent.rune.truth_§
   chance: 50
   hasExperience: false
   runeType:
     type: power
-    name: ${{rqgCompendiumContent.runeType.power}}$
+    name: §_rqgCompendiumContent.runeType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.illusion-power
-    name: ${{rqgCompendiumContent.rune.illusion}}$ (${{rqgCompendiumContent.runeType.power}}$)
+    name: §_rqgCompendiumContent.rune.illusion_§ (§_rqgCompendiumContent.runeType.power_§)
   descriptionRqidLink:
     rqid: je..truth-power
-    name: ${{rqgCompendiumContent.rune.truth}}$
+    name: §_rqgCompendiumContent.rune.truth_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.truth-power
-      lang: ${{rqgCompendiumContent.lang}}$
+      lang: §_rqgCompendiumContent.lang_§
       priority: -1

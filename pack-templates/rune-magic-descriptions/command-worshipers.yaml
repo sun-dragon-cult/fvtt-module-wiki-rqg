@@ -1,7 +1,7 @@
 # command-worshipers
-name: ${{rqgCompendiumContent.runeMagic.commandWorshipers.name}}$
+name: §_rqgCompendiumContent.runeMagic.commandWorshipers.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeMagic.commandWorshipers.name}}$
+  - name: §_rqgCompendiumContent.runeMagic.commandWorshipers.name_§
     type: text
     title:
       show: false
@@ -9,14 +9,14 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeMagicDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeMagicDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/air.svg" height="70">
-        ${{rqgCompendiumContent.runeMagic.commandWorshipers.description}}$
+        §_rqgCompendiumContent.runeMagic.commandWorshipers.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..command-worshipers
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

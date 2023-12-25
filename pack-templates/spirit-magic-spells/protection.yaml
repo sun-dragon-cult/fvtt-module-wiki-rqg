@@ -1,5 +1,5 @@
 # protection
-name: ${{rqgCompendiumContent.spiritMagic.protection.name}}$
+name: §_rqgCompendiumContent.spiritMagic.protection.name_§
 type: spiritMagic
 img: systems/rqg/assets/images/items/spirit-magic.svg
 system:
@@ -10,11 +10,11 @@ system:
   concentration: passive
   descriptionRqidLink:
     rqid: je..protection
-    name: ${{rqgCompendiumContent.spiritMagic.protection.name}}$
+    name: §_rqgCompendiumContent.spiritMagic.protection.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.spirit-magic.protection
-      lang: ${openSystem.lang}}$
-      priority: ${openSystem.prio}}$
+      lang: ${openSystem.lang_§
+      priority: ${openSystem.prio_§

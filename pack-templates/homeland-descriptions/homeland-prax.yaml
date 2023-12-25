@@ -27,5 +27,5 @@ flags:
   rqg:
     documentRqidFlags:
       id: je..homeland-prax
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

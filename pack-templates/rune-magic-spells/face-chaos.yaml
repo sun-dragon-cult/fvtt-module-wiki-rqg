@@ -1,13 +1,13 @@
 # face-chaos
-name: ${{rqgCompendiumContent.runeMagic.faceChaos.name}}$
+name: §_rqgCompendiumContent.runeMagic.faceChaos.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.air-element
-      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.beast-form
-      name: ${{rqgCompendiumContent.rune.beast}}$ (${{rqgCompendiumContent.runeType.form}}$)
+      name: §_rqgCompendiumContent.rune.beast_§ (§_rqgCompendiumContent.runeType.form_§)
   points: 1
   castingRange: ranged
   duration: temporal
@@ -16,11 +16,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..face-chaos
-    name: ${{rqgCompendiumContent.runeMagic.faceChaos.name}}$
+    name: §_rqgCompendiumContent.runeMagic.faceChaos.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.face-chaos
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

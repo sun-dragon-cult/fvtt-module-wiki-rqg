@@ -1,68 +1,68 @@
 # shield-large
-name: ${{rqgCompendiumContent.weaponSkill.shields.name}}$ (${{rqgCompendiumContent.weaponSkill.shields.specialization.large}}$)
+name: §_rqgCompendiumContent.weaponSkill.shields.name_§ (§_rqgCompendiumContent.weaponSkill.shields.specialization.large_§)
 type: skill
 img: systems/rqg/assets/images/weapons/large-shield.svg
 system:
   category: shields
-  skillName: ${{rqgCompendiumContent.weaponSkill.shields.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.shields.specialization.large}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.shields.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.shields.specialization.large_§
   baseChance: 15
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..shield-weapon
-    name: ${{rqgCompendiumContent.skill.shield.skillName}}$
+    name: §_rqgCompendiumContent.skill.shield.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.shields-large
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # shield-medium
-name: ${{rqgCompendiumContent.weaponSkill.shields.name}}$ (${{rqgCompendiumContent.weaponSkill.shields.specialization.medium}}$)
+name: §_rqgCompendiumContent.weaponSkill.shields.name_§ (§_rqgCompendiumContent.weaponSkill.shields.specialization.medium_§)
 type: skill
 img: systems/rqg/assets/images/weapons/medium-shield.svg
 system:
   category: shields
-  skillName: ${{rqgCompendiumContent.weaponSkill.shields.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.shields.specialization.medium}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.shields.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.shields.specialization.medium_§
   baseChance: 15
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..shield-weapon
-    name: ${{rqgCompendiumContent.skill.shield.skillName}}$
+    name: §_rqgCompendiumContent.skill.shield.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.shields-medium
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # shield-small
-name: ${{rqgCompendiumContent.weaponSkill.shields.name}}$ (${{rqgCompendiumContent.weaponSkill.shields.specialization.small}}$)
+name: §_rqgCompendiumContent.weaponSkill.shields.name_§ (§_rqgCompendiumContent.weaponSkill.shields.specialization.small_§)
 type: skill
 img: systems/rqg/assets/images/weapons/small-shield.svg
 system:
   category: shields
-  skillName: ${{rqgCompendiumContent.weaponSkill.shields.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.shields.specialization.small}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.shields.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.shields.specialization.small_§
   baseChance: 15
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..shield-weapon
-    name: ${{rqgCompendiumContent.skill.shield.skillName}}$
+    name: §_rqgCompendiumContent.skill.shield.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.shields-small
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

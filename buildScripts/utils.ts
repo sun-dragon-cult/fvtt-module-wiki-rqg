@@ -67,28 +67,55 @@ export function isObject(value: unknown): boolean {
 
 export function doTranslation(lang: string, untranslated: unknown[]): unknown[] {
   const dictionary = getDictionary(lang);
+  // Translate any translation keys in the dictionary itself to support for example `see @RQID[i.skill.act]{§_key_§}`
+  const translatedDictionary = replaceTranslationKeys(
+    dictionary,
+    dictionary,
+    lang,
+    "Unable to parse translated dictionary JSON",
+  );
 
-  return untranslated.map((d) => {
-    const translated = JSON.stringify(d).replace(
-      /\$\{\{ ?([\w\-.]+) ?}}\$/g, // search for content keys inside ${{ }}$
-      function (match: string, key: string) {
-        const translation = lookup(dictionary, key);
-        if (translation == null) {
-          console.error(chalk.red(match, "translation key missing in language", lang));
-        }
-        return translation ?? match;
-      },
-    );
-
-    return tryCatch(
-      () => JSON.parse(translated),
-      (e: any) => {
-        console.error(chalk.red(`Unable to parse translated JSON ${translated}\n\n${e.message}`));
-      },
-    );
-  });
+  // Do the translation
+  return untranslated.map((toTranslate) =>
+    replaceTranslationKeys(
+      toTranslate,
+      translatedDictionary,
+      lang,
+      "Unable to parse translated content JSON",
+    ),
+  );
 }
 
+function replaceTranslationKeys<T>(
+  toTranslate: T,
+  dictionary: any,
+  lang: string,
+  maybeJsonParseError: string,
+): T {
+  const stringToTranslate = JSON.stringify(toTranslate);
+
+  if (!stringToTranslate.includes("§_")) {
+    return toTranslate;
+  }
+
+  const translated = stringToTranslate.replace(
+    /§_ *([\w\-.]+) *_§/g, // search for content keys inside §_ _§
+    function (match: string, key: string) {
+      const translation = lookup(dictionary, key);
+      if (translation == null) {
+        console.error(chalk.red(match, "translation key missing in language", lang));
+      }
+      return translation ?? match;
+    },
+  );
+
+  return tryCatch(
+    () => JSON.parse(translated),
+    (e: any) => {
+      console.error(chalk.red(`${maybeJsonParseError}\n\n${translated}\n\n${e.message}`));
+    },
+  );
+}
 /**
  * Translate a key given a dictionary.
  * @return {string} translated text
@@ -96,11 +123,9 @@ export function doTranslation(lang: string, untranslated: unknown[]): unknown[] 
 function lookup(dict: any, key: string): string {
   const keyParts = key.split(".");
 
-  const value = keyParts.reduce(function (acc, keyPart) {
-    return acc[keyPart];
+  return keyParts.reduce(function (acc, keyPart) {
+    return acc?.[keyPart];
   }, dict);
-
-  return value;
 }
 
 function getDictionary(lang: string): any {

@@ -1,21 +1,21 @@
-name: ${{rqgCompendiumContent.weaponSkill.1h-hammers.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-hammers.specialization.warHammer}}$)
+name: §_rqgCompendiumContent.weaponSkill.1h-hammers.name_§ (§_rqgCompendiumContent.weaponSkill.1h-hammers.specialization.warHammer_§)
 type: skill
 img: systems/rqg/assets/images/weapons/1h-warhammer.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.1h-hammers.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.1h-hammers.specialization.warHammer}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.1h-hammers.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.1h-hammers.specialization.warHammer_§
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.1h-hammers-war-hammer
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

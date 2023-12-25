@@ -1,7 +1,7 @@
 # fate
-name: ${{rqgCompendiumContent.runeDescription.fateCondition.name}}$
+name: §_rqgCompendiumContent.runeDescription.fateCondition.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.fateCondition.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.fateCondition.name_§
     type: text
     title:
       show: false
@@ -9,22 +9,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/fate.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.fateCondition.description}}$
+        §_rqgCompendiumContent.runeDescription.fateCondition.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..fate-condition
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # infinity
-name: ${{rqgCompendiumContent.runeDescription.infinityCondition.name}}$
+name: §_rqgCompendiumContent.runeDescription.infinityCondition.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.infinityCondition.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.infinityCondition.name_§
     type: text
     title:
       show: false
@@ -32,22 +32,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/infinity.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.infinityCondition.description}}$
+        §_rqgCompendiumContent.runeDescription.infinityCondition.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..infinity-condition
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # law
-name: ${{rqgCompendiumContent.runeDescription.lawCondition.name}}$
+name: §_rqgCompendiumContent.runeDescription.lawCondition.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.lawCondition.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.lawCondition.name_§
     type: text
     title:
       show: false
@@ -55,22 +55,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/law.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.lawCondition.description}}$
+        §_rqgCompendiumContent.runeDescription.lawCondition.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..law-condition
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # light
-name: ${{rqgCompendiumContent.runeDescription.lightCondition.name}}$
+name: §_rqgCompendiumContent.runeDescription.lightCondition.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.lightCondition.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.lightCondition.name_§
     type: text
     title:
       show: false
@@ -78,22 +78,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/light.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.lightCondition.description}}$
+        §_rqgCompendiumContent.runeDescription.lightCondition.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..light-condition
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # luck
-name: ${{rqgCompendiumContent.runeDescription.luckCondition.name}}$
+name: §_rqgCompendiumContent.runeDescription.luckCondition.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.luckCondition.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.luckCondition.name_§
     type: text
     title:
       show: false
@@ -101,22 +101,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/luck.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.luckCondition.description}}$
+        §_rqgCompendiumContent.runeDescription.luckCondition.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..luck-condition
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # magic
-name: ${{rqgCompendiumContent.runeDescription.magicCondition.name}}$
+name: §_rqgCompendiumContent.runeDescription.magicCondition.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.magicCondition.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.magicCondition.name_§
     type: text
     title:
       show: false
@@ -124,22 +124,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/magic.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.magicCondition.description}}$
+        §_rqgCompendiumContent.runeDescription.magicCondition.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..magic-condition
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # mastery
-name: ${{rqgCompendiumContent.runeDescription.masteryCondition.name}}$
+name: §_rqgCompendiumContent.runeDescription.masteryCondition.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.masteryCondition.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.masteryCondition.name_§
     type: text
     title:
       show: false
@@ -147,14 +147,14 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/mastery.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.masteryCondition.description}}$
+        §_rqgCompendiumContent.runeDescription.masteryCondition.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..mastery-condition
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

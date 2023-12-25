@@ -1,7 +1,7 @@
 # harmony
-name: ${{rqgCompendiumContent.runeMagic.harmony.name}}$
+name: §_rqgCompendiumContent.runeMagic.harmony.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeMagic.harmony.name}}$
+  - name: §_rqgCompendiumContent.runeMagic.harmony.name_§
     type: text
     title:
       show: false
@@ -9,14 +9,14 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeMagicDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeMagicDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/harmony.svg" height="70">
-        ${{rqgCompendiumContent.runeMagic.harmony.description}}$
+        §_rqgCompendiumContent.runeMagic.harmony.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..harmony
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

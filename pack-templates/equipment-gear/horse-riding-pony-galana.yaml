@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.horseRidingPonyGalana}}$
+name: §_rqgCompendiumContent.equipment.gear.horseRidingPonyGalana_§
 type: gear
 img: systems/rqg/assets/images/gear/horse-head.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.galana-pony
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.horseRidingPonyGalanaDescription}}$
+  description: §_rqgCompendiumContent.equipment.gear.horseRidingPonyGalanaDescription_§
   gmNotes:
   quantity: 1
   price:

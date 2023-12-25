@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.ridingSaddle}}$
+name: §_rqgCompendiumContent.equipment.gear.ridingSaddle_§
 type: gear
 img: systems/rqg/assets/images/gear/saddle.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.saddle
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.ridingSaddleDescription}}$
+  description: §_rqgCompendiumContent.equipment.gear.ridingSaddleDescription_§
   gmNotes:
   quantity: 1
   price:

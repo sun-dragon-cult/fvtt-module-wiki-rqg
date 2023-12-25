@@ -1,7 +1,7 @@
 # detect-enemies
-name: ${{rqgCompendiumContent.spiritMagic.detectEnemies.name}}$
+name: §_rqgCompendiumContent.spiritMagic.detectEnemies.name_§
 pages:
-  - name: ${{rqgCompendiumContent.spiritMagic.detectEnemies.name}}$
+  - name: §_rqgCompendiumContent.spiritMagic.detectEnemies.name_§
     type: text
     title:
       show: false
@@ -9,13 +9,13 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.spiritMagicDescription.title}}$
-        ${{rqgCompendiumContent.spiritMagic.detectEnemies.description}}$
+        §_rqgCompendiumContent.journalEntryType.spiritMagicDescription.title_§
+        §_rqgCompendiumContent.spiritMagic.detectEnemies.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..detect-enemies
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

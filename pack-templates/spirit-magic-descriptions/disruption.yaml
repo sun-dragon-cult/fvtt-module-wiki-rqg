@@ -1,7 +1,7 @@
 # disruption
-name: ${{rqgCompendiumContent.spiritMagic.disruption.name}}$
+name: §_rqgCompendiumContent.spiritMagic.disruption.name_§
 pages:
-  - name: ${{rqgCompendiumContent.spiritMagic.disruption.name}}$
+  - name: §_rqgCompendiumContent.spiritMagic.disruption.name_§
     type: text
     title:
       show: false
@@ -9,13 +9,13 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.spiritMagicDescription.title}}$
-        ${{rqgCompendiumContent.spiritMagic.disruption.description}}$
+        §_rqgCompendiumContent.journalEntryType.spiritMagicDescription.title_§
+        §_rqgCompendiumContent.spiritMagic.disruption.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..disruption
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

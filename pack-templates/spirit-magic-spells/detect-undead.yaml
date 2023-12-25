@@ -1,5 +1,5 @@
 # detect-undead
-name: ${{rqgCompendiumContent.spiritMagic.detectUndead.name}}$
+name: §_rqgCompendiumContent.spiritMagic.detectUndead.name_§
 type: spiritMagic
 img: systems/rqg/assets/images/items/spirit-magic.svg
 system:
@@ -10,11 +10,11 @@ system:
   concentration: active
   descriptionRqidLink:
     rqid: je..detect-undead
-    name: ${{rqgCompendiumContent.spiritMagic.detectUndead.name}}$
+    name: §_rqgCompendiumContent.spiritMagic.detectUndead.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.spirit-magic.detect-undead
-      lang: ${openSystem.lang}}$
-      priority: ${openSystem.prio}}$
+      lang: ${openSystem.lang_§
+      priority: ${openSystem.prio_§

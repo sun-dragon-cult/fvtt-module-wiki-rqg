@@ -1,13 +1,13 @@
 # lie
-name: ${{rqgCompendiumContent.runeMagic.lie.name}}$
+name: §_rqgCompendiumContent.runeMagic.lie.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.illusion-power
-      name: ${{rqgCompendiumContent.rune.illusion}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.illusion_§ (§_rqgCompendiumContent.runeType.power_§)
     - rqid: i.rune.disorder-power
-      name: ${{rqgCompendiumContent.rune.disorder}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.disorder_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 2
   castingRange: self
   duration: instant
@@ -16,11 +16,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..lie
-    name: ${{rqgCompendiumContent.runeMagic.lie.name}}$
+    name: §_rqgCompendiumContent.runeMagic.lie.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.lie
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

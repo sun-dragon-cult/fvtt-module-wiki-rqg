@@ -1,45 +1,45 @@
 # 1h-axe-battle-axe
-name: ${{rqgCompendiumContent.weaponSkill.1h-axes.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-axes.specialization.battleAxe}}$)
+name: §_rqgCompendiumContent.weaponSkill.1h-axes.name_§ (§_rqgCompendiumContent.weaponSkill.1h-axes.specialization.battleAxe_§)
 type: skill
 img: systems/rqg/assets/images/weapons/1h-axe.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.1h-axes.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.1h-axes.specialization.battleAxe}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.1h-axes.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.1h-axes.specialization.battleAxe_§
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.1h-axes-battle-axe
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 1h-axe-small-axe
-name: ${{rqgCompendiumContent.weaponSkill.1h-axes.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-axes.specialization.smallAxe}}$)
+name: §_rqgCompendiumContent.weaponSkill.1h-axes.name_§ (§_rqgCompendiumContent.weaponSkill.1h-axes.specialization.smallAxe_§)
 type: skill
 img: systems/rqg/assets/images/weapons/1h-axe.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.1h-axes.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.1h-axes.specialization.smallAxe}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.1h-axes.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.1h-axes.specialization.smallAxe_§
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.1h-axes-small-axe
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

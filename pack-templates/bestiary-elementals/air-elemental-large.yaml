@@ -1,6 +1,6 @@
-name: ${{rqgCompendiumContent.bestiary.airElementalLarge.name}}$
+name: §_rqgCompendiumContent.bestiary.airElementalLarge.name_§
 type: character
-img: modules/${{rqgCompendiumContent.module.id}}$/tokens/air-large-token.webp
+img: modules/§_rqgCompendiumContent.module.id_§/tokens/air-large-token.webp
 system:
   editMode: false
   characteristics:
@@ -27,7 +27,7 @@ system:
       value:
       formula:
   background:
-    species: ${{rqgCompendiumContent.bestiary.airElementalLarge.species}}$
+    species: §_rqgCompendiumContent.bestiary.airElementalLarge.species_§
     occupation: ""
     homeland: ""
     cultureJournalRqidLinks: []
@@ -45,7 +45,7 @@ system:
     ransom:
     ransomDetails: ""
     biography: ""
-  allies: ${{rqgCompendiumContent.bestiary.elementalHitPointsNote}}$ ${{rqgCompendiumContent.bestiary.airElementalNotes}}$ ${{rqgCompendiumContent.bestiary.elementalGeneralNotes}}$
+  allies: §_rqgCompendiumContent.bestiary.elementalHitPointsNote_§ §_rqgCompendiumContent.bestiary.airElementalNotes_§ §_rqgCompendiumContent.bestiary.elementalGeneralNotes_§
   attributes:
     magicPoints:
       value: 20
@@ -70,9 +70,9 @@ prototypeToken:
     file: _partial-includes/actor-npc-prototype-token.yaml
     overrides:
       - path: name
-        value: ${{rqgCompendiumContent.bestiary.airElementalLarge.name}}$
+        value: §_rqgCompendiumContent.bestiary.airElementalLarge.name_§
       - path: img
-        value: modules/${{rqgCompendiumContent.module.id}}$/tokens/air-large-token.webp
+        value: modules/§_rqgCompendiumContent.module.id_§/tokens/air-large-token.webp
 items:
   # hit location items
   - _importExternalDocument:
@@ -90,5 +90,5 @@ flags:
   rqg:
     documentRqidFlags:
       id: a.character.air-elemental-large
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§

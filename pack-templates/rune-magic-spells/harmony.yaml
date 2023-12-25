@@ -1,11 +1,11 @@
 # harmony
-name: ${{rqgCompendiumContent.runeMagic.harmony.name}}$
+name: §_rqgCompendiumContent.runeMagic.harmony.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.harmony-power
-      name: ${{rqgCompendiumContent.rune.harmony}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.harmony_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 1
   castingRange: ranged
   duration: temporal
@@ -14,11 +14,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..harmony
-    name: ${{rqgCompendiumContent.runeMagic.harmony.name}}$
+    name: §_rqgCompendiumContent.runeMagic.harmony.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.harmony
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

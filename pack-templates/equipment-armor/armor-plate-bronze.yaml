@@ -1,19 +1,19 @@
-name: ${{uiContent.RQG.Item.Armor.ArmorType.CompositeHelm}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.CompositeHelm_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§)
 type: armor
 img: systems/rqg/assets/images/armor/composite-helmet.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.composite-helm-bronze-plate
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.head}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.head_§
       rqid: i.hit-location.head
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.CompositeHelm}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.CompositeHelm_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§
   absorbs: 3
   encumbrance: 0.5
   price:
@@ -24,24 +24,24 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.compositeHelm}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.compositeHelm_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.OpenHelm}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.OpenHelm_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§)
 type: armor
 img: systems/rqg/assets/images/armor/open-helmet.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.open-helm-bronze-plate
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.head}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.head_§
       rqid: i.hit-location.head
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.OpenHelm}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.OpenHelm_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§
   absorbs: 4
   encumbrance: 1
   price:
@@ -52,24 +52,24 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.openHelm}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.openHelm_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.ClosedHelm}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.ClosedHelm_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§)
 type: armor
 img: systems/rqg/assets/images/armor/closed-helmet.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.closed-helm-bronze-plate
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.head}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.head_§
       rqid: i.hit-location.head
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.ClosedHelm}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.ClosedHelm_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§
   absorbs: 5
   encumbrance: 1
   price:
@@ -80,24 +80,24 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.closedHelm}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.closedHelm_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.FullHelm}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.FullHelm_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§)
 type: armor
 img: systems/rqg/assets/images/armor/full-helmet.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.full-helm-bronze-plate
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.head}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.head_§
       rqid: i.hit-location.head
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.FullHelm}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.FullHelm_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§
   absorbs: 6
   encumbrance: 2
   price:
@@ -108,26 +108,26 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.fullHelm}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.fullHelm_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Vambraces}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Vambraces_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§)
 type: armor
 img: systems/rqg/assets/images/armor/vambraces.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.vambraces-bronze-plate
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.leftArm}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.leftArm_§
       rqid: i.hit-location.left-arm
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.rightArm}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.rightArm_§
       rqid: i.hit-location.right-arm
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Vambraces}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Vambraces_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§
   absorbs: 6
   encumbrance: 2
   price:
@@ -138,24 +138,24 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.vambraces}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.vambraces_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Cuirass}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Cuirass_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§)
 type: armor
 img: systems/rqg/assets/images/armor/cuirass.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.cuirass-bronze-plate
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.chest_§
       rqid: i.hit-location.chest
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Cuirass}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Cuirass_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§
   absorbs: 6
   encumbrance: 3
   price:
@@ -166,26 +166,26 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.cuirass}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.cuirass_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Hauberk}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzeSegmentedPlate}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Hauberk_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.BronzeSegmentedPlate_§)
 type: armor
 img: systems/rqg/assets/images/armor/hauberk.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.hauberk-segmented-bronze-plate
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.chest_§
       rqid: i.hit-location.chest
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.abdomen_§
       rqid: i.hit-location.abdomen
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Hauberk}}$
-  material: Segmented ${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Hauberk_§
+  material: Segmented §_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§
   absorbs: 6
   encumbrance: 5
   price:
@@ -196,26 +196,26 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.segmentedBronzePlate}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.segmentedBronzePlate_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Greaves}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Greaves_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§)
 type: armor
 img: systems/rqg/assets/images/armor/greaves.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.greaves-bronze-plate
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.leftLeg}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.leftLeg_§
       rqid: i.hit-location.left-leg
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.rightLeg}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.rightLeg_§
       rqid: i.hit-location.right-leg
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Greaves}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Greaves_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§
   absorbs: 6
   encumbrance: 2
   price:
@@ -226,4 +226,4 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.greaves}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.greaves_§

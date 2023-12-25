@@ -1,7 +1,7 @@
 # cure-chaos-wound
-name: ${{rqgCompendiumContent.runeMagic.cureChaosWound.name}}$
+name: §_rqgCompendiumContent.runeMagic.cureChaosWound.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeMagic.cureChaosWound.name}}$
+  - name: §_rqgCompendiumContent.runeMagic.cureChaosWound.name_§
     type: text
     title:
       show: false
@@ -9,15 +9,15 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeMagicDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeMagicDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/harmony.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/fertility.svg" height="70">
-        ${{rqgCompendiumContent.runeMagic.cureChaosWound.description}}$
+        §_rqgCompendiumContent.runeMagic.cureChaosWound.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..cure-chaos-wound
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

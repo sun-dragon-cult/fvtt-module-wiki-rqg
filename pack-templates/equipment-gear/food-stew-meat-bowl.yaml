@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.foodStewMeatBowl}}$
+name: §_rqgCompendiumContent.equipment.gear.foodStewMeatBowl_§
 type: gear
 img: systems/rqg/assets/images/gear/bowl.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.bowl-of-meat-stew
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.foodStewMeatBowl}}$
+  description: §_rqgCompendiumContent.equipment.gear.foodStewMeatBowl_§
   gmNotes:
   quantity: 1
   price:

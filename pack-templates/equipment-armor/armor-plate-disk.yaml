@@ -1,19 +1,19 @@
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Cuirass}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.DiskPlate}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Cuirass_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.DiskPlate_§)
 type: armor
 img: systems/rqg/assets/images/armor/cuirass.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.cuirass-disk-plate
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.chest_§
       rqid: i.hit-location.chest
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Cuirass}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.DiskPlate}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Cuirass_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.DiskPlate_§
   absorbs: 5
   encumbrance: 2
   price:
@@ -24,4 +24,4 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.diskPlateBronze}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.diskPlateBronze_§

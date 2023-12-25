@@ -586,7 +586,7 @@
     },
     "createMarket": {
       "name": "Create Market",
-      "description": "<p><i><b>Cost:</b> 3+<br><b>Type:</b> Ritual<br><b>Cults:</b> Issaries</i></p><p>Requires four wands. Creates a neutral trading ground 10 meters square, warded against vs. those with hostile intent. This provides the benefits of @JournalEntry[${{openSystem.module.name}}$.spirit-magic-descriptions-DUMMY]{Countermagic} 1,  @JournalEntry[${{openSystem.module.name}}$.spirit-magic-descriptions-DUMMY]{Spirit Screen} 2, and does 1D3 points of damage (ignoring armor) to a random hit location of an unwelcome intruder. Additional Rune points spent can increase the magical effects by the same amounts per point, or they can increase the size of the market by a multiple equal to those points spent. Lasts eight weeks.</p>"
+      "description": "<p><i><b>Cost:</b> 3+<br><b>Type:</b> Ritual<br><b>Cults:</b> Issaries</i></p><p>Requires four wands. Creates a neutral trading ground 10 meters square, warded against vs. those with hostile intent. This provides the benefits of @RQID[je..countermagic]{§_rqgCompendiumContent.spiritMagic.countermagic.name_§ 1}, @RQID[je..spirit-screen]{§_rqgCompendiumContent.spiritMagic.spiritScreen.name_§ 2}, and does 1D3 points of damage (ignoring armor) to a random hit location of an unwelcome intruder. Additional Rune points spent can increase the magical effects by the same amounts per point, or they can increase the size of the market by a multiple equal to those points spent. Lasts eight weeks.</p>"
     },
     "cureAllDisease": {
       "name": "Cure All Disease",

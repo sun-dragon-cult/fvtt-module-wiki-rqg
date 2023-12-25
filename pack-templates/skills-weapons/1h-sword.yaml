@@ -1,91 +1,91 @@
 # 1h-sword-broadsword
-name: ${{rqgCompendiumContent.weaponSkill.1h-swords.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-swords.specialization.broadsword}}$)
+name: §_rqgCompendiumContent.weaponSkill.1h-swords.name_§ (§_rqgCompendiumContent.weaponSkill.1h-swords.specialization.broadsword_§)
 type: skill
 img: systems/rqg/assets/images/weapons/1h-sword.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.1h-swords.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.1h-swords.specialization.broadsword}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.1h-swords.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.1h-swords.specialization.broadsword_§
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.1h-swords-broadsword
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 1h-sword-kopis
-name: ${{rqgCompendiumContent.weaponSkill.1h-swords.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-swords.specialization.kopis}}$)
+name: §_rqgCompendiumContent.weaponSkill.1h-swords.name_§ (§_rqgCompendiumContent.weaponSkill.1h-swords.specialization.kopis_§)
 type: skill
 img: systems/rqg/assets/images/weapons/1h-sword.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.1h-swords.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.1h-swords.specialization.kopis}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.1h-swords.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.1h-swords.specialization.kopis_§
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.1h-swords-kopis
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 1h-sword-rapier
-name: ${{rqgCompendiumContent.weaponSkill.1h-swords.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-swords.specialization.rapier}}$)
+name: §_rqgCompendiumContent.weaponSkill.1h-swords.name_§ (§_rqgCompendiumContent.weaponSkill.1h-swords.specialization.rapier_§)
 type: skill
 img: systems/rqg/assets/images/weapons/1h-sword.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.1h-swords.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.1h-swords.specialization.rapier}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.1h-swords.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.1h-swords.specialization.rapier_§
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.1h-swords-rapier
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 1h-sword-shortsword
-name: ${{rqgCompendiumContent.weaponSkill.1h-swords.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-swords.specialization.shortsword}}$)
+name: §_rqgCompendiumContent.weaponSkill.1h-swords.name_§ (§_rqgCompendiumContent.weaponSkill.1h-swords.specialization.shortsword_§)
 type: skill
 img: systems/rqg/assets/images/weapons/1h-sword.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.1h-swords.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.1h-swords.specialization.shortsword}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.1h-swords.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.1h-swords.specialization.shortsword_§
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.1h-swords-shortsword
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

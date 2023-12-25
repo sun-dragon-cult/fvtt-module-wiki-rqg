@@ -1,12 +1,12 @@
-name: ${{rqgCompendiumContent.weapon.atlatlDart}}$
+name: §_rqgCompendiumContent.weapon.atlatlDart_§
 type: weapon
 img: systems/rqg/assets/images/weapons/atlatl.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.atlatl-dart
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -40,9 +40,9 @@ system:
     missile:
       skillRqidLink:
         rqid: i.skill.atlatls-dart
-        name: ${{rqgCompendiumContent.weaponSkill.atlatls.name}}$ (${{rqgCompendiumContent.weaponSkill.atlatls.specialization.dart}}$)
+        name: §_rqgCompendiumContent.weaponSkill.atlatls.name_§ (§_rqgCompendiumContent.weaponSkill.atlatls.specialization.dart_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Throw}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Throw_§
           damageType: impale
           description:
       damage: 2d6+db/2
@@ -72,15 +72,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.atlatlJavelin}}$
+name: §_rqgCompendiumContent.weapon.atlatlJavelin_§
 type: weapon
 img: systems/rqg/assets/images/weapons/atlatl.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.atlatl-javelin
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -114,9 +114,9 @@ system:
     missile:
       skillRqidLink:
         rqid: i.skill.atlatls-javelin
-        name: ${{rqgCompendiumContent.weaponSkill.atlatls.name}}$ (${{rqgCompendiumContent.weaponSkill.atlatls.specialization.javelin}}$)
+        name: §_rqgCompendiumContent.weaponSkill.atlatls.name_§ (§_rqgCompendiumContent.weaponSkill.atlatls.specialization.javelin_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Throw}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Throw_§
           damageType: impale
           description:
       damage: 1d10+1d6+db/2
@@ -146,15 +146,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.dart}}$
+name: §_rqgCompendiumContent.weapon.dart_§
 type: weapon
 img: systems/rqg/assets/images/weapons/dart.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.dart
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -188,9 +188,9 @@ system:
     missile:
       skillRqidLink:
         rqid: i.skill.javelins-dart
-        name: ${{rqgCompendiumContent.weaponSkill.javelins.name}}$ (${{rqgCompendiumContent.weaponSkill.javelins.specialization.dart}}$)
+        name: §_rqgCompendiumContent.weaponSkill.javelins.name_§ (§_rqgCompendiumContent.weaponSkill.javelins.specialization.dart_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Throw}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Throw_§
           damageType: impale
           description:
       damage: 1d6+db/2

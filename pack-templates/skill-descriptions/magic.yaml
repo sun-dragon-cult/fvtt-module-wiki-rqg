@@ -1,7 +1,7 @@
 # meditate
-name: ${{rqgCompendiumContent.skill.meditate.skillName}}$
+name: §_rqgCompendiumContent.skill.meditate.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.alchemy.skillName}}$
+  - name: §_rqgCompendiumContent.skill.alchemy.skillName_§
     type: text
     title:
       show: false
@@ -9,24 +9,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/meditate.svg" height="70">
-        ${{rqgCompendiumContent.skill.meditate.description}}$
+        §_rqgCompendiumContent.skill.meditate.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.magic.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.magic.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..meditate
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # prepare-corpse
-name: ${{rqgCompendiumContent.skill.prepareCorpse.skillName}}$
+name: §_rqgCompendiumContent.skill.prepareCorpse.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.prepareCorpse.skillName}}$
+  - name: §_rqgCompendiumContent.skill.prepareCorpse.skillName_§
     type: text
     title:
       show: false
@@ -34,24 +34,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/prepare-corpse.svg" height="70">
-        ${{rqgCompendiumContent.skill.prepareCorpse.description}}$
+        §_rqgCompendiumContent.skill.prepareCorpse.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.magic.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.magic.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..prepare-corpse
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # sense-assassin
-name: ${{rqgCompendiumContent.skill.senseAssassin.skillName}}$
+name: §_rqgCompendiumContent.skill.senseAssassin.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.senseAssassin.skillName}}$
+  - name: §_rqgCompendiumContent.skill.senseAssassin.skillName_§
     type: text
     title:
       show: false
@@ -59,24 +59,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/sense-assassin.svg" height="70">
-        ${{rqgCompendiumContent.skill.senseAssassin.description}}$
+        §_rqgCompendiumContent.skill.senseAssassin.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.magic.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.magic.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..sense-assassin
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # sense-chaos
-name: ${{rqgCompendiumContent.skill.senseChaos.skillName}}$
+name: §_rqgCompendiumContent.skill.senseChaos.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.senseChaos.skillName}}$
+  - name: §_rqgCompendiumContent.skill.senseChaos.skillName_§
     type: text
     title:
       show: false
@@ -84,24 +84,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/sense-chaos.svg" height="70">
-        ${{rqgCompendiumContent.skill.senseChaos.description}}$
+        §_rqgCompendiumContent.skill.senseChaos.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.magic.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.magic.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..sense-chaos
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # spirit-combat
-name: ${{rqgCompendiumContent.skill.spiritCombat.skillName}}$
+name: §_rqgCompendiumContent.skill.spiritCombat.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.spiritCombat.skillName}}$
+  - name: §_rqgCompendiumContent.skill.spiritCombat.skillName_§
     type: text
     title:
       show: false
@@ -109,24 +109,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/spirit-combat.svg" height="70">
-        ${{rqgCompendiumContent.skill.spiritCombat.description}}$
+        §_rqgCompendiumContent.skill.spiritCombat.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.magic.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.magic.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..spirit-combat
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # spirit-dance
-name: ${{rqgCompendiumContent.skill.spiritDance.skillName}}$
+name: §_rqgCompendiumContent.skill.spiritDance.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.spiritDance.skillName}}$
+  - name: §_rqgCompendiumContent.skill.spiritDance.skillName_§
     type: text
     title:
       show: false
@@ -134,24 +134,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/spirit-dance.svg" height="70">
-        ${{rqgCompendiumContent.skill.spiritDance.description}}$
+        §_rqgCompendiumContent.skill.spiritDance.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.magic.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.magic.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..spirit-dance
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # spirit-lore
-name: ${{rqgCompendiumContent.skill.spiritLore.skillName}}$
+name: §_rqgCompendiumContent.skill.spiritLore.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.spiritLore.skillName}}$
+  - name: §_rqgCompendiumContent.skill.spiritLore.skillName_§
     type: text
     title:
       show: false
@@ -159,24 +159,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/spirit-lore.svg" height="70">
-        ${{rqgCompendiumContent.skill.spiritLore.description}}$
+        §_rqgCompendiumContent.skill.spiritLore.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.magic.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.magic.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..spirit-lore
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # spirit travel
-name: ${{rqgCompendiumContent.skill.spiritTravel.skillName}}$
+name: §_rqgCompendiumContent.skill.spiritTravel.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.spiritTravel.skillName}}$
+  - name: §_rqgCompendiumContent.skill.spiritTravel.skillName_§
     type: text
     title:
       show: false
@@ -184,24 +184,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/spirit-travel.svg" height="70">
-        ${{rqgCompendiumContent.skill.spiritTravel.description}}$
+        §_rqgCompendiumContent.skill.spiritTravel.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.magic.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.magic.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..spirit-travel
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # understand-herd-beast
-name: ${{rqgCompendiumContent.skill.understandHerdBeast.skillName}}$
+name: §_rqgCompendiumContent.skill.understandHerdBeast.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.understandHerdBeast.skillName}}$
+  - name: §_rqgCompendiumContent.skill.understandHerdBeast.skillName_§
     type: text
     title:
       show: false
@@ -209,24 +209,24 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/understand-herd-beast.svg" height="70">
-        ${{rqgCompendiumContent.skill.understandHerdBeast.description}}$
+        §_rqgCompendiumContent.skill.understandHerdBeast.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.magic.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.magic.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..understand-herd-beast
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # worship
-name: ${{rqgCompendiumContent.skill.worship.skillName}}$
+name: §_rqgCompendiumContent.skill.worship.skillName_§
 pages:
-  - name: ${{rqgCompendiumContent.skill.worship.skillName}}$
+  - name: §_rqgCompendiumContent.skill.worship.skillName_§
     type: text
     title:
       show: false
@@ -234,16 +234,16 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.skillDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.skillDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/skills/worship.svg" height="70">
-        ${{rqgCompendiumContent.skill.worship.description}}$
+        §_rqgCompendiumContent.skill.worship.description_§
         <hr>
-        <blockquote>${{rqgCompendiumContent.skillCategory.magic.description}}$</blockquote>
+        <blockquote>§_rqgCompendiumContent.skillCategory.magic.description_§</blockquote>
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..worship
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

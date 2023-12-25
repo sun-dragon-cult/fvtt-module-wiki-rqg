@@ -1,5 +1,5 @@
 # glue
-name: ${{rqgCompendiumContent.spiritMagic.glue.name}}$
+name: §_rqgCompendiumContent.spiritMagic.glue.name_§
 type: spiritMagic
 img: systems/rqg/assets/images/items/spirit-magic.svg
 system:
@@ -10,11 +10,11 @@ system:
   concentration: passive
   descriptionRqidLink:
     rqid: je..glue
-    name: ${{rqgCompendiumContent.spiritMagic.glue.name}}$
+    name: §_rqgCompendiumContent.spiritMagic.glue.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.spirit-magic.glue
-      lang: ${openSystem.lang}}$
-      priority: ${openSystem.prio}}$
+      lang: ${openSystem.lang_§
+      priority: ${openSystem.prio_§

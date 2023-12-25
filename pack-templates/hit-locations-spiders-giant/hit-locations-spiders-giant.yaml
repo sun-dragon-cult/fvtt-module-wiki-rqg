@@ -1,4 +1,4 @@
-name: ${{rqgCompendiumContent.hitLocation.spiderGiant.rightHindLeg}}$
+name: §_rqgCompendiumContent.hitLocation.spiderGiant.rightHindLeg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -16,10 +16,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.right-hind-leg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.spiderGiant.leftHindLeg}}$
+name: §_rqgCompendiumContent.hitLocation.spiderGiant.leftHindLeg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -37,10 +37,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.left-hind-leg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.spiderGiant.rightCenterRearLeg}}$
+name: §_rqgCompendiumContent.hitLocation.spiderGiant.rightCenterRearLeg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -58,10 +58,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.right-center-rear-leg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.spiderGiant.leftCenterRearLeg}}$
+name: §_rqgCompendiumContent.hitLocation.spiderGiant.leftCenterRearLeg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -79,10 +79,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.left-center-rear-leg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.spiderGiant.abdomen}}$
+name: §_rqgCompendiumContent.hitLocation.spiderGiant.abdomen_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -100,10 +100,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.abdomen
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.spiderGiant.rightCenterFrontLeg}}$
+name: §_rqgCompendiumContent.hitLocation.spiderGiant.rightCenterFrontLeg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -121,10 +121,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.right-center-front-leg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.spiderGiant.leftCenterFrontLeg}}$
+name: §_rqgCompendiumContent.hitLocation.spiderGiant.leftCenterFrontLeg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -142,10 +142,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.left-center-front-leg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.spiderGiant.rightForeleg}}$
+name: §_rqgCompendiumContent.hitLocation.spiderGiant.rightForeleg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -163,10 +163,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.right-foreleg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.spiderGiant.leftForeleg}}$
+name: §_rqgCompendiumContent.hitLocation.spiderGiant.leftForeleg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -184,10 +184,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.left-foreleg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.spiderGiant.head}}$
+name: §_rqgCompendiumContent.hitLocation.spiderGiant.head_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -205,5 +205,5 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.head
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

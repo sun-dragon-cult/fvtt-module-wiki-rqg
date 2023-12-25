@@ -1,7 +1,7 @@
 # issaries
-name: ${{rqgCompendiumContent.cult.issaries.name}}$
+name: §_rqgCompendiumContent.cult.issaries.name_§
 pages:
-  - name: ${{rqgCompendiumContent.cult.issaries.name}}$
+  - name: §_rqgCompendiumContent.cult.issaries.name_§
     type: text
     title:
       show: false
@@ -9,16 +9,16 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.cultDescription.title}}$
-        <h2>${{rqgCompendiumContent.cult.issaries.name}}$, ${{rqgCompendiumContent.cult.issaries.tagline}}$</h2>
+        §_rqgCompendiumContent.journalEntryType.cultDescription.title_§
+        <h2>§_rqgCompendiumContent.cult.issaries.name_§, §_rqgCompendiumContent.cult.issaries.tagline_§</h2>
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/movement_change.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/harmony.svg" height="70">
-        ${{rqgCompendiumContent.cult.issaries.descriptionHtml}}$
+        §_rqgCompendiumContent.cult.issaries.descriptionHtml_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..issaries
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

@@ -17,5 +17,5 @@ flags:
   rqg:
     documentRqidFlags:
       id: je..culture-orlanthi-heortling
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

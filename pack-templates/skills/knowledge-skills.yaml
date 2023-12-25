@@ -1,5 +1,5 @@
 # alchemy
-name: ${{rqgCompendiumContent.skill.alchemy.skillName}}$
+name: §_rqgCompendiumContent.skill.alchemy.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/alchemy.svg
 system:
@@ -11,538 +11,538 @@ system:
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..alchemy
-    name: ${{rqgCompendiumContent.skill.alchemy.skillName}}$
+    name: §_rqgCompendiumContent.skill.alchemy.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.alchemy
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # animal-lore
-name: ${{rqgCompendiumContent.skill.animalLore.skillName}}$
+name: §_rqgCompendiumContent.skill.animalLore.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/animal-lore.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.animalLore.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.animalLore.skillName_§
   specialization:
   baseChance: 5
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..animal-lore
-    name: ${{rqgCompendiumContent.skill.animalLore.skillName}}$
+    name: §_rqgCompendiumContent.skill.animalLore.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.animal-lore
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # bureaucracy
-name: ${{rqgCompendiumContent.skill.bureaucracy.skillName}}$
+name: §_rqgCompendiumContent.skill.bureaucracy.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/bureaucracy.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.bureaucracy.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.bureaucracy.skillName_§
   specialization:
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..bureaucracy
-    name: ${{rqgCompendiumContent.skill.bureaucracy.skillName}}$
+    name: §_rqgCompendiumContent.skill.bureaucracy.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.bureaucracy
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # battle
-name: ${{rqgCompendiumContent.skill.battle.skillName}}$
+name: §_rqgCompendiumContent.skill.battle.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/battle.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.battle.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.battle.skillName_§
   specialization:
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..battle
-    name: ${{rqgCompendiumContent.skill.battle.skillName}}$
+    name: §_rqgCompendiumContent.skill.battle.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.battle
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # celestial-lore
-name: ${{rqgCompendiumContent.skill.celestialLore.skillName}}$
+name: §_rqgCompendiumContent.skill.celestialLore.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/celestial-lore.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.celestialLore.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.celestialLore.skillName_§
   specialization:
   baseChance: 5
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..celestial-lore
-    name: ${{rqgCompendiumContent.skill.celestialLore.skillName}}$
+    name: §_rqgCompendiumContent.skill.celestialLore.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.celestial-lore
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # cult-lore
-name: ${{rqgCompendiumContent.skill.cultLore.skillName}}$ (...)
+name: §_rqgCompendiumContent.skill.cultLore.skillName_§ (...)
 type: skill
 img: systems/rqg/assets/images/passion/devotion.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.cultLore.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.cultLore.skillName_§
   specialization: "..."
   baseChance: 5
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..cult-lore
-    name: ${{rqgCompendiumContent.skill.cultLore.skillName}}$
+    name: §_rqgCompendiumContent.skill.cultLore.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.cult-lore
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # customs
-name: ${{rqgCompendiumContent.skill.customs.skillName}}$ (...)
+name: §_rqgCompendiumContent.skill.customs.skillName_§ (...)
 type: skill
 img: systems/rqg/assets/images/skills/customs.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.customs.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.customs.skillName_§
   specialization: "..."
   baseChance: 25
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..customs
-    name: ${{rqgCompendiumContent.skill.customs.skillName}}$
+    name: §_rqgCompendiumContent.skill.customs.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.customs
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # elder-race-lore
-name: ${{rqgCompendiumContent.skill.elderRaceLore.skillName}}$ (...)
+name: §_rqgCompendiumContent.skill.elderRaceLore.skillName_§ (...)
 type: skill
 img: systems/rqg/assets/images/skills/elder-race-lore.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.elderRaceLore.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.elderRaceLore.skillName_§
   specialization: "..."
   baseChance: 5
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..elder-race-lore
-    name: ${{rqgCompendiumContent.skill.elderRaceLore.skillName}}$
+    name: §_rqgCompendiumContent.skill.elderRaceLore.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.elder-race-lore
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # evaluate
-name: ${{rqgCompendiumContent.skill.evaluate.skillName}}$
+name: §_rqgCompendiumContent.skill.evaluate.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/evaluate.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.evaluate.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.evaluate.skillName_§
   specialization:
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..evaluate
-    name: ${{rqgCompendiumContent.skill.evaluate.skillName}}$
+    name: §_rqgCompendiumContent.skill.evaluate.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.evaluate
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # farm
-name: ${{rqgCompendiumContent.skill.farm.skillName}}$
+name: §_rqgCompendiumContent.skill.farm.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/farm.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.farm.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.farm.skillName_§
   specialization:
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..farm
-    name: ${{rqgCompendiumContent.skill.farm.skillName}}$
+    name: §_rqgCompendiumContent.skill.farm.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.farm
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # first-aid
-name: ${{rqgCompendiumContent.skill.firstAid.skillName}}$
+name: §_rqgCompendiumContent.skill.firstAid.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/first-aid.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.firstAid.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.firstAid.skillName_§
   specialization:
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..first-aid
-    name: ${{rqgCompendiumContent.skill.firstAid.skillName}}$
+    name: §_rqgCompendiumContent.skill.firstAid.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.first-aid
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # game
-name: ${{rqgCompendiumContent.skill.game.skillName}}$
+name: §_rqgCompendiumContent.skill.game.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/game.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.game.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.game.skillName_§
   specialization:
   baseChance: 15
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..game
-    name: ${{rqgCompendiumContent.skill.game.skillName}}$
+    name: §_rqgCompendiumContent.skill.game.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.game
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # herd
-name: ${{rqgCompendiumContent.skill.herd.skillName}}$
+name: §_rqgCompendiumContent.skill.herd.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/herd.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.herd.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.herd.skillName_§
   specialization:
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..herd
-    name: ${{rqgCompendiumContent.skill.herd.skillName}}$
+    name: §_rqgCompendiumContent.skill.herd.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.herd
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # homeland-lore
-name: ${{rqgCompendiumContent.skill.homelandLore.skillName}}$ (...)
+name: §_rqgCompendiumContent.skill.homelandLore.skillName_§ (...)
 type: skill
 img: systems/rqg/assets/images/skills/homeland-lore.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.homelandLore.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.homelandLore.skillName_§
   specialization: "..."
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..homeland-lore
-    name: ${{rqgCompendiumContent.skill.homelandLore.skillName}}$
+    name: §_rqgCompendiumContent.skill.homelandLore.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.homeland-lore
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 ### library-use
-name: ${{rqgCompendiumContent.skill.libraryUse.skillName}}$
+name: §_rqgCompendiumContent.skill.libraryUse.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/library-use.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.libraryUse.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.libraryUse.skillName_§
   specialization:
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..library-use
-    name: ${{rqgCompendiumContent.skill.libraryUse.skillName}}$
+    name: §_rqgCompendiumContent.skill.libraryUse.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.library-use
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # lore
-name: ${{rqgCompendiumContent.skill.lore.skillName}}$ (...)
+name: §_rqgCompendiumContent.skill.lore.skillName_§ (...)
 type: skill
 img: systems/rqg/assets/images/skills/lore.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.lore.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.lore.skillName_§
   specialization: "..."
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..lore
-    name: ${{rqgCompendiumContent.skill.lore.skillName}}$
+    name: §_rqgCompendiumContent.skill.lore.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.lore
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # manage-household
-name: ${{rqgCompendiumContent.skill.manageHousehold.skillName}}$
+name: §_rqgCompendiumContent.skill.manageHousehold.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/manage-household.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.manageHousehold.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.manageHousehold.skillName_§
   specialization:
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..manage-household
-    name: ${{rqgCompendiumContent.skill.manageHousehold.skillName}}$
+    name: §_rqgCompendiumContent.skill.manageHousehold.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.manage-household
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # mineral-lore
-name: ${{rqgCompendiumContent.skill.mineralLore.skillName}}$
+name: §_rqgCompendiumContent.skill.mineralLore.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/mineral-lore.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.mineralLore.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.mineralLore.skillName_§
   specialization:
   baseChance: 5
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..mineral-lore
-    name: ${{rqgCompendiumContent.skill.mineralLore.skillName}}$
+    name: §_rqgCompendiumContent.skill.mineralLore.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.mineral-lore
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # peaceful-cut
-name: ${{rqgCompendiumContent.skill.peacefulCut.skillName}}$
+name: §_rqgCompendiumContent.skill.peacefulCut.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/peaceful-cut.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.peacefulCut.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.peacefulCut.skillName_§
   specialization:
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..peaceful-cut
-    name: ${{rqgCompendiumContent.skill.peacefulCut.skillName}}$
+    name: §_rqgCompendiumContent.skill.peacefulCut.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.peaceful-cut
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # plant-lore
-name: ${{rqgCompendiumContent.skill.plantLore.skillName}}$
+name: §_rqgCompendiumContent.skill.plantLore.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/plant-lore.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.plantLore.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.plantLore.skillName_§
   specialization:
   baseChance: 5
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..plant-lore
-    name: ${{rqgCompendiumContent.skill.plantLore.skillName}}$
+    name: §_rqgCompendiumContent.skill.plantLore.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.plant-lore
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
-name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$ (...)
+name: §_rqgCompendiumContent.skill.readWrite.skillName_§ (...)
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.readWrite.skillName_§
   specialization: "..."
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..read-write
-    name: ${{rqgCompendiumContent.skill.readWrite.skillName}}$
+    name: §_rqgCompendiumContent.skill.readWrite.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.read-write
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # survival
-name: ${{rqgCompendiumContent.skill.survival.skillName}}$
+name: §_rqgCompendiumContent.skill.survival.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/survival.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.survival.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.survival.skillName_§
   specialization:
   baseChance: 15
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..survival
-    name: ${{rqgCompendiumContent.skill.survival.skillName}}$
+    name: §_rqgCompendiumContent.skill.survival.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.survival
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # shiphandling
-name: ${{rqgCompendiumContent.skill.shiphandling.skillName}}$
+name: §_rqgCompendiumContent.skill.shiphandling.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/shiphandling.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.shiphandling.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.shiphandling.skillName_§
   specialization:
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..shiphandling
-    name: ${{rqgCompendiumContent.skill.shiphandling.skillName}}$
+    name: §_rqgCompendiumContent.skill.shiphandling.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.shiphandling
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # treat-disease
-name: ${{rqgCompendiumContent.skill.treatDisease.skillName}}$
+name: §_rqgCompendiumContent.skill.treatDisease.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/treat-disease.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.treatDisease.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.treatDisease.skillName_§
   specialization:
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..treat-disease
-    name: ${{rqgCompendiumContent.skill.treatDisease.skillName}}$
+    name: §_rqgCompendiumContent.skill.treatDisease.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.treat-disease
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # treat-poison
-name: ${{rqgCompendiumContent.skill.treatPoison.skillName}}$
+name: §_rqgCompendiumContent.skill.treatPoison.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/treat-poison.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.treatPoison.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.treatPoison.skillName_§
   specialization:
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..treat-poison
-    name: ${{rqgCompendiumContent.skill.treatPoison.skillName}}$
+    name: §_rqgCompendiumContent.skill.treatPoison.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.treat-poison
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§

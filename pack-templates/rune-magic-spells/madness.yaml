@@ -1,11 +1,11 @@
 # madness
-name: ${{rqgCompendiumContent.runeMagic.madness.name}}$
+name: §_rqgCompendiumContent.runeMagic.madness.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.moon-element
-      name: ${{rqgCompendiumContent.rune.moon}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.moon_§ (§_rqgCompendiumContent.runeType.element_§)
   points: 2
   castingRange: ranged
   duration: instant
@@ -14,11 +14,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..madness
-    name: ${{rqgCompendiumContent.runeMagic.madness.name}}$
+    name: §_rqgCompendiumContent.runeMagic.madness.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.madness
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

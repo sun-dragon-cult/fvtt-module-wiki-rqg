@@ -1,11 +1,11 @@
 # knowledge
-name: ${{rqgCompendiumContent.runeMagic.knowledge.name}}$
+name: §_rqgCompendiumContent.runeMagic.knowledge.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.truth-power
-      name: ${{rqgCompendiumContent.rune.truth}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.truth_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 2
   castingRange: touch
   duration: temporal
@@ -14,11 +14,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..knowledge
-    name: ${{rqgCompendiumContent.runeMagic.knowledge.name}}$
+    name: §_rqgCompendiumContent.runeMagic.knowledge.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.knowledge
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

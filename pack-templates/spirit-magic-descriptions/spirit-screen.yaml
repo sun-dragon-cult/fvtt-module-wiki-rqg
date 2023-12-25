@@ -1,7 +1,7 @@
 # spirit-screen
-name: ${{rqgCompendiumContent.spiritMagic.spiritScreen.name}}$
+name: §_rqgCompendiumContent.spiritMagic.spiritScreen.name_§
 pages:
-  - name: ${{rqgCompendiumContent.spiritMagic.spiritScreen.name}}$
+  - name: §_rqgCompendiumContent.spiritMagic.spiritScreen.name_§
     type: text
     title:
       show: false
@@ -9,13 +9,13 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.spiritMagicDescription.title}}$
-        ${{rqgCompendiumContent.spiritMagic.spiritScreen.description}}$
+        §_rqgCompendiumContent.journalEntryType.spiritMagicDescription.title_§
+        §_rqgCompendiumContent.spiritMagic.spiritScreen.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..spirit-screen
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

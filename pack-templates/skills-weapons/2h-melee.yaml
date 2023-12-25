@@ -1,286 +1,286 @@
 # 2h-axe-battle-axe
-name: ${{rqgCompendiumContent.weaponSkill.2h-axes.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-axes.specialization.battleAxe}}$)
+name: §_rqgCompendiumContent.weaponSkill.2h-axes.name_§ (§_rqgCompendiumContent.weaponSkill.2h-axes.specialization.battleAxe_§)
 type: skill
 img: systems/rqg/assets/images/weapons/2h-axe.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.2h-axes.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.2h-axes.specialization.battleAxe}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.2h-axes.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.2h-axes.specialization.battleAxe_§
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.2h-axes-battle-axe
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 2h-axe-dagger-axe
-name: ${{rqgCompendiumContent.weaponSkill.2h-axes.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-axes.specialization.daggerAxe}}$)
+name: §_rqgCompendiumContent.weaponSkill.2h-axes.name_§ (§_rqgCompendiumContent.weaponSkill.2h-axes.specialization.daggerAxe_§)
 type: skill
 img: systems/rqg/assets/images/weapons/2h-axe.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.2h-axes.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.2h-axes.specialization.daggerAxe}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.2h-axes.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.2h-axes.specialization.daggerAxe_§
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.2h-axes-dagger-axe
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 2h-axe-great-axe
-name: ${{rqgCompendiumContent.weaponSkill.2h-axes.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-axes.specialization.greatAxe}}$)
+name: §_rqgCompendiumContent.weaponSkill.2h-axes.name_§ (§_rqgCompendiumContent.weaponSkill.2h-axes.specialization.greatAxe_§)
 type: skill
 img: systems/rqg/assets/images/weapons/2h-axe.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.2h-axes.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.2h-axes.specialization.greatAxe}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.2h-axes.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.2h-axes.specialization.greatAxe_§
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.2h-axes-great-axe
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 2h-hammer-great-hammer
-name: ${{rqgCompendiumContent.weaponSkill.2h-hammers.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-hammers.specialization.greatHammer}}$)
+name: §_rqgCompendiumContent.weaponSkill.2h-hammers.name_§ (§_rqgCompendiumContent.weaponSkill.2h-hammers.specialization.greatHammer_§)
 type: skill
 img: systems/rqg/assets/images/weapons/2h-hammer.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.2h-hammers.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.2h-hammers.specialization.greatHammer}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.2h-hammers.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.2h-hammers.specialization.greatHammer_§
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.2h-hammers-great-hammer
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 2h-hammer-maul
-name: ${{rqgCompendiumContent.weaponSkill.2h-hammers.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-hammers.specialization.maul}}$)
+name: §_rqgCompendiumContent.weaponSkill.2h-hammers.name_§ (§_rqgCompendiumContent.weaponSkill.2h-hammers.specialization.maul_§)
 type: skill
 img: systems/rqg/assets/images/weapons/2h-hammer.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.2h-hammers.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.2h-hammers.specialization.maul}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.2h-hammers.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.2h-hammers.specialization.maul_§
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.2h-hammers-maul
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 2h-maces-mace
-name: ${{rqgCompendiumContent.weaponSkill.2h-maces.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-maces.specialization.mace}}$)
+name: §_rqgCompendiumContent.weaponSkill.2h-maces.name_§ (§_rqgCompendiumContent.weaponSkill.2h-maces.specialization.mace_§)
 type: skill
 img: systems/rqg/assets/images/weapons/2h-mace.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.2h-maces.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.2h-maces.specialization.mace}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.2h-maces.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.2h-maces.specialization.mace_§
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.2h-maces-mace
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 2h-spear-longspear
-name: ${{rqgCompendiumContent.weaponSkill.2h-spears.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-spears.specialization.longspear}}$)
+name: §_rqgCompendiumContent.weaponSkill.2h-spears.name_§ (§_rqgCompendiumContent.weaponSkill.2h-spears.specialization.longspear_§)
 type: skill
 img: systems/rqg/assets/images/weapons/2h-spear.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.2h-spears.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.2h-spears.specialization.longspear}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.2h-spears.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.2h-spears.specialization.longspear_§
   baseChance: 15
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.2h-spears-longspear
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 2h-spear-pike
-name: ${{rqgCompendiumContent.weaponSkill.2h-spears.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-spears.specialization.pike}}$)
+name: §_rqgCompendiumContent.weaponSkill.2h-spears.name_§ (§_rqgCompendiumContent.weaponSkill.2h-spears.specialization.pike_§)
 type: skill
 img: systems/rqg/assets/images/weapons/2h-spear.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.2h-spears.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.2h-spears.specialization.pike}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.2h-spears.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.2h-spears.specialization.pike_§
   baseChance: 15
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.2h-spears-pike
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 2h-spear-shortspear
-name: ${{rqgCompendiumContent.weaponSkill.2h-spears.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-spears.specialization.shortspear}}$)
+name: §_rqgCompendiumContent.weaponSkill.2h-spears.name_§ (§_rqgCompendiumContent.weaponSkill.2h-spears.specialization.shortspear_§)
 type: skill
 img: systems/rqg/assets/images/weapons/2h-spear.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.2h-spears.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.2h-spears.specialization.shortspear}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.2h-spears.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.2h-spears.specialization.shortspear_§
   baseChance: 15
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.2h-spears-shortspear
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 2h-sword-greatsword
-name: ${{rqgCompendiumContent.weaponSkill.2h-swords.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-swords.specialization.greatsword}}$)
+name: §_rqgCompendiumContent.weaponSkill.2h-swords.name_§ (§_rqgCompendiumContent.weaponSkill.2h-swords.specialization.greatsword_§)
 type: skill
 img: systems/rqg/assets/images/weapons/2h-sword.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.2h-swords.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.2h-swords.specialization.greatsword}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.2h-swords.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.2h-swords.specialization.greatsword_§
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.2h-swords-greatsword
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 2h-sword-rhomphaia
-name: ${{rqgCompendiumContent.weaponSkill.2h-swords.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-swords.specialization.rhomphaia}}$)
+name: §_rqgCompendiumContent.weaponSkill.2h-swords.name_§ (§_rqgCompendiumContent.weaponSkill.2h-swords.specialization.rhomphaia_§)
 type: skill
 img: systems/rqg/assets/images/weapons/2h-sword.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.2h-swords.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.2h-swords.specialization.rhomphaia}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.2h-swords.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.2h-swords.specialization.rhomphaia_§
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.2h-swords-rhomphaia
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 2h-sword-sickle-sword
-name: ${{rqgCompendiumContent.weaponSkill.2h-swords.name}}$ (${{rqgCompendiumContent.weaponSkill.2h-swords.specialization.sickle-sword}}$)
+name: §_rqgCompendiumContent.weaponSkill.2h-swords.name_§ (§_rqgCompendiumContent.weaponSkill.2h-swords.specialization.sickle-sword_§)
 type: skill
 img: systems/rqg/assets/images/weapons/2h-sword.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.2h-swords.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.2h-swords.specialization.sickle-sword}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.2h-swords.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.2h-swords.specialization.sickle-sword_§
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.2h-swords-sickle-sword
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # quarterstaff
-name: ${{rqgCompendiumContent.weaponSkill.quarterstaff.name}}$
+name: §_rqgCompendiumContent.weaponSkill.quarterstaff.name_§
 type: skill
 img: systems/rqg/assets/images/weapons/quarterstaff.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.quarterstaff.name}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.quarterstaff.name_§
   specialization:
   baseChance: 15
   gainedChance: 0
@@ -288,11 +288,11 @@ system:
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.quarterstaff
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

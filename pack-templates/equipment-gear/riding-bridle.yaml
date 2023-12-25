@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.ridingBridle}}$
+name: §_rqgCompendiumContent.equipment.gear.ridingBridle_§
 type: gear
 img: systems/rqg/assets/images/gear/horse-head.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.bridle
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.ridingBridleDescription}}$
+  description: §_rqgCompendiumContent.equipment.gear.ridingBridleDescription_§
   gmNotes:
   quantity: 1
   price:

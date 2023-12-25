@@ -1,7 +1,7 @@
 # protection
-name: ${{rqgCompendiumContent.spiritMagic.protection.name}}$
+name: §_rqgCompendiumContent.spiritMagic.protection.name_§
 pages:
-  - name: ${{rqgCompendiumContent.spiritMagic.protection.name}}$
+  - name: §_rqgCompendiumContent.spiritMagic.protection.name_§
     type: text
     title:
       show: false
@@ -9,13 +9,13 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.spiritMagicDescription.title}}$
-        ${{rqgCompendiumContent.spiritMagic.protection.description}}$
+        §_rqgCompendiumContent.journalEntryType.spiritMagicDescription.title_§
+        §_rqgCompendiumContent.spiritMagic.protection.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..protection
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

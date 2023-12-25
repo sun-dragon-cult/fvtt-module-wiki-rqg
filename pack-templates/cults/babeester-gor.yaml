@@ -1,12 +1,12 @@
 # babeester-gor
-name: ${{rqgCompendiumContent.cult.babeesterGor.name}}$
+name: §_rqgCompendiumContent.cult.babeesterGor.name_§
 type: cult
 img: systems/rqg/assets/images/items/cult.svg
 system:
-  deity: ${{rqgCompendiumContent.cult.babeesterGor.name}}$
+  deity: §_rqgCompendiumContent.cult.babeesterGor.name_§
   joinedCults:
-    - cultName: ${{rqgCompendiumContent.cult.babeesterGor.name}}$
-      tagline: ${{rqgCompendiumContent.cult.babeesterGor.tagline}}$
+    - cultName: §_rqgCompendiumContent.cult.babeesterGor.name_§
+      tagline: §_rqgCompendiumContent.cult.babeesterGor.tagline_§
       rank: layMember
   runePoints:
     value: 0
@@ -14,41 +14,41 @@ system:
   holyDays:
   runeRqidLinks:
     - rqid: i.rune.earth-element
-      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.death-power
-      name: ${{rqgCompendiumContent.rune.death}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.death_§ (§_rqgCompendiumContent.runeType.power_§)
   descriptionRqidLink:
     rqid: je..babeester-gor
-    name: ${{rqgCompendiumContent.cult.babeesterGor.name}}$
+    name: §_rqgCompendiumContent.cult.babeesterGor.name_§
   commonRuneMagicRqidLinks:
     - rqid: i.rune-magic.command-cult-spirit-elemental
-      name: ${{rqgCompendiumContent.runeMagic.commandCultSpiritElemental.name}}$
+      name: §_rqgCompendiumContent.runeMagic.commandCultSpiritElemental.name_§
     - rqid: i.rune-magic.dismiss-magic
-      name: ${{rqgCompendiumContent.runeMagic.dismissMagic.name}}$
+      name: §_rqgCompendiumContent.runeMagic.dismissMagic.name_§
     - rqid: i.rune-magic.divination
-      name: ${{rqgCompendiumContent.runeMagic.divination.name}}$
+      name: §_rqgCompendiumContent.runeMagic.divination.name_§
     - rqid: i.rune-magic.extension
-      name: ${{rqgCompendiumContent.runeMagic.extension.name}}$
+      name: §_rqgCompendiumContent.runeMagic.extension.name_§
     - rqid: i.rune-magic.find-enemy
-      name: ${{rqgCompendiumContent.runeMagic.findEnemy.name}}$
+      name: §_rqgCompendiumContent.runeMagic.findEnemy.name_§
     - rqid: i.rune-magic.heal-wound
-      name: ${{rqgCompendiumContent.runeMagic.healWound.name}}$
+      name: §_rqgCompendiumContent.runeMagic.healWound.name_§
     - rqid: i.rune-magic.multispell
-      name: ${{rqgCompendiumContent.runeMagic.multispell.name}}$
+      name: §_rqgCompendiumContent.runeMagic.multispell.name_§
     - rqid: i.rune-magic.sanctify
-      name: ${{rqgCompendiumContent.runeMagic.sanctify.name}}$
+      name: §_rqgCompendiumContent.runeMagic.sanctify.name_§
     - rqid: i.rune-magic.soul-sight
-      name: ${{rqgCompendiumContent.runeMagic.soulSight.name}}$
+      name: §_rqgCompendiumContent.runeMagic.soulSight.name_§
     - rqid: i.rune-magic.spirit-block
-      name: ${{rqgCompendiumContent.runeMagic.spiritBlock.name}}$
+      name: §_rqgCompendiumContent.runeMagic.spiritBlock.name_§
     - rqid: i.rune-magic.summon-cult-spirit
-      name: ${{rqgCompendiumContent.runeMagic.summonCultSpirit.name}}$
+      name: §_rqgCompendiumContent.runeMagic.summonCultSpirit.name_§
     - rqid: i.rune-magic.warding
-      name: ${{rqgCompendiumContent.runeMagic.warding.name}}$
+      name: §_rqgCompendiumContent.runeMagic.warding.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.cult.babeester-gor
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

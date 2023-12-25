@@ -1,7 +1,7 @@
 # ernalda
-name: ${{rqgCompendiumContent.cult.ernalda.name}}$
+name: §_rqgCompendiumContent.cult.ernalda.name_§
 pages:
-  - name: ${{rqgCompendiumContent.cult.ernalda.name}}$
+  - name: §_rqgCompendiumContent.cult.ernalda.name_§
     type: text
     title:
       show: false
@@ -9,18 +9,18 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.cultDescription.title}}$
-        <h2>${{rqgCompendiumContent.cult.ernalda.name}}$, ${{rqgCompendiumContent.cult.ernalda.tagline}}$</h2>
+        §_rqgCompendiumContent.journalEntryType.cultDescription.title_§
+        <h2>§_rqgCompendiumContent.cult.ernalda.name_§, §_rqgCompendiumContent.cult.ernalda.tagline_§</h2>
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/harmony.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/earth.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/earth.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/fertility.svg" height="70">
-        ${{rqgCompendiumContent.cult.ernalda.descriptionHtml}}$
+        §_rqgCompendiumContent.cult.ernalda.descriptionHtml_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..ernalda
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

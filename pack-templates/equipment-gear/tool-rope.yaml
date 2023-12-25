@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.toolRope15m}}$
+name: §_rqgCompendiumContent.equipment.gear.toolRope15m_§
 type: gear
 img: systems/rqg/assets/images/gear/rope-coil.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.rope-15m
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.toolRope15mDescription}}$
+  description: §_rqgCompendiumContent.equipment.gear.toolRope15mDescription_§
   gmNotes:
   quantity: 1
   price:

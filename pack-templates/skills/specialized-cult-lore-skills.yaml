@@ -1,43 +1,43 @@
 # cult-lore-orlanth
-name: ${{rqgCompendiumContent.skill.cultLore.skillName}}$ (${{rqgCompendiumContent.cult.orlanth.name}}$)
+name: §_rqgCompendiumContent.skill.cultLore.skillName_§ (§_rqgCompendiumContent.cult.orlanth.name_§)
 type: skill
 img: systems/rqg/assets/images/passion/devotion.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.cultLore.skillName}}$
-  specialization: ${{rqgCompendiumContent.cult.orlanth.name}}$
+  skillName: §_rqgCompendiumContent.skill.cultLore.skillName_§
+  specialization: §_rqgCompendiumContent.cult.orlanth.name_§
   baseChance: 5
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..cult-lore
-    name: ${{rqgCompendiumContent.skill.cultLore.skillName}}$
+    name: §_rqgCompendiumContent.skill.cultLore.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.cult-lore-orlanth
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # cult lore Aldrya
-name: ${{rqgCompendiumContent.skill.cultLore.skillName}}$ (${{rqgCompendiumContent.cult.aldrya.name}}$)
+name: §_rqgCompendiumContent.skill.cultLore.skillName_§ (§_rqgCompendiumContent.cult.aldrya.name_§)
 type: skill
 img: systems/rqg/assets/images/passion/devotion.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.cultLore.skillName}}$
-  specialization: ${{rqgCompendiumContent.cult.aldrya.name}}$
+  skillName: §_rqgCompendiumContent.skill.cultLore.skillName_§
+  specialization: §_rqgCompendiumContent.cult.aldrya.name_§
   baseChance: 5
   gainedChance: 0
   canGetExperience: false
   descriptionRqidLink:
     rqid: je..cult-lore
-    name: ${{rqgCompendiumContent.skill.cultLore.skillName}}$
+    name: §_rqgCompendiumContent.skill.cultLore.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.cult-lore-aldrya
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§

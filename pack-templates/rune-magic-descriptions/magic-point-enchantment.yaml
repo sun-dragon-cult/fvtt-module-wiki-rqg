@@ -1,7 +1,7 @@
 # magic-point-enchantment
-name: ${{rqgCompendiumContent.runeMagic.magicPointEnchantment.name}}$
+name: §_rqgCompendiumContent.runeMagic.magicPointEnchantment.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeMagic.magicPointEnchantment.name}}$
+  - name: §_rqgCompendiumContent.runeMagic.magicPointEnchantment.name_§
     type: text
     title:
       show: false
@@ -9,14 +9,14 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeMagicDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeMagicDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/magic.svg" height="70">
-        ${{rqgCompendiumContent.runeMagic.magicPointEnchantment.description}}$
+        §_rqgCompendiumContent.runeMagic.magicPointEnchantment.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..magic-point-enchantment
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

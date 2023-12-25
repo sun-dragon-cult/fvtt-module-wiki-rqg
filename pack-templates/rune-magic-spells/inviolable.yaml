@@ -1,15 +1,15 @@
 # inviolable
-name: ${{rqgCompendiumContent.runeMagic.inviolable.name}}$
+name: §_rqgCompendiumContent.runeMagic.inviolable.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.earth-element
-      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.fertility-power
-      name: ${{rqgCompendiumContent.rune.fertility}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.fertility_§ (§_rqgCompendiumContent.runeType.power_§)
     - rqid: i.rune.harmony-power
-      name: ${{rqgCompendiumContent.rune.harmony}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.harmony_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 1
   castingRange: ranged
   duration: temporal
@@ -18,11 +18,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..inviolable
-    name: ${{rqgCompendiumContent.runeMagic.inviolable.name}}$
+    name: §_rqgCompendiumContent.runeMagic.inviolable.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.inviolable
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

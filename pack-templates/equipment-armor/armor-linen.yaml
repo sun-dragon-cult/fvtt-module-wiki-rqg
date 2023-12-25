@@ -1,21 +1,21 @@
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Linothorax}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Linen}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Linothorax_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Linen_§)
 type: armor
 img: systems/rqg/assets/images/armor/hauberk.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.linothorax-linen
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.chest_§
       rqid: i.hit-location.chest
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.abdomen_§
       rqid: i.hit-location.abdomen
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Linothorax}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Linen}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Linothorax_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Linen_§
   absorbs: 3
   encumbrance: 1
   price:
@@ -26,24 +26,24 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.linen}}$ ${{rqgCompendiumContent.equipment.armor.description.linothorax}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.linen_§ §_rqgCompendiumContent.equipment.armor.description.linothorax_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Skirt}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Linen}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Skirt_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Linen_§)
 type: armor
 img: systems/rqg/assets/images/armor/skirt.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.skirt-linen
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.abdomen_§
       rqid: i.hit-location.abdomen
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Skirt}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Linen}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Skirt_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Linen_§
   absorbs: 3
   encumbrance: 1
   price:
@@ -54,4 +54,4 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.linen}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.linen_§

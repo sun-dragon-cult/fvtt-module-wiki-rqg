@@ -1,7 +1,7 @@
 # absorption
-name: ${{rqgCompendiumContent.runeMagic.absorption.name}}$
+name: §_rqgCompendiumContent.runeMagic.absorption.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeMagic.absorption.name}}$
+  - name: §_rqgCompendiumContent.runeMagic.absorption.name_§
     type: text
     title:
       show: false
@@ -9,15 +9,15 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeMagicDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeMagicDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/darkness.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/earth.svg" height="70">
-        ${{rqgCompendiumContent.runeMagic.absorption.description}}$
+        §_rqgCompendiumContent.runeMagic.absorption.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..absorption
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

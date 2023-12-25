@@ -1,11 +1,11 @@
 # path-watch
-name: ${{rqgCompendiumContent.runeMagic.pathWatch.name}}$
+name: §_rqgCompendiumContent.runeMagic.pathWatch.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.movement-power
-      name: ${{rqgCompendiumContent.rune.movement}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.movement_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 2
   castingRange: self
   duration: special
@@ -14,11 +14,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..path-watch
-    name: ${{rqgCompendiumContent.runeMagic.pathWatch.name}}$
+    name: §_rqgCompendiumContent.runeMagic.pathWatch.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.path-watch
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

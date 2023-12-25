@@ -1,163 +1,163 @@
-name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/air.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.air}}$
+  rune: §_rqgCompendiumContent.rune.air_§
   chance: 0
   hasExperience: false
   runeType:
     type: element
-    name: ${{rqgCompendiumContent.runeType.element}}$
+    name: §_rqgCompendiumContent.runeType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.darkness-element
-      name: ${{rqgCompendiumContent.rune.darkness}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.darkness_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.water-element
-      name: ${{rqgCompendiumContent.rune.water}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.water_§ (§_rqgCompendiumContent.runeType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..air-element
-    name: ${{rqgCompendiumContent.rune.air}}$
+    name: §_rqgCompendiumContent.rune.air_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.air-element
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.darkness}}$ (${{rqgCompendiumContent.runeType.element}}$)
+name: §_rqgCompendiumContent.rune.darkness_§ (§_rqgCompendiumContent.runeType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/darkness.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.darkness}}$
+  rune: §_rqgCompendiumContent.rune.darkness_§
   chance: 0
   hasExperience: false
   runeType:
     type: element
-    name: ${{rqgCompendiumContent.runeType.element}}$
+    name: §_rqgCompendiumContent.runeType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.earth-element
-      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.air-element
-      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..darkness-element
-    name: ${{rqgCompendiumContent.rune.darkness}}$
+    name: §_rqgCompendiumContent.rune.darkness_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.darkness-element
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/earth.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.earth}}$
+  rune: §_rqgCompendiumContent.rune.earth_§
   chance: 0
   hasExperience: false
   runeType:
     type: element
-    name: ${{rqgCompendiumContent.runeType.element}}$
+    name: §_rqgCompendiumContent.runeType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.air-element
-      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.darkness-element
-      name: ${{rqgCompendiumContent.rune.darkness}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.darkness_§ (§_rqgCompendiumContent.runeType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..earth-element
-    name: ${{rqgCompendiumContent.rune.earth}}$
+    name: §_rqgCompendiumContent.rune.earth_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.earth-element
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.fireSky}}$ (${{rqgCompendiumContent.runeType.element}}$)
+name: §_rqgCompendiumContent.rune.fireSky_§ (§_rqgCompendiumContent.runeType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/fire_sky.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.fireSky}}$
+  rune: §_rqgCompendiumContent.rune.fireSky_§
   chance: 0
   hasExperience: false
   runeType:
     type: element
-    name: ${{rqgCompendiumContent.runeType.element}}$
+    name: §_rqgCompendiumContent.runeType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.water-element
-      name: ${{rqgCompendiumContent.rune.water}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.water_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.earth-element
-      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..fire-sky-element
-    name: ${{rqgCompendiumContent.rune.fireSky}}$
+    name: §_rqgCompendiumContent.rune.fireSky_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.fire-sky-element
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.moon}}$ (${{rqgCompendiumContent.runeType.element}}$)
+name: §_rqgCompendiumContent.rune.moon_§ (§_rqgCompendiumContent.runeType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/moon_full.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.moon}}$
+  rune: §_rqgCompendiumContent.rune.moon_§
   chance: 0
   hasExperience: false
   runeType:
     type: element
-    name: ${{rqgCompendiumContent.runeType.element}}$
+    name: §_rqgCompendiumContent.runeType.element_§
   isMastered: false
   minorRuneRqidLinks:
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..moon-element
-    name: ${{rqgCompendiumContent.rune.moon}}$
+    name: §_rqgCompendiumContent.rune.moon_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.moon-element
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.water}}$ (${{rqgCompendiumContent.runeType.element}}$)
+name: §_rqgCompendiumContent.rune.water_§ (§_rqgCompendiumContent.runeType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/water.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.water}}$
+  rune: §_rqgCompendiumContent.rune.water_§
   chance: 0
   hasExperience: false
   runeType:
     type: element
-    name: ${{rqgCompendiumContent.runeType.element}}$
+    name: §_rqgCompendiumContent.runeType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.earth-element
-      name: ${{rqgCompendiumContent.rune.earth}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.air-element
-      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..water-element
-    name: ${{rqgCompendiumContent.rune.water}}$
+    name: §_rqgCompendiumContent.rune.water_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.water-element
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

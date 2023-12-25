@@ -1,9 +1,9 @@
-name: ${{rqgCompendiumContent.bestiary.vasana.name}}$
+name: §_rqgCompendiumContent.bestiary.vasana.name_§
 type: character
-img: modules/${{rqgCompendiumContent.module.id}}$/tokens/vasana-actor.webp
+img: modules/§_rqgCompendiumContent.module.id_§/tokens/vasana-actor.webp
 system:
   editMode: false
-  extendedName: ${{rqgCompendiumContent.bestiary.vasana.extendedName}}$
+  extendedName: §_rqgCompendiumContent.bestiary.vasana.extendedName_§
   characteristics:
     strength:
       value: 16
@@ -28,7 +28,7 @@ system:
       value: 19
       formula: 3d6
   background:
-    species: ${{rqgCompendiumContent.bestiary.humanBase.species}}$
+    species: §_rqgCompendiumContent.bestiary.humanBase.species_§
     speciesRqidLink:
       rqid: je..species-description-human
       name: Human
@@ -42,15 +42,15 @@ system:
     age:
     gender: ""
     town: ""
-    tribe: ${{rqgCompendiumContent.tribe.colymar}}$
-    clan: ${{rqgCompendiumContent.clan.ernaldori}}$
+    tribe: §_rqgCompendiumContent.tribe.colymar_§
+    clan: §_rqgCompendiumContent.clan.ernaldori_§
     reputation: 20
     standardOfLiving: ""
     baseIncome:
     ransom: 500
     ransomDetails: ""
-    biography: ${{rqgCompendiumContent.bestiary.vasana.biography}}$
-  allies: ${{rqgCompendiumContent.bestiary.vasana.notes}}$
+    biography: §_rqgCompendiumContent.bestiary.vasana.biography_§
+  allies: §_rqgCompendiumContent.bestiary.vasana.notes_§
   attributes:
     magicPoints:
       value: 15
@@ -73,9 +73,9 @@ prototypeToken:
     file: _partial-includes/actor-pc-prototype-token.yaml
     overrides:
       - path: name
-        value: ${{rqgCompendiumContent.bestiary.vasana.name}}$
+        value: §_rqgCompendiumContent.bestiary.vasana.name_§
       - path: img
-        value: modules/${{rqgCompendiumContent.module.id}}$/tokens/vasana-token.webp
+        value: modules/§_rqgCompendiumContent.module.id_§/tokens/vasana-token.webp
 items:
   # Hit Locations
   - _importExternalDocument:
@@ -202,8 +202,8 @@ items:
           value: VingasCultItemId # fixate an id so the runeMagic can be attached
         - path: system.joinedCults
           value:
-            - cultName: ${{rqgCompendiumContent.cult.orlanth.subcult.vinga.name}}$
-              tagline: ${{rqgCompendiumContent.cult.orlanth.subcult.vinga.tagline}}$
+            - cultName: §_rqgCompendiumContent.cult.orlanth.subcult.vinga.name_§
+              tagline: §_rqgCompendiumContent.cult.orlanth.subcult.vinga.tagline_§
               rank: initiate
         - path: system.runePoints
           value:
@@ -324,9 +324,9 @@ items:
       rqid: i.skill.ride
       overrides:
         - path: name
-          value: ${{rqgCompendiumContent.skill.ride.skillName}}$ (${{rqgCompendiumContent.bestiary.bison.name}}$)
+          value: §_rqgCompendiumContent.skill.ride.skillName_§ (§_rqgCompendiumContent.bestiary.bison.name_§)
         - path: system.specialization
-          value: ${{rqgCompendiumContent.bestiary.bison.name}}$
+          value: §_rqgCompendiumContent.bestiary.bison.name_§
         - path: system.gainedChance
           value: 65
   - _importExternalDocument:
@@ -614,15 +614,15 @@ items:
       overrides:
         - path: system.quantity
           value: 0
-  - name: ${{rqgCompendiumContent.equipment.gear.orlanthImage}}$
+  - name: §_rqgCompendiumContent.equipment.gear.orlanthImage_§
     type: gear
     img: systems/rqg/assets/images/gear/colombian-statue.svg
     flags:
       rqg:
         documentRqidFlags:
           id: i.gear.image-orlanth
-          priority: ${{rqgCompendiumContent.prio}}$
-          lang: ${{rqgCompendiumContent.lang}}$
+          priority: §_rqgCompendiumContent.prio_§
+          lang: §_rqgCompendiumContent.lang_§
     effects: []
     system:
       description:
@@ -637,15 +637,15 @@ items:
       isContainer: false
       attunedTo:
       physicalItemType: unique
-  - name: ${{rqgCompendiumContent.equipment.gear.magicCrystal10mp}}$
+  - name: §_rqgCompendiumContent.equipment.gear.magicCrystal10mp_§
     type: gear
     img: systems/rqg/assets/images/gear/crystal-shine.svg
     flags:
       rqg:
         documentRqidFlags:
           id: i.gear.crystal-10mp-storage
-          priority: ${{rqgCompendiumContent.prio}}$
-          lang: ${{rqgCompendiumContent.lang}}$
+          priority: §_rqgCompendiumContent.prio_§
+          lang: §_rqgCompendiumContent.lang_§
     effects: []
     system:
       description:
@@ -728,7 +728,7 @@ items:
         - path: system.equippedStatus
           value: equipped
         - path: system.location
-          value: ${{rqgCompendiumContent.equipment.gear.quiverSmall}}$
+          value: §_rqgCompendiumContent.equipment.gear.quiverSmall_§
 
   - _importExternalDocument:
       file: equipment-weapons/unarmed-attacks.yaml
@@ -754,9 +754,9 @@ items:
         - path: system.chance
           value: 80
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Devotion}}$ (${{rqgCompendiumContent.passionSubject.orlanth}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Devotion_§ (§_rqgCompendiumContent.passionSubject.orlanth_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.orlanth}}$
+          value: §_rqgCompendiumContent.passionSubject.orlanth_§
   - _importExternalDocument:
       file: passions-base/passions-base.yaml
       rqid: i.passion.hate-base
@@ -764,17 +764,17 @@ items:
         - path: system.chance
           value: 90
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Hate}}$ (${{rqgCompendiumContent.passionSubject.lunarEmpire}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Hate_§ (§_rqgCompendiumContent.passionSubject.lunarEmpire_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.lunarEmpire}}$
+          value: §_rqgCompendiumContent.passionSubject.lunarEmpire_§
   - _importExternalDocument:
       file: passions-base/passions-base.yaml
       rqid: i.passion.love-base
       overrides:
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Love}}$ (${{rqgCompendiumContent.passionSubject.family}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Love_§ (§_rqgCompendiumContent.passionSubject.family_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.family}}$
+          value: §_rqgCompendiumContent.passionSubject.family_§
   - _importExternalDocument:
       file: passions-base/passions-base.yaml
       rqid: i.passion.loyalty-base
@@ -782,9 +782,9 @@ items:
         - path: system.chance
           value: 70
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.argrath}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Loyalty_§ (§_rqgCompendiumContent.passionSubject.argrath_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.argrath}}$
+          value: §_rqgCompendiumContent.passionSubject.argrath_§
   - _importExternalDocument:
       file: passions-base/passions-base.yaml
       rqid: i.passion.loyalty-base
@@ -792,17 +792,17 @@ items:
         - path: system.chance
           value: 70
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.colymarTribe}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Loyalty_§ (§_rqgCompendiumContent.passionSubject.colymarTribe_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.colymarTribe}}$
+          value: §_rqgCompendiumContent.passionSubject.colymarTribe_§
   - _importExternalDocument:
       file: passions-base/passions-base.yaml
       rqid: i.passion.loyalty-base
       overrides:
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.ernaldoriClan}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Loyalty_§ (§_rqgCompendiumContent.passionSubject.ernaldoriClan_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.ernaldoriClan}}$
+          value: §_rqgCompendiumContent.passionSubject.ernaldoriClan_§
   - _importExternalDocument:
       file: passions-base/passions-base.yaml
       rqid: i.passion.loyalty-base
@@ -810,9 +810,9 @@ items:
         - path: system.chance
           value: 70
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.sartar}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Loyalty_§ (§_rqgCompendiumContent.passionSubject.sartar_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.sartar}}$
+          value: §_rqgCompendiumContent.passionSubject.sartar_§
 
 effects: []
 ownership:
@@ -821,5 +821,5 @@ flags:
   rqg:
     documentRqidFlags:
       id: a.character.species-template-human-base
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

@@ -1,219 +1,219 @@
 # esrolian
-name: ${{rqgCompendiumContent.skill.customs.skillName}}$ (${{rqgCompendiumContent.culture.esrolian}}$)
+name: §_rqgCompendiumContent.skill.customs.skillName_§ (§_rqgCompendiumContent.culture.esrolian_§)
 type: skill
 img: systems/rqg/assets/images/skills/customs.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.customs.skillName}}$
-  specialization: ${{rqgCompendiumContent.culture.esrolian}}$
+  skillName: §_rqgCompendiumContent.skill.customs.skillName_§
+  specialization: §_rqgCompendiumContent.culture.esrolian_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..customs
-    name: ${{rqgCompendiumContent.skill.customs.skillName}}$
+    name: §_rqgCompendiumContent.skill.customs.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.customs-esrolian
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # heortling
-name: ${{rqgCompendiumContent.skill.customs.skillName}}$ (${{rqgCompendiumContent.culture.heortling}}$)
+name: §_rqgCompendiumContent.skill.customs.skillName_§ (§_rqgCompendiumContent.culture.heortling_§)
 type: skill
 img: systems/rqg/assets/images/skills/customs.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.customs.skillName}}$
-  specialization: ${{rqgCompendiumContent.culture.heortling}}$
+  skillName: §_rqgCompendiumContent.skill.customs.skillName_§
+  specialization: §_rqgCompendiumContent.culture.heortling_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..customs
-    name: ${{rqgCompendiumContent.skill.customs.skillName}}$
+    name: §_rqgCompendiumContent.skill.customs.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.customs-heortling
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # bison-tribe
-name: ${{rqgCompendiumContent.skill.customs.skillName}}$ (${{rqgCompendiumContent.culture.bisonTribe}}$)
+name: §_rqgCompendiumContent.skill.customs.skillName_§ (§_rqgCompendiumContent.culture.bisonTribe_§)
 type: skill
 img: systems/rqg/assets/images/skills/customs.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.customs.skillName}}$
-  specialization: ${{rqgCompendiumContent.culture.bisonTribe}}$
+  skillName: §_rqgCompendiumContent.skill.customs.skillName_§
+  specialization: §_rqgCompendiumContent.culture.bisonTribe_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..customs
-    name: ${{rqgCompendiumContent.skill.customs.skillName}}$
+    name: §_rqgCompendiumContent.skill.customs.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.customs-bison-tribe
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # high-llama-tribe
-name: ${{rqgCompendiumContent.skill.customs.skillName}}$ (${{rqgCompendiumContent.culture.highLlamaTribe}}$)
+name: §_rqgCompendiumContent.skill.customs.skillName_§ (§_rqgCompendiumContent.culture.highLlamaTribe_§)
 type: skill
 img: systems/rqg/assets/images/skills/customs.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.customs.skillName}}$
-  specialization: ${{rqgCompendiumContent.culture.highLlamaTribe}}$
+  skillName: §_rqgCompendiumContent.skill.customs.skillName_§
+  specialization: §_rqgCompendiumContent.culture.highLlamaTribe_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..customs
-    name: ${{rqgCompendiumContent.skill.customs.skillName}}$
+    name: §_rqgCompendiumContent.skill.customs.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.customs-high-llama-tribe
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # impala-tribe
-name: ${{rqgCompendiumContent.skill.customs.skillName}}$ (${{rqgCompendiumContent.culture.impalaTribe}}$)
+name: §_rqgCompendiumContent.skill.customs.skillName_§ (§_rqgCompendiumContent.culture.impalaTribe_§)
 type: skill
 img: systems/rqg/assets/images/skills/customs.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.customs.skillName}}$
-  specialization: ${{rqgCompendiumContent.culture.impalaTribe}}$
+  skillName: §_rqgCompendiumContent.skill.customs.skillName_§
+  specialization: §_rqgCompendiumContent.culture.impalaTribe_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..customs
-    name: ${{rqgCompendiumContent.skill.customs.skillName}}$
+    name: §_rqgCompendiumContent.skill.customs.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.customs-impala-tribe
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # sable-tribe
-name: ${{rqgCompendiumContent.skill.customs.skillName}}$ (${{rqgCompendiumContent.culture.sableTribe}}$)
+name: §_rqgCompendiumContent.skill.customs.skillName_§ (§_rqgCompendiumContent.culture.sableTribe_§)
 type: skill
 img: systems/rqg/assets/images/skills/customs.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.customs.skillName}}$
-  specialization: ${{rqgCompendiumContent.culture.sableTribe}}$
+  skillName: §_rqgCompendiumContent.skill.customs.skillName_§
+  specialization: §_rqgCompendiumContent.culture.sableTribe_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..customs
-    name: ${{rqgCompendiumContent.skill.customs.skillName}}$
+    name: §_rqgCompendiumContent.skill.customs.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.customs-sable-tribe
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # pol-joni
-name: ${{rqgCompendiumContent.skill.customs.skillName}}$ (${{rqgCompendiumContent.culture.poljoni}}$)
+name: §_rqgCompendiumContent.skill.customs.skillName_§ (§_rqgCompendiumContent.culture.poljoni_§)
 type: skill
 img: systems/rqg/assets/images/skills/customs.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.customs.skillName}}$
-  specialization: ${{rqgCompendiumContent.culture.poljoni}}$
+  skillName: §_rqgCompendiumContent.skill.customs.skillName_§
+  specialization: §_rqgCompendiumContent.culture.poljoni_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..customs
-    name: ${{rqgCompendiumContent.skill.customs.skillName}}$
+    name: §_rqgCompendiumContent.skill.customs.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.customs-pol-joni
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # grazeland-pony-breeders
-name: ${{rqgCompendiumContent.skill.customs.skillName}}$ (${{rqgCompendiumContent.culture.grazelandPonyBreeders}}$)
+name: §_rqgCompendiumContent.skill.customs.skillName_§ (§_rqgCompendiumContent.culture.grazelandPonyBreeders_§)
 type: skill
 img: systems/rqg/assets/images/skills/customs.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.customs.skillName}}$
-  specialization: ${{rqgCompendiumContent.culture.grazelandPonyBreeders}}$
+  skillName: §_rqgCompendiumContent.skill.customs.skillName_§
+  specialization: §_rqgCompendiumContent.culture.grazelandPonyBreeders_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..customs
-    name: ${{rqgCompendiumContent.skill.customs.skillName}}$
+    name: §_rqgCompendiumContent.skill.customs.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.customs-grazeland-pony-breeders
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # lunar-provincial
-name: ${{rqgCompendiumContent.skill.customs.skillName}}$ (${{rqgCompendiumContent.culture.lunarProvincial}}$)
+name: §_rqgCompendiumContent.skill.customs.skillName_§ (§_rqgCompendiumContent.culture.lunarProvincial_§)
 type: skill
 img: systems/rqg/assets/images/skills/customs.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.customs.skillName}}$
-  specialization: ${{rqgCompendiumContent.culture.lunarProvincial}}$
+  skillName: §_rqgCompendiumContent.skill.customs.skillName_§
+  specialization: §_rqgCompendiumContent.culture.lunarProvincial_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..customs
-    name: ${{rqgCompendiumContent.skill.customs.skillName}}$
+    name: §_rqgCompendiumContent.skill.customs.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.customs-lunar-provincial
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # tarshite
-name: ${{rqgCompendiumContent.skill.customs.skillName}}$ (${{rqgCompendiumContent.culture.tarshite}}$)
+name: §_rqgCompendiumContent.skill.customs.skillName_§ (§_rqgCompendiumContent.culture.tarshite_§)
 type: skill
 img: systems/rqg/assets/images/skills/customs.svg
 system:
   category: knowledge
-  skillName: ${{rqgCompendiumContent.skill.customs.skillName}}$
-  specialization: ${{rqgCompendiumContent.culture.tarshite}}$
+  skillName: §_rqgCompendiumContent.skill.customs.skillName_§
+  specialization: §_rqgCompendiumContent.culture.tarshite_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..customs
-    name: ${{rqgCompendiumContent.skill.customs.skillName}}$
+    name: §_rqgCompendiumContent.skill.customs.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.customs-tarshite
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§

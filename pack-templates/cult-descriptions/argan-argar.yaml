@@ -1,7 +1,7 @@
 # argan-argar
-name: ${{rqgCompendiumContent.cult.arganArgar.name}}$
+name: §_rqgCompendiumContent.cult.arganArgar.name_§
 pages:
-  - name: ${{rqgCompendiumContent.cult.arganArgar.name}}$
+  - name: §_rqgCompendiumContent.cult.arganArgar.name_§
     type: text
     title:
       show: false
@@ -9,16 +9,16 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.cultDescription.title}}$
-        <h2>${{rqgCompendiumContent.cult.arganArgar.name}}$, ${{rqgCompendiumContent.cult.arganArgar.tagline}}$</h2>
+        §_rqgCompendiumContent.journalEntryType.cultDescription.title_§
+        <h2>§_rqgCompendiumContent.cult.arganArgar.name_§, §_rqgCompendiumContent.cult.arganArgar.tagline_§</h2>
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/harmony.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/darkness.svg" height="70">
-        ${{rqgCompendiumContent.cult.arganArgar.descriptionHtml}}$
+        §_rqgCompendiumContent.cult.arganArgar.descriptionHtml_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..argan-argar
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

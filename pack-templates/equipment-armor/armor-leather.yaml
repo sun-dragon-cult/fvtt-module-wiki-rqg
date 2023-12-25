@@ -1,19 +1,19 @@
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Hood}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Hood_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§)
 type: armor
 img: systems/rqg/assets/images/armor/hood.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.hood-leather
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.head}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.head_§
       rqid: i.hit-location.head
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Hood}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Hood_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§
   absorbs: 1
   encumbrance: 0.5
   price:
@@ -24,24 +24,24 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.leather}}$ ${{rqgCompendiumContent.equipment.armor.description.underLayer}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.leather_§ §_rqgCompendiumContent.equipment.armor.description.underLayer_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.BroadBrimmedHat}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.BroadBrimmedHat_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§)
 type: armor
 img: systems/rqg/assets/images/armor/broad-brimmed-hat.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.broad-brimmed-hat-leather
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.head}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.head_§
       rqid: i.hit-location.head
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.BroadBrimmedHat}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.BroadBrimmedHat_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§
   absorbs: 1
   encumbrance: 0.5
   price:
@@ -52,24 +52,24 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.leather}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.leather_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Cap}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Cap_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§)
 type: armor
 img: systems/rqg/assets/images/armor/composite-helmet.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.cap-leather
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.head}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.head_§
       rqid: i.hit-location.head
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Cap}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Cap_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§
   absorbs: 2
   encumbrance: 0.5
   price:
@@ -80,26 +80,26 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.leather}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.leather_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Vambraces}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Vambraces_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§)
 type: armor
 img: systems/rqg/assets/images/armor/vambraces.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.vambraces-leather
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.leftArm}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.leftArm_§
       rqid: i.hit-location.left-arm
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.rightArm}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.rightArm_§
       rqid: i.hit-location.right-arm
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Vambraces}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Vambraces_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§
   absorbs: 1
   encumbrance: 0
   price:
@@ -110,24 +110,24 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.leather}}$ ${{rqgCompendiumContent.equipment.armor.description.vambraces}}$ ${{rqgCompendiumContent.equipment.armor.description.underLayer}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.leather_§ §_rqgCompendiumContent.equipment.armor.description.vambraces_§ §_rqgCompendiumContent.equipment.armor.description.underLayer_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Cuirass}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Cuirass_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§)
 type: armor
 img: systems/rqg/assets/images/armor/cuirass.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.cuirass-leather
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.chest_§
       rqid: i.hit-location.chest
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Cuirass}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Cuirass_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§
   absorbs: 1
   encumbrance: 1
   price:
@@ -138,26 +138,26 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.leather}}$ ${{rqgCompendiumContent.equipment.armor.description.cuirass}}$ ${{rqgCompendiumContent.equipment.armor.description.underLayer}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.leather_§ §_rqgCompendiumContent.equipment.armor.description.cuirass_§ §_rqgCompendiumContent.equipment.armor.description.underLayer_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Hauberk}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Hauberk_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§)
 type: armor
 img: systems/rqg/assets/images/armor/hauberk.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.hauberk-leather
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.chest_§
       rqid: i.hit-location.chest
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.abdomen_§
       rqid: i.hit-location.abdomen
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Hauberk}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Hauberk_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§
   absorbs: 1
   encumbrance: 0.5
   price:
@@ -168,24 +168,24 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.leather}}$ ${{rqgCompendiumContent.equipment.armor.description.hauberk}}$ ${{rqgCompendiumContent.equipment.armor.description.underLayer}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.leather_§ §_rqgCompendiumContent.equipment.armor.description.hauberk_§ §_rqgCompendiumContent.equipment.armor.description.underLayer_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Skirt}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Skirt_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§)
 type: armor
 img: systems/rqg/assets/images/armor/skirt.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.skirt-leather
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.abdomen_§
       rqid: i.hit-location.abdomen
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Skirt}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Skirt_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§
   absorbs: 1
   encumbrance: 0.5
   price:
@@ -196,28 +196,28 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.leather}}$ ${{rqgCompendiumContent.equipment.armor.description.underLayer}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.leather_§ §_rqgCompendiumContent.equipment.armor.description.underLayer_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.PantsTrews}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.PantsTrews_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§)
 type: armor
 img: systems/rqg/assets/images/armor/pants.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.pants-leather
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.abdomen_§
       rqid: i.hit-location.abdomen
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.leftLeg}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.leftLeg_§
       rqid: i.hit-location.left-leg
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.rightLeg}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.rightLeg_§
       rqid: i.hit-location.right-leg
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.PantsTrews}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.PantsTrews_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§
   absorbs: 1
   encumbrance: 0
   price:
@@ -228,26 +228,26 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.leather}}$ ${{rqgCompendiumContent.equipment.armor.description.pants}}$ ${{rqgCompendiumContent.equipment.armor.description.underLayer}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.leather_§ §_rqgCompendiumContent.equipment.armor.description.pants_§ §_rqgCompendiumContent.equipment.armor.description.underLayer_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Greaves}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Greaves_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§)
 type: armor
 img: systems/rqg/assets/images/armor/greaves.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.greaves-leather
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.leftLeg}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.leftLeg_§
       rqid: i.hit-location.left-leg
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.rightLeg}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.rightLeg_§
       rqid: i.hit-location.right-leg
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Greaves}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.Leather}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Greaves_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§
   absorbs: 1
   encumbrance: 0
   price:
@@ -258,4 +258,4 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.leather}}$ ${{rqgCompendiumContent.equipment.armor.description.greaves}}$ ${{rqgCompendiumContent.equipment.armor.description.underLayer}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.leather_§ §_rqgCompendiumContent.equipment.armor.description.greaves_§ §_rqgCompendiumContent.equipment.armor.description.underLayer_§

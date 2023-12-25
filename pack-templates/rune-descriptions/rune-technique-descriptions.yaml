@@ -1,7 +1,7 @@
 # combine
-name: ${{rqgCompendiumContent.runeDescription.combineTechnique.name}}$
+name: §_rqgCompendiumContent.runeDescription.combineTechnique.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.combineTechnique.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.combineTechnique.name_§
     type: text
     title:
       show: false
@@ -9,22 +9,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/combine.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.combineTechnique.description}}$
+        §_rqgCompendiumContent.runeDescription.combineTechnique.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..combine-technique
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # command
-name: ${{rqgCompendiumContent.runeDescription.commandTechnique.name}}$
+name: §_rqgCompendiumContent.runeDescription.commandTechnique.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.commandTechnique.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.commandTechnique.name_§
     type: text
     title:
       show: false
@@ -32,22 +32,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/command.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.commandTechnique.description}}$
+        §_rqgCompendiumContent.runeDescription.commandTechnique.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..command-technique
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # dispel
-name: ${{rqgCompendiumContent.runeDescription.dispelTechnique.name}}$
+name: §_rqgCompendiumContent.runeDescription.dispelTechnique.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.dispelTechnique.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.dispelTechnique.name_§
     type: text
     title:
       show: false
@@ -55,22 +55,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/dispel.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.dispelTechnique.description}}$
+        §_rqgCompendiumContent.runeDescription.dispelTechnique.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..dispel-technique
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # separate
-name: ${{rqgCompendiumContent.runeDescription.separateTechnique.name}}$
+name: §_rqgCompendiumContent.runeDescription.separateTechnique.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.separateTechnique.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.separateTechnique.name_§
     type: text
     title:
       show: false
@@ -78,22 +78,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/separate.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.separateTechnique.description}}$
+        §_rqgCompendiumContent.runeDescription.separateTechnique.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..separate-technique
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # summon
-name: ${{rqgCompendiumContent.runeDescription.summonTechnique.name}}$
+name: §_rqgCompendiumContent.runeDescription.summonTechnique.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.summonTechnique.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.summonTechnique.name_§
     type: text
     title:
       show: false
@@ -101,22 +101,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/summon.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.summonTechnique.description}}$
+        §_rqgCompendiumContent.runeDescription.summonTechnique.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..summon-technique
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # tap
-name: ${{rqgCompendiumContent.runeDescription.tapTechnique.name}}$
+name: §_rqgCompendiumContent.runeDescription.tapTechnique.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.tapTechnique.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.tapTechnique.name_§
     type: text
     title:
       show: false
@@ -124,14 +124,14 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/tap.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.tapTechnique.description}}$
+        §_rqgCompendiumContent.runeDescription.tapTechnique.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..tap-technique
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

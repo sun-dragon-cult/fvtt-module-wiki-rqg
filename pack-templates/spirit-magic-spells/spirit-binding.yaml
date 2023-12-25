@@ -1,5 +1,5 @@
 # spirit-binding
-name: ${{rqgCompendiumContent.spiritMagic.spiritBinding.name}}$
+name: §_rqgCompendiumContent.spiritMagic.spiritBinding.name_§
 type: spiritMagic
 img: systems/rqg/assets/images/items/spirit-magic.svg
 system:
@@ -10,11 +10,11 @@ system:
   concentration:
   descriptionRqidLink:
     rqid: je..spirit-binding
-    name: ${{rqgCompendiumContent.spiritMagic.spiritBinding.name}}$
+    name: §_rqgCompendiumContent.spiritMagic.spiritBinding.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.spirit-magic.spirit-binding
-      lang: ${openSystem.lang}}$
-      priority: ${openSystem.prio}}$
+      lang: ${openSystem.lang_§
+      priority: ${openSystem.prio_§

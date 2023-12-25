@@ -1,7 +1,7 @@
 # second-sight
-name: ${{rqgCompendiumContent.spiritMagic.secondSight.name}}$
+name: §_rqgCompendiumContent.spiritMagic.secondSight.name_§
 pages:
-  - name: ${{rqgCompendiumContent.spiritMagic.secondSight.name}}$
+  - name: §_rqgCompendiumContent.spiritMagic.secondSight.name_§
     type: text
     title:
       show: false
@@ -9,13 +9,13 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.spiritMagicDescription.title}}$
-        ${{rqgCompendiumContent.spiritMagic.secondSight.description}}$
+        §_rqgCompendiumContent.journalEntryType.spiritMagicDescription.title_§
+        §_rqgCompendiumContent.spiritMagic.secondSight.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..second-sight
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

@@ -1,7 +1,7 @@
 # beast
-name: ${{rqgCompendiumContent.runeDescription.beastForm.name}}$
+name: §_rqgCompendiumContent.runeDescription.beastForm.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.beastForm.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.beastForm.name_§
     type: text
     title:
       show: false
@@ -9,22 +9,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/beast.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.beastForm.description}}$
+        §_rqgCompendiumContent.runeDescription.beastForm.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..beast-form
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # chaos
-name: ${{rqgCompendiumContent.runeDescription.chaosForm.name}}$
+name: §_rqgCompendiumContent.runeDescription.chaosForm.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.chaosForm.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.chaosForm.name_§
     type: text
     title:
       show: false
@@ -32,22 +32,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/chaos.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.chaosForm.description}}$
+        §_rqgCompendiumContent.runeDescription.chaosForm.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..chaos-form
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # dragonewt
-name: ${{rqgCompendiumContent.runeDescription.dragonewtForm.name}}$
+name: §_rqgCompendiumContent.runeDescription.dragonewtForm.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.dragonewtForm.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.dragonewtForm.name_§
     type: text
     title:
       show: false
@@ -55,22 +55,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/dragonewt.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.dragonewtForm.description}}$
+        §_rqgCompendiumContent.runeDescription.dragonewtForm.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..dragonewt-form
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # man
-name: ${{rqgCompendiumContent.runeDescription.manForm.name}}$
+name: §_rqgCompendiumContent.runeDescription.manForm.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.manForm.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.manForm.name_§
     type: text
     title:
       show: false
@@ -78,22 +78,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/man.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.manForm.description}}$
+        §_rqgCompendiumContent.runeDescription.manForm.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..man-form
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # plant
-name: ${{rqgCompendiumContent.runeDescription.plantForm.name}}$
+name: §_rqgCompendiumContent.runeDescription.plantForm.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.plantForm.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.plantForm.name_§
     type: text
     title:
       show: false
@@ -101,22 +101,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/plant.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.plantForm.description}}$
+        §_rqgCompendiumContent.runeDescription.plantForm.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..plant-form
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # spirit
-name: ${{rqgCompendiumContent.runeDescription.spiritForm.name}}$
+name: §_rqgCompendiumContent.runeDescription.spiritForm.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.spiritForm.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.spiritForm.name_§
     type: text
     title:
       show: false
@@ -124,14 +124,14 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/spirit.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.spiritForm.description}}$
+        §_rqgCompendiumContent.runeDescription.spiritForm.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..spirit-form
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

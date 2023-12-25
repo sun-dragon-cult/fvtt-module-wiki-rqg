@@ -1,4 +1,4 @@
-name: ${{rqgCompendiumContent.hitLocation.beetle.rightHindLeg}}$
+name: §_rqgCompendiumContent.hitLocation.beetle.rightHindLeg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -16,10 +16,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.right-hind-leg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.beetle.rightCenterLeg}}$
+name: §_rqgCompendiumContent.hitLocation.beetle.rightCenterLeg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -37,10 +37,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.right-center-leg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.beetle.leftHindLeg}}$
+name: §_rqgCompendiumContent.hitLocation.beetle.leftHindLeg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -58,10 +58,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.left-hind-leg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.beetle.leftCenterLeg}}$
+name: §_rqgCompendiumContent.hitLocation.beetle.leftCenterLeg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -79,10 +79,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.left-center-leg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.beetle.abdomen}}$
+name: §_rqgCompendiumContent.hitLocation.beetle.abdomen_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -100,10 +100,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.abdomen
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.beetle.thorax}}$
+name: §_rqgCompendiumContent.hitLocation.beetle.thorax_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -121,10 +121,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.thorax
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.beetle.rightForeleg}}$
+name: §_rqgCompendiumContent.hitLocation.beetle.rightForeleg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -142,10 +142,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.right-foreleg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.beetle.leftForeleg}}$
+name: §_rqgCompendiumContent.hitLocation.beetle.leftForeleg_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -163,10 +163,10 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.left-foreleg
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.hitLocation.beetle.head}}$
+name: §_rqgCompendiumContent.hitLocation.beetle.head_§
 type: hitLocation
 img: systems/rqg/assets/images/items/hit-location.svg
 system:
@@ -184,5 +184,5 @@ flags:
   rqg:
     documentRqidFlags:
       id: i.hit-location.head
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

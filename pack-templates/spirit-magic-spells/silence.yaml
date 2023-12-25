@@ -1,5 +1,5 @@
 # silence
-name: ${{rqgCompendiumContent.spiritMagic.silence.name}}$
+name: §_rqgCompendiumContent.spiritMagic.silence.name_§
 type: spiritMagic
 img: systems/rqg/assets/images/items/spirit-magic.svg
 system:
@@ -10,11 +10,11 @@ system:
   concentration: passive
   descriptionRqidLink:
     rqid: je..silence
-    name: ${{rqgCompendiumContent.spiritMagic.silence.name}}$
+    name: §_rqgCompendiumContent.spiritMagic.silence.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.spirit-magic.silence
-      lang: ${openSystem.lang}}$
-      priority: ${openSystem.prio}}$
+      lang: ${openSystem.lang_§
+      priority: ${openSystem.prio_§

@@ -1,87 +1,87 @@
 # insight human
-name: ${{rqgCompendiumContent.skill.insight.skillName}}$ (${{rqgCompendiumContent.skill.insight.specialization.human}}$)
+name: §_rqgCompendiumContent.skill.insight.skillName_§ (§_rqgCompendiumContent.skill.insight.specialization.human_§)
 type: skill
 img: systems/rqg/assets/images/skills/insight.svg
 system:
   category: perception
-  skillName: ${{rqgCompendiumContent.skill.insight.skillName}}$
-  specialization: ${{rqgCompendiumContent.skill.insight.specialization.human}}$
+  skillName: §_rqgCompendiumContent.skill.insight.skillName_§
+  specialization: §_rqgCompendiumContent.skill.insight.specialization.human_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..insight
-    name: ${{rqgCompendiumContent.skill.insight.skillName}}$
+    name: §_rqgCompendiumContent.skill.insight.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.insight-human
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # insight aldryami
-name: ${{rqgCompendiumContent.skill.insight.skillName}}$ (${{rqgCompendiumContent.skill.insight.specialization.aldryami}}$)
+name: §_rqgCompendiumContent.skill.insight.skillName_§ (§_rqgCompendiumContent.skill.insight.specialization.aldryami_§)
 type: skill
 img: systems/rqg/assets/images/skills/insight.svg
 system:
   category: perception
-  skillName: ${{rqgCompendiumContent.skill.insight.skillName}}$
-  specialization: ${{rqgCompendiumContent.skill.insight.specialization.aldryami}}$
+  skillName: §_rqgCompendiumContent.skill.insight.skillName_§
+  specialization: §_rqgCompendiumContent.skill.insight.specialization.aldryami_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..insight
-    name: ${{rqgCompendiumContent.skill.insight.skillName}}$
+    name: §_rqgCompendiumContent.skill.insight.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.insight-aldryami
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # insight mostali
-name: ${{rqgCompendiumContent.skill.insight.skillName}}$ (${{rqgCompendiumContent.skill.insight.specialization.mostali}}$)
+name: §_rqgCompendiumContent.skill.insight.skillName_§ (§_rqgCompendiumContent.skill.insight.specialization.mostali_§)
 type: skill
 img: systems/rqg/assets/images/skills/insight.svg
 system:
   category: perception
-  skillName: ${{rqgCompendiumContent.skill.insight.skillName}}$
-  specialization: ${{rqgCompendiumContent.skill.insight.specialization.mostali}}$
+  skillName: §_rqgCompendiumContent.skill.insight.skillName_§
+  specialization: §_rqgCompendiumContent.skill.insight.specialization.mostali_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..insight
-    name: ${{rqgCompendiumContent.skill.insight.skillName}}$
+    name: §_rqgCompendiumContent.skill.insight.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.insight-mostali
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # insight uz
-name: ${{rqgCompendiumContent.skill.insight.skillName}}$ (${{rqgCompendiumContent.skill.insight.specialization.uz}}$)
+name: §_rqgCompendiumContent.skill.insight.skillName_§ (§_rqgCompendiumContent.skill.insight.specialization.uz_§)
 type: skill
 img: systems/rqg/assets/images/skills/insight.svg
 system:
   category: perception
-  skillName: ${{rqgCompendiumContent.skill.insight.skillName}}$
-  specialization: ${{rqgCompendiumContent.skill.insight.specialization.uz}}$
+  skillName: §_rqgCompendiumContent.skill.insight.skillName_§
+  specialization: §_rqgCompendiumContent.skill.insight.specialization.uz_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..insight
-    name: ${{rqgCompendiumContent.skill.insight.skillName}}$
+    name: §_rqgCompendiumContent.skill.insight.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.insight-uz
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§

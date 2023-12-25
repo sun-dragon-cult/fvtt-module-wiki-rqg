@@ -1,13 +1,13 @@
 # reflection
-name: ${{rqgCompendiumContent.runeMagic.reflection.name}}$
+name: §_rqgCompendiumContent.runeMagic.reflection.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.moon-element
-      name: ${{rqgCompendiumContent.rune.moon}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.moon_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.illusion-power
-      name: ${{rqgCompendiumContent.rune.illusion}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.illusion_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 2
   castingRange: ranged
   duration: temporal
@@ -16,11 +16,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..reflection
-    name: ${{rqgCompendiumContent.runeMagic.reflection.name}}$
+    name: §_rqgCompendiumContent.runeMagic.reflection.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.reflection
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

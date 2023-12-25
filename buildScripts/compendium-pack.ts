@@ -174,7 +174,7 @@ export class CompendiumPack {
   }
 
   /**
-   * Create a translated clone of this template CompendiumPack by replacing `${{key}}$` with the translations for that key & lang
+   * Create a translated clone of this template CompendiumPack by replacing `§_key_§` with the translations for that key & lang
    */
   translate(lang: string): CompendiumPack {
     // Include the filename in path to match the behaviour in starter set

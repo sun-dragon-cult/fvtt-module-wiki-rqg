@@ -1,7 +1,7 @@
 # chalana-arroy
-name: ${{rqgCompendiumContent.cult.chalanaArroy.name}}$
+name: §_rqgCompendiumContent.cult.chalanaArroy.name_§
 pages:
-  - name: ${{rqgCompendiumContent.cult.chalanaArroy.name}}$
+  - name: §_rqgCompendiumContent.cult.chalanaArroy.name_§
     type: text
     title:
       show: false
@@ -9,17 +9,17 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.cultDescription.title}}$
-        <h2>${{rqgCompendiumContent.cult.chalanaArroy.name}}$, ${{rqgCompendiumContent.cult.chalanaArroy.tagline}}$</h2>
+        §_rqgCompendiumContent.journalEntryType.cultDescription.title_§
+        <h2>§_rqgCompendiumContent.cult.chalanaArroy.name_§, §_rqgCompendiumContent.cult.chalanaArroy.tagline_§</h2>
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/harmony.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/fertility.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/harmony.svg" height="70">
-        ${{rqgCompendiumContent.cult.chalanaArroy.descriptionHtml}}$
+        §_rqgCompendiumContent.cult.chalanaArroy.descriptionHtml_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..chalana-arroy
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

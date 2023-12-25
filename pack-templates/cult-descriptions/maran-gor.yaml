@@ -1,7 +1,7 @@
 # maran-gor
-name: ${{rqgCompendiumContent.cult.maranGor.name}}$
+name: §_rqgCompendiumContent.cult.maranGor.name_§
 pages:
-  - name: ${{rqgCompendiumContent.cult.maranGor.name}}$
+  - name: §_rqgCompendiumContent.cult.maranGor.name_§
     type: text
     title:
       show: false
@@ -9,17 +9,17 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.cultDescription.title}}$
-        <h2>${{rqgCompendiumContent.cult.maranGor.name}}$, ${{rqgCompendiumContent.cult.maranGor.tagline}}$</h2>
+        §_rqgCompendiumContent.journalEntryType.cultDescription.title_§
+        <h2>§_rqgCompendiumContent.cult.maranGor.name_§, §_rqgCompendiumContent.cult.maranGor.tagline_§</h2>
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/disorder.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/earth.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/death.svg" height="70">
-        ${{rqgCompendiumContent.cult.maranGor.descriptionHtml}}$
+        §_rqgCompendiumContent.cult.maranGor.descriptionHtml_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..maran-gor
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

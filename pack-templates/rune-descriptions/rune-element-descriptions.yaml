@@ -1,7 +1,7 @@
 # air
-name: ${{rqgCompendiumContent.runeDescription.airElement.name}}$
+name: §_rqgCompendiumContent.runeDescription.airElement.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.airElement.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.airElement.name_§
     type: text
     title:
       show: false
@@ -9,22 +9,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/air.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.airElement.description}}$
+        §_rqgCompendiumContent.runeDescription.airElement.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..air-element
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # darkness
-name: ${{rqgCompendiumContent.runeDescription.darknessElement.name}}$
+name: §_rqgCompendiumContent.runeDescription.darknessElement.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.darknessElement.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.darknessElement.name_§
     type: text
     title:
       show: false
@@ -32,22 +32,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/darkness.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.darknessElement.description}}$
+        §_rqgCompendiumContent.runeDescription.darknessElement.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..darkness-element
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # earth
-name: ${{rqgCompendiumContent.runeDescription.earthElement.name}}$
+name: §_rqgCompendiumContent.runeDescription.earthElement.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.earthElement.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.earthElement.name_§
     type: text
     title:
       show: false
@@ -55,22 +55,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/earth.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.earthElement.description}}$
+        §_rqgCompendiumContent.runeDescription.earthElement.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..earth-element
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # fireSky
-name: ${{rqgCompendiumContent.runeDescription.fireSkyElement.name}}$
+name: §_rqgCompendiumContent.runeDescription.fireSkyElement.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.fireSkyElement.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.fireSkyElement.name_§
     type: text
     title:
       show: false
@@ -78,22 +78,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/fire_sky.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.fireSkyElement.description}}$
+        §_rqgCompendiumContent.runeDescription.fireSkyElement.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..fire-sky-element
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # moon
-name: ${{rqgCompendiumContent.runeDescription.moonElement.name}}$
+name: §_rqgCompendiumContent.runeDescription.moonElement.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.moonElement.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.moonElement.name_§
     type: text
     title:
       show: false
@@ -101,22 +101,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/moon_full.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.moonElement.description}}$
+        §_rqgCompendiumContent.runeDescription.moonElement.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..moon-element
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # water
-name: ${{rqgCompendiumContent.runeDescription.waterElement.name}}$
+name: §_rqgCompendiumContent.runeDescription.waterElement.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.waterElement.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.waterElement.name_§
     type: text
     title:
       show: false
@@ -124,14 +124,14 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/water.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.waterElement.description}}$
+        §_rqgCompendiumContent.runeDescription.waterElement.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..water-element
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

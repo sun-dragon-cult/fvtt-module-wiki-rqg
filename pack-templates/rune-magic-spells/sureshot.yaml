@@ -1,15 +1,15 @@
 # sureshot
-name: ${{rqgCompendiumContent.runeMagic.sureshot.name}}$
+name: §_rqgCompendiumContent.runeMagic.sureshot.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.fire-sky-element
-      name: ${{rqgCompendiumContent.rune.fireSky}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.fireSky_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.death-power
-      name: ${{rqgCompendiumContent.rune.death}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.death_§ (§_rqgCompendiumContent.runeType.power_§)
     - rqid: i.rune.harmony-power
-      name: ${{rqgCompendiumContent.rune.harmony}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.harmony_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 1
   castingRange: ranged
   duration: temporal
@@ -18,11 +18,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..sureshot
-    name: ${{rqgCompendiumContent.runeMagic.sureshot.name}}$
+    name: §_rqgCompendiumContent.runeMagic.sureshot.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.sureshot
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

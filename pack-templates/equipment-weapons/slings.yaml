@@ -1,12 +1,12 @@
-name: ${{rqgCompendiumContent.weapon.sling}}$
+name: §_rqgCompendiumContent.weapon.sling_§
 type: weapon
 img: systems/rqg/assets/images/weapons/sling.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.sling
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -40,9 +40,9 @@ system:
     missile:
       skillRqidLink:
         rqid: i.skill.slings-sling
-        name: ${{rqgCompendiumContent.weaponSkill.slings.name}}$ (${{rqgCompendiumContent.weaponSkill.slings.specialization.sling}}$)
+        name: §_rqgCompendiumContent.weaponSkill.slings.name_§ (§_rqgCompendiumContent.weaponSkill.slings.specialization.sling_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Throw}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Throw_§
           damageType: crush
           description:
       damage: 1d8+db/2
@@ -72,15 +72,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.staffSling}}$
+name: §_rqgCompendiumContent.weapon.staffSling_§
 type: weapon
 img: systems/rqg/assets/images/weapons/sling.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.staff-sling
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -114,9 +114,9 @@ system:
     missile:
       skillRqidLink:
         rqid: i.skill.slings-staff-sling
-        name: ${{rqgCompendiumContent.weaponSkill.slings.name}}$ (${{rqgCompendiumContent.weaponSkill.slings.specialization.staffSling}}$)
+        name: §_rqgCompendiumContent.weaponSkill.slings.name_§ (§_rqgCompendiumContent.weaponSkill.slings.specialization.staffSling_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Throw}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Throw_§
           damageType: crush
       damage: 1d10+db/2
       minStrength: 9
@@ -145,15 +145,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.slingStones}}$
+name: §_rqgCompendiumContent.weapon.slingStones_§
 type: weapon
 img: systems/rqg/assets/images/weapons/sling-stones.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.sling-stones
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:

@@ -1,11 +1,11 @@
 # magic-point-enchantment
-name: ${{rqgCompendiumContent.runeMagic.magicPointEnchantment.name}}$
+name: §_rqgCompendiumContent.runeMagic.magicPointEnchantment.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.magic-condition
-      name: ${{rqgCompendiumContent.rune.magic}}$ (${{rqgCompendiumContent.runeType.condition}}$)
+      name: §_rqgCompendiumContent.rune.magic_§ (§_rqgCompendiumContent.runeType.condition_§)
   points: 1
   isRitual: true
   isStackable: true
@@ -13,11 +13,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..magic-point-enchantment
-    name: ${{rqgCompendiumContent.runeMagic.magicPointEnchantment.name}}$
+    name: §_rqgCompendiumContent.runeMagic.magicPointEnchantment.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.magic-point-enchantment
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

@@ -1,7 +1,7 @@
 # bladesharp
-name: ${{rqgCompendiumContent.spiritMagic.bladesharp.name}}$
+name: §_rqgCompendiumContent.spiritMagic.bladesharp.name_§
 pages:
-  - name: ${{rqgCompendiumContent.spiritMagic.bladesharp.name}}$
+  - name: §_rqgCompendiumContent.spiritMagic.bladesharp.name_§
     type: text
     title:
       show: false
@@ -9,13 +9,13 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.spiritMagicDescription.title}}$
-        ${{rqgCompendiumContent.spiritMagic.bladesharp.description}}$
+        §_rqgCompendiumContent.journalEntryType.spiritMagicDescription.title_§
+        §_rqgCompendiumContent.spiritMagic.bladesharp.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..bladesharp
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

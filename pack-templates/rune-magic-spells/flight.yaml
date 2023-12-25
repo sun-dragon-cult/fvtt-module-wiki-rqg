@@ -1,13 +1,13 @@
 # flight
-name: ${{rqgCompendiumContent.runeMagic.flight.name}}$
+name: §_rqgCompendiumContent.runeMagic.flight.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.air-element
-      name: ${{rqgCompendiumContent.rune.air}}$ (${{rqgCompendiumContent.runeType.element}}$)
+      name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
     - rqid: i.rune.movement-power
-      name: ${{rqgCompendiumContent.rune.movement}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.movement_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 1
   castingRange: ranged
   duration: temporal
@@ -16,11 +16,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..flight
-    name: ${{rqgCompendiumContent.runeMagic.flight.name}}$
+    name: §_rqgCompendiumContent.runeMagic.flight.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.flight
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

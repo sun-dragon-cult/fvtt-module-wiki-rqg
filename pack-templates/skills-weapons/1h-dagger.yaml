@@ -1,45 +1,45 @@
 # 1h-dagger-dagger
-name: ${{rqgCompendiumContent.weaponSkill.1h-daggers.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-daggers.specialization.dagger}}$)
+name: §_rqgCompendiumContent.weaponSkill.1h-daggers.name_§ (§_rqgCompendiumContent.weaponSkill.1h-daggers.specialization.dagger_§)
 type: skill
 img: systems/rqg/assets/images/weapons/knife.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.1h-daggers.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.1h-daggers.specialization.dagger}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.1h-daggers.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.1h-daggers.specialization.dagger_§
   baseChance: 15
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.1h-daggers-dagger
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 1h-dagger-sickle
-name: ${{rqgCompendiumContent.weaponSkill.1h-daggers.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-daggers.specialization.sickle}}$)
+name: §_rqgCompendiumContent.weaponSkill.1h-daggers.name_§ (§_rqgCompendiumContent.weaponSkill.1h-daggers.specialization.sickle_§)
 type: skill
 img: systems/rqg/assets/images/weapons/sickle.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.1h-daggers.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.1h-daggers.specialization.sickle}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.1h-daggers.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.1h-daggers.specialization.sickle_§
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.1h-daggers-sickle
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

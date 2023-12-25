@@ -1,7 +1,7 @@
 # death
-name: ${{rqgCompendiumContent.runeDescription.deathPower.name}}$
+name: §_rqgCompendiumContent.runeDescription.deathPower.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.deathPower.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.deathPower.name_§
     type: text
     title:
       show: false
@@ -9,22 +9,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/death.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.deathPower.description}}$
+        §_rqgCompendiumContent.runeDescription.deathPower.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..death-power
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # disorder
-name: ${{rqgCompendiumContent.runeDescription.disorderPower.name}}$
+name: §_rqgCompendiumContent.runeDescription.disorderPower.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.disorderPower.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.disorderPower.name_§
     type: text
     title:
       show: false
@@ -32,22 +32,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/disorder.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.disorderPower.description}}$
+        §_rqgCompendiumContent.runeDescription.disorderPower.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..disorder-power
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # fertility
-name: ${{rqgCompendiumContent.runeDescription.fertilityPower.name}}$
+name: §_rqgCompendiumContent.runeDescription.fertilityPower.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.fertilityPower.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.fertilityPower.name_§
     type: text
     title:
       show: false
@@ -55,22 +55,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/fertility.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.fertilityPower.description}}$
+        §_rqgCompendiumContent.runeDescription.fertilityPower.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..fertility-power
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # harmony
-name: ${{rqgCompendiumContent.runeDescription.harmonyPower.name}}$
+name: §_rqgCompendiumContent.runeDescription.harmonyPower.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.harmonyPower.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.harmonyPower.name_§
     type: text
     title:
       show: false
@@ -78,22 +78,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/harmony.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.harmonyPower.description}}$
+        §_rqgCompendiumContent.runeDescription.harmonyPower.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..harmony-power
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # illusion
-name: ${{rqgCompendiumContent.runeDescription.illusionPower.name}}$
+name: §_rqgCompendiumContent.runeDescription.illusionPower.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.illusionPower.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.illusionPower.name_§
     type: text
     title:
       show: false
@@ -101,22 +101,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/illusion.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.illusionPower.description}}$
+        §_rqgCompendiumContent.runeDescription.illusionPower.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..illusion-power
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # movement
-name: ${{rqgCompendiumContent.runeDescription.movementPower.name}}$
+name: §_rqgCompendiumContent.runeDescription.movementPower.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.movementPower.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.movementPower.name_§
     type: text
     title:
       show: false
@@ -124,22 +124,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/movement_change.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.movementPower.description}}$
+        §_rqgCompendiumContent.runeDescription.movementPower.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..movement-power
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # stasis
-name: ${{rqgCompendiumContent.runeDescription.stasisPower.name}}$
+name: §_rqgCompendiumContent.runeDescription.stasisPower.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.stasisPower.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.stasisPower.name_§
     type: text
     title:
       show: false
@@ -147,22 +147,22 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/stasis.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.stasisPower.description}}$
+        §_rqgCompendiumContent.runeDescription.stasisPower.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..stasis-power
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # truth
-name: ${{rqgCompendiumContent.runeDescription.truthPower.name}}$
+name: §_rqgCompendiumContent.runeDescription.truthPower.name_§
 pages:
-  - name: ${{rqgCompendiumContent.runeDescription.truthPower.name}}$
+  - name: §_rqgCompendiumContent.runeDescription.truthPower.name_§
     type: text
     title:
       show: false
@@ -170,14 +170,14 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.runeDescription.title}}$
+        §_rqgCompendiumContent.journalEntryType.runeDescription.title_§
         <img style="float: right; margin-left:1rem; border:none;" src="systems/rqg/assets/images/runes/truth.svg" height="175">
-        ${{rqgCompendiumContent.runeDescription.truthPower.description}}$
+        §_rqgCompendiumContent.runeDescription.truthPower.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..truth-power
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

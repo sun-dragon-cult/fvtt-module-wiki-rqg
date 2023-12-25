@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.cloakWoolWinter}}$
+name: §_rqgCompendiumContent.equipment.gear.cloakWoolWinter_§
 type: gear
 img: systems/rqg/assets/images/gear/cloak.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.wool-winter-cloak
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.cloakWoolWinterDescription}}$
+  description: §_rqgCompendiumContent.equipment.gear.cloakWoolWinterDescription_§
   gmNotes:
   quantity: 1
   price:

@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.instrumentKithara}}$
+name: §_rqgCompendiumContent.equipment.gear.instrumentKithara_§
 type: gear
 img: systems/rqg/assets/images/gear/lyre.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.musical-instrument-kithara
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.instrumentKitharaDescription}}$
+  description: §_rqgCompendiumContent.equipment.gear.instrumentKitharaDescription_§
   gmNotes:
   quantity: 1
   price:

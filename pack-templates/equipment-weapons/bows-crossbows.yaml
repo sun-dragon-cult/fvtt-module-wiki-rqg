@@ -1,12 +1,12 @@
-name: ${{rqgCompendiumContent.weapon.compositeBow}}$
+name: §_rqgCompendiumContent.weapon.compositeBow_§
 type: weapon
 img: systems/rqg/assets/images/weapons/bowman.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.composite-bow
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -40,9 +40,9 @@ system:
     missile:
       skillRqidLink:
         rqid: i.skill.bows-composite-bow
-        name: ${{rqgCompendiumContent.weaponSkill.bows.name}}$ (${{rqgCompendiumContent.weaponSkill.bows.specialization.compositeBow}}$)
+        name: §_rqgCompendiumContent.weaponSkill.bows.name_§ (§_rqgCompendiumContent.weaponSkill.bows.specialization.compositeBow_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Shoot}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Shoot_§
           damageType: impale
           description:
       damage: 1d8+1
@@ -72,15 +72,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.elfBow}}$
+name: §_rqgCompendiumContent.weapon.elfBow_§
 type: weapon
 img: systems/rqg/assets/images/weapons/bowman.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.elf-bow
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -114,9 +114,9 @@ system:
     missile:
       skillRqidLink:
         rqid: i.skill.bows-elf-bow
-        name: ${{rqgCompendiumContent.weaponSkill.bows.name}}$ (${{rqgCompendiumContent.weaponSkill.bows.specialization.elfBow}}$)
+        name: §_rqgCompendiumContent.weaponSkill.bows.name_§ (§_rqgCompendiumContent.weaponSkill.bows.specialization.elfBow_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Shoot}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Shoot_§
           damageType: impale
           description:
       damage: 1d8+1
@@ -146,15 +146,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.selfBow}}$
+name: §_rqgCompendiumContent.weapon.selfBow_§
 type: weapon
 img: systems/rqg/assets/images/weapons/bowman.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.self-bow
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -188,9 +188,9 @@ system:
     missile:
       skillRqidLink:
         rqid: i.skill.bows-self-bow
-        name: ${{rqgCompendiumContent.weaponSkill.bows.name}}$ (${{rqgCompendiumContent.weaponSkill.bows.specialization.selfBow}}$)
+        name: §_rqgCompendiumContent.weaponSkill.bows.name_§ (§_rqgCompendiumContent.weaponSkill.bows.specialization.selfBow_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Shoot}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Shoot_§
           damageType: impale
           description:
       damage: 1d6+1
@@ -220,15 +220,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.arbalest}}$
+name: §_rqgCompendiumContent.weapon.arbalest_§
 type: weapon
 img: systems/rqg/assets/images/weapons/crossbow.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.arbalest
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -262,9 +262,9 @@ system:
     missile:
       skillRqidLink:
         rqid: i.skill.crossbows-arbalest
-        name: ${{rqgCompendiumContent.weaponSkill.crossbows.name}}$ (${{rqgCompendiumContent.weaponSkill.crossbows.specialization.arbalest}}$)
+        name: §_rqgCompendiumContent.weaponSkill.crossbows.name_§ (§_rqgCompendiumContent.weaponSkill.crossbows.specialization.arbalest_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Shoot}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Shoot_§
           damageType: impale
           description:
       damage: 3d6+1
@@ -292,15 +292,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.heavyCrossbow}}$
+name: §_rqgCompendiumContent.weapon.heavyCrossbow_§
 type: weapon
 img: systems/rqg/assets/images/weapons/crossbow.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.heavy-crossbow
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -334,9 +334,9 @@ system:
     missile:
       skillRqidLink:
         rqid: i.skill.crossbows-heavy-crossbow
-        name: ${{rqgCompendiumContent.weaponSkill.crossbows.name}}$ (${{rqgCompendiumContent.weaponSkill.crossbows.specialization.heavyCrossbow}}$)
+        name: §_rqgCompendiumContent.weaponSkill.crossbows.name_§ (§_rqgCompendiumContent.weaponSkill.crossbows.specialization.heavyCrossbow_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Shoot}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Shoot_§
           damageType: impale
           description:
       damage: 2d6+2
@@ -366,15 +366,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.lightCrossbow}}$
+name: §_rqgCompendiumContent.weapon.lightCrossbow_§
 type: weapon
 img: systems/rqg/assets/images/weapons/crossbow.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.light-crossbow
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -408,9 +408,9 @@ system:
     missile:
       skillRqidLink:
         rqid: i.skill.crossbows-light-crossbow
-        name: ${{rqgCompendiumContent.weaponSkill.crossbows.name}}$ (${{rqgCompendiumContent.weaponSkill.crossbows.specialization.lightCrossbow}}$)
+        name: §_rqgCompendiumContent.weaponSkill.crossbows.name_§ (§_rqgCompendiumContent.weaponSkill.crossbows.specialization.lightCrossbow_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Shoot}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Shoot_§
           damageType: impale
           description:
       damage: 2d4+2
@@ -440,15 +440,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.repeatingCrossbow}}$
+name: §_rqgCompendiumContent.weapon.repeatingCrossbow_§
 type: weapon
 img: systems/rqg/assets/images/weapons/crossbow.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.repeating-crossbow
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -482,9 +482,9 @@ system:
     missile:
       skillRqidLink:
         rqid: i.skill.crossbows-repeating-crossbow
-        name: ${{rqgCompendiumContent.weaponSkill.crossbows.name}}$ (${{rqgCompendiumContent.weaponSkill.crossbows.specialization.repeatingCrossbow}}$)
+        name: §_rqgCompendiumContent.weaponSkill.crossbows.name_§ (§_rqgCompendiumContent.weaponSkill.crossbows.specialization.repeatingCrossbow_§)
       combatManeuvers:
-        - name: ${{uiContent.RQG.Item.Weapon.combatManeuver.Shoot}}$
+        - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Shoot_§
           damageType: impale
           description:
       damage: 2d4+2
@@ -514,15 +514,15 @@ system:
   isThrownWeapon: false
   isRangedWeapon: false
 ---
-name: ${{rqgCompendiumContent.weapon.arrows}}$
+name: §_rqgCompendiumContent.weapon.arrows_§
 type: weapon
 img: systems/rqg/assets/images/weapons/arrows.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.arrows
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:
@@ -586,15 +586,15 @@ system:
   isRangedWeapon: false
   projectileId:
 ---
-name: ${{rqgCompendiumContent.weapon.crossbowBolts}}$
+name: §_rqgCompendiumContent.weapon.crossbowBolts_§
 type: weapon
 img: systems/rqg/assets/images/weapons/bolts.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.weapon.crossbow-bolts
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   usage:

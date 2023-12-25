@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.clothesCotton}}$
+name: §_rqgCompendiumContent.equipment.gear.clothesCotton_§
 type: gear
 img: systems/rqg/assets/images/gear/clothes.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.cotton-clothing
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.clothesCottonDescription}}$
+  description: §_rqgCompendiumContent.equipment.gear.clothesCottonDescription_§
   gmNotes:
   quantity: 1
   price:

@@ -1,43 +1,43 @@
 # hide
-name: ${{rqgCompendiumContent.skill.hide.skillName}}$
+name: §_rqgCompendiumContent.skill.hide.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/hide.svg
 system:
   category: stealth
-  skillName: ${{rqgCompendiumContent.skill.hide.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.hide.skillName_§
   specialization:
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..hide
-    name: ${{rqgCompendiumContent.skill.hide.skillName}}$
+    name: §_rqgCompendiumContent.skill.hide.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.hide
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # move-quietly
-name: ${{rqgCompendiumContent.skill.moveQuietly.skillName}}$
+name: §_rqgCompendiumContent.skill.moveQuietly.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/move-quietly.svg
 system:
   category: stealth
-  skillName: ${{rqgCompendiumContent.skill.moveQuietly.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.moveQuietly.skillName_§
   specialization:
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..move-quietly
-    name: ${{rqgCompendiumContent.skill.moveQuietly.skillName}}$
+    name: §_rqgCompendiumContent.skill.moveQuietly.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.move-quietly
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§

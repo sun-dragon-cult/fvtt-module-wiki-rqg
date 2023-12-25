@@ -1,68 +1,68 @@
 # 1h-spear-javelin
-name: ${{rqgCompendiumContent.weaponSkill.1h-spears.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-spears.specialization.javelin}}$)
+name: §_rqgCompendiumContent.weaponSkill.1h-spears.name_§ (§_rqgCompendiumContent.weaponSkill.1h-spears.specialization.javelin_§)
 type: skill
 img: systems/rqg/assets/images/weapons/1h-spear.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.1h-spears.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.1h-spears.specialization.javelin}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.1h-spears.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.1h-spears.specialization.javelin_§
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.1h-spears-javelin
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 1h-spear-lance
-name: ${{rqgCompendiumContent.weaponSkill.1h-spears.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-spears.specialization.lance}}$)
+name: §_rqgCompendiumContent.weaponSkill.1h-spears.name_§ (§_rqgCompendiumContent.weaponSkill.1h-spears.specialization.lance_§)
 type: skill
 img: systems/rqg/assets/images/weapons/1h-spear.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.1h-spears.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.1h-spears.specialization.lance}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.1h-spears.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.1h-spears.specialization.lance_§
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.1h-spears-lance
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
 # 1h-spear-shortspear
-name: ${{rqgCompendiumContent.weaponSkill.1h-spears.name}}$ (${{rqgCompendiumContent.weaponSkill.1h-spears.specialization.shortspear}}$)
+name: §_rqgCompendiumContent.weaponSkill.1h-spears.name_§ (§_rqgCompendiumContent.weaponSkill.1h-spears.specialization.shortspear_§)
 type: skill
 img: systems/rqg/assets/images/weapons/1h-spear.svg
 system:
   category: meleeWeapons
-  skillName: ${{rqgCompendiumContent.weaponSkill.1h-spears.name}}$
-  specialization: ${{rqgCompendiumContent.weaponSkill.1h-spears.specialization.shortspear}}$
+  skillName: §_rqgCompendiumContent.weaponSkill.1h-spears.name_§
+  specialization: §_rqgCompendiumContent.weaponSkill.1h-spears.specialization.shortspear_§
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   hasExperience: false
   descriptionRqidLink:
     rqid: je..melee-weapon
-    name: ${{rqgCompendiumContent.skill.meleeWeapon.skillName}}$
+    name: §_rqgCompendiumContent.skill.meleeWeapon.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.1h-spears-shortspear
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

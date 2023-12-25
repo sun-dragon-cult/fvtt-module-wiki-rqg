@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.instrumentDrum}}$
+name: §_rqgCompendiumContent.equipment.gear.instrumentDrum_§
 type: gear
 img: systems/rqg/assets/images/gear/djembe.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.musical-instrument-drum
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.instrumentDrumDescription}}$
+  description: §_rqgCompendiumContent.equipment.gear.instrumentDrumDescription_§
   gmNotes:
   quantity: 1
   price:

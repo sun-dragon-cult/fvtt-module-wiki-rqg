@@ -1,7 +1,7 @@
 # glue
-name: ${{rqgCompendiumContent.spiritMagic.glue.name}}$
+name: §_rqgCompendiumContent.spiritMagic.glue.name_§
 pages:
-  - name: ${{rqgCompendiumContent.spiritMagic.glue.name}}$
+  - name: §_rqgCompendiumContent.spiritMagic.glue.name_§
     type: text
     title:
       show: false
@@ -9,13 +9,13 @@ pages:
     text:
       format: 1
       content: >
-        ${{rqgCompendiumContent.journalEntryType.spiritMagicDescription.title}}$
-        ${{rqgCompendiumContent.spiritMagic.glue.description}}$
+        §_rqgCompendiumContent.journalEntryType.spiritMagicDescription.title_§
+        §_rqgCompendiumContent.spiritMagic.glue.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
       id: je..glue
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

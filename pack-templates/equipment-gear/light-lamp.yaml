@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.lightLamp}}$
+name: §_rqgCompendiumContent.equipment.gear.lightLamp_§
 type: gear
 img: systems/rqg/assets/images/gear/magic-lamp.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.light-lamp
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.lightLampDescription}}$
+  description: §_rqgCompendiumContent.equipment.gear.lightLampDescription_§
   gmNotes:
   quantity: 1
   price:

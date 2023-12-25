@@ -1,21 +1,21 @@
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Sleeves}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Sleeves_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale_§)
 type: armor
 img: systems/rqg/assets/images/armor/vambraces.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.sleeves-heavy-scale
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.leftArm}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.leftArm_§
       rqid: i.hit-location.left-arm
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.rightArm}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.rightArm_§
       rqid: i.hit-location.right-arm
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Sleeves}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Sleeves_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale_§
   absorbs: 5
   encumbrance: 3
   price:
@@ -26,24 +26,24 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.heavyScale}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.heavyScale_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Cuirass}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Cuirass_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale_§)
 type: armor
 img: systems/rqg/assets/images/armor/cuirass.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.cuirass-heavy-scale
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.chest_§
       rqid: i.hit-location.chest
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Cuirass}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Cuirass_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale_§
   absorbs: 5
   encumbrance: 3
   price:
@@ -54,26 +54,26 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.heavyScale}}$ ${{rqgCompendiumContent.equipment.armor.description.cuirass}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.heavyScale_§ §_rqgCompendiumContent.equipment.armor.description.cuirass_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Hauberk}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Hauberk_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale_§)
 type: armor
 img: systems/rqg/assets/images/armor/hauberk.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.hauberk-heavy-scale
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.chest}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.chest_§
       rqid: i.hit-location.chest
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.abdomen_§
       rqid: i.hit-location.abdomen
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Hauberk}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Hauberk_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale_§
   absorbs: 5
   encumbrance: 3
   price:
@@ -84,24 +84,24 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.heavyScale}}$ ${{rqgCompendiumContent.equipment.armor.description.hauberk}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.heavyScale_§ §_rqgCompendiumContent.equipment.armor.description.hauberk_§
 ---
-name: ${{uiContent.RQG.Item.Armor.ArmorType.Skirt}}$ (${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale}}$)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Skirt_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale_§)
 type: armor
 img: systems/rqg/assets/images/armor/skirt.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.armor.skirt-heavy-scale
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
   hitLocationRqidLinks:
-    - name: ${{rqgCompendiumContent.hitLocation.humanoid.abdomen}}$
+    - name: §_rqgCompendiumContent.hitLocation.humanoid.abdomen_§
       rqid: i.hit-location.abdomen
-  armorType: ${{uiContent.RQG.Item.Armor.ArmorType.Skirt}}$
-  material: ${{uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale}}$
+  armorType: §_uiContent.RQG.Item.Armor.ArmorType.Skirt_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.HeavyScale_§
   absorbs: 5
   encumbrance: 3
   price:
@@ -112,4 +112,4 @@ system:
   isContainer: false
   physicalItemType: unique
   equippedStatus: carried
-  description: ${{rqgCompendiumContent.equipment.armor.description.heavyScale}}$
+  description: §_rqgCompendiumContent.equipment.armor.description.heavyScale_§

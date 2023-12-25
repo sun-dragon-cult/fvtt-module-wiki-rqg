@@ -1,15 +1,15 @@
-name: ${{rqgCompendiumContent.equipment.gear.clothesWool}}$
+name: §_rqgCompendiumContent.equipment.gear.clothesWool_§
 type: gear
 img: systems/rqg/assets/images/gear/clothes.svg
 flags:
   rqg:
     documentRqidFlags:
       id: i.gear.wool-clothing
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 effects: []
 system:
-  description: ${{rqgCompendiumContent.equipment.gear.clothesWool}}$
+  description: §_rqgCompendiumContent.equipment.gear.clothesWool_§
   gmNotes:
   quantity: 1
   price:

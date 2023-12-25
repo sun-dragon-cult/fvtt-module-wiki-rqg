@@ -1,263 +1,263 @@
 # act
-name: ${{rqgCompendiumContent.skill.act.skillName}}$
+name: §_rqgCompendiumContent.skill.act.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/act.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.act.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.act.skillName_§
   specialization:
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..act
-    name: ${{rqgCompendiumContent.skill.act.skillName}}$
+    name: §_rqgCompendiumContent.skill.act.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.act
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # art
-name: ${{rqgCompendiumContent.skill.art.skillName}}$
+name: §_rqgCompendiumContent.skill.art.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/art.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.art.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.art.skillName_§
   specialization:
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..art
-    name: ${{rqgCompendiumContent.skill.art.skillName}}$
+    name: §_rqgCompendiumContent.skill.art.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.art
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # bargain
-name: ${{rqgCompendiumContent.skill.bargain.skillName}}$
+name: §_rqgCompendiumContent.skill.bargain.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/bargain.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.bargain.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.bargain.skillName_§
   specialization:
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..bargain
-    name: ${{rqgCompendiumContent.skill.bargain.skillName}}$
+    name: §_rqgCompendiumContent.skill.bargain.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.bargain
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # charm
-name: ${{rqgCompendiumContent.skill.charm.skillName}}$
+name: §_rqgCompendiumContent.skill.charm.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/charm.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.charm.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.charm.skillName_§
   specialization:
   baseChance: 15
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..charm
-    name: ${{rqgCompendiumContent.skill.charm.skillName}}$
+    name: §_rqgCompendiumContent.skill.charm.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.charm
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # dance
-name: ${{rqgCompendiumContent.skill.dance.skillName}}$
+name: §_rqgCompendiumContent.skill.dance.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/dance.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.dance.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.dance.skillName_§
   specialization:
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..dance
-    name: ${{rqgCompendiumContent.skill.dance.skillName}}$
+    name: §_rqgCompendiumContent.skill.dance.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.dance
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # disguise
-name: ${{rqgCompendiumContent.skill.disguise.skillName}}$
+name: §_rqgCompendiumContent.skill.disguise.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/disguise.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.disguise.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.disguise.skillName_§
   specialization:
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..disguise
-    name: ${{rqgCompendiumContent.skill.disguise.skillName}}$
+    name: §_rqgCompendiumContent.skill.disguise.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.disguise
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # fast-talk
-name: ${{rqgCompendiumContent.skill.fastTalk.skillName}}$
+name: §_rqgCompendiumContent.skill.fastTalk.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/speak.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.fastTalk.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.fastTalk.skillName_§
   specialization:
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..fast-talk
-    name: ${{rqgCompendiumContent.skill.fastTalk.skillName}}$
+    name: §_rqgCompendiumContent.skill.fastTalk.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.fast-talk
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # intimidate
-name: ${{rqgCompendiumContent.skill.intimidate.skillName}}$
+name: §_rqgCompendiumContent.skill.intimidate.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/intimidate.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.intimidate.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.intimidate.skillName_§
   specialization:
   baseChance: 15
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..intimidate
-    name: ${{rqgCompendiumContent.skill.intimidate.skillName}}$
+    name: §_rqgCompendiumContent.skill.intimidate.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.intimidate
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # intrigue
-name: ${{rqgCompendiumContent.skill.intrigue.skillName}}$
+name: §_rqgCompendiumContent.skill.intrigue.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/intrigue.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.intrigue.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.intrigue.skillName_§
   specialization:
   baseChance: 5
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..intrigue
-    name: ${{rqgCompendiumContent.skill.intrigue.skillName}}$
+    name: §_rqgCompendiumContent.skill.intrigue.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.intrigue
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # orate
-name: ${{rqgCompendiumContent.skill.orate.skillName}}$
+name: §_rqgCompendiumContent.skill.orate.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/orate.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.orate.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.orate.skillName_§
   specialization:
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..orate
-    name: ${{rqgCompendiumContent.skill.orate.skillName}}$
+    name: §_rqgCompendiumContent.skill.orate.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.orate
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # sing
-name: ${{rqgCompendiumContent.skill.sing.skillName}}$
+name: §_rqgCompendiumContent.skill.sing.skillName_§
 type: skill
 img: systems/rqg/assets/images/skills/sing.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.sing.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.sing.skillName_§
   specialization:
   baseChance: 10
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..sing
-    name: ${{rqgCompendiumContent.skill.sing.skillName}}$
+    name: §_rqgCompendiumContent.skill.sing.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.sing
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # speak-language
-name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$ (...)
+name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§ (...)
 type: skill
 img: systems/rqg/assets/images/skills/speak.svg
 system:
   category: communication
-  skillName: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+  skillName: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
   specialization: "..."
   baseChance: 0
   gainedChance: 0
   canGetExperience: true
   descriptionRqidLink:
     rqid: je..speak-language
-    name: ${{rqgCompendiumContent.skill.speakLanguage.skillName}}$
+    name: §_rqgCompendiumContent.skill.speakLanguage.skillName_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.skill.speak-language
-      priority: ${{rqgCompendiumContent.prio}}$
-      lang: ${{rqgCompendiumContent.lang}}$
+      priority: §_rqgCompendiumContent.prio_§
+      lang: §_rqgCompendiumContent.lang_§

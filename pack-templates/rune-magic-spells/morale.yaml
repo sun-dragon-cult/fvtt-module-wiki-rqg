@@ -1,13 +1,13 @@
 # morale
-name: ${{rqgCompendiumContent.runeMagic.morale.name}}$
+name: §_rqgCompendiumContent.runeMagic.morale.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.death-power
-      name: ${{rqgCompendiumContent.rune.death}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.death_§ (§_rqgCompendiumContent.runeType.power_§)
     - rqid: i.rune.truth-power
-      name: ${{rqgCompendiumContent.rune.truth}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.truth_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 2
   isRitual: true
   isStackable: false
@@ -15,11 +15,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..morale
-    name: ${{rqgCompendiumContent.runeMagic.morale.name}}$
+    name: §_rqgCompendiumContent.runeMagic.morale.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.morale
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

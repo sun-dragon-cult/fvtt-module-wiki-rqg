@@ -1,13 +1,13 @@
 # cure-poison
-name: ${{rqgCompendiumContent.runeMagic.curePoison.name}}$
+name: §_rqgCompendiumContent.runeMagic.curePoison.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.fertility-power
-      name: ${{rqgCompendiumContent.rune.fertility}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.fertility_§ (§_rqgCompendiumContent.runeType.power_§)
     - rqid: i.rune.harmony-power
-      name: ${{rqgCompendiumContent.rune.harmony}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.harmony_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 1
   castingRange: ranged
   duration: instant
@@ -16,11 +16,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..cure-poison
-    name: ${{rqgCompendiumContent.runeMagic.curePoison.name}}$
+    name: §_rqgCompendiumContent.runeMagic.curePoison.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.cure-poison
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

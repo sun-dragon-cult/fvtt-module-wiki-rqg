@@ -1,11 +1,11 @@
 # bind-ghost
-name: ${{rqgCompendiumContent.runeMagic.bindGhost.name}}$
+name: §_rqgCompendiumContent.runeMagic.bindGhost.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.death-power
-      name: ${{rqgCompendiumContent.rune.death}}$ (${{rqgCompendiumContent.runeType.power}}$)
+      name: §_rqgCompendiumContent.rune.death_§ (§_rqgCompendiumContent.runeType.power_§)
   points: 1
   isRitual: true
   isStackable: false
@@ -13,11 +13,11 @@ system:
   chance: 0
   descriptionRqidLink:
     rqid: je..bind-ghost
-    name: ${{rqgCompendiumContent.runeMagic.bindGhost.name}}$
+    name: §_rqgCompendiumContent.runeMagic.bindGhost.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune-magic.bind-ghost
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

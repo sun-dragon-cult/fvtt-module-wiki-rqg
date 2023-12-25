@@ -1,167 +1,167 @@
-name: ${{rqgCompendiumContent.rune.combine}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+name: §_rqgCompendiumContent.rune.combine_§ (§_rqgCompendiumContent.runeType.technique_§)
 type: rune
 img: systems/rqg/assets/images/runes/combine.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.combine}}$
+  rune: §_rqgCompendiumContent.rune.combine_§
   chance: 50
   hasExperience: false
   runeType:
     type: technique
-    name: ${{rqgCompendiumContent.runeType.technique}}$
+    name: §_rqgCompendiumContent.runeType.technique_§
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.separate-technique
-      name: ${{rqgCompendiumContent.rune.separate}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+      name: §_rqgCompendiumContent.rune.separate_§ (§_rqgCompendiumContent.runeType.technique_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..combine-technique
-    name: ${{rqgCompendiumContent.rune.combine}}$
+    name: §_rqgCompendiumContent.rune.combine_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.combine-technique
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.command}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+name: §_rqgCompendiumContent.rune.command_§ (§_rqgCompendiumContent.runeType.technique_§)
 type: rune
 img: systems/rqg/assets/images/runes/command.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.command}}$
+  rune: §_rqgCompendiumContent.rune.command_§
   chance: 50
   hasExperience: false
   runeType:
     type: technique
-    name: ${{rqgCompendiumContent.runeType.technique}}$
+    name: §_rqgCompendiumContent.runeType.technique_§
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.combine-technique
-      name: ${{rqgCompendiumContent.rune.combine}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+      name: §_rqgCompendiumContent.rune.combine_§ (§_rqgCompendiumContent.runeType.technique_§)
     - rqid: i.rune.dispel-technique
-      name: ${{rqgCompendiumContent.rune.dispel}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+      name: §_rqgCompendiumContent.rune.dispel_§ (§_rqgCompendiumContent.runeType.technique_§)
     - rqid: i.rune.separate-technique
-      name: ${{rqgCompendiumContent.rune.separate}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+      name: §_rqgCompendiumContent.rune.separate_§ (§_rqgCompendiumContent.runeType.technique_§)
     - rqid: i.rune.summon-technique
-      name: ${{rqgCompendiumContent.rune.summon}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+      name: §_rqgCompendiumContent.rune.summon_§ (§_rqgCompendiumContent.runeType.technique_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..command-technique
-    name: ${{rqgCompendiumContent.rune.command}}$
+    name: §_rqgCompendiumContent.rune.command_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.command-technique
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.dispel}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+name: §_rqgCompendiumContent.rune.dispel_§ (§_rqgCompendiumContent.runeType.technique_§)
 type: rune
 img: systems/rqg/assets/images/runes/dispel.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.dispel}}$
+  rune: §_rqgCompendiumContent.rune.dispel_§
   chance: 50
   hasExperience: false
   runeType:
     type: technique
-    name: ${{rqgCompendiumContent.runeType.technique}}$
+    name: §_rqgCompendiumContent.runeType.technique_§
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.summon-technique
-      name: ${{rqgCompendiumContent.rune.summon}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+      name: §_rqgCompendiumContent.rune.summon_§ (§_rqgCompendiumContent.runeType.technique_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..dispel-technique
-    name: ${{rqgCompendiumContent.rune.dispel}}$
+    name: §_rqgCompendiumContent.rune.dispel_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.dispel-technique
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.separate}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+name: §_rqgCompendiumContent.rune.separate_§ (§_rqgCompendiumContent.runeType.technique_§)
 type: rune
 img: systems/rqg/assets/images/runes/separate.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.separate}}$
+  rune: §_rqgCompendiumContent.rune.separate_§
   chance: 50
   hasExperience: false
   runeType:
     type: technique
-    name: ${{rqgCompendiumContent.runeType.technique}}$
+    name: §_rqgCompendiumContent.runeType.technique_§
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.combine-technique
-      name: ${{rqgCompendiumContent.rune.combine}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+      name: §_rqgCompendiumContent.rune.combine_§ (§_rqgCompendiumContent.runeType.technique_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..separate-technique
-    name: ${{rqgCompendiumContent.rune.separate}}$
+    name: §_rqgCompendiumContent.rune.separate_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.separate-technique
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.summon}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+name: §_rqgCompendiumContent.rune.summon_§ (§_rqgCompendiumContent.runeType.technique_§)
 type: rune
 img: systems/rqg/assets/images/runes/summon.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.summon}}$
+  rune: §_rqgCompendiumContent.rune.summon_§
   chance: 50
   hasExperience: false
   runeType:
     type: technique
-    name: ${{rqgCompendiumContent.runeType.technique}}$
+    name: §_rqgCompendiumContent.runeType.technique_§
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.dispel-technique
-      name: ${{rqgCompendiumContent.rune.dispel}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+      name: §_rqgCompendiumContent.rune.dispel_§ (§_rqgCompendiumContent.runeType.technique_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..summon-technique
-    name: ${{rqgCompendiumContent.rune.summon}}$
+    name: §_rqgCompendiumContent.rune.summon_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.summon-technique
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
 ---
-name: ${{rqgCompendiumContent.rune.tap}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+name: §_rqgCompendiumContent.rune.tap_§ (§_rqgCompendiumContent.runeType.technique_§)
 type: rune
 img: systems/rqg/assets/images/runes/tap.svg
 system:
-  rune: ${{rqgCompendiumContent.rune.tap}}$
+  rune: §_rqgCompendiumContent.rune.tap_§
   chance: 50
   hasExperience: false
   runeType:
     type: technique
-    name: ${{rqgCompendiumContent.runeType.technique}}$
+    name: §_rqgCompendiumContent.runeType.technique_§
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.combine-technique
-      name: ${{rqgCompendiumContent.rune.combine}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+      name: §_rqgCompendiumContent.rune.combine_§ (§_rqgCompendiumContent.runeType.technique_§)
     - rqid: i.rune.dispel-technique
-      name: ${{rqgCompendiumContent.rune.dispel}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+      name: §_rqgCompendiumContent.rune.dispel_§ (§_rqgCompendiumContent.runeType.technique_§)
     - rqid: i.rune.separate-technique
-      name: ${{rqgCompendiumContent.rune.separate}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+      name: §_rqgCompendiumContent.rune.separate_§ (§_rqgCompendiumContent.runeType.technique_§)
     - rqid: i.rune.summon-technique
-      name: ${{rqgCompendiumContent.rune.summon}}$ (${{rqgCompendiumContent.runeType.technique}}$)
+      name: §_rqgCompendiumContent.rune.summon_§ (§_rqgCompendiumContent.runeType.technique_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..tap-technique
-    name: ${{rqgCompendiumContent.rune.tap}}$
+    name: §_rqgCompendiumContent.rune.tap_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.rune.tap-technique
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

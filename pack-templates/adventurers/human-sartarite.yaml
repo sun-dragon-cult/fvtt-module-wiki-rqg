@@ -1,4 +1,4 @@
-name: ${{rqgCompendiumContent.bestiary.humanSartarite.name}}$
+name: §_rqgCompendiumContent.bestiary.humanSartarite.name_§
 type: character
 img: icons/svg/mystery-man.svg
 system:
@@ -27,7 +27,7 @@ system:
       value: 11
       formula: 3d6
   background:
-    species: ${{rqgCompendiumContent.bestiary.humanSartarite.species}}$
+    species: §_rqgCompendiumContent.bestiary.humanSartarite.species_§
     speciesRqidLink:
       rqid: je..species-description-human
       name: Human
@@ -49,7 +49,7 @@ system:
     ransom:
     ransomDetails: ""
     biography:
-  allies: ${{rqgCompendiumContent.bestiary.humanSartarite.notes}}$
+  allies: §_rqgCompendiumContent.bestiary.humanSartarite.notes_§
   attributes:
     magicPoints:
       value: 11
@@ -72,7 +72,7 @@ prototypeToken:
     file: _partial-includes/actor-pc-prototype-token.yaml
     overrides:
       - path: name
-        value: ${{rqgCompendiumContent.bestiary.humanSartarite.name}}$
+        value: §_rqgCompendiumContent.bestiary.humanSartarite.name_§
 items:
   # hit location items
   - _importExternalDocument:
@@ -446,25 +446,25 @@ items:
       rqid: i.passion.loyalty-base
       overrides:
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.clan}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Loyalty_§ (§_rqgCompendiumContent.passionSubject.clan_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.clan}}$
+          value: §_rqgCompendiumContent.passionSubject.clan_§
   - _importExternalDocument:
       file: passions-base/passions-base.yaml
       rqid: i.passion.loyalty-base
       overrides:
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Loyalty}}$ (${{rqgCompendiumContent.passionSubject.tribe}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Loyalty_§ (§_rqgCompendiumContent.passionSubject.tribe_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.tribe}}$
+          value: §_rqgCompendiumContent.passionSubject.tribe_§
   - _importExternalDocument:
       file: passions-base/passions-base.yaml
       rqid: i.passion.love-base
       overrides:
         - path: name
-          value: ${{uiContent.RQG.Item.Passion.PassionEnum.Love}}$ (${{rqgCompendiumContent.passionSubject.family}}$)
+          value: §_uiContent.RQG.Item.Passion.PassionEnum.Love_§ (§_rqgCompendiumContent.passionSubject.family_§)
         - path: system.subject
-          value: ${{rqgCompendiumContent.passionSubject.family}}$
+          value: §_rqgCompendiumContent.passionSubject.family_§
 effects: []
 ownership:
   default: 0
@@ -472,5 +472,5 @@ flags:
   rqg:
     documentRqidFlags:
       id: a.character.species-template-human-base
-      lang: ${{rqgCompendiumContent.lang}}$
-      priority: ${{rqgCompendiumContent.prio}}$
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

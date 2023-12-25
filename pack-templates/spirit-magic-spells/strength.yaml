@@ -1,5 +1,5 @@
 # strength
-name: ${{rqgCompendiumContent.spiritMagic.strength.name}}$
+name: §_rqgCompendiumContent.spiritMagic.strength.name_§
 type: spiritMagic
 img: systems/rqg/assets/images/items/spirit-magic.svg
 system:
@@ -10,11 +10,11 @@ system:
   concentration: passive
   descriptionRqidLink:
     rqid: je..strength
-    name: ${{rqgCompendiumContent.spiritMagic.strength.name}}$
+    name: §_rqgCompendiumContent.spiritMagic.strength.name_§
 effects: []
 flags:
   rqg:
     documentRqidFlags:
       id: i.spirit-magic.strength
-      lang: ${openSystem.lang}}$
-      priority: ${openSystem.prio}}$
+      lang: ${openSystem.lang_§
+      priority: ${openSystem.prio_§
