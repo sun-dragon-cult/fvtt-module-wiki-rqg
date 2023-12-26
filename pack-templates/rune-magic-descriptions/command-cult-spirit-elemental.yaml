@@ -1,7 +1,7 @@
 # command-cult-spirit-elemental
-name: §_rqgCompendiumContent.runeMagic.commandCultSpiritElemental.name_§
+name: §_rqgCompendiumContent.runeMagic.commandCultSpirit.name_§
 pages:
-  - name: §_rqgCompendiumContent.runeMagic.commandCultSpiritElemental.name_§
+  - name: §_rqgCompendiumContent.runeMagic.commandCultSpirit.name_§
     type: text
     title:
       show: false
@@ -11,7 +11,7 @@ pages:
       content: >
         §_rqgCompendiumContent.journalEntryType.runeMagicDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/magic.svg" height="70">
-        §_rqgCompendiumContent.runeMagic.commandCultSpiritElemental.description_§
+        §_rqgCompendiumContent.runeMagic.commandCultSpirit.description_§
     sort: 0
     flags: {}
 flags:

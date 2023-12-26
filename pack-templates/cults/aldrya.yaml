@@ -23,8 +23,8 @@ system:
     rqid: je..aldrya
     name: §_rqgCompendiumContent.cult.aldrya.name_§
   commonRuneMagicRqidLinks:
-    - rqid: i.rune-magic.command-cult-spirit-elemental
-      name: §_rqgCompendiumContent.runeMagic.commandCultSpiritElemental.name_§
+    - rqid: i.rune-magic.command-cult-spirit
+      name: §_rqgCompendiumContent.runeMagic.commandCultSpirit.name_§
     - rqid: i.rune-magic.dismiss-magic
       name: §_rqgCompendiumContent.runeMagic.dismissMagic.name_§
     - rqid: i.rune-magic.divination

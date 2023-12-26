@@ -572,8 +572,8 @@
       "name": "🇸🇪Comfort Song",
       "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Cults:</b> Chalana Arroy</i></p><p>This Song of Power causes those in earshot to feel comfort from pain and distress. Incapacitated adventurers can continue fighting while this song is being sung.</p>"
     },
-    "commandCultSpiritElemental": {
-      "name": "🇸🇪Command Cult Spirit (Elemental)",
+    "commandCultSpirit": {
+      "name": "🇸🇪Command Cult Spirit",
       "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Cults:</b> All</i></p><p>The Rune used depends on the type of elemental to be commanded. Enables the caster to command any of their cult’s spirits or elementals if they overcome its POW. A cult spirit or elemental not controlled with this spell behaves according to its natural inclination, until destroyed or the spell expires.</p>"
     },
     "commandWorshipers": {
