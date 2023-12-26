@@ -5,11 +5,11 @@ img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.fate-condition
-      name: §_rqgCompendiumContent.rune.fate_§ (§_rqgCompendiumContent.runeType.condition_§)
+      name: §_rqgCompendiumContent.rune.fate_§ (§_uiContent.RQG.Item.Rune.RuneType.condition_§)
     - rqid: i.rune.harmony-power
-      name: §_rqgCompendiumContent.rune.harmony_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.harmony_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
     - rqid: i.rune.man-form
-      name: §_rqgCompendiumContent.rune.man_§ (§_rqgCompendiumContent.runeType.form_§)
+      name: §_rqgCompendiumContent.rune.man_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
   points: 3
   isRitual: true
   isStackable: false

@@ -14,13 +14,13 @@ system:
   holyDays:
   runeRqidLinks:
     - rqid: i.rune.fertility-power
-      name: §_rqgCompendiumContent.rune.fertility_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.fertility_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
     - rqid: i.rune.moon-element
-      name: §_rqgCompendiumContent.rune.moon_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.moon_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
     - rqid: i.rune.moon-element
-      name: §_rqgCompendiumContent.rune.moon_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.moon_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
     - rqid: i.rune.chaos-form
-      name: §_rqgCompendiumContent.rune.chaos_§ (§_rqgCompendiumContent.runeType.form_§)
+      name: §_rqgCompendiumContent.rune.chaos_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
   descriptionRqidLink:
     rqid: je..the-red-goddess
     name: §_rqgCompendiumContent.cult.theRedGoddess.name_§

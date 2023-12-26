@@ -1,4 +1,4 @@
-name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
+name: §_rqgCompendiumContent.rune.air_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/air.svg
 system:
@@ -7,13 +7,13 @@ system:
   hasExperience: false
   runeType:
     type: element
-    name: §_rqgCompendiumContent.runeType.element_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.darkness-element
-      name: §_rqgCompendiumContent.rune.darkness_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.darkness_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
     - rqid: i.rune.water-element
-      name: §_rqgCompendiumContent.rune.water_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.water_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..air-element
@@ -26,7 +26,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.darkness_§ (§_rqgCompendiumContent.runeType.element_§)
+name: §_rqgCompendiumContent.rune.darkness_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/darkness.svg
 system:
@@ -35,13 +35,13 @@ system:
   hasExperience: false
   runeType:
     type: element
-    name: §_rqgCompendiumContent.runeType.element_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.earth-element
-      name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.earth_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
     - rqid: i.rune.air-element
-      name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.air_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..darkness-element
@@ -54,7 +54,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
+name: §_rqgCompendiumContent.rune.earth_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/earth.svg
 system:
@@ -63,13 +63,13 @@ system:
   hasExperience: false
   runeType:
     type: element
-    name: §_rqgCompendiumContent.runeType.element_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.air-element
-      name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.air_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
     - rqid: i.rune.darkness-element
-      name: §_rqgCompendiumContent.rune.darkness_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.darkness_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..earth-element
@@ -82,7 +82,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.fireSky_§ (§_rqgCompendiumContent.runeType.element_§)
+name: §_rqgCompendiumContent.rune.fireSky_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/fire_sky.svg
 system:
@@ -91,13 +91,13 @@ system:
   hasExperience: false
   runeType:
     type: element
-    name: §_rqgCompendiumContent.runeType.element_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.water-element
-      name: §_rqgCompendiumContent.rune.water_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.water_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
     - rqid: i.rune.earth-element
-      name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.earth_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..fire-sky-element
@@ -110,7 +110,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.moon_§ (§_rqgCompendiumContent.runeType.element_§)
+name: §_rqgCompendiumContent.rune.moon_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/moon_full.svg
 system:
@@ -119,7 +119,7 @@ system:
   hasExperience: false
   runeType:
     type: element
-    name: §_rqgCompendiumContent.runeType.element_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.element_§
   isMastered: false
   minorRuneRqidLinks:
   opposingRuneRqidLink:
@@ -134,7 +134,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.water_§ (§_rqgCompendiumContent.runeType.element_§)
+name: §_rqgCompendiumContent.rune.water_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
 type: rune
 img: systems/rqg/assets/images/runes/water.svg
 system:
@@ -143,13 +143,13 @@ system:
   hasExperience: false
   runeType:
     type: element
-    name: §_rqgCompendiumContent.runeType.element_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.element_§
   isMastered: false
   minorRuneRqidLinks:
     - rqid: i.rune.earth-element
-      name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.earth_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
     - rqid: i.rune.air-element
-      name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.air_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..water-element

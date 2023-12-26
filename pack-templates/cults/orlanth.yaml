@@ -14,13 +14,13 @@ system:
   holyDays: §_rqgCompendiumContent.cult.orlanth.holyDays_§
   runeRqidLinks:
     - rqid: i.rune.movement-power
-      name: §_rqgCompendiumContent.rune.movement_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.movement_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
     - rqid: i.rune.air-element
-      name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.air_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
     - rqid: i.rune.air-element
-      name: §_rqgCompendiumContent.rune.air_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.air_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
     - rqid: i.rune.mastery-condition
-      name: §_rqgCompendiumContent.rune.mastery_§ (§_rqgCompendiumContent.runeType.condition_§)
+      name: §_rqgCompendiumContent.rune.mastery_§ (§_uiContent.RQG.Item.Rune.RuneType.condition_§)
   descriptionRqidLink:
     rqid: je..orlanth
     name: §_rqgCompendiumContent.cult.orlanth.name_§

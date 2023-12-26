@@ -168,7 +168,7 @@ system:
   equippedStatus: carried
   description: §_rqgCompendiumContent.equipment.armor.description.cuirass_§
 ---
-name: §_uiContent.RQG.Item.Armor.ArmorType.Hauberk_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.BronzeSegmentedPlate_§)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Hauberk_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.SegmentedBronzePlate_§)
 type: armor
 img: systems/rqg/assets/images/armor/hauberk.svg
 flags:

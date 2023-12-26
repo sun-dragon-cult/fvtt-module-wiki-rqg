@@ -14,11 +14,11 @@ system:
   holyDays:
   runeRqidLinks:
     - rqid: i.rune.illusion-power
-      name: §_rqgCompendiumContent.rune.illusion_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.illusion_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
     - rqid: i.rune.disorder-power
-      name: §_rqgCompendiumContent.rune.disorder_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.disorder_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
     - rqid: i.rune.illusion-power
-      name: §_rqgCompendiumContent.rune.illusion_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.illusion_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   descriptionRqidLink:
     rqid: je..eurmal
     name: §_rqgCompendiumContent.cult.eurmal.name_§

@@ -14,13 +14,13 @@ system:
   holyDays:
   runeRqidLinks:
     - rqid: i.rune.movement-power
-      name: §_rqgCompendiumContent.rune.movement_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.movement_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
     - rqid: i.rune.water-element
-      name: §_rqgCompendiumContent.rune.water_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.water_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
     - rqid: i.rune.water-element
-      name: §_rqgCompendiumContent.rune.water_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.water_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
     - rqid: i.rune.death-power
-      name: §_rqgCompendiumContent.rune.death_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.death_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   descriptionRqidLink:
     rqid: je..magasta
     name: §_rqgCompendiumContent.cult.magasta.name_§

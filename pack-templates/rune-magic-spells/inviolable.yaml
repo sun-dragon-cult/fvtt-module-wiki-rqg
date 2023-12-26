@@ -5,11 +5,11 @@ img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.earth-element
-      name: §_rqgCompendiumContent.rune.earth_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.earth_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
     - rqid: i.rune.fertility-power
-      name: §_rqgCompendiumContent.rune.fertility_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.fertility_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
     - rqid: i.rune.harmony-power
-      name: §_rqgCompendiumContent.rune.harmony_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.harmony_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   points: 1
   castingRange: ranged
   duration: temporal

@@ -1,4 +1,4 @@
-name: §_rqgCompendiumContent.rune.combine_§ (§_rqgCompendiumContent.runeType.technique_§)
+name: §_rqgCompendiumContent.rune.combine_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
 type: rune
 img: systems/rqg/assets/images/runes/combine.svg
 system:
@@ -7,11 +7,11 @@ system:
   hasExperience: false
   runeType:
     type: technique
-    name: §_rqgCompendiumContent.runeType.technique_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.technique_§
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.separate-technique
-      name: §_rqgCompendiumContent.rune.separate_§ (§_rqgCompendiumContent.runeType.technique_§)
+      name: §_rqgCompendiumContent.rune.separate_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..combine-technique
@@ -24,7 +24,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.command_§ (§_rqgCompendiumContent.runeType.technique_§)
+name: §_rqgCompendiumContent.rune.command_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
 type: rune
 img: systems/rqg/assets/images/runes/command.svg
 system:
@@ -33,17 +33,17 @@ system:
   hasExperience: false
   runeType:
     type: technique
-    name: §_rqgCompendiumContent.runeType.technique_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.technique_§
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.combine-technique
-      name: §_rqgCompendiumContent.rune.combine_§ (§_rqgCompendiumContent.runeType.technique_§)
+      name: §_rqgCompendiumContent.rune.combine_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
     - rqid: i.rune.dispel-technique
-      name: §_rqgCompendiumContent.rune.dispel_§ (§_rqgCompendiumContent.runeType.technique_§)
+      name: §_rqgCompendiumContent.rune.dispel_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
     - rqid: i.rune.separate-technique
-      name: §_rqgCompendiumContent.rune.separate_§ (§_rqgCompendiumContent.runeType.technique_§)
+      name: §_rqgCompendiumContent.rune.separate_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
     - rqid: i.rune.summon-technique
-      name: §_rqgCompendiumContent.rune.summon_§ (§_rqgCompendiumContent.runeType.technique_§)
+      name: §_rqgCompendiumContent.rune.summon_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..command-technique
@@ -56,7 +56,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.dispel_§ (§_rqgCompendiumContent.runeType.technique_§)
+name: §_rqgCompendiumContent.rune.dispel_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
 type: rune
 img: systems/rqg/assets/images/runes/dispel.svg
 system:
@@ -65,11 +65,11 @@ system:
   hasExperience: false
   runeType:
     type: technique
-    name: §_rqgCompendiumContent.runeType.technique_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.technique_§
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.summon-technique
-      name: §_rqgCompendiumContent.rune.summon_§ (§_rqgCompendiumContent.runeType.technique_§)
+      name: §_rqgCompendiumContent.rune.summon_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..dispel-technique
@@ -82,7 +82,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.separate_§ (§_rqgCompendiumContent.runeType.technique_§)
+name: §_rqgCompendiumContent.rune.separate_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
 type: rune
 img: systems/rqg/assets/images/runes/separate.svg
 system:
@@ -91,11 +91,11 @@ system:
   hasExperience: false
   runeType:
     type: technique
-    name: §_rqgCompendiumContent.runeType.technique_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.technique_§
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.combine-technique
-      name: §_rqgCompendiumContent.rune.combine_§ (§_rqgCompendiumContent.runeType.technique_§)
+      name: §_rqgCompendiumContent.rune.combine_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..separate-technique
@@ -108,7 +108,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.summon_§ (§_rqgCompendiumContent.runeType.technique_§)
+name: §_rqgCompendiumContent.rune.summon_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
 type: rune
 img: systems/rqg/assets/images/runes/summon.svg
 system:
@@ -117,11 +117,11 @@ system:
   hasExperience: false
   runeType:
     type: technique
-    name: §_rqgCompendiumContent.runeType.technique_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.technique_§
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.dispel-technique
-      name: §_rqgCompendiumContent.rune.dispel_§ (§_rqgCompendiumContent.runeType.technique_§)
+      name: §_rqgCompendiumContent.rune.dispel_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..summon-technique
@@ -134,7 +134,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.tap_§ (§_rqgCompendiumContent.runeType.technique_§)
+name: §_rqgCompendiumContent.rune.tap_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
 type: rune
 img: systems/rqg/assets/images/runes/tap.svg
 system:
@@ -143,17 +143,17 @@ system:
   hasExperience: false
   runeType:
     type: technique
-    name: §_rqgCompendiumContent.runeType.technique_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.technique_§
   isMastered: true
   minorRuneRqidLinks:
     - rqid: i.rune.combine-technique
-      name: §_rqgCompendiumContent.rune.combine_§ (§_rqgCompendiumContent.runeType.technique_§)
+      name: §_rqgCompendiumContent.rune.combine_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
     - rqid: i.rune.dispel-technique
-      name: §_rqgCompendiumContent.rune.dispel_§ (§_rqgCompendiumContent.runeType.technique_§)
+      name: §_rqgCompendiumContent.rune.dispel_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
     - rqid: i.rune.separate-technique
-      name: §_rqgCompendiumContent.rune.separate_§ (§_rqgCompendiumContent.runeType.technique_§)
+      name: §_rqgCompendiumContent.rune.separate_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
     - rqid: i.rune.summon-technique
-      name: §_rqgCompendiumContent.rune.summon_§ (§_rqgCompendiumContent.runeType.technique_§)
+      name: §_rqgCompendiumContent.rune.summon_§ (§_uiContent.RQG.Item.Rune.RuneType.technique_§)
   opposingRuneRqidLink:
   descriptionRqidLink:
     rqid: je..tap-technique

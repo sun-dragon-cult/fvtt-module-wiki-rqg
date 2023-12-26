@@ -1,4 +1,4 @@
-name: §_rqgCompendiumContent.rune.beast_§ (§_rqgCompendiumContent.runeType.form_§)
+name: §_rqgCompendiumContent.rune.beast_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
 type: rune
 img: systems/rqg/assets/images/runes/beast.svg
 system:
@@ -7,12 +7,12 @@ system:
   hasExperience: false
   runeType:
     type: form
-    name: §_rqgCompendiumContent.runeType.form_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.form_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.man-form
-    name: §_rqgCompendiumContent.rune.man_§ (§_rqgCompendiumContent.runeType.form_§)
+    name: §_rqgCompendiumContent.rune.man_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
   descriptionRqidLink:
     rqid: je..beast-form
     name: §_rqgCompendiumContent.rune.beast_§
@@ -24,7 +24,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.chaos_§ (§_rqgCompendiumContent.runeType.form_§)
+name: §_rqgCompendiumContent.rune.chaos_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
 type: rune
 img: systems/rqg/assets/images/runes/chaos.svg
 system:
@@ -33,7 +33,7 @@ system:
   hasExperience: false
   runeType:
     type: form
-    name: §_rqgCompendiumContent.runeType.form_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.form_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -48,7 +48,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.dragonewt_§ (§_rqgCompendiumContent.runeType.form_§)
+name: §_rqgCompendiumContent.rune.dragonewt_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
 type: rune
 img: systems/rqg/assets/images/runes/dragonewt.svg
 system:
@@ -57,7 +57,7 @@ system:
   hasExperience: false
   runeType:
     type: form
-    name: §_rqgCompendiumContent.runeType.form_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.form_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
@@ -72,7 +72,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.man_§ (§_rqgCompendiumContent.runeType.form_§)
+name: §_rqgCompendiumContent.rune.man_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
 type: rune
 img: systems/rqg/assets/images/runes/man.svg
 system:
@@ -81,12 +81,12 @@ system:
   hasExperience: false
   runeType:
     type: form
-    name: §_rqgCompendiumContent.runeType.form_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.form_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.beast-form
-    name: §_rqgCompendiumContent.rune.beast_§ (§_rqgCompendiumContent.runeType.form_§)
+    name: §_rqgCompendiumContent.rune.beast_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
   descriptionRqidLink:
     rqid: je..man-form
     name: §_rqgCompendiumContent.rune.man_§
@@ -98,7 +98,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.plant_§ (§_rqgCompendiumContent.runeType.form_§)
+name: §_rqgCompendiumContent.rune.plant_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
 type: rune
 img: systems/rqg/assets/images/runes/plant.svg
 system:
@@ -107,7 +107,7 @@ system:
   hasExperience: false
   runeType:
     type: form
-    name: §_rqgCompendiumContent.runeType.form_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.form_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink: {}
@@ -122,7 +122,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.spirit_§ (§_rqgCompendiumContent.runeType.form_§)
+name: §_rqgCompendiumContent.rune.spirit_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
 type: rune
 img: systems/rqg/assets/images/runes/spirit.svg
 system:
@@ -131,7 +131,7 @@ system:
   hasExperience: false
   runeType:
     type: form
-    name: §_rqgCompendiumContent.runeType.form_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.form_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:

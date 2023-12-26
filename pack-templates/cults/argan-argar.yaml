@@ -14,9 +14,9 @@ system:
   holyDays:
   runeRqidLinks:
     - rqid: i.rune.darkness-element
-      name: §_rqgCompendiumContent.rune.darkness_§ (§_rqgCompendiumContent.runeType.element_§)
+      name: §_rqgCompendiumContent.rune.darkness_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
     - rqid: i.rune.harmony-power
-      name: §_rqgCompendiumContent.rune.harmony_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.harmony_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   descriptionRqidLink:
     rqid: je..argan-argar
     name: §_rqgCompendiumContent.cult.arganArgar.name_§

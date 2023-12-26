@@ -877,13 +877,6 @@
       "description": "<p><i><b>Cost:</b> 1<br><b>Cults:</b> Lhankor Mhy, Orlanth Adventurous</i></p><p>Causes the wind to bring conversations to the caster’s ears, as if standing next to the speaker.</p>"
     }
   },
-  "runeType": {
-    "condition": "condition",
-    "element": "element",
-    "form": "form",
-    "power": "power",
-    "technique": "technique"
-  },
   "spiritMagic": {
     "befuddle": {
       "name": "Befuddle",

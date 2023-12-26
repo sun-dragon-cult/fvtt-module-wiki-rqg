@@ -14,9 +14,9 @@ system:
   holyDays:
   runeRqidLinks:
     - rqid: i.rune.truth-power
-      name: §_rqgCompendiumContent.rune.truth_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.truth_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
     - rqid: i.rune.stasis-power
-      name: §_rqgCompendiumContent.rune.stasis_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.stasis_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   descriptionRqidLink:
     rqid: je..lhankor-mhy
     name: §_rqgCompendiumContent.cult.lhankorMhy.name_§

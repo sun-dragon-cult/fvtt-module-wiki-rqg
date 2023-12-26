@@ -389,7 +389,7 @@ items:
           value: equipped
 
   # Armor items - added inline since it's not truly part of wiki
-  - name: §_rqgCompendiumContent.equipment.armor.unenchantedHeavyDwarfChainmail_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Iron_§)
+  - name: §_rqgCompendiumContent.equipment.armor.unenchantedHeavyDwarfChainmail_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.IronPlate_§)
     type: armor
     img: systems/rqg/assets/images/armor/chain-mail.svg
     effects: []
@@ -408,7 +408,7 @@ items:
         - name: §_rqgCompendiumContent.hitLocation.humanoid.leftArm_§
           rqid: i.hit-location.left-arm
       armorType: §_rqgCompendiumContent.equipment.armor.unenchantedHeavyDwarfChainmail_§
-      material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Iron_§
+      material: §_uiContent.RQG.Item.Armor.ArmorMaterial.IronPlate_§
       absorbs: 9
       encumbrance: 7
       moveQuietlyPenalty: -30
@@ -418,7 +418,7 @@ items:
       equippedStatus: equipped
       description: §_rqgCompendiumContent.equipment.armor.description.unenchantedHeavyDwarfChainmail_§
 
-  - name: §_rqgCompendiumContent.equipment.armor.unenchantedDwarfHelmet_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Iron_§)
+  - name: §_rqgCompendiumContent.equipment.armor.unenchantedDwarfHelmet_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.IronPlate_§)
     type: armor
     img: systems/rqg/assets/images/armor/closed-helmet.svg
     effects: []
@@ -428,7 +428,7 @@ items:
           rqid: i.hit-location.head
       namePrefix:
       armorType: §_uiContent.RQG.Item.Armor.ArmorType.ClosedHelm_§
-      material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Iron_§
+      material: §_uiContent.RQG.Item.Armor.ArmorMaterial.IronPlate_§
       absorbs: 9
       encumbrance: 2
       moveQuietlyPenalty: 0

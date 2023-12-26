@@ -5,9 +5,9 @@ img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
     - rqid: i.rune.death-power
-      name: §_rqgCompendiumContent.rune.death_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.death_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
     - rqid: i.rune.beast-form
-      name: §_rqgCompendiumContent.rune.beast_§ (§_rqgCompendiumContent.runeType.form_§)
+      name: §_rqgCompendiumContent.rune.beast_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
   points: 2
   castingRange: ranged
   duration: temporal

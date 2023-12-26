@@ -142,7 +142,7 @@ items:
         - path: system.opposingRuneRqidLink
           value:
             rqid: i.rune.plant-form
-            name: §_rqgCompendiumContent.rune.plant_§ (§_rqgCompendiumContent.runeType.form_§)
+            name: §_rqgCompendiumContent.rune.plant_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
 
   - _importExternalDocument:
       file: runes/form.yaml
@@ -153,7 +153,7 @@ items:
         - path: system.opposingRuneRqidLink
           value:
             rqid: i.rune.man-form
-            name: §_rqgCompendiumContent.rune.man_§ (§_rqgCompendiumContent.runeType.form_§)
+            name: §_rqgCompendiumContent.rune.man_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
 
   - _importExternalDocument:
       file: runes/power.yaml

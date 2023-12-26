@@ -1,4 +1,4 @@
-name: §_uiContent.RQG.Item.Armor.ArmorType.Sleeves_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.LightScale_§)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Sleeves_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.LightBronzeScale_§)
 type: armor
 img: systems/rqg/assets/images/armor/vambraces.svg
 flags:
@@ -15,7 +15,7 @@ system:
     - name: §_rqgCompendiumContent.hitLocation.humanoid.rightArm_§
       rqid: i.hit-location.right-arm
   armorType: §_uiContent.RQG.Item.Armor.ArmorType.Sleeves_§
-  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.LightScale_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.LightBronzeScale_§
   absorbs: 4
   encumbrance: 2
   price:
@@ -28,7 +28,7 @@ system:
   equippedStatus: carried
   description: §_rqgCompendiumContent.equipment.armor.description.lightScale_§
 ---
-name: §_uiContent.RQG.Item.Armor.ArmorType.Cuirass_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.LightScale_§)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Cuirass_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.LightBronzeScale_§)
 type: armor
 img: systems/rqg/assets/images/armor/cuirass.svg
 flags:
@@ -43,7 +43,7 @@ system:
     - name: §_rqgCompendiumContent.hitLocation.humanoid.chest_§
       rqid: i.hit-location.chest
   armorType: §_uiContent.RQG.Item.Armor.ArmorType.Cuirass_§
-  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.LightScale_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.LightBronzeScale_§
   absorbs: 4
   encumbrance: 1
   price:
@@ -56,7 +56,7 @@ system:
   equippedStatus: carried
   description: §_rqgCompendiumContent.equipment.armor.description.lightScale_§ §_rqgCompendiumContent.equipment.armor.description.cuirass_§
 ---
-name: §_uiContent.RQG.Item.Armor.ArmorType.Hauberk_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.LightScale_§)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Hauberk_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.LightBronzeScale_§)
 type: armor
 img: systems/rqg/assets/images/armor/hauberk.svg
 flags:
@@ -73,7 +73,7 @@ system:
     - name: §_rqgCompendiumContent.hitLocation.humanoid.abdomen_§
       rqid: i.hit-location.abdomen
   armorType: §_uiContent.RQG.Item.Armor.ArmorType.Hauberk_§
-  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.LightScale_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.LightBronzeScale_§
   absorbs: 4
   encumbrance: 2
   price:
@@ -86,7 +86,7 @@ system:
   equippedStatus: carried
   description: §_rqgCompendiumContent.equipment.armor.description.lightScale_§ §_rqgCompendiumContent.equipment.armor.description.hauberk_§
 ---
-name: §_uiContent.RQG.Item.Armor.ArmorType.Skirt_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.LightScale_§)
+name: §_uiContent.RQG.Item.Armor.ArmorType.Skirt_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.LightBronzeScale_§)
 type: armor
 img: systems/rqg/assets/images/armor/skirt.svg
 flags:
@@ -101,7 +101,7 @@ system:
     - name: §_rqgCompendiumContent.hitLocation.humanoid.abdomen_§
       rqid: i.hit-location.abdomen
   armorType: §_uiContent.RQG.Item.Armor.ArmorType.Skirt_§
-  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.LightScale_§
+  material: §_uiContent.RQG.Item.Armor.ArmorMaterial.LightBronzeScale_§
   absorbs: 4
   encumbrance: 2
   price:

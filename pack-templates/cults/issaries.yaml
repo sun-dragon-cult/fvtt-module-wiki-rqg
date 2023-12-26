@@ -14,9 +14,9 @@ system:
   holyDays:
   runeRqidLinks:
     - rqid: i.rune.harmony-power
-      name: §_rqgCompendiumContent.rune.harmony_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.harmony_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
     - rqid: i.rune.movement-power
-      name: §_rqgCompendiumContent.rune.movement_§ (§_rqgCompendiumContent.runeType.power_§)
+      name: §_rqgCompendiumContent.rune.movement_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   descriptionRqidLink:
     rqid: je..issaries
     name: §_rqgCompendiumContent.cult.issaries.name_§

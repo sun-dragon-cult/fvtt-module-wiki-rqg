@@ -88,6 +88,8 @@
         "DexterityAbbr": "DEX",
         "MagicPoints": "Magic Points",
         "CreatureQ": "Creature?",
+        "Creature": "This is a Creature",
+        "CreatureExplanation": "Creatures have zero for all skill category modifiers",
         "MovementAbbr": "MOV",
         "EncumbranceAbbr": "ENC",
         "EncumbranceFactor": "ENC Factor",
@@ -229,20 +231,29 @@
         "SpiritCombat": "Spirit Combat",
         "SpiritCombatDamage": "Spirit Combat Damage",
         "SetSRInCombatTracker": "Set SR in combat tracker",
-        "ProjectileWeaponAmmoNotSelectedAlert": "no ammo",
-        "ProjectileWeaponAmmoNotSelectedTip": "Edit this weapon to select ammunition!"
+        "ProjectileWeaponAmmoNotSelectedAlert": "no ammo"
+      },
+      "EditMode": {
+        "SwitchToEditMode": "Switch to Edit Mode",
+        "SwitchToPlayMode": "Switch to Play Mode"
       },
       "Gear": {
+        "AddNewGearUniqueTip": "Add New Gear",
+        "AddNewGearCurrencyTip": "Add New Currency",
+        "AddNewGearConsumablesTip": "Add New Consumable",
         "ViewByItemType": "View by Item Type",
         "ViewByLocation": "View by Location",
         "Gear": "Gear",
+        "NewGear": "New Gear",
+        "NewCurrency": "New Currency",
+        "NewConsumable": "New Consumable",
         "Armor": "Armor",
         "Consumables": "Consumables",
         "Currency": "Currency",
         "WeaponsAndShields": "Weapons & Shields",
         "CurrencyConversionTipOver1": "One {name} is worth {value} Lunars.",
         "CurrencyConversionTipLunar": "Lunars are the standard basis of currency.",
-        "CurrencyConversionTipUnder1": "One Lunar is worth {value} {name}s.",
+        "CurrencyConversionTipUnder1": "One Lunar is worth {value} {name}.",
         "Name": "Name",
         "EncumbranceAbbr": "ENC",
         "MaxEnc": "Max ENC",
@@ -315,6 +326,7 @@
       },
       "RuneMagic": {
         "EmbeddingRuneMagicWithoutCultWarning": "{characterName} has to join a cult before learning the {spellName} rune magic spell",
+        "RunesNotVisibleForLaymembersWarning": "You need to become an initiate in the cult to use rune magic.",
         "EditRuneMagicSpellTitle": "Edit Rune Magic Spell",
         "DeleteRuneMagicSpellTitle": "Delete Rune Magic Spell",
         "ChooseCultForRuneSpell": "Choose cult for Rune Spell {name}",
@@ -658,24 +670,26 @@
           "Greaves": "Greaves"
         },
         "ArmorMaterial": {
+          "SoftLeather": "Soft Leather",
           "Leather": "Leather",
           "HeavyLeather": "Heavy Leather",
           "StuddedLeather": "Studded Leather",
-          "BronzePlate": "Bronze Plate",
-          "BronzeSegmentedPlate": "Segmented Bronze Plate",
-          "DiskPlate": "Disk Plate",
-          "LightScale": "Light Scale",
-          "HeavyScale": "Heavy Scale",
           "Cuirboilli": "Cuirboilli",
-          "RingMail": "Ring Mail",
-          "TurtleShell": "Turtle Shell",
-          "Quilted": "Quilted",
           "Linen": "Linen",
-          "Iron": "Iron"
+          "Quilted": "Quilted",
+          "BronzeRingMail": "Bronze Ring Mail",
+          "TurtleShell": "Turtle Shell",
+          "LightBronzeScale": "Light Bronze Scale",
+          "HeavyBronzeScale": "Heavy Bronze Scale",
+          "SegmentedBronzePlate": "Segmented Bronze Plate",
+          "BronzeDiskPlate": "Bronze Disk Plate",
+          "BronzePlate": "Bronze Plate",
+          "IronPlate": "Iron Plate"
         }
       },
       "Cult": {
         "AddNewSubCult": "Add new Sub Cult",
+        "AddCultRunePlaceholder": "Add Cult Rune",
         "Name": "Name",
         "Deity": "Deity",
         "CultName": "Cult Name",
@@ -752,7 +766,8 @@
           "HitLocationDoesNotHaveCalculatedArmor": "Hit location {hitLocationName} doesn't have a calculated total armor point",
           "NoValueOnHitLocation": "No value on hit location ${hitLocationName}",
           "NoMaxOnHitLocation": "No max on hit location ${hitLocationName}",
-          "NoActorOnTokenWarn": "No Actor on Token"
+          "NoActorOnTokenWarn": "No Actor on Token",
+          "RqidNeededWarn": "No Rqid assigned. A Rqid is needed to make the hit location work for armor protection etc."
         }
       },
       "HitLocationType": {
@@ -762,6 +777,7 @@
         "abdomen": "Abdomen"
       },
       "Homeland": {
+        "AddHomelandRunePlaceholder": "Add Homeland Rune",
         "Homeland": "Homeland",
         "Region": "Region or City",
         "CultureJournalEntries": "Culture Journal Entries",
@@ -857,10 +873,13 @@
           "DropToConnectSkill": "Drop a Skill Item on this field to connect.",
           "DropToReplaceSkill": "Drop a Skill Item on this field to replace.",
           "DropToConnectOccupation": "Drop an Occupation Item on this field to connect.",
-          "DropToReplaceOccupation": "Drop an Occupation Item on this field to replace."
+          "DropToReplaceOccupation": "Drop an Occupation Item on this field to replace.",
+          "DropToConnectHitLocation": "Drop a Hit Location Item on this field to connect."
         }
       },
       "Rune": {
+        "AddMinorRunePlaceholder": "Add Minor Rune",
+        "SetOpposingRunePlaceholder": "Set Opposing Rune",
         "Name": "Name",
         "Rune": "Rune",
         "Type": "Type",
@@ -870,14 +889,18 @@
         "MinorRunes": "Minor Runes",
         "MasteredSorceryQ": "Mastered (Sorcery)?",
         "RuneType": {
-          "element": "Element",
-          "power": "Power",
-          "form": "Form",
-          "condition": "Condition",
-          "technique": "Technique"
+          "element": "element",
+          "power": "power",
+          "form": "form",
+          "condition": "condition",
+          "technique": "technique"
+        },
+        "Notification": {
+          "RqidNeededWarn": "No Rqid assigned. A Rqid is needed to make the rune available for cults, rune magic etc."
         }
       },
       "RuneMagic": {
+        "AddRuneMagicRunePlaceholder": "Add Rune Magic Rune",
         "Name": "Name",
         "Points": "Points",
         "Range": "Range",
@@ -917,6 +940,7 @@
         "WizardInstructions": "Wizard Instructions"
       },
       "Skill": {
+        "AddSorceryRunePlaceholder": "Add Sorcery Rune",
         "Name": "Name",
         "SkillName": "Skill Name",
         "Specialization": "Specialization",
@@ -1000,22 +1024,22 @@
         "Rate": "Rate",
         "SameDataAsOneHand": "Same Data as One Hand",
         "combatManeuver": {
-          "Bite": "Bit",
-          "Throw": "Kasta",
-          "Shoot": "Skjut",
-          "Thrust": "Stick",
-          "Cut": "Skär",
-          "Claw": "Klös",
+          "Bite": "Bite",
+          "Throw": "Throw",
+          "Shoot": "Shoot",
+          "Thrust": "Thrust",
+          "Cut": "Cut",
+          "Claw": "Claw",
           "Gore": "Gore",
-          "Hug": "Krama",
+          "Hug": "Hug",
           "Bash": "Bash",
-          "Hit": "Slå",
-          "HeadButt": "Skalla",
-          "Parry": "Parera",
+          "Hit": "Hit",
+          "HeadButt": "Head Butt",
+          "Parry": "Parry",
           "Grapple": "Grapple",
           "Knockback": "Knockback",
-          "Punch": "Slå",
-          "Kick": "Sparka",
+          "Punch": "Punch",
+          "Kick": "Kick",
           "Trample": "Trample"
         }
       }
@@ -1116,7 +1140,7 @@
       "DuplicateWarning": "Warning: Multiple rqids with same priority!",
       "CouldNotFindRune": "Could not find cached rune with rqid {rqid}",
       "Error": {
-        "NoWikiModule": "Please enable the required wiki module <a href='https://github.com/sun-dragon-cult/fvtt-system-rqg/wiki/Installing'>See installing instructions</a>",
+        "NoWikiModule": "Please enable the required wiki module <a href='https://sun-dragon-cult.github.io/rqg-system/getting-started'>See installing instructions</a>",
         "NoSheet": "No sheet found for document linked to by RQG System ID (rqid) \"{rqid}\". See console log.",
         "MoreThanOneRqidMatchInWorld": "More than one RQG Document in the world (not in compendium packs) matched the rqid \"{rqid}\", lang \"{lang}\", and priority \"{priority}\". Please review your RQG System settings.  See console log for item ids.",
         "MoreThanOneRqidMatchInPacks": "More than one RQG Document in installed compendium packs matched the rqid \"{rqid}\", lang \"{lang}\", and priority \"{priority}\". Please review your RQG System settings.  See console log for item ids.",
@@ -1134,13 +1158,6 @@
       }
     },
     "Settings": {
-      "HitLocations": {
-        "dialogTitle": "Hit Location Name Settings",
-        "settingName": "Hit Location Names",
-        "settingLabel": "Configure Available Hit Location Names",
-        "settingHint": "The hit location names are used in dropdowns for armor coverage and when naming a new hit location.",
-        "addLocationPlaceholder": "Add another hitlocation"
-      },
       "SortHitLocationsLowToHigh": {
         "settingName": "Sort Hitlocations Low to High",
         "settingHint": "Activating this setting sorts the character hitlocation in the same way as stat blocks are sorted with the lowest die number first. The setting can be toggled in the actor sheet Health table."
@@ -1159,6 +1176,11 @@
         "settingName": "Fumble Roll Table",
         "settingHint": "The name of the Fumble roll table - will be used in combat"
       },
+      "ShowHeropoints": {
+        "settingName": "Show Hero Points",
+        "settingHint": "Show an input field to track the optional rule of hero points."
+
+      },
       "SpecialCrit": {
         "settingName": "Special & Hyper Critical results",
         "settingHint": "*** Alpha version - not fully implemented *** Adds the possibility to roll a special critical (skill/100) and hyper critical (skill/500)"
@@ -1166,6 +1188,10 @@
       "WorldMigrationVersion": {
         "settingName": "World Migration Version",
         "settingHint": "The RQG system version this world has been migrated to."
+      },
+      "ShowCharacteristicRatings": {
+        "settingName": "Show Characteristic Ratings",
+        "settingHint": "Show a colored rating bar below characteristics which rates the value as compared to the dice expression formula for the characteristic.  Red is lower than average and green is higher than average.  This can help you to judge an actor's strengths and weaknesses at a glance."
       }
     },
     "TokenEffects": {

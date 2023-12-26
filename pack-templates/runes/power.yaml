@@ -1,4 +1,4 @@
-name: §_rqgCompendiumContent.rune.death_§ (§_rqgCompendiumContent.runeType.power_§)
+name: §_rqgCompendiumContent.rune.death_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/death.svg
 system:
@@ -7,12 +7,12 @@ system:
   hasExperience: false
   runeType:
     type: power
-    name: §_rqgCompendiumContent.runeType.power_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.fertility-power
-    name: §_rqgCompendiumContent.rune.fertility_§ (§_rqgCompendiumContent.runeType.power_§)
+    name: §_rqgCompendiumContent.rune.fertility_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   descriptionRqidLink:
     rqid: je..death-power
     name: §_rqgCompendiumContent.rune.death_§
@@ -24,7 +24,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.disorder_§ (§_rqgCompendiumContent.runeType.power_§)
+name: §_rqgCompendiumContent.rune.disorder_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/disorder.svg
 system:
@@ -33,12 +33,12 @@ system:
   hasExperience: false
   runeType:
     type: power
-    name: §_rqgCompendiumContent.runeType.power_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.harmony-power
-    name: §_rqgCompendiumContent.rune.harmony_§ (§_rqgCompendiumContent.runeType.power_§)
+    name: §_rqgCompendiumContent.rune.harmony_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   descriptionRqidLink:
     rqid: je..disorder-power
     name: §_rqgCompendiumContent.rune.disorder_§
@@ -50,7 +50,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.fertility_§ (§_rqgCompendiumContent.runeType.power_§)
+name: §_rqgCompendiumContent.rune.fertility_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/fertility.svg
 system:
@@ -59,12 +59,12 @@ system:
   hasExperience: false
   runeType:
     type: power
-    name: §_rqgCompendiumContent.runeType.power_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.death-power
-    name: §_rqgCompendiumContent.rune.death_§ (§_rqgCompendiumContent.runeType.power_§)
+    name: §_rqgCompendiumContent.rune.death_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   descriptionRqidLink:
     rqid: je..fertility-power
     name: §_rqgCompendiumContent.rune.fertility_§
@@ -76,7 +76,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.harmony_§ (§_rqgCompendiumContent.runeType.power_§)
+name: §_rqgCompendiumContent.rune.harmony_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/harmony.svg
 system:
@@ -85,12 +85,12 @@ system:
   hasExperience: false
   runeType:
     type: power
-    name: §_rqgCompendiumContent.runeType.power_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.disorder-power
-    name: §_rqgCompendiumContent.rune.disorder_§ (§_rqgCompendiumContent.runeType.power_§)
+    name: §_rqgCompendiumContent.rune.disorder_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   descriptionRqidLink:
     rqid: je..harmony-power
     name: §_rqgCompendiumContent.rune.harmony_§
@@ -102,7 +102,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.illusion_§ (§_rqgCompendiumContent.runeType.power_§)
+name: §_rqgCompendiumContent.rune.illusion_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/illusion.svg
 system:
@@ -111,12 +111,12 @@ system:
   hasExperience: false
   runeType:
     type: power
-    name: §_rqgCompendiumContent.runeType.power_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.truth-power
-    name: §_rqgCompendiumContent.rune.truth_§ (§_rqgCompendiumContent.runeType.power_§)
+    name: §_rqgCompendiumContent.rune.truth_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   descriptionRqidLink:
     rqid: je..illusion-power
     name: §_rqgCompendiumContent.rune.illusion_§
@@ -128,7 +128,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.movement_§ (§_rqgCompendiumContent.runeType.power_§)
+name: §_rqgCompendiumContent.rune.movement_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/movement_change.svg
 system:
@@ -137,12 +137,12 @@ system:
   hasExperience: false
   runeType:
     type: power
-    name: §_rqgCompendiumContent.runeType.power_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.stasis-power
-    name: §_rqgCompendiumContent.rune.stasis_§ (§_rqgCompendiumContent.runeType.power_§)
+    name: §_rqgCompendiumContent.rune.stasis_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   descriptionRqidLink:
     rqid: je..movement-power
     name: §_rqgCompendiumContent.rune.movement_§
@@ -154,7 +154,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.stasis_§ (§_rqgCompendiumContent.runeType.power_§)
+name: §_rqgCompendiumContent.rune.stasis_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/stasis.svg
 system:
@@ -163,12 +163,12 @@ system:
   hasExperience: false
   runeType:
     type: power
-    name: §_rqgCompendiumContent.runeType.power_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.movement-power
-    name: §_rqgCompendiumContent.rune.movement_§ (§_rqgCompendiumContent.runeType.power_§)
+    name: §_rqgCompendiumContent.rune.movement_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   descriptionRqidLink:
     rqid: je..stasis-power
     name: §_rqgCompendiumContent.rune.stasis_§
@@ -180,7 +180,7 @@ flags:
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
 ---
-name: §_rqgCompendiumContent.rune.truth_§ (§_rqgCompendiumContent.runeType.power_§)
+name: §_rqgCompendiumContent.rune.truth_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
 type: rune
 img: systems/rqg/assets/images/runes/truth.svg
 system:
@@ -189,12 +189,12 @@ system:
   hasExperience: false
   runeType:
     type: power
-    name: §_rqgCompendiumContent.runeType.power_§
+    name: §_uiContent.RQG.Item.Rune.RuneType.power_§
   isMastered: false
   minorRuneRqidLinks: []
   opposingRuneRqidLink:
     rqid: i.rune.illusion-power
-    name: §_rqgCompendiumContent.rune.illusion_§ (§_rqgCompendiumContent.runeType.power_§)
+    name: §_rqgCompendiumContent.rune.illusion_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   descriptionRqidLink:
     rqid: je..truth-power
     name: §_rqgCompendiumContent.rune.truth_§
