@@ -1,5 +1,5 @@
 # summon-elemental-type
-name: §_rqgCompendiumContent.runeMagic.summonElementalType.name_§
+name: §_rqgCompendiumContent.runeMagic.summonTypeElemental.name_§
 type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
@@ -13,8 +13,8 @@ system:
   isOneUse: false
   chance: 0
   descriptionRqidLink:
-    rqid: je..summon-elemental-type
-    name: §_rqgCompendiumContent.runeMagic.summonElementalType.name_§
+    rqid: je..summon-type-elemental
+    name: §_rqgCompendiumContent.runeMagic.summonTypeElemental.name_§
 effects: []
 flags:
   rqg:

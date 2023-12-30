@@ -4,8 +4,8 @@ type: runeMagic
 img: systems/rqg/assets/images/items/rune-magic.svg
 system:
   runeRqidLinks:
-    - rqid: i.rune.fate-condition
-      name: §_rqgCompendiumContent.rune.fate_§ (§_uiContent.RQG.Item.Rune.RuneType.condition_§)
+    - rqid: i.rune.fertility-power
+      name: §_rqgCompendiumContent.rune.fertility_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
     - rqid: i.rune.harmony-power
       name: §_rqgCompendiumContent.rune.harmony_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
     - rqid: i.rune.man-form

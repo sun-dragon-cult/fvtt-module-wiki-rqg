@@ -12,7 +12,7 @@ pages:
         §_rqgCompendiumContent.journalEntryType.runeMagicDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/man.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/harmony.svg" height="70">
-        <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/fate.svg" height="70">
+        <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/fertility.svg" height="70">
         §_rqgCompendiumContent.runeMagic.resurrect.description_§
     sort: 0
     flags: {}

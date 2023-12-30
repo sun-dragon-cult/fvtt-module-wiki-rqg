@@ -646,11 +646,11 @@
     },
     "fear": {
       "name": "🇸🇪Fear",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Cults:</b> Zorak Zoran</i></p><p>This spell causes intense, incapacitating fear to well up within the target. The caster must overcome the POW of the target. The degree of success on that roll determine the exact effect of this spell. The effects of Fear cannot be dispelled.</p><h4>Fear Effects</h4><ul><li><b>Critical:</b> Victim dies of fear.</li><li><b>Special Success:</b> Victim collapses for 20 minus CON full turns and must make a CON×5 roll or die as above.</li><li><b>Success:</b> Victim is [Demoralized](/rules/spirit-magic-spells.html#demoralize) for 20 minus CON melee rounds.</li><li><b>Failure:</b> Intelligent beings are unaffected.</br>Unintelligent creatures, including animals, are [Demoralized](/rules/spirit-magic-spells.html#demoralize) for 20 minus CON melee rounds.</li><li><b>Fumble:</b> Victim is unaffected.</p></ul>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Type:</b> Instant<br><b>Cults:</b> Zorak Zoran</i></p><p>This spell causes intense, incapacitating fear to well up within the target. The caster must overcome the POW of the target. The degree of success on that roll determine the exact effect of this spell. The effects of Fear cannot be dispelled.</p><h4>Fear Effects</h4><ul><li><b>Critical:</b> Victim dies of fear.</li><li><b>Special Success:</b> Victim collapses for 20 minus CON full turns and must make a CON×5 roll or die as above.</li><li><b>Success:</b> Victim is affected by @RQID[je..demoralize]{§_rqgCompendiumContent.spiritMagic.demoralize.name_§} for 20 minus CON melee rounds.</li><li><b>Failure:</b> Intelligent beings are unaffected.</br>Unintelligent creatures, including animals, are affected by @RQID[je..demoralize]{§_rqgCompendiumContent.spiritMagic.demoralize.name_§} for 20 minus CON melee rounds.</li><li><b>Fumble:</b> Victim is unaffected.</p></ul>"
     },
     "fearless": {
       "name": "🇸🇪Fearless",
-      "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Cults:</b> Orlanth Adventurous</i></p><p>Target gains immunity to fear, including magical fear such as from Demoralize, Fear, or Madness, or from foes that cause fear-like effects.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Cults:</b> Orlanth Adventurous</i></p><p>Target gains immunity to fear, including magical fear such as from @RQID[je..demoralize]{§_rqgCompendiumContent.spiritMagic.demoralize.name_§}, @RQID[je..fear]{§_rqgCompendiumContent.runeMagic.fear.name_§}, or @RQID[je..madness]{§_rqgCompendiumContent.runeMagic.madness.name_§}, or from foes that cause fear-like effects.</p>"
     },
     "findEnemy": {
       "name": "🇸🇪Find Enemy",
@@ -670,7 +670,7 @@
     },
     "harmony": {
       "name": "🇸🇪Harmony",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Cults:</b> Chalana Arroy</i></p><p>Prevents anyone from becoming violent within three meters of the caster per point spent. To act violently in this space requires a resistance roll of caster’s POW compared to the resistance table. Anyone within range whose POW would be overcome is affected. Counteracts emotion-affecting spells (Demoralize or Fanaticism) weaker than the Harmony spell (how many points spent in it). Harmony can be boosted with magic points to make it more powerful to overcome other spells.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Cults:</b> Chalana Arroy</i></p><p>Prevents anyone from becoming violent within three meters of the caster per point spent. To act violently in this space requires a resistance roll of caster’s POW compared to the resistance table. Anyone within range whose POW would be overcome is affected. Counteracts emotion-affecting spells (@RQID[je..demoralize]{§_rqgCompendiumContent.spiritMagic.demoralize.name_§} or @RQID[je..fanaticism]{§_rqgCompendiumContent.spiritMagic.fanaticism.name_§}) weaker than the Harmony spell (how many points spent in it). Harmony can be boosted with magic points to make it more powerful to overcome other spells.</p>"
     },
     "healBody": {
       "name": "Hela kropp",
@@ -698,7 +698,7 @@
     },
     "inviolable": {
       "name": "🇸🇪Inviolable",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Cults:</b> Ernalda</i></p><p>Affects any Ernalda or Orlanth cultist within three meters of the caster. Cancels Demoralize, Fanaticism, and other emotion-affecting magic on them, calm and avoiding violence if possible.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Cults:</b> Ernalda</i></p><p>Affects any Ernalda or Orlanth cultist within three meters of the caster. Cancels @RQID[je..demoralize]{§_rqgCompendiumContent.spiritMagic.demoralize.name_§}, @RQID[je..fanaticism]{§_rqgCompendiumContent.spiritMagic.fanaticism.name_§}, and other emotion-affecting magic on them, calm and avoiding violence if possible.</p>"
     },
     "knowledge": {
       "name": "Kunskap",
@@ -722,7 +722,7 @@
     },
     "madness": {
       "name": "🇸🇪Madness",
-      "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Type:</b> Instant<br><b>Cults:</b> Seven Mothers</i></p><p>If the target’s POW is overcome by the caster, the target suffers effects based on the degree of success:</p><ul><li><b>Critical:</b> Target goes insane and is incapacitated for 30 minus POW days, permanently losing 1D4 points INT.</li><li><b>Special Success:</b> Target attacks nearest person as if Fanatic for the next 30 minus POW minutes.</li><li><b>Success:</b> Victim collapses for 30 minus POW minutes and cannot be awakened.</li><li><b>Failure/Fumble:</b> No effect.</li></ul>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Type:</b> Instant<br><b>Cults:</b> Seven Mothers</i></p><p>If the target’s POW is overcome by the caster, the target suffers effects based on the degree of success:</p><ul><li><b>Critical:</b> Target goes insane and is incapacitated for 30 minus POW days, permanently losing 1D4 points INT.</li><li><b>Special Success:</b> Target attacks nearest person as if affected by @RQID[je..fanaticism]{§_rqgCompendiumContent.spiritMagic.fanaticism.name_§} for the next 30 minus POW minutes.</li><li><b>Success:</b> Victim collapses for 30 minus POW minutes and cannot be awakened.</li><li><b>Failure/Fumble:</b> No effect.</li></ul>"
     },
     "magicPointEnchantment": {
       "name": "🇸🇪Magic Point Enchantment",
@@ -746,7 +746,7 @@
     },
     "morale": {
       "name": "Moral",
-      "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Type:</b> Ritual<br><b>Cults:</b> Humakt</i></p><p>Creates a field around the caster and their unit like a Fanaticism spell, without the restrictions on dodging and parrying. Lasts until sunrise or sunset, whichever comes first.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Type:</b> Ritual<br><b>Cults:</b> Humakt</i></p><p>Creates a field around the caster and their unit like a @RQID[je..fanaticism]{§_rqgCompendiumContent.spiritMagic.fanaticism.name_§} spell, without the restrictions on dodging and parrying. Lasts until sunrise or sunset, whichever comes first.</p>"
     },
     "multispell": {
       "name": "🇸🇪Multispell",
@@ -754,11 +754,11 @@
     },
     "oath": {
       "name": "Ed",
-      "description": "🇸🇪<p><i><b>Cost:</b> 2+<br><b>Type:</b> Ritual<br><b>Cults:</b> Humakt</i></p><p>Each person involved spends magic points, forming a pact: oathbreakers suffer a Sever Spirit spell with magic points equal to the total magic points spent in Oath. Each extra Rune point adds one person to the oath. Lasts until broken.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 2+<br><b>Type:</b> Ritual<br><b>Cults:</b> Humakt</i></p><p>Each person involved spends magic points, forming a pact: oathbreakers suffer a @RQID[je..sever-spirit]{§_rqgCompendiumContent.runeMagic.severSpirit.name_§} spell with magic points equal to the total magic points spent in Oath. Each extra Rune point adds one person to the oath. Lasts until broken.</p>"
     },
     "passage": {
       "name": "🇸🇪Passage",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Ritual<br><b>Cults:</b> Issaries</i></p><p>Opens a door, gate, etc. that has been locked, or one magically sealed if enough points are used. When cast with Lock, each point allows one additional person to open the targeted door, lid, lock, etc. besides the caster.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Ritual<br><b>Cults:</b> Issaries</i></p><p>Opens a door, gate, etc. that has been locked, or one magically sealed if enough points are used. When cast with @RQID[je..lock]{§_rqgCompendiumContent.runeMagic.lock.name_§}, each point allows one additional person to open the targeted door, lid, lock, etc. besides the caster.</p>"
     },
     "pathWatch": {
       "name": "🇸🇪Path Watch",
@@ -790,7 +790,7 @@
     },
     "sanctify": {
       "name": "🇸🇪Sanctify",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Riual<br><b>Cults:</b> All</i></p><p>This blesses the volume of a 10-meter-radius volume, usually a sphere half above and below ground (for Earth cults this is a cube). Cult members can perform ceremonies within this area as if in a temple, including replenishing Rune points.</p><p>The boundary shimmers slightly in full daylight, but is not detectable by touch or Darksense. Anyone within any portion of the sanctified area is considered completely within it. The caster is instantly alerted if non-initiates, spells, or spirits enter the area.</p><p>When ceremonies cease, the spell ends. Additional Rune points increase its area by half again (2 points protects a 15-meter radius, 3 points a 22.5-meter radius, etc.).</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Ritual<br><b>Cults:</b> All</i></p><p>This blesses the volume of a 10-meter-radius volume, usually a sphere half above and below ground (for Earth cults this is a cube). Cult members can perform ceremonies within this area as if in a temple, including replenishing Rune points.</p><p>The boundary shimmers slightly in full daylight, but is not detectable by touch or Darksense. Anyone within any portion of the sanctified area is considered completely within it. The caster is instantly alerted if non-initiates, spells, or spirits enter the area.</p><p>When ceremonies cease, the spell ends. Additional Rune points increase its area by half again (2 points protects a 15-meter radius, 3 points a 22.5-meter radius, etc.).</p>"
     },
     "severSpirit": {
       "name": "🇸🇪Sever Spirit",
@@ -802,7 +802,7 @@
     },
     "shield": {
       "name": "Sköld",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Cults:</b> Many</i></p><p>The Rune varies by cult. Every point of Shield gives the wearer 2 points of magical armor and 2 points of Countermagic. The effects are cumulative with Protection or Countermagic.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Cults:</b> Many</i></p><p>The Rune varies by cult. Every point of Shield gives the wearer 2 points of magical armor and 2 points of @RQID[je..countermagic]{§_rqgCompendiumContent.spiritMagic.countermagic.name_§}. The effects are cumulative with @RQID[je..protection]{§_rqgCompendiumContent.spiritMagic.protection.name_§} or @RQID[je..countermagic]{§_rqgCompendiumContent.spiritMagic.countermagic.name_§}.</p>"
     },
     "slash": {
       "name": "🇸🇪Slash",
@@ -828,7 +828,7 @@
       "name": "🇸🇪Summon Cult Spirit",
       "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Ritual<br> <b>Cults:</b> All</i></p><p>The caster’s deity sends a cult spirit to their aid. Its size depends on the number of Rune points spent. As a rule, greater deities have more sizes and types of cult spirits. The summoned entity arrives at the end of the round, on strike rank 12. This spell may be cast simultaneously with Command Cult Spirit.</p><p>Summon Elemental is a specific example of this spell, but many other variants exist.</p>"
     },
-    "summonElementalType": {
+    "summonTypeElemental": {
       "name": "🇸🇪Summon Elemental (type)",
       "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Ranged, Temporal<br><b>Cults:</b> Ernalda (Earth), Orlanth (Air), Seven Mothers (all but Air), Waha (Earth)</i></p><p>The Rune used depends on the type of elemental summoned. When cast, the deity sends an elemental of the Rune’s type. Elementals come in three sizes: small (1 pt.), medium (2 pts.), and large (3 pts.). The elemental’s size depends on how many Rune points are stacked with the spell (limited by the maximum size of elemental available to the cult).</p><p>Once summoned, the elemental follows its natural inclinations unless bound by a Command spell. The gamemaster should determine this if it is not apparent. Unless bound by a Command spell, the elemental may not attack unless attacked, and remains until it is physically destroyed, or 15 minutes have passed, whichever of these conditions comes first.</p>"
     },
@@ -838,15 +838,15 @@
     },
     "sunbright": {
       "name": "🇸🇪Sunbright",
-      "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Cults:</b> Yelmalio</i></p><p>Creates a 60-meter radius circle of light around the target. If unwilling, target’s POW must be defeated in a resistance roll. Has the effect of full daylight, affecting cave trolls and Demoralizing trollkin, vampires, ghouls, and undead as per the Demoralize spell. Serves as a Shimmer 2 spell. Darkness elementals suffer 1D3 damage per round from this spell. If cast directly on one and defeating its POW in a resistance roll, the elemental is banished.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Cults:</b> Yelmalio</i></p><p>Creates a 60-meter radius circle of light around the target. If unwilling, target’s POW must be defeated in a resistance roll. Has the effect of full daylight, affecting cave trolls and Demoralizing trollkin, vampires, ghouls, and undead as per the @RQID[je..demoralize]{§_rqgCompendiumContent.spiritMagic.demoralize.name_§} spell. Serves as a @RQID[je..shimmer]{§_rqgCompendiumContent.spiritMagic.shimmer.name_§ 2} spell. Darkness elementals suffer 1D3 damage per round from this spell. If cast directly on one and defeating its POW in a resistance roll, the elemental is banished.</p>"
     },
     "sureshot": {
       "name": "🇸🇪Sureshot",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Cults:</b> Foundchild, Yelm</i></p><p>Cast upon a missile weapon. If successful, the next attack within range always hits unless a 96–00 is rolled for the attack. Special and critical successes are as per the attacker’s skill. Attacks made with this spell do not count for experience, and the spell cannot be combined with Speedart or Firearrow. If it is used with Multimissile, Sureshot only affects the first/original missile.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Cults:</b> Foundchild, Yelm</i></p><p>Cast upon a missile weapon. If successful, the next attack within range always hits unless a 96–00 is rolled for the attack. Special and critical successes are as per the attacker’s skill. Attacks made with this spell do not count for experience, and the spell cannot be combined with @RQID[je..speedart]{§_rqgCompendiumContent.spiritMagic.speedart.name_§} or @RQID[je..firearrow]{§_rqgCompendiumContent.spiritMagic.firearrow.name_§}. If it is used with @RQID[je..multimissile]{§_rqgCompendiumContent.spiritMagic.multimissile.name_§}, Sureshot only affects the first/original missile.</p>"
     },
     "swordTrance": {
       "name": "🇸🇪Sword Trance",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Type:</b> Self<br><b>Cults:</b> Humakt</i></p><p>Each magic point spent with this spell increases one of the caster’s Sword skills by +10%. This can be combined with other weapon-enhancing spells, but not Berserker or Fanaticism. While in the trance, the caster must focus on using their sword in combat. Should they pause from performing any activities relating to using a sword in combat, the spell’s effect ends.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Type:</b> Self<br><b>Cults:</b> Humakt</i></p><p>Each magic point spent with this spell increases one of the caster’s Sword skills by +10%. This can be combined with other weapon-enhancing spells, but not @RQID[je..berserker]{§_rqgCompendiumContent.runeMagic.berserker.name_§} or @RQID[je..fanaticism]{§_rqgCompendiumContent.spiritMagic.fanaticism.name_§}. While in the trance, the caster must focus on using their sword in combat. Should they pause from performing any activities relating to using a sword in combat, the spell’s effect ends.</p>"
     },
     "teleportation": {
       "name": "🇸🇪Teleportation",
@@ -866,11 +866,11 @@
     },
     "turnUndead": {
       "name": "🇸🇪Turn Undead",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Instant<br><b>Cults:</b> Humakt</i></p><p>Affects one undead per point. Roll the caster’s POW vs. the target’s magic points:</p><ul><li><b>Critical:</b> Undead destroyed, released, or otherwise ended.</li><li><b>Special:</b> Undead paralyzed for 20 melee rounds minus INT (minimum 1, skeletons inactive for 20 rounds).</li><li><b>Success:</b> Undead flees, if possible. If not, see <b>Special</b>.</li><li><b>Failure:</b> The undead is Befuddled.</li><li><b>Fumble:</b> No effect.</li></ul>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Instant<br><b>Cults:</b> Humakt</i></p><p>Affects one undead per point. Roll the caster’s POW vs. the target’s magic points:</p><ul><li><b>Critical:</b> Undead destroyed, released, or otherwise ended.</li><li><b>Special:</b> Undead paralyzed for 20 melee rounds minus INT (minimum 1, skeletons inactive for 20 rounds).</li><li><b>Success:</b> Undead flees, if possible. If not, see <b>Special</b>.</li><li><b>Failure:</b> The undead is affected by @RQID[je..befuddle]{§_rqgCompendiumContent.spiritMagic.befuddle.name_§}.</li><li><b>Fumble:</b> No effect.</li></ul>"
     },
     "warding": {
       "name": "🇸🇪Warding",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Type:</b> Ritual<br><b>Cults:</b> All</i></p><p>This ritual creates an area of safety for those inside. Four wands arranged in a rough rectangle define the area’s boundary. These can be made of any material and must be placed to enclose a maximum area of up to 100 square meters (typically 10×10 meters). The spell extends into the air for three meters above the wands, and underground to the depth of the wands. The stakes need not be visible to work; some casters bury them completely.</p><p>The spell connects these wands invisibly to form a barrier detectable only by magical means. The protection effects activate when physical or spirit enemies of the caster cross the barrier, or when a spell is cast across the barrier from the outside. When this happens, a loud noise (a keening, whistling, booming, etc.) begins, which can be suppressed by the casting priest.</p><p>Each point of Warding (up to 4) counts as 1 point of Countermagic against spells cast across the barrier, 2 points of spirit armor against outside spirits, and does 1D3 damage, ignoring armor, to one hit location of any corporeal enemy unwise enough to cross the boundary.</p><p>Each stacked point of Warding increases the area protected by another 100 square meters.</p><p>The Warding spell remains in effect until one of the wands is removed. Anyone but the caster that attempts to touch the stakes is affected by the Warding, but after suffering the effect, the person can then remove the stakes.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Type:</b> Ritual<br><b>Cults:</b> All</i></p><p>This ritual creates an area of safety for those inside. Four wands arranged in a rough rectangle define the area’s boundary. These can be made of any material and must be placed to enclose a maximum area of up to 100 square meters (typically 10×10 meters). The spell extends into the air for three meters above the wands, and underground to the depth of the wands. The stakes need not be visible to work; some casters bury them completely.</p><p>The spell connects these wands invisibly to form a barrier detectable only by magical means. The protection effects activate when physical or spirit enemies of the caster cross the barrier, or when a spell is cast across the barrier from the outside. When this happens, a loud noise (a keening, whistling, booming, etc.) begins, which can be suppressed by the casting priest.</p><p>Each point of Warding (up to 4) counts as 1 point of @RQID[je..countermagic]{§_rqgCompendiumContent.spiritMagic.countermagic.name_§} against spells cast across the barrier, 2 points of spirit armor against outside spirits, and does 1D3 damage, ignoring armor, to one hit location of any corporeal enemy unwise enough to cross the boundary.</p><p>Each stacked point of Warding increases the area protected by another 100 square meters.</p><p>The Warding spell remains in effect until one of the wands is removed. Anyone but the caster that attempts to touch the stakes is affected by the Warding, but after suffering the effect, the person can then remove the stakes.</p>"
     },
     "windWords": {
       "name": "🇸🇪Wind Words",

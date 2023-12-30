@@ -1,7 +1,7 @@
 # summon-elemental-type
-name: §_rqgCompendiumContent.runeMagic.summonElementalType.name_§
+name: §_rqgCompendiumContent.runeMagic.summonTypeElemental.name_§
 pages:
-  - name: §_rqgCompendiumContent.runeMagic.summonElementalType.name_§
+  - name: §_rqgCompendiumContent.runeMagic.summonTypeElemental.name_§
     type: text
     title:
       show: false
@@ -11,12 +11,12 @@ pages:
       content: >
         §_rqgCompendiumContent.journalEntryType.runeMagicDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/magic.svg" height="70">
-        §_rqgCompendiumContent.runeMagic.summonElementalType.description_§
+        §_rqgCompendiumContent.runeMagic.summonTypeElemental.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
-      id: je..summon-elemental-type
+      id: je..summon-type-elemental
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
