@@ -7,7 +7,7 @@ system:
   isVariable: false
   castingRange: ranged
   duration: focused
-  concentration: active
+  concentration:
   descriptionRqidLink:
     rqid: je..detect-undead
     name: §_rqgCompendiumContent.spiritMagic.detectUndead.name_§

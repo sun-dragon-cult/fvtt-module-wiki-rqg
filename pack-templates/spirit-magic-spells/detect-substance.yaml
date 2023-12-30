@@ -7,7 +7,7 @@ system:
   isVariable: false
   castingRange: ranged
   duration: focused
-  concentration: active
+  concentration:
   descriptionRqidLink:
     rqid: je..detect-substance
     name: §_rqgCompendiumContent.spiritMagic.detectSubstance.name_§

@@ -5,7 +5,7 @@ img: systems/rqg/assets/images/items/spirit-magic.svg
 system:
   points: 1
   isVariable: true
-  castingRange: ranged
+  castingRange: touch
   duration: instant
   concentration:
   descriptionRqidLink:

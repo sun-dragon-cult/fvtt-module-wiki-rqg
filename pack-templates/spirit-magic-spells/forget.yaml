@@ -7,7 +7,7 @@ system:
   isVariable: false
   castingRange: ranged
   duration: temporal
-  concentration:
+  concentration: passive
   descriptionRqidLink:
     rqid: je..forget
     name: §_rqgCompendiumContent.spiritMagic.forget.name_§
