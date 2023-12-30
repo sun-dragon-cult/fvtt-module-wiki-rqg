@@ -10,7 +10,7 @@ system:
   castingRange: ""
   duration: special
   isRitual: true
-  isStackable: false
+  isStackable: true
   isOneUse: false
   chance: 0
   descriptionRqidLink:

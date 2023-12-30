@@ -10,7 +10,7 @@ system:
       name: §_rqgCompendiumContent.rune.truth_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   points: 2
   castingRange: ""
-  duration: ""
+  duration: special
   isRitual: true
   isStackable: false
   isOneUse: false

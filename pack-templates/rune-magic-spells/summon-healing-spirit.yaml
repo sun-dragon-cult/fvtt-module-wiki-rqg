@@ -8,7 +8,7 @@ system:
       name: §_rqgCompendiumContent.rune.fertility_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   points: 1
   castingRange: ""
-  duration: ""
+  duration: temporal
   isRitual: true
   isStackable: false
   isOneUse: false
