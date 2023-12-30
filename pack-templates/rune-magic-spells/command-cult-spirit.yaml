@@ -13,7 +13,7 @@ system:
   isOneUse: false
   chance: 0
   descriptionRqidLink:
-    rqid: je..command-cult-spirit-elemental
+    rqid: je..command-cult-spirit
     name: §_rqgCompendiumContent.runeMagic.commandCultSpirit.name_§
 effects: []
 flags:

@@ -190,7 +190,7 @@ items:
 
   # Rune Magic, these will only be visible if the actor becomes an initiate
   - _importExternalDocument:
-      file: rune-magic-spells/command-cult-spirit-elemental.yaml
+      file: rune-magic-spells/command-cult-spirit.yaml
       rqid: i.rune-magic.command-cult-spirit
       overrides:
         - path: system.cultId

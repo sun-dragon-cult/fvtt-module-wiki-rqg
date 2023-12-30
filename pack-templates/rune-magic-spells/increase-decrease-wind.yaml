@@ -7,7 +7,7 @@ system:
     - rqid: i.rune.air-element
       name: §_rqgCompendiumContent.rune.air_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
   points: 1
-  castingRange: ranged
+  castingRange: self
   duration: temporal
   isStackable: true
   isOneUse: false

@@ -1,4 +1,4 @@
-# command-cult-spirit-elemental
+# command-cult-spirit
 name: §_rqgCompendiumContent.runeMagic.commandCultSpirit.name_§
 pages:
   - name: §_rqgCompendiumContent.runeMagic.commandCultSpirit.name_§
@@ -17,6 +17,6 @@ pages:
 flags:
   rqg:
     documentRqidFlags:
-      id: je..command-cult-spirit-elemental
+      id: je..command-cult-spirit
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§

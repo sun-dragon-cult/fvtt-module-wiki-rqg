@@ -7,8 +7,10 @@ system:
     - rqid: i.rune.movement-power
       name: §_rqgCompendiumContent.rune.movement_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   points: 1
+  castingRange: ""
+  duration: special
   isRitual: true
-  isStackable: true
+  isStackable: false
   isOneUse: false
   chance: 0
   descriptionRqidLink:

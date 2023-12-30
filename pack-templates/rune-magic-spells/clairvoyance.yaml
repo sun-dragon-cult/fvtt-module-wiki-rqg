@@ -7,7 +7,7 @@ system:
     - rqid: i.rune.truth-power
       name: §_rqgCompendiumContent.rune.truth_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   points: 2
-  castingRange: ranged
+  castingRange: special
   duration: temporal
   isStackable: false
   isOneUse: false

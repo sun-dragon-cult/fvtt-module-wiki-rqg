@@ -7,6 +7,8 @@ system:
     - rqid: i.rune.death-power
       name: §_rqgCompendiumContent.rune.death_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   points: 1
+  castingRange: ""
+  duration: ""
   isRitual: true
   isStackable: false
   isOneUse: false

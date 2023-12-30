@@ -7,6 +7,8 @@ system:
     - rqid: i.rune.magic-condition
       name: §_rqgCompendiumContent.rune.magic_§ (§_uiContent.RQG.Item.Rune.RuneType.condition_§)
   points: 1
+  castingRange: ""
+  duration: ""
   isRitual: true
   isStackable: true
   isOneUse: false

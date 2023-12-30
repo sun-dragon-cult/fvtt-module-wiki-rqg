@@ -9,7 +9,7 @@ system:
   points: 1
   castingRange: ranged
   duration: instant
-  isStackable: false
+  isStackable: true
   isOneUse: false
   chance: 0
   descriptionRqidLink:

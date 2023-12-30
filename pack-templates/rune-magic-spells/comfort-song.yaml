@@ -9,8 +9,8 @@ system:
     - rqid: i.rune.harmony-power
       name: §_rqgCompendiumContent.rune.harmony_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   points: 1
-  castingRange: ranged
-  duration: temporal
+  castingRange: special
+  duration: special
   isStackable: false
   isOneUse: false
   chance: 0

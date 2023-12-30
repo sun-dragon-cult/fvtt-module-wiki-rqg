@@ -231,7 +231,7 @@ items:
           value: VingasCultItemId
 
   - _importExternalDocument:
-      file: rune-magic-spells/command-cult-spirit-elemental.yaml
+      file: rune-magic-spells/command-cult-spirit.yaml
       rqid: i.rune-magic.command-cult-spirit
       overrides:
         - path: system.cultId

@@ -8,7 +8,7 @@ system:
       name: §_rqgCompendiumContent.rune.darkness_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
   points: 2
   castingRange: ranged
-  duration: temporal
+  duration: instant
   isStackable: false
   isOneUse: false
   chance: 0

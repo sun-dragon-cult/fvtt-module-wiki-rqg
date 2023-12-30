@@ -9,7 +9,7 @@ system:
   points: 3
   castingRange: touch
   duration: instant
-  isStackable: false
+  isStackable: true
   isOneUse: false
   chance: 0
   descriptionRqidLink:

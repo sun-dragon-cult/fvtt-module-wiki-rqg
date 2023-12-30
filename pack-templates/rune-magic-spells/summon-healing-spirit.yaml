@@ -7,9 +7,10 @@ system:
     - rqid: i.rune.fertility-power
       name: §_rqgCompendiumContent.rune.fertility_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   points: 1
-  castingRange: ranged
-  duration: temoral
-  isStackable: true
+  castingRange: ""
+  duration: ""
+  isRitual: true
+  isStackable: false
   isOneUse: false
   chance: 0
   descriptionRqidLink:

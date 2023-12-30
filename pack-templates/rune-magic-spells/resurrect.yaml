@@ -11,6 +11,8 @@ system:
     - rqid: i.rune.man-form
       name: §_rqgCompendiumContent.rune.man_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
   points: 3
+  castingRange: ""
+  duration: ""
   isRitual: true
   isStackable: false
   isOneUse: false

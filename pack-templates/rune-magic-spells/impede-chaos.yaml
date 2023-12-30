@@ -11,7 +11,7 @@ system:
     - rqid: i.rune.beast-form
       name: §_rqgCompendiumContent.rune.beast_§ (§_uiContent.RQG.Item.Rune.RuneType.form_§)
   points: 1
-  castingRange: ranged
+  castingRange: self
   duration: temporal
   isStackable: true
   isOneUse: false
