@@ -1,0 +1,24 @@
+# dismiss-earth-elemental
+name: §_rqgCompendiumContent.runeMagic.dismissEarthElemental.name_§
+type: runeMagic
+img: systems/rqg/assets/images/items/rune-magic.svg
+system:
+  runeRqidLinks:
+    - rqid: i.rune.earth-element
+      name: §_rqgCompendiumContent.rune.earth_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
+  points: 1
+  castingRange: ranged
+  duration: instant
+  isStackable: true
+  isOneUse: false
+  chance: 0
+  descriptionRqidLink:
+    rqid: je..dismiss-type-elemental
+    name: §_rqgCompendiumContent.runeMagic.dismissTypeElemental.name_§
+effects: []
+flags:
+  rqg:
+    documentRqidFlags:
+      id: i.rune-magic.dismiss-earth-elemental
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

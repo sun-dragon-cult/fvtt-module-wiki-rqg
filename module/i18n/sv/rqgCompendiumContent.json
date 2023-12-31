@@ -616,9 +616,27 @@
       "name": "🇸🇪Discorporation",
       "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Ritual<br><b>Cults:</b> Daka Fal, Waha</i></p><p>An hour-long ritual that allows the caster to enter spirit form and enter the Spirit World. Requires a successful Meditate roll in addition to the casting roll. Traveling more than five kilometers from the caster’s body requires another Rune point per five kilometers, spent when the spell is cast. See @JournalEntry[DUMMY]{Discorporation} for more information.</p>"
     },
-    "dismissElementalType": {
-      "name": "🇸🇪Dismiss Elemental (type)",
+    "dismissTypeElemental": {
+      "name": "🇸🇪Dismiss (type) Elemental",
       "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Ranged, Instant<br><b>Cults:</b> Ernalda (Earth), Orlanth (Air), Seven Mothers (all but Air), Waha (Earth)</i></p><p>The Rune depends on the type of elemental to be dismissed. Dismisses a cult spirit (usually an elemental) of the type listed.</p><ul><li>With 1 Rune point, the caster can try to dismiss a small elemental.</li><li>With 2 Rune points, the caster can try to dismiss a medium elemental.</li><li>With 3 Rune points, the caster can try to dismiss a large elemental.</li></ul> <p>The caster of the spell must overcome the POW of the elemental for the spell to work.</p>"
+    },
+    "dismissAirElemental": {
+      "name": "🇸🇪Dismiss Air Elemental"
+    },
+    "dismissDarknessElemental": {
+      "name": "🇸🇪Dismiss Darkness Elemental"
+    },
+    "dismissEarthElemental": {
+      "name": "🇸🇪Dismiss Earth Elemental"
+    },
+    "dismissFireElemental": {
+      "name": "🇸🇪Dismiss Fire Elemental"
+    },
+    "dismissMoonElemental": {
+      "name": "🇸🇪Dismiss Moon Elemental"
+    },
+    "dismissWaterElemental": {
+      "name": "🇸🇪Dismiss Water Elemental"
     },
     "dismissMagic": {
       "name": "🇸🇪Dismiss Magic",
@@ -831,6 +849,24 @@
     "summonTypeElemental": {
       "name": "🇸🇪Summon Elemental (type)",
       "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Ranged, Temporal<br><b>Cults:</b> Ernalda (Earth), Orlanth (Air), Seven Mothers (all but Air), Waha (Earth)</i></p><p>The Rune used depends on the type of elemental summoned. When cast, the deity sends an elemental of the Rune’s type. Elementals come in three sizes: small (1 pt.), medium (2 pts.), and large (3 pts.). The elemental’s size depends on how many Rune points are stacked with the spell (limited by the maximum size of elemental available to the cult).</p><p>Once summoned, the elemental follows its natural inclinations unless bound by a Command spell. The gamemaster should determine this if it is not apparent. Unless bound by a Command spell, the elemental may not attack unless attacked, and remains until it is physically destroyed, or 15 minutes have passed, whichever of these conditions comes first.</p>"
+    },
+    "summonAirElemental": {
+      "name": "🇸🇪Summon Air Elemental"
+    },
+    "summonDarknessElemental": {
+      "name": "🇸🇪Summon Darkness Elemental"
+    },
+    "summonEarthElemental": {
+      "name": "🇸🇪Summon Earth Elemental"
+    },
+    "summonFireElemental": {
+      "name": "🇸🇪Summon Fire Elemental"
+    },
+    "summonMoonElemental": {
+      "name": "🇸🇪Summon Moon Elemental"
+    },
+    "summonWaterElemental": {
+      "name": "🇸🇪Summon Water Elemental"
     },
     "summonHealingSpirit": {
       "name": "🇸🇪Summon Healing Spirit",

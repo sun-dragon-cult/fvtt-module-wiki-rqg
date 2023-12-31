@@ -1,0 +1,24 @@
+# summon-air-elemental
+name: §_rqgCompendiumContent.runeMagic.summonAirElemental.name_§
+type: runeMagic
+img: systems/rqg/assets/images/items/rune-magic.svg
+system:
+  runeRqidLinks:
+    - rqid: i.rune.air-element
+      name: §_rqgCompendiumContent.rune.air_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
+  points: 1
+  castingRange: ranged
+  duration: temporal
+  isStackable: true
+  isOneUse: false
+  chance: 0
+  descriptionRqidLink:
+    rqid: je..summon-type-elemental
+    name: §_rqgCompendiumContent.runeMagic.summonTypeElemental.name_§
+effects: []
+flags:
+  rqg:
+    documentRqidFlags:
+      id: i.rune-magic.summon-air-elemental
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§

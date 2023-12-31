@@ -1,7 +1,7 @@
 # dismiss-elemental-type
-name: §_rqgCompendiumContent.runeMagic.dismissElementalType.name_§
+name: §_rqgCompendiumContent.runeMagic.dismissTypeElemental.name_§
 pages:
-  - name: §_rqgCompendiumContent.runeMagic.dismissElementalType.name_§
+  - name: §_rqgCompendiumContent.runeMagic.dismissTypeElemental.name_§
     type: text
     title:
       show: false
@@ -11,12 +11,12 @@ pages:
       content: >
         §_rqgCompendiumContent.journalEntryType.runeMagicDescription.title_§
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/magic.svg" height="70">
-        §_rqgCompendiumContent.runeMagic.dismissElementalType.description_§
+        §_rqgCompendiumContent.runeMagic.dismissTypeElemental.description_§
     sort: 0
     flags: {}
 flags:
   rqg:
     documentRqidFlags:
-      id: je..dismiss-elemental-type
+      id: je..dismiss-type-elemental
       lang: §_rqgCompendiumContent.lang_§
       priority: §_rqgCompendiumContent.prio_§
