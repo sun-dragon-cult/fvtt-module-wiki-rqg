@@ -8,6 +8,8 @@ system:
       name: §_rqgCompendiumContent.rune.death_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
     - rqid: i.rune.truth-power
       name: §_rqgCompendiumContent.rune.truth_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
+    - rqid: i.rune.stasis-power
+      name: §_rqgCompendiumContent.rune.stasis_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   points: 2
   castingRange: ""
   duration: special

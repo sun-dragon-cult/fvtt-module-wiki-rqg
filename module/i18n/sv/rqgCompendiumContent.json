@@ -594,7 +594,7 @@
     },
     "cureChaosWound": {
       "name": "🇸🇪Cure Chaos Wound",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Type:</b> Touch, Instant<br><b>Cults:</b> Chalana Arroy</i></p><p>Cures a wound or disease inflicted by Chaos, but must be stacked with another healing spell. Provides all magic points needed to cast the other spell.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Touch, Instant<br><b>Cults:</b> Chalana Arroy</i></p><p>Cures a wound or disease inflicted by Chaos, but must be stacked with another healing spell. Provides all magic points needed to cast the other spell.</p>"
     },
     "curePoison": {
       "name": "🇸🇪Cure Poison",
@@ -700,7 +700,7 @@
     },
     "healingTrance": {
       "name": "🇸🇪Healing Trance",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Type:</b> Touch, Duration<br><b>Cults:</b> Chalana Arroy</i></p><p>Target falls into a deep sleep, healing eight times faster than normal. Both caster and target remain asleep until target is entirely healed.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Type:</b> Touch, Duration (special)<br><b>Cults:</b> Chalana Arroy</i></p><p>Target falls into a deep sleep, healing eight times faster than normal. Both caster and target remain asleep until target is entirely healed.</p>"
     },
     "illusionarySound": {
       "name": "🇸🇪Illusionary Sound",
@@ -736,7 +736,7 @@
     },
     "lock": {
       "name": "Lås",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Ritual<br><b>Cults:</b> Issaries</i></p><p>Locks a door, gate, hatch, chest, etc. with a STR equal to the number of magic points used. It must be cast upon a closable door, and the spell does not increase its armor or durability in any way. It takes one hour to cast per point but lasts eight weeks. This spell is often stacked with Passage.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Type:</b> Ritual<br><b>Cults:</b> Issaries</i></p><p>Locks a door, gate, hatch, chest, etc. with a STR equal to the number of magic points used. It must be cast upon a closable door, and the spell does not increase its armor or durability in any way. It takes one hour to cast per point but lasts eight weeks. This spell is often stacked with Passage.</p>"
     },
     "madness": {
       "name": "🇸🇪Madness",
@@ -780,7 +780,7 @@
     },
     "pathWatch": {
       "name": "🇸🇪Path Watch",
-      "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Type:</b> Self, Duration<br><b>Cults:</b> Issaries</i></p><p>Must be laid upon a known path or visible road to be traveled on by the caster. Alerts them to the direction and number (not type) of all enemies and traps within a 100-meter radius of the caster while they are on the path or immediately adjacent to it. Lasts while the road lasts and while the caster stays awake.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Type:</b> Self, Duration (special)<br><b>Cults:</b> Issaries</i></p><p>Must be laid upon a known path or visible road to be traveled on by the caster. Alerts them to the direction and number (not type) of all enemies and traps within a 100-meter radius of the caster while they are on the path or immediately adjacent to it. Lasts while the road lasts and while the caster stays awake.</p>"
     },
     "reconstruction": {
       "name": "🇸🇪Reconstruction",
@@ -804,7 +804,7 @@
     },
     "safe": {
       "name": "🇸🇪Safe",
-      "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Type:</b> Touch, Duration<br><b>Cults:</b> Argan Argar</i></p><p>Cast upon a container or opening to bar unwanted passage, must be boosted with magic points. Anyone other than the caster opening the secured container or crossing the passage is attacked by those magic points. If the trespasser’s POW is overcome, they take 1D6 points of hit point damage and are forced back. Lasts eight weeks.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 2<br><b>Type:</b> Touch, Duration (special)<br><b>Cults:</b> Argan Argar</i></p><p>Cast upon a container or opening to bar unwanted passage, must be boosted with magic points. Anyone other than the caster opening the secured container or crossing the passage is attacked by those magic points. If the trespasser’s POW is overcome, they take 1D6 points of hit point damage and are forced back. Lasts eight weeks.</p>"
     },
     "sanctify": {
       "name": "🇸🇪Sanctify",
@@ -816,7 +816,7 @@
     },
     "shakeEarth": {
       "name": "🇸🇪Shake Earth",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Cults:</b> Maran Gor</i></p><p>Causes a small earthquake: magic points spent determine its area of effect and Rune points its severity. Affects one square meter per magic point, exponentially (1 magic point = 1 square meter, 2 magic points = 4 square meters, etc.). Everyone in the area reduces all Agility and Manipulation skills by –5% per point and must succeed in a DEX×5 roll each round or fall down, modified by the above penalty.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Cults:</b> Maran Gor</i></p><p>Causes a small earthquake: magic points spent determine its area of effect and Rune points its severity. Affects one square meter per magic point, exponentially (1 magic point = 1 square meter, 2 magic points = 4 square meters, etc.). Everyone in the area reduces all Agility and Manipulation skills by –5% per point and must succeed in a DEX×5 roll each round or fall down, modified by the above penalty.</p>"
     },
     "shield": {
       "name": "Sköld",
@@ -836,7 +836,7 @@
     },
     "spiritArmorEnchantment": {
       "name": "🇸🇪Spirit Armor Enchantment",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Type:</b> Ritual<br><b>Cults:</b> All</i></p><p>Creates 1D3 points armor against damage taken in spirit combat per permanent POW point sacrificed. Takes one hour to cast.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Ritual<br><b>Cults:</b> All</i></p><p>Creates 1D3 points armor against damage taken in spirit combat per permanent POW point sacrificed. Takes one hour to cast.</p>"
     },
     "spiritBlock": {
       "name": "🇸🇪Spirit Block",
@@ -844,7 +844,7 @@
     },
     "summonCultSpirit": {
       "name": "🇸🇪Summon Cult Spirit",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Ritual<br> <b>Cults:</b> All</i></p><p>The caster’s deity sends a cult spirit to their aid. Its size depends on the number of Rune points spent. As a rule, greater deities have more sizes and types of cult spirits. The summoned entity arrives at the end of the round, on strike rank 12. This spell may be cast simultaneously with Command Cult Spirit.</p><p>Summon Elemental is a specific example of this spell, but many other variants exist.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Summon, Ranged, Temporal<br> <b>Cults:</b> All</i></p><p>The caster’s deity sends a cult spirit to their aid. Its size depends on the number of Rune points spent. As a rule, greater deities have more sizes and types of cult spirits. The summoned entity arrives at the end of the round, on strike rank 12. This spell may be cast simultaneously with Command Cult Spirit.</p><p>Summon Elemental is a specific example of this spell, but many other variants exist.</p>"
     },
     "summonTypeElemental": {
       "name": "🇸🇪Summon Elemental (type)",
@@ -906,7 +906,7 @@
     },
     "warding": {
       "name": "🇸🇪Warding",
-      "description": "🇸🇪<p><i><b>Cost:</b> 1<br><b>Type:</b> Ritual<br><b>Cults:</b> All</i></p><p>This ritual creates an area of safety for those inside. Four wands arranged in a rough rectangle define the area’s boundary. These can be made of any material and must be placed to enclose a maximum area of up to 100 square meters (typically 10×10 meters). The spell extends into the air for three meters above the wands, and underground to the depth of the wands. The stakes need not be visible to work; some casters bury them completely.</p><p>The spell connects these wands invisibly to form a barrier detectable only by magical means. The protection effects activate when physical or spirit enemies of the caster cross the barrier, or when a spell is cast across the barrier from the outside. When this happens, a loud noise (a keening, whistling, booming, etc.) begins, which can be suppressed by the casting priest.</p><p>Each point of Warding (up to 4) counts as 1 point of @RQID[je..countermagic]{§_rqgCompendiumContent.spiritMagic.countermagic.name_§} against spells cast across the barrier, 2 points of spirit armor against outside spirits, and does 1D3 damage, ignoring armor, to one hit location of any corporeal enemy unwise enough to cross the boundary.</p><p>Each stacked point of Warding increases the area protected by another 100 square meters.</p><p>The Warding spell remains in effect until one of the wands is removed. Anyone but the caster that attempts to touch the stakes is affected by the Warding, but after suffering the effect, the person can then remove the stakes.</p>"
+      "description": "🇸🇪<p><i><b>Cost:</b> 1+<br><b>Type:</b> Ritual<br><b>Cults:</b> All</i></p><p>This ritual creates an area of safety for those inside. Four wands arranged in a rough rectangle define the area’s boundary. These can be made of any material and must be placed to enclose a maximum area of up to 100 square meters (typically 10×10 meters). The spell extends into the air for three meters above the wands, and underground to the depth of the wands. The stakes need not be visible to work; some casters bury them completely.</p><p>The spell connects these wands invisibly to form a barrier detectable only by magical means. The protection effects activate when physical or spirit enemies of the caster cross the barrier, or when a spell is cast across the barrier from the outside. When this happens, a loud noise (a keening, whistling, booming, etc.) begins, which can be suppressed by the casting priest.</p><p>Each point of Warding (up to 4) counts as 1 point of @RQID[je..countermagic]{§_rqgCompendiumContent.spiritMagic.countermagic.name_§} against spells cast across the barrier, 2 points of spirit armor against outside spirits, and does 1D3 damage, ignoring armor, to one hit location of any corporeal enemy unwise enough to cross the boundary.</p><p>Each stacked point of Warding increases the area protected by another 100 square meters.</p><p>The Warding spell remains in effect until one of the wands is removed. Anyone but the caster that attempts to touch the stakes is affected by the Warding, but after suffering the effect, the person can then remove the stakes.</p>"
     },
     "windWords": {
       "name": "🇸🇪Wind Words",

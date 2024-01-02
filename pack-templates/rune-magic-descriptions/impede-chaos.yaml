@@ -10,9 +10,9 @@ pages:
       format: 1
       content: >
         §_rqgCompendiumContent.journalEntryType.runeMagicDescription.title_§
-        <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/air.svg" height="70">
-        <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/death.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/beast.svg" height="70">
+        <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/death.svg" height="70">
+        <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/air.svg" height="70">
         §_rqgCompendiumContent.runeMagic.impedeChaos.description_§
     sort: 0
     flags: {}

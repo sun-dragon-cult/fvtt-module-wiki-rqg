@@ -10,6 +10,7 @@ pages:
       format: 1
       content: >
         §_rqgCompendiumContent.journalEntryType.runeMagicDescription.title_§
+        <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/death.svg" height="70">
         <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/darkness.svg" height="70">
         §_rqgCompendiumContent.runeMagic.fear.description_§
     sort: 0

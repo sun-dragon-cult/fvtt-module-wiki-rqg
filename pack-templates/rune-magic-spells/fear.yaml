@@ -6,6 +6,8 @@ system:
   runeRqidLinks:
     - rqid: i.rune.darkness-element
       name: §_rqgCompendiumContent.rune.darkness_§ (§_uiContent.RQG.Item.Rune.RuneType.element_§)
+    - rqid: i.rune.death-power
+      name: §_rqgCompendiumContent.rune.death_§ (§_uiContent.RQG.Item.Rune.RuneType.power_§)
   points: 2
   castingRange: ranged
   duration: instant

@@ -1,4 +1,4 @@
-# dismiss-elemental-type
+# dismiss (type) elemental
 name: §_rqgCompendiumContent.runeMagic.dismissTypeElemental.name_§
 pages:
   - name: §_rqgCompendiumContent.runeMagic.dismissTypeElemental.name_§
@@ -10,7 +10,7 @@ pages:
       format: 1
       content: >
         §_rqgCompendiumContent.journalEntryType.runeMagicDescription.title_§
-        <img style="float:right;border:none;margin-left:1rem" src="systems/rqg/assets/images/runes/magic.svg" height="70">
+
         §_rqgCompendiumContent.runeMagic.dismissTypeElemental.description_§
     sort: 0
     flags: {}
