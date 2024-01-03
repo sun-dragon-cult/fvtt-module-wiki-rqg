@@ -920,7 +920,7 @@
     },
     "bladesharp": {
       "name": "Bladesharp",
-      "description": "Adds +5% to hit and +1 damage per point to an edged weapon. Magic damage can harm magical creatures. Incompatible with Fireblade."
+      "description": "Adds +5% to hit and +1 damage per point to an edged weapon. Magic damage can harm magical creatures. Incompatible with @RQID[je..fireblade]{§_rqgCompendiumContent.spiritMagic.fireblade.name_§}."
     },
     "bludgeon": {
       "name": "Bludgeon",
@@ -972,7 +972,7 @@
     },
     "fanaticism": {
       "name": "Fanaticism",
-      "description": "<p>Target increases their chance to hit by half again but cannot parry. Dodge is halved.</p>"
+      "description": "<p>Target increases their chance to hit by half again but cannot parry. @RQID[je..dodge]{§_rqgCompendiumContent.skill.dodge.skillName_§} is halved.</p>"
     },
     "farsee": {
       "name": "Farsee",
@@ -980,11 +980,11 @@
     },
     "firearrow": {
       "name": "Firearrow",
-      "description": "<p>Cast upon a missile (arrow, stone, etc.) that does 3D6 damage (instead of the weapon’s actual damage) plus ½ damage bonus. Cannot impale, and the missile is consumed by the fire. Armor offers protection, but it can ignite flammable material. Incompatible with Multimissile and Speedart.</p>"
+      "description": "<p>Cast upon a missile (arrow, stone, etc.) that does 3D6 damage (instead of the weapon’s actual damage) plus ½ damage bonus. Cannot impale, and the missile is consumed by the fire. Armor offers protection, but it can ignite flammable material. Incompatible with @RQID[je..multimissile]{§_rqgCompendiumContent.spiritMagic.multimissile.name_§} and @RQID[je..speedart]{§_rqgCompendiumContent.spiritMagic.speedart.name_§}.</p>"
     },
     "fireblade": {
       "name": "Fireblade",
-      "description": "<p>Cast on an edged weapon or spear, does 3D6 damage (instead of the weapon’s actual damage) plus damage bonus. Magic resistance does not work against it. The weapon is unharmed. Incompatible with Bladesharp.</p>"
+      "description": "<p>Cast on an edged weapon or spear, does 3D6 damage (instead of the weapon’s actual damage) plus damage bonus. Magic resistance does not work against it. The weapon is unharmed. Incompatible with @RQID[je..bladesharp]{§_rqgCompendiumContent.spiritMagic.bladesharp.name_§}.</p>"
     },
     "forget": {
       "name": "Forget",
@@ -996,7 +996,7 @@
     },
     "glue": {
       "name": "Glue",
-      "description": "<p>Creates a small glob of magical glue, STR equal to the magic points spent ×10. Can be broken with a successful resistance roll. Does not work on living organic matteRanged (50m), and objects glued must be at rest.</p>"
+      "description": "<p>Creates a small glob of magical glue, STR equal to the magic points spent ×10. Can be broken with a successful resistance roll. Does not work on living organic matter, and objects glued must be at rest.</p>"
     },
     "heal": {
       "name": "Heal",
@@ -1020,7 +1020,7 @@
     },
     "multimissile": {
       "name": "Multimissile",
-      "description": "<p>Each point cast creates a magical duplicate of an original missile. Roll attacks separately. The first is the original. Any later missiles cannot impale but can do critical damage. Can be cast upon a missile and does not activate until fired within the duration. Incompatible with Speedart and Firearrow.</p>"
+      "description": "<p>Each point cast creates a magical duplicate of an original missile. Roll attacks separately. The first is the original. Any later missiles cannot impale but can do critical damage. Can be cast upon a missile and does not activate until fired within the duration. Incompatible with @RQID[je..speedart]{§_rqgCompendiumContent.spiritMagic.speedart.name_§} and @RQID[je..firearrow]{§_rqgCompendiumContent.spiritMagic.firearrow.name_§}.</p>"
     },
     "protection": {
       "name": "Protection",
@@ -1036,15 +1036,15 @@
     },
     "shimmer": {
       "name": "Shimmer",
-      "description": "<p>Blurs the air around the target, making them harder to hit. Reduces attacks against them by –5% per point. Incompatible with Countermagic, Protection, and Spirit Screen.</p>"
+      "description": "<p>Blurs the air around the target, making them harder to hit. Reduces attacks against them by –5% per point. Incompatible with @RQID[je..countermagic]{§_rqgCompendiumContent.spiritMagic.countermagic.name_§}, @RQID[je..protection]{§_rqgCompendiumContent.spiritMagic.protection.name_§}, and @RQID[je..spirit-screen]{§_rqgCompendiumContent.spiritMagic.spiritScreen.name_§}.</p>"
     },
     "silence": {
       "name": "Silence",
-      "description": "<p>Quiets inadvertent noise made by the target such as by movement, breathing, etc. Does not quiet intentional noise (speaking, casting a spell, attacking, etc.). If used for stealth, a Move Quietly roll is still required, and a fumble indicates target makes noise.</p>"
+      "description": "<p>Quiets inadvertent noise made by the target such as by movement, breathing, etc. Does not quiet intentional noise (speaking, casting a spell, attacking, etc.). If used for stealth, a @RQID[je..move-quietly]{§_rqgCompendiumContent.skill.moveQuietly.skillName_§} roll is still required, and a fumble indicates target makes noise.</p>"
     },
     "sleep": {
       "name": "Sleep",
-      "description": "<p>If the caster can overcome the target’s POW, target falls asleep for the spell’s duration, not awakening unless attacked or otherwise strongly disturbed. Only known to Chalana Arroy.</p>"
+      "description": "<p>If the caster can overcome the target’s POW, target falls asleep for the spell’s duration, not awakening unless attacked or otherwise strongly disturbed. Only known to @RQID[je..chalana-arroy]{§_rqgCompendiumContent.cult.chalanaArroy.name_§}.</p>"
     },
     "slow": {
       "name": "Slow",
@@ -1056,23 +1056,23 @@
     },
     "spiritBinding": {
       "name": "Spirit Binding",
-      "description": "<p>Binds a spirit into a familiar or inanimate object permanently or until the binder’s death. Binding into an object requires a magical ritual called a Binding Enchantment, and a living animal must have been bred for the purpose. No cults teach this spell, only shamans do so.</p>"
+      "description": "<p>Binds a spirit into a familiar or inanimate object permanently or until the binder’s death. Binding into an object requires a magical ritual called a @RQID[je..binding-enchantment]{§_rqgCompendiumContent.runeMagic.bindingEnchantment.name_§}, and a living animal must have been bred for the purpose. No cults teach this spell, only shamans do so.</p>"
     },
     "spiritScreen": {
       "name": "Spirit Screen",
-      "description": "<p>Each magic point absorbs 1 point of spiritual damage in spirit combat.</p>"
+      "description": "<p>Each magic point absorbs 1 point of spiritual damage in @RQID[je..spirit-combat]{§_rqgCompendiumContent.skill.spiritCombat.skillName_§}.</p>"
     },
     "strength": {
       "name": "Strength",
-      "description": "<p>Increases target’s STR by +8, raising damage bonus by one step (0 to 1D4, 1D4 to 1D6, 1D6 to 2D6) and increasing Agility and Manipulation category skills by +10%. Incompatible with Vigor.</p>"
+      "description": "<p>Increases target’s STR by +8, raising damage bonus by one step (0 to 1D4, 1D4 to 1D6, 1D6 to 2D6) and increasing Agility and Manipulation category skills by +10%. Incompatible with @RQID[je..vigor]{§_rqgCompendiumContent.spiritMagic.vigor.name_§}.</p>"
     },
     "vigor": {
       "name": "Vigor",
-      "description": "<p>Adds +3 to target’s CON, increasing hit points by +3 and hit points per location by +1. Incompatible with Strength.</p>"
+      "description": "<p>Adds +3 to target’s CON, increasing hit points by +3 and hit points per location by +1. Incompatible with @RQID[je..strength]{§_rqgCompendiumContent.spiritMagic.strength.name_§}.</p>"
     },
     "visibility": {
       "name": "Visibility",
-      "description": "<p>Forces a spirit to take shape in this world and makes it subject to spells. See Spirit Combat.</p>"
+      "description": "<p>Forces a spirit to take shape in this world and makes it subject to spells. See @RQID[je..spirit-combat]{§_rqgCompendiumContent.skill.spiritCombat.skillName_§}.</p>"
     }
   },
   "skill": {
