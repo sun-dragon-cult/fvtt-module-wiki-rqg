@@ -1,4 +1,4 @@
-name: §_uiContent.RQG.Item.Armor.ArmorType.CompositeHelm_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§)
+name: §_uiContent.RQG.Item.Armor.ArmorType.CompositeHelm_§ (§_uiContent.RQG.Item.Armor.ArmorMaterial.BronzePlate_§)
 type: armor
 img: systems/rqg/assets/images/armor/composite-helmet.svg
 flags:
@@ -17,7 +17,7 @@ system:
   absorbs: 3
   encumbrance: 0.5
   price:
-    real: 11
+    real: 10
     estimated: 0
   moveQuietlyPenalty: 0
   size: 11
@@ -133,7 +133,7 @@ system:
   price:
     real: 100
     estimated: 0
-  moveQuietlyPenalty: 10
+  moveQuietlyPenalty: -10
   size: 11
   isContainer: false
   physicalItemType: unique
@@ -161,7 +161,7 @@ system:
   price:
     real: 175
     estimated: 0
-  moveQuietlyPenalty: 15
+  moveQuietlyPenalty: -15
   size: 11
   isContainer: false
   physicalItemType: unique
@@ -191,7 +191,7 @@ system:
   price:
     real: 300
     estimated: 0
-  moveQuietlyPenalty: 50
+  moveQuietlyPenalty: -50
   size: 11
   isContainer: false
   physicalItemType: unique
@@ -221,7 +221,7 @@ system:
   price:
     real: 120
     estimated: 0
-  moveQuietlyPenalty: 15
+  moveQuietlyPenalty: -15
   size: 11
   isContainer: false
   physicalItemType: unique

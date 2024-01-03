@@ -219,7 +219,7 @@ system:
   armorType: §_uiContent.RQG.Item.Armor.ArmorType.PantsTrews_§
   material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§
   absorbs: 1
-  encumbrance: 0
+  encumbrance: 0.5
   price:
     real: 10
     estimated: 0
@@ -249,7 +249,7 @@ system:
   armorType: §_uiContent.RQG.Item.Armor.ArmorType.Greaves_§
   material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§
   absorbs: 1
-  encumbrance: 0
+  encumbrance: 0.5
   price:
     real: 15
     estimated: 0

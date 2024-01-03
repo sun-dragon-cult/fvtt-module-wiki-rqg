@@ -21,7 +21,7 @@ system:
   price:
     real: 50
     estimated: 0
-  moveQuietlyPenalty: 15
+  moveQuietlyPenalty: -15
   size: 11
   isContainer: false
   physicalItemType: unique
@@ -49,7 +49,7 @@ system:
   price:
     real: 40
     estimated: 0
-  moveQuietlyPenalty: 25
+  moveQuietlyPenalty: -25
   size: 11
   isContainer: false
   physicalItemType: unique
@@ -79,7 +79,7 @@ system:
   price:
     real: 65
     estimated: 0
-  moveQuietlyPenalty: 25
+  moveQuietlyPenalty: -25
   size: 11
   isContainer: false
   physicalItemType: unique
@@ -107,7 +107,7 @@ system:
   price:
     real: 60
     estimated: 0
-  moveQuietlyPenalty: 30
+  moveQuietlyPenalty: -30
   size: 11
   isContainer: false
   physicalItemType: unique

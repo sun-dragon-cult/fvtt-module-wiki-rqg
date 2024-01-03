@@ -19,7 +19,7 @@ system:
   price:
     real: 100
     estimated: 0
-  moveQuietlyPenalty: 15
+  moveQuietlyPenalty: -15
   size: 11
   isContainer: false
   physicalItemType: unique
