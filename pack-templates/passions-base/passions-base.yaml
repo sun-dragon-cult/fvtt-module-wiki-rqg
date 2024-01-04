@@ -136,7 +136,7 @@ effects: []
 ---
 name: §_uiContent.RQG.Item.Passion.PassionEnum.Love_§
 type: passion
-img: systems/rqg/assets/images/passion/loyalty.svg
+img: systems/rqg/assets/images/passion/love.svg
 flags:
   rqg:
     documentRqidFlags:
@@ -155,7 +155,7 @@ effects: []
 ---
 name: §_uiContent.RQG.Item.Passion.PassionEnum.Gluttony_§
 type: passion
-img: systems/rqg/assets/images/passion/loyalty.svg
+img: systems/rqg/assets/images/passion/gluttony.svg
 flags:
   rqg:
     documentRqidFlags:
@@ -169,5 +169,24 @@ system:
   gmNotes: ""
   hasExperience: false
   passion: §_uiContent.RQG.Item.Passion.PassionEnum.Gluttony_§
+  subject: null
+effects: []
+---
+name: §_uiContent.RQG.Item.Passion.PassionEnum.Vanity_§
+type: passion
+img: systems/rqg/assets/images/passion/vanity.svg
+flags:
+  rqg:
+    documentRqidFlags:
+      id: i.passion.vanity-base
+      lang: §_rqgCompendiumContent.lang_§
+      priority: §_rqgCompendiumContent.prio_§
+system:
+  canGetExperience: true
+  chance: 60
+  description: ""
+  gmNotes: ""
+  hasExperience: false
+  passion: §_uiContent.RQG.Item.Passion.PassionEnum.Vanity_§
   subject: null
 effects: []
