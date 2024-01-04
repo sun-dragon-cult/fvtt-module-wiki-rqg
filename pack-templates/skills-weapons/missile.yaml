@@ -259,7 +259,7 @@ system:
   category: missileWeapons
   skillName: §_rqgCompendiumContent.weaponSkill.javelins.name_§
   specialization: §_rqgCompendiumContent.weaponSkill.javelins.specialization.shortspear_§
-  baseChance: 10
+  baseChance: 15
   gainedChance: 0
   canGetExperience: true
   hasExperience: false

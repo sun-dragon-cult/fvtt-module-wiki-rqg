@@ -199,8 +199,8 @@ system:
   description:
   gmNotes:
   hitPoints:
-    value: 9
-    max: 9
+    value: 5
+    max: 5
   hitPointLocation:
   encumbrance: 2
   location:

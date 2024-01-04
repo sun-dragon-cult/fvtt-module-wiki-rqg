@@ -296,7 +296,7 @@ system:
   hitPoints:
     value:
     max:
-  hitPointLocation: arm
+  hitPointLocation: arm # TODO Needs translation
   encumbrance: 0
   location:
   attunedTo:
@@ -370,7 +370,7 @@ system:
   hitPoints:
     value:
     max:
-  hitPointLocation: arm
+  hitPointLocation: arm # TODO Needs translation
   encumbrance: 0
   location:
   attunedTo:
@@ -447,7 +447,7 @@ system:
   hitPoints:
     value:
     max:
-  hitPointLocation: leg
+  hitPointLocation: leg # TODO Needs translation
   encumbrance: 0
   location:
   attunedTo:
@@ -524,7 +524,7 @@ system:
   hitPoints:
     value:
     max:
-  hitPointLocation: leg
+  hitPointLocation: §_rqgCompendiumContent.hitLocation.humanoid.head_§
   encumbrance: 0
   location:
   attunedTo:
@@ -598,7 +598,7 @@ system:
   hitPoints:
     value:
     max:
-  hitPointLocation: leg
+  hitPointLocation: leg # TODO Needs translation
   encumbrance: 0
   location:
   attunedTo:
@@ -672,7 +672,7 @@ system:
   hitPoints:
     value:
     max:
-  hitPointLocation: leg
+  hitPointLocation: §_rqgCompendiumContent.hitLocation.humanoid.head_§
   encumbrance: 0
   location:
   attunedTo:
@@ -746,7 +746,7 @@ system:
   hitPoints:
     value:
     max:
-  hitPointLocation: leg
+  hitPointLocation: leg # TODO Needs translation
   encumbrance: 0
   location:
   attunedTo:
@@ -820,7 +820,7 @@ system:
   hitPoints:
     value:
     max:
-  hitPointLocation: leg
+  hitPointLocation: leg # TODO Needs translation
   encumbrance: 0
   location:
   attunedTo:
@@ -867,7 +867,7 @@ system:
     twoHand:
       skillRqidLink:
         rqid: i.skill.hug
-        name: §_rqgCompendiumContent.weaponSkill.fists.name_§ (§_rqgCompendiumContent.weaponSkill.fists.specialization.claw_§)
+        name: §_rqgCompendiumContent.weaponSkill.hug.name_§
       combatManeuvers:
         - name: §_uiContent.RQG.Item.Weapon.combatManeuver.Hug_§
           damageType: crush
@@ -889,7 +889,7 @@ system:
   hitPoints:
     value:
     max:
-  hitPointLocation: leg
+  hitPointLocation: arm # TODO needs translation
   encumbrance: 0
   location:
   attunedTo:
@@ -963,7 +963,7 @@ system:
   hitPoints:
     value:
     max:
-  hitPointLocation: leg
+  hitPointLocation: leg # TODO Needs translation
   encumbrance: 0
   location:
   attunedTo:
@@ -1037,7 +1037,7 @@ system:
   hitPoints:
     value:
     max:
-  hitPointLocation: leg
+  hitPointLocation: §_rqgCompendiumContent.hitLocation.humanoid.head_§
   encumbrance: 0
   location:
   attunedTo:

@@ -133,7 +133,7 @@ system:
   hitPoints:
     value:
     max:
-  hitPointLocation:
+  hitPointLocation: ---
   encumbrance: 0.25
   location:
   attunedTo:

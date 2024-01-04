@@ -218,7 +218,7 @@ items:
       hitPoints:
         value:
         max:
-      hitPointLocation: "---"
+      hitPointLocation: ---
       encumbrance: 0
       location: ""
       attunedTo: ""
@@ -289,7 +289,7 @@ items:
       hitPoints:
         value:
         max:
-      hitPointLocation: "---"
+      hitPointLocation: ---
       encumbrance: 0
       location: ""
       attunedTo: ""

@@ -503,7 +503,7 @@ system:
           description:
       damage: 1d6+db
       minStrength: null
-      minDexterity: 90
+      minDexterity: 9
       strikeRank: 4
     offHand:
       skillRqidLink:
