@@ -101,7 +101,7 @@ system:
   armorType: §_uiContent.RQG.Item.Armor.ArmorType.Vambraces_§
   material: §_uiContent.RQG.Item.Armor.ArmorMaterial.Leather_§
   absorbs: 1
-  encumbrance: 0
+  encumbrance: 0.5
   price:
     real: 10
     estimated: 0
