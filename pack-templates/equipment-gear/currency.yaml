@@ -85,8 +85,8 @@ system:
   gmNotes:
   quantity: 1
   price:
-    real: 10
-    estimated: 10
+    real: 20
+    estimated: 20
   encumbrance: 0.01
   equippedStatus: carried
   location:
