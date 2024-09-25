@@ -21,7 +21,7 @@ flags:
     documentRqidFlags:
       id: je..conceal
       priority: §_rqgCompendiumContent.prio_§
-      lang: §_rqgCompendiumContent.lang}}
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # craft
 name: §_rqgCompendiumContent.skill.craft.skillName_§
@@ -46,7 +46,7 @@ flags:
     documentRqidFlags:
       id: je..craft
       priority: §_rqgCompendiumContent.prio_§
-      lang: §_rqgCompendiumContent.lang}}
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # devise
 name: §_rqgCompendiumContent.skill.devise.skillName_§
@@ -71,7 +71,7 @@ flags:
     documentRqidFlags:
       id: je..devise
       priority: §_rqgCompendiumContent.prio_§
-      lang: §_rqgCompendiumContent.lang}}
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # play instrument
 name: §_rqgCompendiumContent.skill.playInstrument.skillName_§
@@ -96,7 +96,7 @@ flags:
     documentRqidFlags:
       id: je..play-instrument
       priority: §_rqgCompendiumContent.prio_§
-      lang: §_rqgCompendiumContent.lang}}
+      lang: §_rqgCompendiumContent.lang_§
 ---
 # sleight
 name: §_rqgCompendiumContent.skill.sleight.skillName_§
@@ -121,4 +121,4 @@ flags:
     documentRqidFlags:
       id: je..sleight
       priority: §_rqgCompendiumContent.prio_§
-      lang: §_rqgCompendiumContent.lang}}
+      lang: §_rqgCompendiumContent.lang_§
