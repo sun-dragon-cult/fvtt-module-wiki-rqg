@@ -64,14 +64,14 @@ flags:
       priority: §_rqgCompendiumContent.prio_§
       lang: §_rqgCompendiumContent.lang_§
 ---
-# read-write-darktoungue
-name: §_rqgCompendiumContent.skill.readWrite.skillName_§ (§_rqgCompendiumContent.script.darktoungue_§)
+# read-write-darktongue
+name: §_rqgCompendiumContent.skill.readWrite.skillName_§ (§_rqgCompendiumContent.script.darktongue_§)
 type: skill
 img: systems/rqg/assets/images/skills/read-write.svg
 system:
   category: knowledge
   skillName: §_rqgCompendiumContent.skill.readWrite.skillName_§
-  specialization: §_rqgCompendiumContent.script.darktoungue_§
+  specialization: §_rqgCompendiumContent.script.darktongue_§
   baseChance: 0
   gainedChance: 0
   canGetExperience: false
@@ -82,7 +82,7 @@ effects: []
 flags:
   rqg:
     documentRqidFlags:
-      id: i.skill.read-write-darktoungue
+      id: i.skill.read-write-darktongue
       priority: §_rqgCompendiumContent.prio_§
       lang: §_rqgCompendiumContent.lang_§
 ---
