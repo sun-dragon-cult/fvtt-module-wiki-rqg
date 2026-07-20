@@ -1,13 +1,7 @@
 .idea/
-**/.DS_Store
+**/.DS_Store*
+.vscode/
 .run/
-# Project exclude paths
-dist/
-node_modules/
-coverage/
 
-module/packs/*
-!module/packs/.gitignore
-
-package-lock.json
-yarn-error.log
+# macOS extended-attribute sidecar files
+*:com.apple.*
